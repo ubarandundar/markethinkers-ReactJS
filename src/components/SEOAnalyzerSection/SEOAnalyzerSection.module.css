@@ -1,0 +1,104 @@
+.SEOAnalyzerSectionBody {
+    width: 100%;
+    height: 1200px;
+    /* border: 1px solid black; */
+    background-image: url('../../assets/Path 16725.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.SEOHeader {
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.SEOCard {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 1400px;
+    height: 144px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 72px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SEOInputDiv {
+    
+}
+
+.SEOInput {
+    width: 900px;
+    height: 64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    margin-right: 40px;
+    border: none;
+}
+
+.SEOInput::placeholder {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.SEOParag {
+    margin-left: 40px;
+    flex: 1;
+}
+
+.SEOSmallCards {
+    display: flex;
+    flex-direction: row;
+}
+
+.SEOSmallCardsSub {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.SEOCardRec {
+    width: 96px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    margin-right: 20px;
+}
+
+.SEOSmallHeaders {
+    font: normal normal medium 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.SEOParagraphs {
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.SEOCardRec img {
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.free {
+    color: #D3148B;
+}

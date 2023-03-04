@@ -1,0 +1,19 @@
+.languageBar {
+    display: flex;
+    flex: 1;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 10px;
+    height: 100px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.languageBar a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none !important;
+    color: grey !important;
+}

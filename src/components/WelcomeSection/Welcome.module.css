@@ -1,0 +1,136 @@
+.welcomeBody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1343px;
+    height: 1011px;
+    opacity: 1;
+    /* border: 1px solid black; */
+    background-image: url('../../assets/Asset 1@2x.png');
+    background-size: 1343px 1011px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 47px;
+    margin-top: 159.93px;
+    width: 204px;
+    height: 41px;
+    text-align: center;
+    font: normal normal medium 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.increase {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    margin-top: 45px;
+    width: 1068px;
+    height: 72px;
+    text-align: center;
+    font: normal normal medium 50px/71px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+}
+
+.services {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    width: 1068px;
+    height: 72px;
+    text-align: center;
+    font: normal normal medium 50px/71px Paralucent;
+    letter-spacing: 2.5px;
+    color: #1F0242;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+}
+
+.weAre {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    font-size: 24px;
+    width: 1068px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+}
+
+.experience {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-size: 24px;
+    width: 1068px;
+    height: 36px;
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+}
+
+.contactUs {
+    margin-top: 94px;
+    margin-right: 20px;
+    font-size: 17px;
+    width: 264px;
+    height: 52px;
+    text-align: center;
+    font: normal normal medium 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    opacity: 1;
+}
+
+.ourServices {
+    margin-top: 94px;
+    font-size: 17px;
+    width: 264px;
+    height: 52px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    color: white;
+    opacity: 1;
+    background: transparent;
+    border-radius: 26px;
+    border-color: white;
+    opacity: 1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.and {
+    color: white;
+}
+
+
+
+
+
+
