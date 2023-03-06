@@ -1,0 +1,110 @@
+.ServicesSectionBody {
+    width: 100%;
+    height: 1000px;
+    margin-top: -300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.ServiceSectionCardTop {
+    max-width: 750px;
+    height: 180px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px 50px 0px 0px;
+    opacity: 1;
+}
+
+.ServiceSectionCardBottom {
+    max-width: 750px;
+    height: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 50px 50px;
+    opacity: 1;
+}
+
+.ServicesSectionLeftSide {
+    flex: 1;
+    text-align: center;
+}
+
+.ServicesSectionRightSide {
+    flex: 1;
+}
+
+.ServiceSectionLeftSideHeader {
+    font-size: 20px;
+    font-weight: 500;
+    font: normal normal medium 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.ServiceSectionLeftSideParag {
+    font-size: 60px;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.ServiceSectionLeftSideParagSub {
+    font-size: 20px;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.ServicesButtons {
+    background: transparent;
+    color: #1F0242;
+    border: 1px solid #FFFFFF;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.ServicesButtons:hover {
+    background-color: #1F0242;
+    color: white;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.ServiceSectionCardBottom img {
+    color: #D3148B;
+}
+
+.ServicesIcons {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px 10px 40px;
+}
+
+.ServiceSectionCardBottomHeader {
+    font-size: 30px;
+    font-weight: 500;
+    font: normal normal medium 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    padding: 10px 40px;
+}
+
+.ServiceSectionCardBottomParag {
+    font-size: 20px;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    padding: 10px 40px;
+}

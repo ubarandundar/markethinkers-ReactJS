@@ -46,5 +46,12 @@ li a{
     opacity: 1
 }
 
+.contactButton:hover {
+    background: #D3148B 0% 0% no-repeat padding-box;
+    font: normal normal medium 20px/28px Paralucent;
+    color: #1F0242;
+    border-color: #D3148B;
+}
+
 
 

@@ -1,10 +1,10 @@
 .SEOAnalyzerSectionBody {
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     /* border: 1px solid black; */
-    background-image: url('../../assets/Path 16725.svg');
-    background-repeat: no-repeat;
-    background-position: top left;
+    background-image: url('../../assets/Path 16725.svg'), url('../../assets/Path 16763.svg'), url('../../assets/Path 16762.svg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, right center, bottom left;
 }
 
 .SEOHeader {

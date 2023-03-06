@@ -101,7 +101,14 @@
     opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 26px;
+    border: 1px solid #FFFFFF;
     opacity: 1;
+}
+
+.contactUs:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: white;
 }
 
 .ourServices {
@@ -118,6 +125,13 @@
     border-color: white;
     opacity: 1;
 }
+
+.ourServices:hover {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    color: #D3148B;
+}
+
 
 .buttons {
     display: flex;
