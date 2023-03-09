@@ -6,6 +6,7 @@ function LookOuSection (props) {
     return (
         <Fragment>
         <div className={classes.lookOutBody}>
+            
             <div className={classes.leftSide}>
                 <header className={classes.lookOutSectionHeader}>
                     <span className={classes.lookOut}>Look Out</span>
@@ -13,13 +14,21 @@ function LookOuSection (props) {
                     <span className={classes.beyond}>Beyond Limits</span>
                 </header>
             </div>
+
             <div className={classes.rightSide}>
                 <header className={classes.allIn}>all in one team, for your needs</header>
-                <p className={classes.allInSub}>all in one team, for your needs We prepare your website SEO content in accordance with SEO best practices, which is not only an important part of SEO but also of your brand image—both for search engines and users.</p>
+                <p className={classes.allInSub}>
+                all in one team, for your needs We prepare your website SEO content in
+                <br />
+                accordance with SEO best practices, which is not only an important
+                <br />
+                part of SEO but also of your brand image—both for search engines and users.
+                </p>
             </div>
-        </div>
-        <div>
-                {/* <img src={GCAImage} alt='Global_Content_Awards' /> */}
+
+            {/* <div className={classes.bottomSide}>
+                <img src={GCAImage} alt='Global_Content_Awards' />
+            </div> */}
         </div>
         </Fragment>
     );

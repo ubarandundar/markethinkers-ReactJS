@@ -1,0 +1,15 @@
+.ourPartnersSectionBody {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+
+.ourPartnersSectionHeader {
+    font-size: 60px;
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin: 100px auto;
+}

@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
-    height: 600px;
+    height: 684px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 25px;
     opacity: 1; 
@@ -28,7 +28,7 @@
 .allIn {
     letter-spacing: 2px;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: #565656;
     opacity: 1;
 }
@@ -38,6 +38,7 @@
     font: normal normal 300 20px/35px Paralucent;
     letter-spacing: 1px;
     color: #565656;
+    padding-right: 50px;
 }
 
 .leftSide {
@@ -55,3 +56,8 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+/* .referanceSide {
+    display: flex;
+    flex: 1;
+} */

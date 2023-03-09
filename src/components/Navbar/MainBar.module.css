@@ -1,6 +1,6 @@
 .mainbar {
     display: flex;
-    flex: 17;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
@@ -10,12 +10,12 @@
     margin: 60px 0 0 60px;
 }
 
-ul {
+.mainbar ul {
     display: flex;
     flex-direction: row;
 }
 
-li {
+.mainbar ul li {
     margin: 30px 30px;
     list-style-type: none;
     display: flex;
@@ -23,16 +23,23 @@ li {
     font-weight: 600;
 }
 
-li a{
+.mainbar ul li a{
     text-decoration: none;
     color: black;
     letter-spacing: 1.2px;
 }
 
+.mainbar ul li a:hover {
+    color: #D3148B;
+    background: #E3E3E3 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    opacity: 1;
+}
+
 .markeThinkersImage {
     margin-top: 20px;
-    width: 286px;
-    height: 85px;
+    max-width: 286px;
+    height: auto;
     opacity: 1;
 }
 
@@ -50,7 +57,7 @@ li a{
     background: #D3148B 0% 0% no-repeat padding-box;
     font: normal normal medium 20px/28px Paralucent;
     color: #1F0242;
-    border-color: #D3148B;
+    border: 1px solid #D3148B;
 }
 
 

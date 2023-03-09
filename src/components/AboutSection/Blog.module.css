@@ -1,0 +1,68 @@
+.blogBody {
+    max-width: 1239px;
+    height: 734px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+    margin-left: 580px;
+    margin-right: auto;
+    margin-top: -650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogArrow {
+    margin: 50px 50px 0 auto;
+}
+
+.blogArrow img {
+    width: 20px;
+    height: 20px;
+}
+
+.blogBodyBrandImg {
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.blogBodyParag {
+    font-size: 20px;
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #696969;
+    opacity: 1;
+    margin: 80px auto 80px 300px;
+}
+
+.blogProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.blogProfileImg {
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+.blogPorfileNameSurname {
+    font-size: 25px;
+    text-align: left;
+    font: normal normal medium 25px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+/* .blogPorfileTtile {
+    font-size: 20px;
+    text-align: left;
+    font: normal normal 300 20px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+} */

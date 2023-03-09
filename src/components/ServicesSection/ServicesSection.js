@@ -7,25 +7,27 @@ function ServicesSection (props) {
     return (
         <div className={classes.ServicesSectionBody}>
             <div className={classes.ServicesSectionLeftSide}>
-                <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
-                <p className={classes.ServiceSectionLeftSideParag}>
-                Our Services That
-                <br />
-                Will Digitally Grow
-                <br />
-                Your Brand</p>
-                <p className={classes.ServiceSectionLeftSideParagSub}>
-                Reduce Costs, Increase Efficiency
-                <br />    
-                in a Secure Infrastructure!</p>
-                <a href='www.google.com'>
-                    <img src={ForwardArrow} alt='Forward_Arrow' />
+                <div className={classes.ServicesSectionLeftSideWrapper}>
+                    <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
+                    <p className={classes.ServiceSectionLeftSideParag}>
+                    Our Services That
+                    <br />
+                    Will Digitally Grow
+                    <br />
+                    Your Brand</p>
+                    <p className={classes.ServiceSectionLeftSideParagSub}>
+                    Reduce Costs, Increase Efficiency
+                    <br />    
+                    in a Secure Infrastructure!</p>
+                    <a href='www.google.com'>
+                        <img src={ForwardArrow} alt='Forward_Arrow' />
                     </a>
+                </div>
             </div>
             <div className={classes.ServicesSectionRightSide}>
                     <div className={classes.ServiceSectionCardTop}>
                         <div>
-                            <ul>
+                            <ul className={classes.ServiceSectionCardTopFirstRow}>
                                 <li>
                                 <button type="button" className={classes.ServicesButtons}>SEO Copywriting
                                 </button>

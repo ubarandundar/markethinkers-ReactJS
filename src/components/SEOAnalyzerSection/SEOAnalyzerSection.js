@@ -10,18 +10,23 @@ function SEOAnalyzerSection (props) {
     return (
         <div className={classes.SEOAnalyzerSectionBody}>
             <header className={classes.SEOHeader}>SEO Analyzer</header>
-            <div className={classes.SEOCard}>
-                <p className={classes.SEOParag}>
+            <row className={classes.SEOCard}>
+                <div className='col-sm-4'>
+                    <p className={classes.SEOParag}>
                     If you’re struggling to get more visitors to your site,
                     <br />
-                    the answer might just lie in this <span className={classes.free}>FREE</span> report!</p>
+                    the answer might just lie in this <span className={classes.free}>FREE</span> report!
+                    </p>
+                </div>
+                <div className='col-sm-8'>
                     <div className={classes.SEOInputDiv}>
                         <input className={classes.SEOInput} type='text' placeholder='Your Website URL'/>
                     </div>
-            </div>
+                </div>
+            </row>
 
         <div className={classes.SEOSmallCards}>
-            <div className={classes.SEOSmallCardsSub}>
+            <div className={classes.SEOSmallCardsSubSEOAnalysis}>
                 <div className={classes.SEOCardRec}>
                     <img src={AnalysisImg} alt='Analysis_Image' />
                 </div>
@@ -34,7 +39,7 @@ function SEOAnalyzerSection (props) {
                 website analysis report.</p>
                 </div>
             </div>
-            <div className={classes.SEOSmallCardsSub}>
+            <div className={classes.SEOSmallCardsSubSEOChecker}>
                 <div className={classes.SEOCardRec}>
                     <img src={CheckerImg} alt='Checker_Image' />
                 </div>
@@ -49,7 +54,7 @@ function SEOAnalyzerSection (props) {
                 Google.</p>
                 </div>
             </div>
-            <div className={classes.SEOSmallCardsSub}>
+            <div className={classes.SEOSmallCardsSubSiteSpeed}>
                 <div className={classes.SEOCardRec}>
                      <img src={FastInternetImg} alt='FastInternet_Image' />
                 </div>
@@ -67,7 +72,7 @@ function SEOAnalyzerSection (props) {
             </div>
 
             <div className={classes.SEOSmallCards}>
-            <div className={classes.SEOSmallCardsSub}>
+            <div className={classes.SEOSmallCardsSubSEOAudit}>
                 <div className={classes.SEOCardRec}>
                     <img src={AuditReportImg} alt='AuditReport_Image' />
                 </div>
@@ -82,7 +87,7 @@ function SEOAnalyzerSection (props) {
                 you can fix each of them.</p>
                 </div>
             </div>
-            <div className={classes.SEOSmallCardsSub}>
+            <div className={classes.SEOSmallCardsSubBlacklink}>
                 <div className={classes.SEOCardRec}>
                     <img src={BlackLinkCheckerImg} alt='BlackLinkChecker_Image' />
                 </div>
