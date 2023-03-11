@@ -1,0 +1,55 @@
+.sliderEffectBody {
+    position: relative;
+}
+
+.sliderEffectBodySub {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 198px;
+    height: 830px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px;
+    opacity: 0.95;
+    position: relative;
+    z-index: 3;
+}
+
+.sliderEffectBodySubOne {
+    width: 265px;
+    height: 790px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 2;
+}
+
+.sliderEffectBodySubTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 743px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 4;
+}
+
+.sliderEffectBody img {
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    z-index: 4;
+    top: 42%;
+    right: 5%;
+}
+
+/* .sliderEffectBody button:hover {
+    transition: ease-out .3s;
+} */
+

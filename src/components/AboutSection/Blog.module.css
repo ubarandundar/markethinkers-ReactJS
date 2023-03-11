@@ -1,14 +1,13 @@
 .blogBody {
-    max-width: 1239px;
+    width: 1239px;
     height: 734px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 33px;
     opacity: 1;
-    position: relative;
+    position: absolute;
     z-index: 1;
-    margin-left: 580px;
-    margin-right: auto;
-    margin-top: -650px;
+    top: 93%;
+    right: 6%;
     display: flex;
     flex-direction: column;
 }

@@ -8,12 +8,16 @@
     border-radius: 25px;
     opacity: 1; 
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center;
-    align-items: center;
     background-image: url('../../assets/Mask Group 11.svg');
     background-size: 374px 472px;
     background-position: bottom left;
+}
+
+.lookOutBodySub {
+    display: flex;
+    margin-top: 100px;
 }
 
 .lookOut, .beyond {
@@ -57,7 +61,37 @@
     margin-left: auto;
 }
 
-/* .referanceSide {
+.referances {
     display: flex;
     flex: 1;
-} */
+}
+
+.referancesBody {
+    padding: 0px 90px;
+}
+
+.referancesBodySub {
+    display: flex;
+    flex-direction: row;
+}
+
+.referancesBodyHr {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.lookOutBody img {
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+}
+
+.lookOutBody img:hover {
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(0%);
+}
+
+

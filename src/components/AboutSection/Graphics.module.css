@@ -1,10 +1,11 @@
 .graphicsBody {
-    margin-top: -300px;
-    max-width: 762px;
+    width: 762px;
     height: 915px;
     background: #FF8049 0% 0% no-repeat padding-box;
     border-radius: 0px 50px 50px 0px;
     opacity: 1;
-    position: relative;
+    position: absolute !important;
     z-index: 2;
+    top: 73%;
+    left: 0;
 }

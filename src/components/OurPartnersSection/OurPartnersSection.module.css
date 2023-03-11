@@ -2,6 +2,7 @@
     width: 100%;
     height: 500px;
     /* border: 1px solid black; */
+    margin-top: 850px;
 }
 
 .ourPartnersSectionHeader {
@@ -12,4 +13,16 @@
     color: #444444;
     opacity: 1;
     margin: 100px auto;
+}
+
+.ourPartnersImageBody {
+    margin-bottom: 100px;
+}
+
+.ourPartnersImages {
+    filter: grayscale(100%);
+}
+
+.ourPartnersImages:hover {
+    filter: grayscale(0%);
 }

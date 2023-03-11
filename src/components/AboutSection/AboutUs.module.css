@@ -28,6 +28,10 @@
     margin-top: -200px;
 }
 
+.aboutSectionRightSideBody {
+    margin-top: 200px;
+}
+
 .aboutSectionLeftSide a {
     margin-left: 200px;
 }
@@ -89,4 +93,17 @@
 
 .aboutSectionRightSideMore:hover {
     color: #D3148B;
+}
+
+.multiBrandCarouselBody {
+    max-width: 1000px;
+    margin-top: 200px;
+    margin-right: 30px;
+}
+
+.multiBrandCarouselBody ul li {
+    margin: auto;
+    padding: 0 40px; 
+    display: flex;
+    justify-content: center;  
 }

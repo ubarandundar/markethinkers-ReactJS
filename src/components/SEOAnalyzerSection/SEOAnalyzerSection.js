@@ -10,7 +10,7 @@ function SEOAnalyzerSection (props) {
     return (
         <div className={classes.SEOAnalyzerSectionBody}>
             <header className={classes.SEOHeader}>SEO Analyzer</header>
-            <row className={classes.SEOCard}>
+            <div className={classes.SEOCard}>
                 <div className='col-sm-4'>
                     <p className={classes.SEOParag}>
                     If you’re struggling to get more visitors to your site,
@@ -21,9 +21,10 @@ function SEOAnalyzerSection (props) {
                 <div className='col-sm-8'>
                     <div className={classes.SEOInputDiv}>
                         <input className={classes.SEOInput} type='text' placeholder='Your Website URL'/>
+                        <button className={classes.analyzeButton} type='submit'>analyze</button>
                     </div>
                 </div>
-            </row>
+            </div>
 
         <div className={classes.SEOSmallCards}>
             <div className={classes.SEOSmallCardsSubSEOAnalysis}>

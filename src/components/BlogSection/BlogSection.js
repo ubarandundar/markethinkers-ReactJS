@@ -2,8 +2,8 @@ import classes from './BlogSection.module.css';
 
 import PinnedBlog from './PinnedBlog';
 import ForwardArrow from '../../assets/Group 34.svg';
-import SliderEffectBodyArrow from '../../assets/Path 16724.svg';
 import SliderBlogs from './SliderBlogs';
+import SliderBlogControlArrow from './SliderBlogsControlArrow';
 
 function BlogSection (props) {
     return (
@@ -44,13 +44,9 @@ function BlogSection (props) {
            <div className={classes.sliderBody}>
                 <SliderBlogs />
            </div>
-           <div className={classes.sliderEffectBody}>
-                <div className={classes.sliderEffectBodySubOne}>
-                    <div className={classes.sliderEffectBodySubTwo}>
-                        <img src={SliderEffectBodyArrow} alt='sliderEffectBodyArrow' />
-                    </div>
-                </div>
-           </div>
+           <div className={classes.sliderBodyControlArrow}>
+                <SliderBlogControlArrow />
+            </div>
         </div>
     );
 }

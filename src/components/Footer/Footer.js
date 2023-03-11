@@ -17,7 +17,7 @@ function Footer (props) {
                         <img src={markeThinkersImage} className={classes.markeThinkersImage} alt='markeThinkersImage' />
                     </div>
                     <div className={classes.footerBodySubSecondColumn}>
-                        <header className={classes.footerHeader}>Company</header>
+                        <header className={classes.footerHeaderCompany}>Company</header>
                         <ul>
                             <li>
                                 <a className={classes.footerNavLinks} href='www.google.com'>Home</a>
@@ -34,7 +34,7 @@ function Footer (props) {
                         </ul>
                     </div>
                     <div className={classes.footerBodySubThirdColumn}>
-                        <header className={classes.footerHeader}>Services</header>
+                        <header className={classes.footerHeaderServices}>Services</header>
                         <ul>
                             <li>
                                 <a className={classes.footerNavLinks} href='www.google.com'>Copywriting</a>
@@ -51,7 +51,7 @@ function Footer (props) {
                         </ul>
                     </div>
                     <div className={classes.footerBodySubFourthColumn}>
-                        <header className={classes.footerHeader}>Our Tools</header>
+                        <header className={classes.footerHeaderOurTools}>Our Tools</header>
                         <ul>
                             <li>
                                 <a className={classes.footerNavLinks} href='www.google.com'>Word Counter</a>
@@ -65,8 +65,11 @@ function Footer (props) {
                         </ul>
                     </div>
                     <div className={classes.footerBodySubFifthColumn}>
-                        <header className={classes.footerHeader}>Get Our News</header>
-                        <input className={classes.footerEmailAddress} type='email' placeholder='Your E-Mail Address' />
+                        <header className={classes.footerHeaderGetOurNews}>Get Our News</header>
+                        <div className='position-relative'>
+                            <input className={classes.footerEmailAddress} type='email' placeholder='Your E-Mail Address' />
+                            <button className={classes.joinButton} type='submit'>join</button>
+                        </div>  
                         <div className={classes.footerCheckbox}>
                             <input type="checkbox" id="scales" name="scales" />
                             <label htmlFor="scales">

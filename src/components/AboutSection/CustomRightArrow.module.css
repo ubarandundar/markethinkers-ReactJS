@@ -1,0 +1,21 @@
+.customRightArrowImg {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 1000;
+    transition: all .5s;
+    right: calc(4% + -40px);
+    margin: auto 0;
+    filter: grayscale(100%);
+    transform: rotate(180deg);
+}
+
+.customRightArrowImg:hover {
+    filter: grayscale(0%);
+    transition: ease-out;
+}
+
+.CustomRightArrowButton {
+    margin-bottom: 30px;
+}

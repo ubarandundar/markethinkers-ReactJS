@@ -1,0 +1,20 @@
+.customLeftArrowImg {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 1000;
+    transition: all .5s;
+    left: calc(4% + -40px);
+    margin: auto 0;
+    filter: grayscale(100%);
+}
+
+.customLeftArrowImg:hover {
+    filter: grayscale(0%);
+    transition: ease-out;
+}
+
+.customLeftArrowButton {
+    margin-bottom: 30px;
+}
