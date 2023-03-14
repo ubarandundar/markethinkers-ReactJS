@@ -7,6 +7,7 @@ import SliderBlogControlArrow from './SliderBlogsControlArrow';
 
 function BlogSection (props) {
     return (
+    <div className='container-fluid'>
         <div className={classes.blogSectionBody}>
            <div className={classes.blogPageBody}>
            <div>
@@ -48,6 +49,7 @@ function BlogSection (props) {
                 <SliderBlogControlArrow />
             </div>
         </div>
+    </div>
     );
 }
 

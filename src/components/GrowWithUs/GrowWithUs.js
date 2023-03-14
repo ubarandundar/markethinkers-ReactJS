@@ -11,6 +11,7 @@ function GrowWithUs (props) {
     // };
 
     return (
+    <div className='container'>
         <div className={classes.GrowWithUsSectionBody}>
 
             <div className={classes.GrowWithUsCardDefault}>
@@ -88,6 +89,7 @@ function GrowWithUs (props) {
             </div>   
             </div>
          </div>
+    </div>
     );
 }
 

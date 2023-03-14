@@ -4,11 +4,10 @@ import UKCAImage from '../../assets/UKCA-Logo.png';
 import UKDGAImage from '../../assets/UKDGAwards-Logo-Dark-Background.png';
 import MENAImage from '../../assets/MENA-New-Logo-Lockup.png';
 import GSAImage from '../../assets/GSA-New-Logo-Lockup-Diginius.png';
-import { Fragment } from 'react';
 
 function LookOuSection (props) {
     return (
-        <Fragment>
+        <div className='container'>
         <div className={classes.lookOutBody}>
             <div className={classes.lookOutBodySub}>
                 <div className={classes.leftSide}>
@@ -22,11 +21,13 @@ function LookOuSection (props) {
                 <div className={classes.rightSide}>
                     <header className={classes.allIn}>all in one team, for your needs</header>
                     <p className={classes.allInSub}>
-                    all in one team, for your needs We prepare your website SEO content in
+                    all in one team, for your needs We prepare your website SEO 
                     <br />
-                    accordance with SEO best practices, which is not only an important
+                    content inaccordance with SEO best practices, which is not 
                     <br />
-                    part of SEO but also of your brand image—both for search engines and users.
+                    only an important part of SEO but also of your brand 
+                    <br />
+                    image—both for search engines and users. 
                     </p>
                 </div>
             </div>
@@ -52,7 +53,7 @@ function LookOuSection (props) {
             </div>
         </div>
     </div>
-        </Fragment>
+        </div>
     );
 }
 

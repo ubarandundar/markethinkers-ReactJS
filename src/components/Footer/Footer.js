@@ -6,11 +6,10 @@ import TwitterIcon from '../../assets/twitter.svg';
 import FacebookIcon from '../../assets/facebook.svg';
 import InstagramIcon from '../../assets/instagram.svg';
 import LinkedinIcon from '../../assets/linkedin.svg';
-import { Fragment } from 'react';
 
 function Footer (props) {
     return (
-        <Fragment>
+        <div className='container-fluid'>
              <div className={classes.footerBody}>
                 <div className={classes.footerBodySub}>
                     <div className={classes.footerBodySubFistColumn}>
@@ -120,7 +119,7 @@ function Footer (props) {
                         </div>
                     </div>
                 </div>
-        </Fragment>
+        </div>
     );
 }
 

@@ -1,9 +1,10 @@
 .lookOutBody {
-    margin-top: -200px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1600px;
-    height: 684px;
+    /* margin-top: -200px; */
+    margin-top: -80px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* max-width: 1600px; */
+    /* height: 684px; */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 25px;
     opacity: 1; 
@@ -17,7 +18,8 @@
 
 .lookOutBodySub {
     display: flex;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding-top: 200px;
 }
 
 .lookOut, .beyond {
@@ -67,17 +69,47 @@
 }
 
 .referancesBody {
-    padding: 0px 90px;
+    padding: 0 90px;
 }
 
 .referancesBodySub {
     display: flex;
     flex-direction: row;
+    padding-bottom: 40px;
 }
+
+@media (max-width:1200px) {
+    .referances {
+        margin: 0 2px;
+    }
+}
+
+@media (max-width:1200px) {
+    .referancesBody {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:992px) {
+    .lookOutBodySub {
+        padding-top: 100px;
+    } 
+    .referancesBodySub {
+        flex-direction: column;
+    }
+    .referances {
+        margin: 10px 0;
+    }
+    .rightSide {
+        display: none;
+    }
+}
+
 
 .referancesBodyHr {
     margin-top: 100px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    padding-bottom: 20px;
 }
 
 .lookOutBody img {

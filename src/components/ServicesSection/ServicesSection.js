@@ -5,6 +5,7 @@ import ServicesIconImg from '../../assets/Group 198.svg';
 
 function ServicesSection (props) {
     return (
+    <div className='container'>
         <div className={classes.ServicesSectionBody}>
             <div className={classes.ServicesSectionLeftSide}>
                 <div className={classes.ServicesSectionLeftSideWrapper}>
@@ -45,7 +46,7 @@ function ServicesSection (props) {
                             </ul>
                         </div>
                         <div>
-                            <ul>
+                            <ul className={classes.ServiceSectionCardTopSecondRow}>
                             <li>
                                 <button type="button" className={classes.ServicesButtons}>Performance Marketing
                                 </button>
@@ -71,6 +72,7 @@ function ServicesSection (props) {
                     </div>
             </div>    
         </div>
+    </div>
     );
 }
 

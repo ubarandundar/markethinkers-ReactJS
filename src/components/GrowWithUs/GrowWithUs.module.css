@@ -4,10 +4,10 @@
 }
 
 .GrowWithUsCardDefault {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 50px;
-    max-width: 1490px;
+    /* max-width: 1490px; */
     height: 144px;
     background: #F7F7F7 0% 0% no-repeat padding-box;
     border-radius: 72px;
@@ -87,12 +87,12 @@
 }
 
 .GrowWithUsCardActive {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 50px;
     padding-top: 40px;
-    max-width: 1490px;
-    height: 552px;
+    /* max-width: 1490px;
+    height: 552px; */
     background: #F7F7F7 0% 0% no-repeat padding-box;
     border-radius: 72px;
     opacity: 1;

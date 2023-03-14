@@ -5,9 +5,11 @@ import classes from './Navbar.module.css';
 
 function Navbar (props) {
     return (
-        <div className={classes.navbar}>
-            <MainBar />
-            <LanguageBar />
+        <div className="container-fluid">
+            <div className={classes.navbar}>
+                <MainBar />
+                <LanguageBar />
+            </div>
         </div>
     );
 }

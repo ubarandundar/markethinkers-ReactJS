@@ -1,48 +1,66 @@
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import classes from './Graphics.module.css';
 
 function Graphics (props) {
     return (
-        <Carousel className={classes.graphicsBody}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
+        <div className={classes.graphicsBody}>
+              <Carousel
+              showArrows={false}
+              autoPlay={true}
+              interval={12000}
+              stopOnHover={false}
+              infiniteLoop={true}
+              showStatus={false}
+              >
+                <div className={classes.graphicsBodySub}>
+                  <div className={classes.graphicsBodySubFirstRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %113,31</span>
+                    <header className={classes.graphicsBodySubHeader}>organik trafik</header>
+                  </div>
+                  <div className={classes.graphicsBodySubSecondRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %328,98</span>
+                    <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
+                  <div className={classes.graphicsBodySubThirdRow}>
+                    <div className={classes.graphicsBodySubThirdRowFirstColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %47,98</span>
+                      <header className={classes.graphicsBodySubHeader}>dönüşüm</header>
+                    </div>
+                    <div className={classes.graphicsBodySubThirdRowSecondColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %1708,08</span>
+                      <header className={classes.graphicsBodySubHeader}>ROI</header>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className={classes.graphicsBodySub}>
+                  <div className={classes.graphicsBodySubFirstRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %108,56</span>
+                    <header className={classes.graphicsBodySubHeader}>organik trafik</header>
+                  </div>
+                  <div className={classes.graphicsBodySubSecondRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %299,48</span>
+                    <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
+                  <div className={classes.graphicsBodySubThirdRow}>
+                    <div className={classes.graphicsBodySubThirdRowFirstColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %53,65</span>
+                      <header className={classes.graphicsBodySubHeader}>dönüşüm</header>
+                    </div>
+                    <div className={classes.graphicsBodySubThirdRowSecondColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %1649,14</span>
+                      <header className={classes.graphicsBodySubHeader}>ROI</header>
+                    </div>
+                  </div>
+                </div>
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+                <div className={classes.graphicsBodySub}>
+                    <h1>EMPTY PAGE</h1>
+                </div>
+            </Carousel>
+        </div>
     );
 }
 

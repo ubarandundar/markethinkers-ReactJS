@@ -1,3 +1,7 @@
 .blogBody {
     position: relative;
+    max-width: 1840px;
+    height: 1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
 }

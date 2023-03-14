@@ -116,7 +116,7 @@
 }
 
 .footerEmailAddress {
-    width: 60%;
+    width: 65%;
     height: 64px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 32px;
@@ -256,9 +256,9 @@
     border: 1px solid #FF8049;
     opacity: 1;
     top: 23%;
-    right: 44%;
+    right: 39%;
 }
 
 .footerBodySubFistColumn img {
-    margin-right: 10%;
+    margin-right: 15%;
 }

@@ -1,15 +1,19 @@
 .welcomeBody {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1343px;
-    height: 1011px;
+    padding-top: 150px;
+    margin-bottom: -190px;
+    /* margin-top: 20px; */
+    /* margin-left: auto;
+    /* margin-right: auto; */
+    /* max-width: 1343px;  */
+    height: 1011px; 
     opacity: 1;
     /* border: 1px solid black; */
     background-image: url('../../assets/Asset 1@2x.png');
-    background-size: 1343px 1011px;
+    background-size: 1343px 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -19,7 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 47px;
-    margin-top: 159.93px;
+    margin-top: 38px;
     text-align: center;
     font: normal normal medium 47px/47px Paralucent;
     letter-spacing: 2.35px;
@@ -132,6 +136,38 @@
 .and {
     color: white;
 }
+
+@media (max-width: 1060px) {
+    .welcomeBody {
+        margin-bottom: -160px;
+    }
+}
+
+@media (max-width: 770px) {
+    .welcomeBody {
+        margin-bottom: -130px;
+    }
+}
+
+@media (max-width: 690px) {
+    .welcomeBody {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 602px) {
+    .welcomeBody {
+        margin-bottom: 105px;
+    }
+}
+
+@media (max-width: 595px) {
+    .welcomeBody {
+        margin-bottom: 140px;
+    }
+}
+
+
 
 
 

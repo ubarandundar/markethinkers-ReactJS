@@ -1,5 +1,5 @@
 .graphicsBody {
-    width: 762px;
+    max-width: 762px;
     height: 915px;
     background: #FF8049 0% 0% no-repeat padding-box;
     border-radius: 0px 50px 50px 0px;
@@ -8,4 +8,66 @@
     z-index: 2;
     top: 73%;
     left: 0;
+}
+
+.graphicsBodySub {
+    width: 762px;
+    height: 915px;
+}
+
+.graphicsBodySubNum {
+    font-size: 80px;
+    text-align: left;
+    font: normal normal bold 80px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.graphicsBodySubNumSub {
+    font-size: 40px;
+    text-align: left;
+    font: normal normal bold 40px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.graphicsBodySubHeader {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal medium 25px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.graphicsBodySubFirstRow {
+    display: flex;
+    flex-direction: column;
+    padding: 107px 0 54px 127px;
+}
+
+.graphicsBodySubSecondRow {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 84px 127px;
+}
+
+.graphicsBodySubThirdRow {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 127px;;
+}
+
+.graphicsBodySubThirdRowFirstColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 0 104px 0 0;
+}
+
+.graphicsBodySubThirdRowSecondColumn {
+    display: flex;
+    flex-direction: column;
 }

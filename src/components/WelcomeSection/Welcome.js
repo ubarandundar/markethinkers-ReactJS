@@ -2,6 +2,7 @@ import classes from './Welcome.module.css';
 
 function Welcome (props) {
     return (
+        <div className='container-fluid'>
         <div className={classes.welcomeBody}>
             <div>
             <p className={classes.welcome}>welcome</p>
@@ -14,6 +15,7 @@ function Welcome (props) {
                 <button className={classes.contactUs}>Contact Us</button>
                 <button className={classes.ourServices}>Our Services</button>
             </div>
+        </div>
         </div>
     );
 }
