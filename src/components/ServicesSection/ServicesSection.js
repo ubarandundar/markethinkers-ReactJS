@@ -7,7 +7,8 @@ function ServicesSection (props) {
     return (
     <div className='container'>
         <div className={classes.ServicesSectionBody}>
-            <div className={classes.ServicesSectionLeftSide}>
+            <div className='container'>
+                <div className={classes.ServicesSectionLeftSide}>
                 <div className={classes.ServicesSectionLeftSideWrapper}>
                     <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
                     <p className={classes.ServiceSectionLeftSideParag}>
@@ -24,8 +25,10 @@ function ServicesSection (props) {
                         <img src={ForwardArrow} alt='Forward_Arrow' />
                     </a>
                 </div>
+                </div>
             </div>
-            <div className={classes.ServicesSectionRightSide}>
+            <div className='container'>
+                <div className={classes.ServicesSectionRightSide}>
                     <div className={classes.ServiceSectionCardTop}>
                         <div>
                             <ul className={classes.ServiceSectionCardTopFirstRow}>
@@ -70,6 +73,7 @@ function ServicesSection (props) {
                         <header className={classes.ServiceSectionCardBottomHeader}>SEO Copywriting</header>
                         <p className={classes.ServiceSectionCardBottomParag}>We are ready to grow your business digitally with our expertise and experienced team in SEO services and copywriting.</p>
                     </div>
+                </div>
             </div>    
         </div>
     </div>

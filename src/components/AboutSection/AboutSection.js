@@ -8,9 +8,9 @@ function AboutSection (props) {
     return (
         <div className="container-fluid">
             <div className={classes.blogBody}>
-                <AboutUs className='col-sm-6' />
-                <Graphics className='col-sm-6' />
-                <Blog className='col-sm-6' />
+                <AboutUs />
+                <Graphics />
+                <Blog />
             </div>
         </div>
     );

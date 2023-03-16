@@ -1,6 +1,7 @@
 .GrowWithUsSectionBody {
-    width: 100%;
+    /* width: 100%; */
     height: 1000px;
+    /* margin-bottom: 120px; */
 }
 
 .GrowWithUsCardDefault {
@@ -21,6 +22,12 @@
 .GrowWithUsCardDefaultWrapper {
     display: flex;
     flex: 1;
+}
+
+@media (max-width: 1200px) {
+    .GrowWithUsCardDefaultWrapper {
+        flex: 0.9;
+    }
 }
 
 .GrowWithUsCardDefaultWrapperOther {
@@ -50,7 +57,7 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 32px;
     opacity: 1;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     border: none;
 }
 

@@ -1,17 +1,36 @@
 .graphicsBody {
-    max-width: 762px;
+    /* max-width: 762px; */
+    max-width: 550px;
     height: 915px;
     background: #FF8049 0% 0% no-repeat padding-box;
     border-radius: 0px 50px 50px 0px;
     opacity: 1;
-    position: absolute !important;
+    position: absolute;
     z-index: 2;
     top: 73%;
     left: 0;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .graphicsBody {
+        max-width: 480px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .graphicsBody {
+        position: static;
+        border-radius: 50px 50px 50px 50px;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+    .graphicsBodySub {
+        height: auto;  
+    }
+}
+
 .graphicsBodySub {
-    width: 762px;
+    /* width: 762px; */
     height: 915px;
 }
 
@@ -46,19 +65,19 @@
 .graphicsBodySubFirstRow {
     display: flex;
     flex-direction: column;
-    padding: 107px 0 54px 127px;
+    padding: 107px 0 54px 35px;
 }
 
 .graphicsBodySubSecondRow {
     display: flex;
     flex-direction: column;
-    padding: 0 0 84px 127px;
+    padding: 0 0 84px 35px;
 }
 
 .graphicsBodySubThirdRow {
     display: flex;
     flex-direction: row;
-    padding: 0 0 0 127px;;
+    padding: 0 0 0 35px;;
 }
 
 .graphicsBodySubThirdRowFirstColumn {

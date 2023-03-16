@@ -5,10 +5,28 @@
     position: absolute;
     z-index: 1000;
     transition: all .5s;
-    right: calc(4% + -40px);
+    right: calc(4% + -27px);
     margin: auto 0;
     filter: grayscale(100%);
     transform: rotate(180deg);
+}
+
+@media (max-width: 1400px) {
+    .customRightArrowImg {
+        right: calc(4% + -21px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .customRightArrowImg {
+        right: calc(4% + -14px);
+    }
+}
+
+@media (max-width: 576px) {
+    .customRightArrowImg {
+        right: calc(4% + -11px);
+    }
 }
 
 .customRightArrowImg:hover {

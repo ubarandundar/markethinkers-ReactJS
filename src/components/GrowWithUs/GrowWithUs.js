@@ -1,14 +1,18 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 import classes from './GrowWithUs.module.css';
 import GrowWithUsImg from '../../assets/100001.png';
 
 function GrowWithUs (props) {
-    // const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
-    // function clickHandler () {
-    //     setIsVisible(true);
-    // };
+    const ExpandClickHandler = () => { 
+        setIsVisible(true);
+    };
+
+    const confirmHandler = (event) => {
+        event.preventDefault();
+    }
 
     return (
     <div className='container'>
@@ -22,11 +26,11 @@ function GrowWithUs (props) {
                 </div>
                 <div className={classes.GrowWithUsCardDefaultWrapperOther}>
                     <input className={classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' />
-                    <button className={classes.continueButton} type='submit'>continue</button>      
+                    <button className={classes.continueButton} onClick={ExpandClickHandler} type='submit'>continue</button>      
                 </div>
-            </div> 
+            </div>
 
-            <div className={classes.GrowWithUsCardActive}>
+            {isVisible && <form className={classes.GrowWithUsCardActive} onSubmit={confirmHandler}>
 
             <div className={classes.GrowWithUsCardActiveFirstRow}>
                 <div className={classes.GrowWithUsCardActiveWrapper}>
@@ -87,7 +91,7 @@ function GrowWithUs (props) {
                     </div>        
                 </div>
             </div>   
-            </div>
+            </form>}
          </div>
     </div>
     );

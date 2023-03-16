@@ -13,21 +13,41 @@ import CustomLeftArrow from './CustomLeftArrow';
 import CustomRightArrow from './CustomRightArrow';
 
 const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 1 // optional, default to 1.
+    desktopS: {
+        breakpoint: { max: 576, min: 0 },
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+      },
+    desktopM: {
+        breakpoint: { max: 992, min: 520 },
+        items: 2,
+        slidesToSlide: 1 // optional, default to 1.
+      },
+    desktopL: {
+        breakpoint: { max: 1200, min: 992 },
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+      },
+    desktopXL: {
+        breakpoint: { max: 1400, min: 1200 },
+        items: 2,
+        slidesToSlide: 1 // optional, default to 1.
+      },
+    desktopXXL: {
+        breakpoint: { max: 4000, min: 1400 },
+        items: 3,
+        slidesToSlide: 1 // optional, default to 1.
     },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 1 // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1 // optional, default to 1.
-    }
+    // tablet: {
+    //     breakpoint: { max: 1024, min: 464 },
+    //     items: 2,
+    //     slidesToSlide: 1 // optional, default to 1.
+    // },
+    // mobile: {
+    //     breakpoint: { max: 464, min: 0 },
+    //     items: 1,
+    //     slidesToSlide: 1 // optional, default to 1.
+    // }
   };
 
 function MultiBrandCarousel () {
@@ -54,25 +74,26 @@ function MultiBrandCarousel () {
                 centerMode={false}
                 customLeftArrow={<CustomLeftArrow />}
                 customRightArrow={<CustomRightArrow />}
+                
                 >
 
                 <div className={classes.multiBrandCarouselBodySub}>
-                    <img className={classes.multiBrandCarouselBodyImages} src={HangiKrediImg} alt='HangiKredi_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesHangiKredi} src={HangiKrediImg} alt='HangiKredi_Image' />
                 </div>
                 <div>
-                    <img className={classes.multiBrandCarouselBodyImages} src={ZoomImg} alt='Shopify_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesZoom} src={ZoomImg} alt='Zoom_Image' />
                 </div>
                 <div>
-                    <img className={classes.multiBrandCarouselBodyImages} src={SalesforceImg} alt='Crosstech_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesSalesforce} src={SalesforceImg} alt='Salesforces_Image' />
                 </div>
                 <div>
-                    <img className={classes.multiBrandCarouselBodyImages} src={AmazonImg} alt='Shopify_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesAmazon} src={AmazonImg} alt='Amazon_Image' />
                 </div>
                 <div>
-                    <img className={classes.multiBrandCarouselBodyImages} src={GlossierImg} alt='Crosstech_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesGlossier} src={GlossierImg} alt='Glossier_Image' />
                 </div>
                 <div>
-                    <img className={classes.multiBrandCarouselBodyImages} src={GoogleImg} alt='Shopify_Image' />
+                    <img className={classes.multiBrandCarouselBodyImagesGoogle} src={GoogleImg} alt='Google_Image' />
                 </div>
 
             </Carousel>

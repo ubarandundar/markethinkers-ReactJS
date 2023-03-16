@@ -5,6 +5,7 @@ import classes from './Graphics.module.css';
 
 function Graphics (props) {
     return (
+      <div className='container'>
         <div className={classes.graphicsBody}>
               <Carousel
               showArrows={false}
@@ -13,6 +14,7 @@ function Graphics (props) {
               stopOnHover={false}
               infiniteLoop={true}
               showStatus={false}
+              showThumbs={false}
               >
                 <div className={classes.graphicsBodySub}>
                   <div className={classes.graphicsBodySubFirstRow}>
@@ -61,6 +63,7 @@ function Graphics (props) {
                 </div>
             </Carousel>
         </div>
+      </div>
     );
 }
 
