@@ -77,7 +77,8 @@
 .graphicsBodySubThirdRow {
     display: flex;
     flex-direction: row;
-    padding: 0 0 0 35px;;
+    padding: 0 0 0 35px;
+    margin-bottom: 100px;
 }
 
 .graphicsBodySubThirdRowFirstColumn {
@@ -89,4 +90,9 @@
 .graphicsBodySubThirdRowSecondColumn {
     display: flex;
     flex-direction: column;
+}
+
+.graphicSampleImg {
+    width: 450px !important;
+    height: auto;
 }

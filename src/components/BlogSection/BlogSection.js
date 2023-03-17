@@ -2,12 +2,17 @@ import classes from './BlogSection.module.css';
 
 import PinnedBlog from './PinnedBlog';
 import ForwardArrow from '../../assets/Group 34.svg';
+import WhiteForwardArrow from '../../assets/Group 34-white.svg';
 import SliderBlogs from './SliderBlogs';
 import SliderBlogControlArrow from './SliderBlogsControlArrow';
+import BlogSectionLeftImg from '../../assets/Path 16728.svg';
+import BlogSectionRightImg from '../../assets/Path 16727.svg';
 
 function BlogSection (props) {
     return (
     <div className='container-fluid'>
+        <img className={classes.BlogSectionLeftImg} src={BlogSectionLeftImg} alt='BlogSection_LeftImg' />
+        <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' />
         <div className={classes.blogSectionBody}>
            <div className={classes.blogPageBody}>
            <div>
@@ -23,7 +28,7 @@ function BlogSection (props) {
                 in a Secure Infrastructure!
                 </p>
                 <a href='www.google.com'>
-                    <img src={ForwardArrow} alt='Forward_Arrow' />
+                    <img src={WhiteForwardArrow} alt='WhiteForward_Arrow' />
                 </a>
                 </div>
             </div>

@@ -1,11 +1,55 @@
+import React, { useState } from 'react';
+
 import classes from './ServicesSection.module.css';
 
 import ForwardArrow from '../../assets/Group 34.svg';
-import ServicesIconImg from '../../assets/Group 198.svg';
+import SEOCopywritingIconImg from '../../assets/Group 198.svg';
+import SEOConsultingIconImg from '../../assets/Group 59.svg';
+import ServicesSectionLeftImg from '../../assets/Path 16762.svg';
 
 function ServicesSection (props) {
+    const ServicesData = [
+        {
+            image: SEOCopywritingIconImg,
+            header: 'SEO Copywriting',
+            description: 'We are ready to grow your business digitally with our expertise and experienced team in SEO services and copywriting.',
+            forwardTo: 'www.google.com'
+        },
+        {  
+            image: SEOConsultingIconImg,
+            header: 'SEO Consulting',
+            description: 'We help you increase your web visibility and organic traffic, with one-off analysis and recommendations.',
+            forwardTo: 'www.google.com'
+        },
+        {  
+            image: SEOCopywritingIconImg,
+            header: 'ASO Marketing',
+            description: 'We help you increase your web visibility and organic traffic, with one-off analysis and recommendations.',
+            forwardTo: 'www.google.com'
+        },
+        {  
+            image: SEOConsultingIconImg,
+            header: 'Performance Marketing',
+            description: 'We help you increase your web visibility and organic traffic, with one-off analysis and recommendations.',
+            forwardTo: 'www.google.com'
+        },
+        {  
+            image: SEOCopywritingIconImg,
+            header: 'Digital PR',
+            description: 'We help you increase your web visibility and organic traffic, with one-off analysis and recommendations.',
+            forwardTo: 'www.google.com'
+        },
+    ]
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    function contentHandler (currentIndex) {
+        setCurrentIndex(currentIndex);
+    };
+
     return (
     <div className='container'>
+        <img className={classes.ServicesSectionLeftImg} src={ServicesSectionLeftImg} alt='ServicesSection_LeftImg' />
         <div className={classes.ServicesSectionBody}>
             <div className='container'>
                 <div className={classes.ServicesSectionLeftSide}>
@@ -33,46 +77,45 @@ function ServicesSection (props) {
                         <div>
                             <ul className={classes.ServiceSectionCardTopFirstRow}>
                                 <li>
-                                <button type="button" className={classes.ServicesButtons}>SEO Copywriting
+                                    <button onClick={() => contentHandler(0)} type="button" className={classes.ServicesButtons}>SEO Copywriting
                                 </button>
                                 </li>
                                 <li>
-                                <button type="button" className={classes.ServicesButtons}>SEO Consulting
+                                    <button onClick={() => contentHandler(1)} type="button" className={classes.ServicesButtons}>SEO Consulting
                                 </button>
                                 </li>
                                 <li>
-                                    <a href='https://wwww.google.com'>
-                                        <button type="button" className={classes.ServicesButtons}>ASO Marketing
-                                        </button>
-                                    </a>
+                                    <button onClick={() => contentHandler(2)} type="button" className={classes.ServicesButtons}>ASO Marketing
+                                    </button>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <ul className={classes.ServiceSectionCardTopSecondRow}>
-                            <li>
-                                <button type="button" className={classes.ServicesButtons}>Performance Marketing
+                                <li>
+                                    <button onClick={() => contentHandler(3)} type="button" className={classes.ServicesButtons}>Performance Marketing
                                 </button>
                                 </li>
                                 <li>
-                                <button type="button" className={classes.ServicesButtons}>Digital PR
+                                    <button onClick={() => contentHandler(4)} type="button" className={classes.ServicesButtons}>Digital PR
                                 </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className={classes.ServiceSectionCardBottom}>
+                    {ServicesData[currentIndex] && <div className={classes.ServiceSectionCardBottom}>
                         <div>
                             <div className={classes.ServicesIcons}>
-                                <img src={ServicesIconImg} alt='Services_Icon' />
-                                <a href='www.google.com'>
+                                <img src={ServicesData[currentIndex].image} alt='Services_Icon' />
+                                <a href={ServicesData[currentIndex].forwardTo}>
                                     <img src={ForwardArrow} alt='Forward_Arrow' />
                                 </a>
                             </div>
                         </div>
-                        <header className={classes.ServiceSectionCardBottomHeader}>SEO Copywriting</header>
-                        <p className={classes.ServiceSectionCardBottomParag}>We are ready to grow your business digitally with our expertise and experienced team in SEO services and copywriting.</p>
-                    </div>
+                        <header className={classes.ServiceSectionCardBottomHeader}>{ServicesData[currentIndex].header}</header>
+                        <p className={classes.ServiceSectionCardBottomParag}>{ServicesData[currentIndex
+                        ].description}</p>
+                    </div>}
                 </div>
             </div>    
         </div>

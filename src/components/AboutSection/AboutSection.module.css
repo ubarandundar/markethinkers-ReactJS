@@ -5,3 +5,20 @@
     /* border: 1px solid red; */
     margin: 0 auto;
 }
+
+.AboutSectionRightImg {
+    position: absolute;
+    filter: blur(50px);
+    z-index: 0;
+    margin-left: 72%;
+    margin-top: -24%;
+}
+
+.AboutSectionLeftImg {
+    position: absolute;
+    filter: blur(50px);
+    z-index: 0;
+    margin-left: -3%;
+    margin-top: 119%;
+}
+

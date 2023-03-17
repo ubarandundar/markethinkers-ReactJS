@@ -3,9 +3,24 @@
     /* width: 100%;
     height: 1000px; */
     /* border: 1px solid black; */
-    /* background-image: url('../../assets/Path 16725.svg'), url('../../assets/Path 16763.svg'), url('../../assets/Path 16762.svg');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top left, right center, bottom left; */
+    position: relative;
+    z-index: 2;
+}
+
+.SEOAnalyzerLeftImg {
+    position: absolute;
+    filter: blur(50px);
+    z-index: 0;
+    margin-left: -30%;
+    margin-top: -20%;
+}
+
+.SEOAnalyzerRightImg {
+    position: absolute;
+    filter: blur(50px);
+    z-index: 0;
+    margin-left: 55%;
+    margin-top: -5%;
 }
 
 .SEOHeader {
@@ -72,6 +87,7 @@
     opacity: 1;
     margin-right: 40px;
     border: none;
+    padding-left: 20px;
 }
 
 .SEOInputDiv {
@@ -79,7 +95,6 @@
 }
 
 .SEOInput::placeholder {
-    padding: 20px;
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
@@ -132,7 +147,8 @@
 }
 
 .SEOCardRec {
-    width: 96px;
+    flex: 0 0 96px;
+    max-width: 96px;
     height: 96px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 25px;
@@ -181,7 +197,7 @@
     border-radius: 32px;
     border: 1px solid #FF8049;
     opacity: 1;
-    top: 18%;
-    right: 7%;
+    top: 23%;
+    right: 8%;
 }
 

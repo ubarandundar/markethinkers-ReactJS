@@ -6,7 +6,18 @@
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
+
+.ServicesSectionLeftImg {
+    position: absolute;
+    filter: blur(50px);
+    z-index: 0;
+    margin-left: -40%;
+    margin-top: -25%;
+}
+
 
 .ServiceSectionCardTop {
     /* max-width: 750px; */

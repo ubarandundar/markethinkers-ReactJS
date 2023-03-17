@@ -12,10 +12,8 @@ function Blog (props) {
                 </a>
             <img className={classes.blogBodyBrandImg} src={HangiKrediImg} alt='HangiKredi_Image' />
             <p className={classes.blogBodyParag}>
-                Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler
-                 
-                 getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip
-                 
+                Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler 
+                 getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip   
                  ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.</p>
                  <div>
                     <div className={classes.blogProfile}>

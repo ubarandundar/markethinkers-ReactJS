@@ -16,6 +16,11 @@
     z-index: 3;
 }
 
+.sliderEffectBodySub:hover {
+    width: 225px;
+    cursor: pointer;
+}
+
 .sliderEffectBodySubOne {
     width: 265px;
     height: 790px;
@@ -40,16 +45,21 @@
     z-index: 4;
 }
 
-.sliderEffectBody img {
+.sliderEffectBody button {
     width: 124px;
     height: 124px;
+    background-image: url('../../assets/Path 16724.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
     position: absolute;
     z-index: 4;
     top: 42%;
     right: 5%;
+    pointer-events: none;
 }
 
-/* .sliderEffectBody button:hover {
-    transition: ease-out .3s;
+/* .sliderEffectBody button:focus {
+    cursor: pointer !important;
 } */
 

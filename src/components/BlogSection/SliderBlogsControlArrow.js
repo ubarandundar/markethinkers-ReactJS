@@ -1,7 +1,5 @@
 import classes from './SliderBlogsControlArrow.module.css';
 
-import SliderEffectBodyArrow from '../../assets/Path 16724.svg';
-
 function SliderBlogControlArrow (props) {
     return (
             <div className={classes.sliderEffectBody}>
@@ -9,9 +7,7 @@ function SliderBlogControlArrow (props) {
                         <div className={classes.sliderEffectBodySubOne}></div>
                         <div className={classes.sliderEffectBodySubTwo}></div>
                     </div>
-                        <button type='button'>
-                            <img src={SliderEffectBodyArrow} alt='sliderEffectBodyArrow' /> 
-                        </button>
+                        <button type='button' />
             </div>
     );
 }

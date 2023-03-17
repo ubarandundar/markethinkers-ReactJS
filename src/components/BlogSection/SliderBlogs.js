@@ -1,13 +1,13 @@
 import classes from './SliderBlogs.module.css';
 
-import ForwardArrow from '../../assets/Group 34.svg';
+import WhiteForwardArrow from '../../assets/Group 34-white.svg';
 
 function SliderBlogs (props) {
     return (
         <div>
             <div className={classes.sliderBlogFirstBody}>
                 <a className={classes.sliderBlogsArrow} href='www.google.com'>
-                    <img src={ForwardArrow} alt='Forward_Arrow' />
+                    <img src={WhiteForwardArrow} alt='Forward_Arrow' />
                 </a>
             <header className={classes.sliderBlogsHeaderTop}>strategy</header>
             <header className={classes.sliderBlogsOtherHeader}>
@@ -18,7 +18,7 @@ function SliderBlogs (props) {
             </div>
             <div className={classes.sliderBlogSecondBody}>
             <a className={classes.sliderBlogsArrow} href='www.google.com'>
-                    <img src={ForwardArrow} alt='Forward_Arrow' />
+                    <img src={WhiteForwardArrow} alt='Forward_Arrow' />
                 </a>
            <header className={classes.sliderBlogsHeaderBottom}>strategy</header>
            <header className={classes.sliderBlogsOtherHeader}>

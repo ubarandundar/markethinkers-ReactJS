@@ -5,23 +5,25 @@ import CheckerImg from '../../assets/g3435.svg';
 import FastInternetImg from '../../assets/Fast Internet.svg';
 import AuditReportImg from '../../assets/evidence.svg';
 import BlackLinkCheckerImg from '../../assets/layer1.svg';
+import SEOAnalyzerLeftImg from '../../assets/Path 16725.svg';
+import SEOAnalyzerRightImg from '../../assets/Path 16763.svg';
 
 function SEOAnalyzerSection (props) {
     return (
     <div className='container'>
+        <img className={classes.SEOAnalyzerLeftImg} src={SEOAnalyzerLeftImg} alt='SEOAnalyzer_LeftImage' />
+        <img className={classes.SEOAnalyzerRightImg} src={SEOAnalyzerRightImg} alt='SEOAnalyzer_RightImage' />
         <div className={classes.SEOAnalyzerSectionBody}>
             <header className={classes.SEOHeader}>SEO Analyzer</header>
             <div className={classes.SEOCard}>
                 <div className='col-sm-12 col-md-4 col-lg-4'>
-                    <p className={classes.SEOParag}>
-                    If you’re struggling to get more visitors to your site,
-                    <br />
-                    the answer might just lie in this <span className={classes.free}>FREE</span> report!
-                    </p>
+                    <div className={classes.SEOParag}>
+                    If you’re struggling to get more visitors to your site, the answer might just lie in this <span className={classes.free}>FREE</span> report!
+                    </div>
                 </div>
                 <div className='col-sm-12 col-md-8 col-lg-8'>
                     <div className={classes.SEOInputDiv}>
-                        <input className={classes.SEOInput} type='text' placeholder='Your Website URL'/>
+                        <input className={classes.SEOInput} type='text' placeholder='Your Website URL' minlength="1" maxlength="50" />
                         <button className={classes.analyzeButton} type='submit'>analyze</button>
                     </div>
                 </div>

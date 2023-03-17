@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10">
+  <g id="united-kingdom" transform="translate(0 -88.275)">
+    <path id="Path_16710" data-name="Path 16710" d="M14.8,88.276H1.2A1.172,1.172,0,0,0,0,89.419v7.714a1.172,1.172,0,0,0,1.2,1.143H14.8A1.172,1.172,0,0,0,16,97.133V89.419A1.172,1.172,0,0,0,14.8,88.276Z" transform="translate(0 -0.001)" fill="#41479b"/>
+    <path id="Path_16711" data-name="Path 16711" d="M15.983,89.229a1.183,1.183,0,0,0-1.182-.954H14.49L9.379,91.469V88.275H6.621v3.194L1.51,88.275H1.2a1.183,1.183,0,0,0-1.182.954l4.368,2.73H0v2.632H4.385L.017,97.321a1.183,1.183,0,0,0,1.182.954H1.51l5.111-3.194v3.194H9.379V95.081l5.111,3.194H14.8a1.183,1.183,0,0,0,1.182-.954l-4.368-2.73H16V91.959H11.615Z" fill="#f5f5f5"/>
+    <g id="Group_146" data-name="Group 146" transform="translate(0 88.275)">
+      <path id="Path_16712" data-name="Path 16712" d="M8.828,88.276H7.172v4.21H0v1.579H7.172v4.211H8.828V94.065H16V92.487H8.828Z" transform="translate(0 -88.276)" fill="#ff4b55"/>
+      <path id="Path_16713" data-name="Path 16713" d="M9.711,303.749l5.831-3.611H14.528l-5.3,3.284A1.2,1.2,0,0,0,9.711,303.749Z" transform="translate(-8.936 -293.822)" fill="#ff4b55"/>
+      <path id="Path_16714" data-name="Path 16714" d="M314.973,300.138H313.96l5.647,3.5a1.172,1.172,0,0,0,.384-.39Z" transform="translate(-304.149 -293.822)" fill="#ff4b55"/>
+      <path id="Path_16715" data-name="Path 16715" d="M4.049,96.248,8.978,99.3H9.991L4.406,95.842A1.163,1.163,0,0,0,4.049,96.248Z" transform="translate(-3.922 -95.616)" fill="#ff4b55"/>
+      <path id="Path_16716" data-name="Path 16716" d="M301.151,94.241l5.314-3.29a1.2,1.2,0,0,0-.491-.324l-5.836,3.614Z" transform="translate(-290.759 -90.557)" fill="#ff4b55"/>
+    </g>
+  </g>
+</svg>

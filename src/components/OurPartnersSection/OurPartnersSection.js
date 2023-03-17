@@ -12,7 +12,7 @@ function OurPartnersSection (props) {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
           items: 3,
-          slidesToSlide: 3 // optional, default to 1.
+          slidesToSlide: 1 // optional, default to 1.
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -27,9 +27,9 @@ function OurPartnersSection (props) {
       };
 
     return (
-        <div className={classes.ourPartnersSectionBody}>
+        <div className='container-fluid'>
+            <div className={classes.ourPartnersSectionBody}>
             <header className={classes.ourPartnersSectionHeader}>Our Partners</header>
-
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -49,16 +49,10 @@ function OurPartnersSection (props) {
                 itemClass="carousel-item-padding-40-px"
                 arrows={false}
                 centerMode={true}
+                // customTransition='transform 300ms ease-in-out'
                 >
                 
-
                 <div className={classes.ourPartnersImageBody}>
-                    <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
-                </div>
-                <div>
-                    <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
-                </div>
-                <div>
                     <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
                 </div>
                 <div>
@@ -72,7 +66,7 @@ function OurPartnersSection (props) {
                 </div>
 
             </Carousel>
-
+            </div>
         </div>
     );
 }

@@ -14,6 +14,8 @@
     background-image: url('../../assets/Mask Group 11.svg');
     background-size: 374px 472px;
     background-position: bottom left;
+    position: relative;
+    z-index: 2;
 }
 
 .lookOutBodySub {

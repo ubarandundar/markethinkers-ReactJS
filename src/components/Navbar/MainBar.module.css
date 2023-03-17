@@ -13,6 +13,7 @@
 .mainbar ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .mainbar ul li {
@@ -33,6 +34,8 @@
     color: #D3148B;
     background: #E3E3E3 0% 0% no-repeat padding-box;
     border-radius: 26px;
+    padding: 10px 20px;
+    margin: -10px -20px;
     opacity: 1;
 }
 
@@ -44,10 +47,11 @@
 }
 
 .contactButton {
-    margin-top:-10px;
+    margin-top: -6px;
     width: 100px;
     height: 50px;
     background-color: #1F0242;
+    border: 1px solid #1F0242;
     color: white;
     border-radius: 29px;
     opacity: 1

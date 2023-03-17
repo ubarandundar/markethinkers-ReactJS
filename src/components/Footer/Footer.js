@@ -9,7 +9,7 @@ import LinkedinIcon from '../../assets/linkedin.svg';
 
 function Footer (props) {
     return (
-        <div className='container-fluid'>
+        <div className='container'>
              <div className={classes.footerBody}>
                 <div className={classes.footerBodySub}>
                     <div className={classes.footerBodySubFistColumn}>

@@ -2,6 +2,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import classes from './Graphics.module.css';
+import GraphicSampleImg from '../../assets/graphic-sample.png';
 
 function Graphics (props) {
     return (
@@ -35,6 +36,9 @@ function Graphics (props) {
                       <header className={classes.graphicsBodySubHeader}>ROI</header>
                     </div>
                   </div>
+                  <div className={classes.graphicsBodySubFourthRow}>
+                    <img className={classes.graphicSampleImg} src={GraphicSampleImg} alt='GraphicSample_Image' />
+                  </div>
                 </div>
                 
                 <div className={classes.graphicsBodySub}>
@@ -56,10 +60,33 @@ function Graphics (props) {
                       <header className={classes.graphicsBodySubHeader}>ROI</header>
                     </div>
                   </div>
+                  <div className={classes.graphicsBodySubFourthRow}>
+                    <img className={classes.graphicSampleImg} src={GraphicSampleImg} alt='GraphicSample_Image' />
+                  </div>
                 </div>
 
                 <div className={classes.graphicsBodySub}>
-                    <h1>EMPTY PAGE</h1>
+                  <div className={classes.graphicsBodySubFirstRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %113,31</span>
+                    <header className={classes.graphicsBodySubHeader}>organik trafik</header>
+                  </div>
+                  <div className={classes.graphicsBodySubSecondRow}>
+                    <span className={classes.graphicsBodySubNum}>+ %328,98</span>
+                    <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
+                  <div className={classes.graphicsBodySubThirdRow}>
+                    <div className={classes.graphicsBodySubThirdRowFirstColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %47,98</span>
+                      <header className={classes.graphicsBodySubHeader}>dönüşüm</header>
+                    </div>
+                    <div className={classes.graphicsBodySubThirdRowSecondColumn}>
+                      <span className={classes.graphicsBodySubNumSub}>+ %1708,08</span>
+                      <header className={classes.graphicsBodySubHeader}>ROI</header>
+                    </div>
+                  </div>
+                  <div className={classes.graphicsBodySubFourthRow}>
+                    <img className={classes.graphicSampleImg} src={GraphicSampleImg} alt='GraphicSample_Image' />
+                  </div>
                 </div>
             </Carousel>
         </div>
