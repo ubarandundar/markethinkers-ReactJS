@@ -176,7 +176,12 @@
     opacity: 1;
     background-color: transparent;
     margin-left: 10px;
+    transition: 300ms ease-out;
 }
+
+/* .footerSocialMediaArea a:hover {
+    transition: 300ms ease-out;
+} */
 
 .footerSocialMediaEx {
     width: 42px;
@@ -194,13 +199,13 @@
     padding-top: 10px;
 }
 
-.footerCheckbox {
+.footerCheckboxWrapper {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.footerCheckbox input {
+.footerCheckboxWrapper input {
     width: 16px;
     height: 16px;
     background-color: transparent;    
@@ -209,7 +214,7 @@
     opacity: 1;
 }
 
-.footerCheckbox label {
+.footerCheckboxWrapper label {
     font-size: 16px;
     font: normal normal 300 16px/22px Paralucent;
     letter-spacing: 0px;
@@ -265,4 +270,37 @@
 .footerBodySubFistColumn img {
     margin-left: 5%;
     margin-right: auto;
+}
+
+.footerCheckbox[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+.footerCheckbox[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 1px solid #929393;
+    border-radius: 3.5px;
+    background-color: #EBECED;
+}
+
+.footerCheckbox[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #929393;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
 }

@@ -69,8 +69,8 @@ function Footer (props) {
                             <input className={classes.footerEmailAddress} type='email' placeholder='Your E-Mail Address' />
                             <button className={classes.joinButton} type='submit'>join</button>
                         </div>  
-                        <div className={classes.footerCheckbox}>
-                            <input type="checkbox" id="scales" name="scales" />
+                        <div className={classes.footerCheckboxWrapper}>
+                            <input className={classes.footerCheckbox} type="checkbox" id="scales" name="scales" />
                             <label htmlFor="scales">
                             Lorem ipsum dolor sit amet, consectetur
                             <br />

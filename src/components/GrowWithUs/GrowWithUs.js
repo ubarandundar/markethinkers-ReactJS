@@ -50,7 +50,7 @@ function GrowWithUs (props) {
                                 </div>
                             </div>
                             <div className='col-sm-12 d-flex mb-4'>
-                                <div className='col-sm-6'>
+                                <div className='col-sm-6 position-relative'>
                                     <select className={classes.GrowWithUsSelectOption} name="choice">
                                         <option value="first" selected>Service You are Interested in...</option>
                                         <option value="second">Second Value</option>

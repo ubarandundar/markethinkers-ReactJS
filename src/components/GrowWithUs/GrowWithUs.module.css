@@ -174,11 +174,7 @@
     opacity: 1;
 }
 
-/* input[type='checkbox']:checked {
-    accent-color: transparent !important;
-  } */
-
-  .continueButton {
+.continueButton {
     position: absolute;
     z-index: 2;
     background-color: #1e90ff;
@@ -216,16 +212,12 @@
     right: 8%;
 }
 
-/* input[type=text], input[type=email]{
-    padding-left: 20px;
-}
-   */
-/* 
-input[type=checkbox] {
+.GrowWithUsCheckbox[type=checkbox] {
     position: relative;
-      cursor: pointer;
+    cursor: pointer;
 }
-input[type=checkbox]:before {
+
+.GrowWithUsCheckbox[type=checkbox]:before {
     content: "";
     display: block;
     position: absolute;
@@ -234,15 +226,16 @@ input[type=checkbox]:before {
     top: 0;
     left: 0;
     border: 1px solid #929393;
-    border-radius: 5px;
-    background-color: transparent !important;
+    border-radius: 3.5px;
+    background-color: #f7f7f7;
 }
-input[type=checkbox]:checked:after {
+
+.GrowWithUsCheckbox[type=checkbox]:checked:after {
     content: "";
     display: block;
-    width: 8px;
-    height: 7px;
-    border: 1px solid #929393;
+    width: 5px;
+    height: 10px;
+    border: solid #929393;
     border-width: 0 2px 2px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -250,5 +243,15 @@ input[type=checkbox]:checked:after {
     position: absolute;
     top: 2px;
     left: 6px;
-    background-color: transparent !important;
-} */
+}
+
+.GrowWithUsSelectOption {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    background-image: url('../../assets/Path 16724-forSelect.svg');
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+    background-position-y: 60%;
+}
