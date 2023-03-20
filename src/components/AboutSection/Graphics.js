@@ -11,11 +11,12 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
               <Carousel
               showArrows={false}
               autoPlay={true}
-              interval={12000}
+              interval={4000}
               stopOnHover={false}
               infiniteLoop={true}
               showStatus={false}
               showThumbs={false}
+              transitionTime='1000'
               renderIndicator={(onClickHandler, isSelected, index, label) => {
                 const defStyle = {
                   display: 'inline-block',

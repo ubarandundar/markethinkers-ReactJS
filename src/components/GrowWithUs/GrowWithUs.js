@@ -48,7 +48,7 @@ function GrowWithUs (props) {
                         </p>
                     </div>
                     <div className={'col-8 position-relative'}>
-                        <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='url' placeholder='Your Website URL' minLength="1" maxLength="50" />
+                        <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
                         <button className={classes.continueButton} onClick={ExpandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>      
                     </div>
                  </div>

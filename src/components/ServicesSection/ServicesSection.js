@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ReactSVG } from "react-svg";
 
 import classes from './ServicesSection.module.css';
 
@@ -7,7 +8,6 @@ import ForwardArrowLarge from '../../assets/Group 199.svg';
 import SEOCopywritingIconImg from '../../assets/Group 198.svg';
 import SEOConsultingIconImg from '../../assets/Group 59.svg';
 import ServicesSectionLeftImg from '../../assets/Path 16762.svg';
-
 
 function ServicesSection (props) {
     const ServicesData = [
@@ -45,7 +45,7 @@ function ServicesSection (props) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    function contentHandler (currentIndex) {
+    const contentHandler = (currentIndex) => {
         setCurrentIndex(currentIndex);
     };
 
@@ -108,7 +108,7 @@ function ServicesSection (props) {
                             <div>
                                 <div className={classes.ServicesIcons}>
                                     <img src={ServicesData[currentIndex].image} alt='Services_Icon' />
-                                    <img className={classes.ServicesIconForwardArrowLarge} src={ForwardArrowLarge} alt='ForwardArrowLarge' />
+                                    <ReactSVG className={classes.ServicesIconForwardArrowLarge} src={ForwardArrowLarge} />
                                 </div>
                             </div>
                             <header className={classes.ServiceSectionCardBottomHeader}>{ServicesData[currentIndex].header}</header>

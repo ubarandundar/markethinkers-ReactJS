@@ -12,6 +12,7 @@
     flex-direction: column;
     padding: 0 20px 150px 0;
     margin-left: 340px;
+    text-decoration: none;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

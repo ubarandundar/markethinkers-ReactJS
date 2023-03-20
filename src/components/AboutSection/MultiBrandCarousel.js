@@ -1,3 +1,4 @@
+// import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -63,7 +64,7 @@ function MultiBrandCarousel () {
                 autoPlay={true}
                 autoPlaySpeed={4000}
                 keyBoardControl={true}
-                customTransition="all .5"
+                customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -74,7 +75,6 @@ function MultiBrandCarousel () {
                 centerMode={false}
                 customLeftArrow={<CustomLeftArrow />}
                 customRightArrow={<CustomRightArrow />}
-                
                 >
 
                 <div className={classes.multiBrandCarouselBodySub}>
