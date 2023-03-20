@@ -40,6 +40,7 @@
     border-top-right-radius: 50px 50px; */
     border-radius: 50px;
     transition: 300ms ease-out;
+    /* margin-bottom: -95px; */
 }
 
 .languageBarTR {

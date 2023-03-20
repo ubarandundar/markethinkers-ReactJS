@@ -15,37 +15,31 @@ function BlogSection (props) {
         <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' />
         <div className={classes.blogSectionBody}>
            <div className={classes.blogPageBody}>
-           <div>
-                <header className={classes.blogPageHeader}>blog</header>
-                <p className={classes.blogPageParagFirst}>
-                somethink new,
-                <br />
-                from everything
-                </p>
-                <p className={classes.blogPageParagSecond}>
-                Reduce Costs, Increase Efficiency
-                <br />
-                in a Secure Infrastructure!
-                </p>
                 <a href='www.google.com'>
+                    <header className={classes.blogPageHeader}>blog</header>
+                    <p className={classes.blogPageParagFirst}>
+                    somethink new,
+                    <br />
+                    from everything
+                    </p>
+                    <p className={classes.blogPageParagSecond}>
+                    Reduce Costs, Increase Efficiency
+                    <br />
+                    in a Secure Infrastructure!
+                    </p>
                     <img src={WhiteForwardArrow} alt='WhiteForward_Arrow' />
                 </a>
-                </div>
             </div>
             <div className={classes.blogsBody}>
                 <PinnedBlog />
-                <div className={classes.howToGuide}>
+                <a href='www.google.com' className={classes.howToGuide}>
                     <header>how to guide</header>
-                    <a href='www.google.com'>
                     <img src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
-                </div>
-                <div className={classes.allCategories}>
+                <a href='www.google.com' className={classes.allCategories}>
                     <header>all categories</header>
-                    <a href='www.google.com'>
                     <img src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
-                </div>
            </div>
            <div className={classes.sliderBody}>
                 <SliderBlogs />

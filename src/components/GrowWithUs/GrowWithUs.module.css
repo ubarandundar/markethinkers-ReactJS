@@ -58,9 +58,23 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 32px;
     opacity: 1;
-    /* margin-right: 40px; */
     border: none;
     padding-left: 20px;
+}
+
+.GrowWithUsInputDefaultInvalid {
+    width: 95%;
+    height: 64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    border: 2px solid red;
+    padding-left: 20px;
+}
+
+.GrowWithUsInputDefaultInvalid::placeholder {
+    color: #929393;
+    font-size: 20px;
 }
 
 .GrowWithUsInputDefault::placeholder, .GrowWithUsSelectOption, .GrowWithUsInputName::placeholder, .GrowWithUsInputEmail::placeholder,

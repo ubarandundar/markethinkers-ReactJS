@@ -10,14 +10,36 @@ function GrowWithUs (props) {
         setIsVisible(true);
     };
 
-    const confirmHandler = (event) => {
+    const formContinueHandler = (event) => {
         event.preventDefault();
+        setEnteredWebsiteTouched(false);
+        console.log(enteredWebsite);
     }
 
+    const [enteredWebsite, setEnteredWebsite] = useState('');
+    const [enteredWebsiteTouched, setEnteredWebsiteTouched] = useState(false);
+
+    const enteredWebsiteIsValid = enteredWebsite.includes('http://');
+    const enteredWebsiteIsInvalid = !enteredWebsiteIsValid && enteredWebsiteTouched;
+
+    let websiteIsValid = false;
+
+    if (enteredWebsiteIsValid) {
+      websiteIsValid = true;
+    }
+
+    const websiteInputChangeHandler = (event) => {
+        setEnteredWebsite(event.target.value);
+      };
+
+    const websiteInputBlurHandler = (event) => {
+        setEnteredWebsiteTouched(true);
+    };
+    
     return (
     <div className='container'>
         <div className={classes.GrowWithUsSectionBody}>
-            <form className={isVisible ? classes.GrowWithUsCardToggle : classes.GrowWithUsCard} onSubmit={confirmHandler}>
+            <form className={isVisible ? classes.GrowWithUsCardToggle : classes.GrowWithUsCard} onSubmit={formContinueHandler}>
                 <div className={'container'}>
                 <div className={'row d-flex align-items-center'}>
                     <div className={'col-4'}>
@@ -26,8 +48,8 @@ function GrowWithUs (props) {
                         </p>
                     </div>
                     <div className={'col-8 position-relative'}>
-                        <input className={classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' minlength="1" maxlength="50" />
-                        <button className={classes.continueButton} onClick={ExpandClickHandler} type='submit'>continue</button>      
+                        <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='url' placeholder='Your Website URL' minLength="1" maxLength="50" />
+                        <button className={classes.continueButton} onClick={ExpandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>      
                     </div>
                  </div>
                  {isVisible && <div className={'row'}>
@@ -43,10 +65,10 @@ function GrowWithUs (props) {
                         <div className={'row'}>
                             <div className='col-sm-12 d-flex mb-4 mt-4'>
                                 <div className='col-sm-6'>
-                                    <input className={classes.GrowWithUsInputName} type='text' placeholder='Full Name' minlength="1" maxlength="50" />
+                                    <input className={classes.GrowWithUsInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                                 </div>
                                 <div className='col-sm-6'>
-                                    <input className={classes.GrowWithUsInputEmail} type='email' placeholder='Your E-mail' minlength="1" maxlength="50" />
+                                    <input className={classes.GrowWithUsInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
                             <div className='col-sm-12 d-flex mb-4'>
@@ -58,11 +80,11 @@ function GrowWithUs (props) {
                                      </select>
                                 </div>
                                 <div className='col-sm-6'>  
-                                    <input className={classes.GrowWithUsInputYourPhone} type='text' placeholder='Your Phone' minlength="1" maxlength="50" />
+                                    <input className={classes.GrowWithUsInputYourPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>  
                             </div>
                             <div className='col-sm-12 mb-4 position-relative'> 
-                                <textarea className={classes.GrowWithUsTextArea} placeholder='Your Message' minlength="1" maxlength="260" />
+                                <textarea className={classes.GrowWithUsTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
                                 <button className={classes.sendButton} type='submit'>send</button>  
                             </div>
                             <div className='col-sm-12 mb-4'>

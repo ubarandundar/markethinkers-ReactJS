@@ -4,11 +4,8 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 25px;
     opacity: 1;
+    text-decoration: none;
 }
-
-/* .pinnedBlogArrow {
-    margin: 50px 50px 0 auto;
-} */
 
 .pinnedBlogHeader {
     font-size: 20px;
@@ -21,7 +18,7 @@
     margin-left: 25px;
 }
 
-.pinnedBlogBody a img {
+.pinnedBlogBody img {
     display: block;
     margin-left: auto;
     padding: 40px 40px;

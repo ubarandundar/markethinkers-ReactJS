@@ -23,7 +23,7 @@ function SEOAnalyzerSection (props) {
                 </div>
                 <div className='col-sm-12 col-md-8 col-lg-8'>
                     <div className={classes.SEOInputDiv}>
-                        <input className={classes.SEOInput} type='text' placeholder='Your Website URL' minlength="1" maxlength="50" />
+                        <input className={classes.SEOInput} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
                         <button className={classes.analyzeButton} type='submit'>analyze</button>
                     </div>
                 </div>

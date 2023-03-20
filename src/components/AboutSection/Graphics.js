@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import classes from './Graphics.module.css';
 import GraphicSampleImg from '../../assets/graphic-sample.png';
 
-function Graphics (props) {
+function Graphics ({onClickHandler, isSelected, index, label}) {
     return (
       <div className='container'>
         <div className={classes.graphicsBody}>
@@ -16,6 +16,43 @@ function Graphics (props) {
               infiniteLoop={true}
               showStatus={false}
               showThumbs={false}
+              renderIndicator={(onClickHandler, isSelected, index, label) => {
+                const defStyle = {
+                  display: 'inline-block',
+                  width: '12px',
+                  height: '12px',
+                  borderRadius: '6px',
+                  opacity: '0.5',
+                  paddingTop: '5px',
+                  paddingBottom: '5px',
+                  paddingLeft: '5px',
+                  paddingRight: '5px',
+                  boxShadow: 'none',
+                  background: 'white',
+                  marginRight: '6px',
+                  cursor: 'pointer'
+                };
+                const style = isSelected
+                  ? { ...defStyle, 
+                    width: '24px',
+                    opacity: '1',
+                    background: 'white'
+                  }: { ...defStyle };
+                return (
+                  <span
+                    style={style}
+                    onClick={onClickHandler}
+                    onKeyDown={onClickHandler}
+                    value={index}
+                    key={index}
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`${label} ${index + 1}`}
+                  >
+                    {/* {"cust " + index} */}
+                  </span>
+                );
+              }}
               >
                 <div className={classes.graphicsBodySub}>
                   <div className={classes.graphicsBodySubFirstRow}>

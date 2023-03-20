@@ -3,9 +3,11 @@ import React, { useState } from 'react';
 import classes from './ServicesSection.module.css';
 
 import ForwardArrow from '../../assets/Group 34.svg';
+import ForwardArrowLarge from '../../assets/Group 199.svg';
 import SEOCopywritingIconImg from '../../assets/Group 198.svg';
 import SEOConsultingIconImg from '../../assets/Group 59.svg';
 import ServicesSectionLeftImg from '../../assets/Path 16762.svg';
+
 
 function ServicesSection (props) {
     const ServicesData = [
@@ -53,22 +55,20 @@ function ServicesSection (props) {
         <div className={classes.ServicesSectionBody}>
             <div className='container'>
                 <div className={classes.ServicesSectionLeftSide}>
-                <div className={classes.ServicesSectionLeftSideWrapper}>
-                    <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
-                    <p className={classes.ServiceSectionLeftSideParag}>
-                    Our Services That
-                    <br />
-                    Will Digitally Grow
-                    <br />
-                    Your Brand</p>
-                    <p className={classes.ServiceSectionLeftSideParagSub}>
-                    Reduce Costs, Increase Efficiency
-                    <br />    
-                    in a Secure Infrastructure!</p>
-                    <a href='www.google.com'>
+                    <a href='www.google.com' className={classes.ServicesSectionLeftSideWrapper}>
+                        <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
+                        <p className={classes.ServiceSectionLeftSideParag}>
+                        Our Services That
+                        <br />
+                        Will Digitally Grow
+                        <br />
+                        Your Brand</p>
+                        <p className={classes.ServiceSectionLeftSideParagSub}>
+                        Reduce Costs, Increase Efficiency
+                        <br />    
+                        in a Secure Infrastructure!</p>
                         <img src={ForwardArrow} alt='Forward_Arrow' />
                     </a>
-                </div>
                 </div>
             </div>
             <div className='container'>
@@ -104,17 +104,17 @@ function ServicesSection (props) {
                         </div>
                     </div>
                     {ServicesData[currentIndex] && <div className={classes.ServiceSectionCardBottom}>
-                        <div>
-                            <div className={classes.ServicesIcons}>
-                                <img src={ServicesData[currentIndex].image} alt='Services_Icon' />
-                                <a href={ServicesData[currentIndex].forwardTo}>
-                                    <img src={ForwardArrow} alt='Forward_Arrow' />
-                                </a>
+                        <a href={ServicesData[currentIndex].forwardTo}>
+                            <div>
+                                <div className={classes.ServicesIcons}>
+                                    <img src={ServicesData[currentIndex].image} alt='Services_Icon' />
+                                    <img className={classes.ServicesIconForwardArrowLarge} src={ForwardArrowLarge} alt='ForwardArrowLarge' />
+                                </div>
                             </div>
-                        </div>
-                        <header className={classes.ServiceSectionCardBottomHeader}>{ServicesData[currentIndex].header}</header>
-                        <p className={classes.ServiceSectionCardBottomParag}>{ServicesData[currentIndex
-                        ].description}</p>
+                            <header className={classes.ServiceSectionCardBottomHeader}>{ServicesData[currentIndex].header}</header>
+                            <p className={classes.ServiceSectionCardBottomParag}>{ServicesData[currentIndex
+                            ].description}</p>
+                        </a>
                     </div>}
                 </div>
             </div>    

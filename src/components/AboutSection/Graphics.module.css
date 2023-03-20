@@ -2,7 +2,7 @@
     /* max-width: 762px; */
     max-width: 550px;
     height: 915px;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 0px 50px 50px 0px;
     opacity: 1;
     position: absolute;
@@ -32,6 +32,7 @@
 .graphicsBodySub {
     /* width: 762px; */
     height: 915px;
+    margin-bottom: 55px;
 }
 
 .graphicsBodySubNum {
@@ -96,3 +97,13 @@
     width: 450px !important;
     height: auto;
 }
+
+/* .graphicsBody .carousel-root .carousel .control-dots {
+    position: relative !important;
+    bottom: -920px !important;
+} */
+
+/* .graphicsBody .control-dots .dot {
+    width: 12px !important;
+    height: 12px !important;
+} */

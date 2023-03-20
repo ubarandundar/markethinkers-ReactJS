@@ -5,13 +5,14 @@ import classes from './OurPartnersSection.module.css';
 
 import CrosstechImage from '../../assets/Mask Group 13.png';
 import ShopifyImage from '../../assets/Shopify_logo_2018.svg.png';
+import CustomDot from './CustomDot';
 
 function OurPartnersSection (props) {
 
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3,
+          items: 4,
           slidesToSlide: 1 // optional, default to 1.
         },
         tablet: {
@@ -38,7 +39,7 @@ function OurPartnersSection (props) {
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={1000}
+                autoPlaySpeed={2000}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
@@ -50,6 +51,7 @@ function OurPartnersSection (props) {
                 arrows={false}
                 centerMode={true}
                 // customTransition='transform 300ms ease-in-out'
+                customDot={<CustomDot />}
                 >
                 
                 <div className={classes.ourPartnersImageBody}>
@@ -64,7 +66,12 @@ function OurPartnersSection (props) {
                 <div>
                     <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
                 </div>
-
+                <div>
+                    <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
+                </div>
+                <div>
+                    <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
+                </div>         
             </Carousel>
             </div>
         </div>
