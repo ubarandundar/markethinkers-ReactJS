@@ -21,13 +21,7 @@ function LookOuSection (props) {
                 <div className={classes.rightSide}>
                     <header className={classes.allIn}>all in one team, for your needs</header>
                     <p className={classes.allInSub}>
-                    all in one team, for your needs We prepare your website SEO 
-                    <br />
-                    content inaccordance with SEO best practices, which is not 
-                    <br />
-                    only an important part of SEO but also of your brand 
-                    <br />
-                    image—both for search engines and users. 
+                    We prepare your website SEO content inaccordance with SEO best practices, which is not only an important part of SEO but also of your brand image—both for search engines and users. 
                     </p>
                 </div>
             </div>
@@ -36,19 +30,19 @@ function LookOuSection (props) {
             <hr className={classes.referancesBodyHr} />
             <div className={classes.referancesBodySub}>
                 <div className={classes.referances}>
-                    <img src={GCAImage} alt='Global_Content_Awards' />
+                    <img src={GCAImage} alt='GCA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={UKCAImage} alt='Global_Content_Awards' />
+                    <img src={UKCAImage} alt='UKCA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={UKDGAImage} alt='Global_Content_Awards' />
+                    <img src={UKDGAImage} alt='UKDGA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={MENAImage} alt='Global_Content_Awards' />
+                    <img src={MENAImage} alt='MENA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={GSAImage} alt='Global_Content_Awards' />
+                    <img src={GSAImage} alt='GSA_Image' />
                 </div>
             </div>
         </div>

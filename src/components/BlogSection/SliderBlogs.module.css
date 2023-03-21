@@ -13,7 +13,7 @@
 }
 
 .sliderBlogFirstBody:hover {
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     opacity: 1;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .sliderBlogSecondBody:hover {
-    background: #0D1835 0% 0% no-repeat padding-box;
+    background: #0D1835;
     opacity: 1;
 }
 
@@ -63,7 +63,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 0.6;
@@ -75,7 +75,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 0.6;

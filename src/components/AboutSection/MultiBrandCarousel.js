@@ -52,6 +52,10 @@ const responsive = {
   };
 
 function MultiBrandCarousel () {
+    const updateContent = (previousSlide, currentSlide) => {
+        console.log(previousSlide, currentSlide);
+    };
+    
     return (
         <div>
              <Carousel
@@ -75,8 +79,10 @@ function MultiBrandCarousel () {
                 centerMode={false}
                 customLeftArrow={<CustomLeftArrow />}
                 customRightArrow={<CustomRightArrow />}
+                afterChange={(previousSlide, { currentSlide }) => {
+                    updateContent(previousSlide, currentSlide);
+                  }}
                 >
-
                 <div className={classes.multiBrandCarouselBodySub}>
                     <img className={classes.multiBrandCarouselBodyImagesHangiKredi} src={HangiKrediImg} alt='HangiKredi_Image' />
                 </div>
@@ -95,7 +101,6 @@ function MultiBrandCarousel () {
                 <div>
                     <img className={classes.multiBrandCarouselBodyImagesGoogle} src={GoogleImg} alt='Google_Image' />
                 </div>
-
             </Carousel>
         </div>
     );

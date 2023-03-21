@@ -44,6 +44,11 @@ function ServicesSection (props) {
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    // const [isSelected, setIsSelected] = useState(null);
+
+    // const selectHandler = () => {
+    //     setIsSelected(true);
+    // };
 
     const contentHandler = (currentIndex) => {
         setCurrentIndex(currentIndex);

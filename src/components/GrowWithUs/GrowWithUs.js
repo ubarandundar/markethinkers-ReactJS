@@ -97,7 +97,7 @@ function GrowWithUs (props) {
                                 <div className={'d-flex align-items-center'}>
                                     <input className={classes.GrowWithUsCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.GrowWithUsCheckboxLabel} htmlFor="scales">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod tempor.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod.
                                 </label>
                             </div>
                     </div>   

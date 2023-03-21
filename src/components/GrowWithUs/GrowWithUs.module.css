@@ -12,7 +12,7 @@
     /* max-width: 1490px; */
     /* height: 144px; */
     height: 144px;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
+    background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
     padding-top: 40px;
@@ -25,11 +25,11 @@
     /* max-width: 1490px; */
     /* height: 144px; */
     height: auto;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
+    background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
     padding-top: 40px;
-    transition: 300ms ease-out !important;
+    transition: 500ms ease-out;
 }
 
 @media (max-width: 1200px) {
@@ -55,7 +55,7 @@
 .GrowWithUsInputDefault {
     width: 95%;
     height: 64px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     border: none;
@@ -65,7 +65,7 @@
 .GrowWithUsInputDefaultInvalid {
     width: 95%;
     height: 64px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     border: 2px solid red;
@@ -73,17 +73,23 @@
 }
 
 .GrowWithUsInputDefaultInvalid::placeholder {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
     color: #929393;
     font-size: 20px;
 }
 
 .GrowWithUsInputDefault::placeholder, .GrowWithUsSelectOption, .GrowWithUsInputName::placeholder, .GrowWithUsInputEmail::placeholder,
 .GrowWithUsInputYourPhone::placeholder  {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
     color: #929393;
     font-size: 20px;
 }
 
 .GrowWithUsTextArea::placeholder {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
     color: #929393;
     font-size: 20px;
 }
@@ -103,7 +109,7 @@
 .continueButton {
     width: 134px;
     height: 36px;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 32px;
     opacity: 1;
     color: white;
@@ -120,7 +126,7 @@
     padding-top: 40px;
     /* max-width: 1490px;
     height: 552px; */
-    background: #F7F7F7 0% 0% no-repeat padding-box;
+    background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
  
@@ -140,13 +146,13 @@
     color: #929393;
     opacity: 1;
     margin-top: 24px;
-    margin-left: 25px;
+    margin-left: 12px;
 }
 
 .GrowWithUsInputName, .GrowWithUsInputEmail, .GrowWithUsInputYourPhone, .GrowWithUsSelectOption  {
     width: 90%;
     height: 64px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     border: none;
@@ -156,7 +162,7 @@
 .GrowWithUsTextArea {
     width: 95%;
     height: 128px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     border: 1px solid white;
@@ -199,7 +205,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 32px;
     border: 1px solid #FF8049;
     opacity: 1;
@@ -218,7 +224,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 32px;
     border: 1px solid #FF8049;
     opacity: 1;

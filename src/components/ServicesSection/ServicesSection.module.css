@@ -50,7 +50,7 @@
 .ServiceSectionCardBottom {
     /* max-width: 750px; */
     /* height: 350px; */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 0px 0px 50px 50px;
     opacity: 1;
     padding-bottom: 50px;
@@ -77,8 +77,7 @@
 
 .ServiceSectionLeftSideHeader {
     font-size: 20px;
-    font-weight: 500;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #D3148B;
     opacity: 1;
@@ -101,6 +100,8 @@
 }
 
 .ServicesButtons {
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 1px;
     background: transparent;
     color: #1F0242;
     border: 1px solid #FFFFFF;
@@ -120,6 +121,11 @@
 }
 
 .ServicesButtons:hover {
+    background-color: #1F0242;
+    color: white;
+}
+
+.Active {
     background-color: #1F0242;
     color: white;
 }
@@ -152,7 +158,7 @@
 .ServiceSectionCardBottomHeader {
     font-size: 30px;
     font-weight: 500;
-    font: normal normal medium 30px/43px Paralucent;
+    font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
@@ -161,7 +167,7 @@
 
 .ServiceSectionCardBottomParag {
     font-size: 20px;
-    font: normal normal normal 20px/24px Montserrat;
+    font: normal normal 20px/24px Montserrat;
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;

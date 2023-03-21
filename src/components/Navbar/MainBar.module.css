@@ -28,11 +28,12 @@
     text-decoration: none;
     color: black;
     letter-spacing: 1.2px;
+    font: normal normal 20px/28px Paralucent;
 }
 
 .mainbar ul li a:hover {
     color: #D3148B;
-    background: #E3E3E3 0% 0% no-repeat padding-box;
+    background: #E3E3E3;
     border-radius: 26px;
     padding: 10px 20px;
     margin: -10px -20px;
@@ -47,9 +48,10 @@
 }
 
 .contactButton {
+    font: normal normal 20px/28px Paralucent;
     margin-top: -6px;
-    width: 100px;
-    height: 50px;
+    width: 128px;
+    height: 52px;
     background-color: #1F0242;
     border: 1px solid #1F0242;
     color: white;
@@ -58,12 +60,9 @@
 }
 
 .contactButton:hover {
-    background: #D3148B 0% 0% no-repeat padding-box;
-    font: normal normal medium 20px/28px Paralucent;
+    background: #D3148B;
     color: #1F0242;
     border: 1px solid #D3148B;
-    border-radius: 26px;
-    opacity: 1;
 }
 
 

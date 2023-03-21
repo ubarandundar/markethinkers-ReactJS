@@ -1,6 +1,7 @@
 .footerBody {
     width: 100%;
-    height: 200px;
+    height: auto;
+    /* height: 200px; */
     /* border: 1px solid black; */
 }
 
@@ -22,7 +23,7 @@
 .footerBodySubSecondColumn, .footerBodySubThirdColumn {
     display: flex;
     flex-direction: column;
-    flex: 1.4;
+    flex: 1.6;
     /* justify-content: center; */
     align-items: center;
     margin-right: 2%;
@@ -31,7 +32,7 @@
 .footerBodySubFourthColumn {
     display: flex;
     flex-direction: column;
-    flex: 1.4;
+    flex: 1.6;
     align-items: center;
     margin-right: 2%;
 }
@@ -46,31 +47,19 @@
     font-size: 30px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 30px/43px Paralucent;
+    font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
     color: #565656;
     opacity: 1;
     margin-bottom: 20px;
-    margin-left: 18%;
+    margin-left: 5%;
 }
 
 .footerHeaderServices {
     font-size: 30px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 30px/43px Paralucent;
-    letter-spacing: 0px;
-    color: #565656;
-    opacity: 1;
-    margin-bottom: 20px;
-    margin-right: 5%;
-}
-
-.footerHeaderOurTools {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: left;
-    font: normal normal medium 30px/43px Paralucent;
+    font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
     color: #565656;
     opacity: 1;
@@ -78,11 +67,23 @@
     margin-right: 10%;
 }
 
+.footerHeaderOurTools {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-right: 25%;
+}
+
 .footerHeaderGetOurNews {
     font-size: 30px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 30px/43px Paralucent;
+    font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
     color: #565656;
     opacity: 1;
@@ -120,7 +121,7 @@
 .footerEmailAddress {
     width: 95%;
     height: 64px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     border: 1px solid white;
@@ -129,6 +130,8 @@
 }
 
 .footerEmailAddress::placeholder {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
     font-size: 20px;
 }
 
@@ -155,7 +158,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
@@ -165,7 +168,7 @@
 .footerSocialMediaArea {
     display: flex;
     justify-content: flex-end;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .footerSocialMedia {
@@ -176,7 +179,6 @@
     opacity: 1;
     background-color: transparent;
     margin-left: 10px;
-    transition: 300ms ease-out;
 }
 
 /* .footerSocialMediaArea a:hover {
@@ -189,7 +191,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 21px;
     opacity: 1;
-    background: #1F0242 0% 0% no-repeat padding-box;
+    background: #1F0242;
     margin-left: 10px;
 }
 
@@ -226,7 +228,7 @@
 
 .footerBottomSideLang a {
     font-size: 20px;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 1px;
     color: #929393;
     opacity: 1;
@@ -259,7 +261,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 32px;
     border: 1px solid #FF8049;
     opacity: 1;

@@ -39,7 +39,7 @@
     margin-top: 50px;
     /* max-width: 1490px; */
     height: 144px;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
+    background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
     display: flex;
@@ -82,7 +82,7 @@
 .SEOInput {
     width: 95%;
     height: 64px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 32px;
     opacity: 1;
     margin-right: 40px;
@@ -95,14 +95,24 @@
 }
 
 .SEOInput::placeholder {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .SEOParag {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;    
     margin-left: 40px;
     flex: 1;
+}
+
+.free {
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
 }
 
 .SEOSmallCards {
@@ -150,14 +160,14 @@
     flex: 0 0 96px;
     max-width: 96px;
     height: 96px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF no-repeat;
     border-radius: 25px;
     opacity: 1;
     margin-right: 20px;
 }
 
 .SEOSmallHeaders {
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #D3148B;
     opacity: 1;
@@ -166,7 +176,7 @@
 }
 
 .SEOParagraphs {
-    font: normal normal normal 20px/24px Montserrat;
+    font: normal normal 20px/24px Montserrat;
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
@@ -176,10 +186,6 @@
 .SEOCardRec img {
     display: block;
     margin: 20px auto 20px auto;
-}
-
-.free {
-    color: #D3148B;
 }
 
 .analyzeButton {
@@ -193,7 +199,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    background: #FF8049 0% 0% no-repeat padding-box;
+    background: #FF8049;
     border-radius: 32px;
     border: 1px solid #FF8049;
     opacity: 1;

@@ -38,7 +38,7 @@
     font-size: 47px;
     margin-top: 38px;
     text-align: center;
-    font: normal normal medium 47px/47px Paralucent;
+    font: normal normal 47px/47px Paralucent;
     letter-spacing: 2.35px;
     color: #D3148B;
     opacity: 1;
@@ -51,7 +51,7 @@
     font-size: 50px;
     margin-top: 45px;
     text-align: center;
-    font: normal normal medium 50px/71px Paralucent;
+    font: normal normal 50px/71px Paralucent;
     letter-spacing: 2.5px;
     color: #FFFFFF;
     text-shadow: 0px 4px 10px #00000033;
@@ -63,7 +63,7 @@
     margin-right: auto;
     font-size: 50px;
     text-align: center;
-    font: normal normal medium 50px/71px Paralucent;
+    font: normal normal 50px/71px Paralucent;
     letter-spacing: 2.5px;
     color: #1F0242;
     text-shadow: 0px 4px 10px #00000033;
@@ -103,7 +103,7 @@
     width: 264px;
     height: 52px;
     text-align: center;
-    font: normal normal medium 17px/20px Montserrat;
+    font: normal normal 17px/20px Montserrat;
     letter-spacing: 0.17px;
     color: #D3148B;
     opacity: 1;
@@ -125,6 +125,7 @@
     width: 264px;
     height: 52px;
     text-align: center;
+    font: normal normal 17px/20px Montserrat;
     letter-spacing: 0.17px;
     color: white;
     border: 1px solid white;
