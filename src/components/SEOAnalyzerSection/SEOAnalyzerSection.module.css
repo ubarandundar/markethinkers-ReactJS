@@ -106,6 +106,7 @@
     font: normal normal 300 20px/28px Paralucent;
     letter-spacing: 0px;    
     margin-left: 40px;
+    margin-right: 40px;
     flex: 1;
 }
 
@@ -125,6 +126,7 @@
     display: flex;
     justify-content: center;
     flex: 1;
+    padding: 0 15px;
 }
 
 .SEOSmallCardsSubSEOAnalysis {
@@ -132,6 +134,7 @@
     display: flex;
     justify-content: flex-end;
     flex: 1;
+    padding: 0 15px;
 }
 
 .SEOSmallCardsSubSiteSpeed {
@@ -139,6 +142,7 @@
     display: flex;
     justify-content: flex-start;
     flex: 1;
+    padding: 0 15px;
 }
 
 .SEOSmallCardsSubSEOAudit {
@@ -146,6 +150,12 @@
     display: flex;
     justify-content: flex-end;
     flex: 1;
+    padding: 0 15px;
+}
+
+.SEOSmallCardsSubSEOEmptyFirst, .SEOSmallCardsSubSEOEmptySecond {
+    display: flex;
+    flex: 0.5;
 }
 
 .SEOSmallCardsSubBlacklink {
@@ -153,7 +163,7 @@
     display: flex;
     justify-content: flex-start;
     flex: 1;
-    margin-left: 30px;
+    padding: 0 15px;
 }
 
 .SEOCardRec {
@@ -172,7 +182,7 @@
     color: #D3148B;
     opacity: 1;
     font-size: 20px;
-    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .SEOParagraphs {

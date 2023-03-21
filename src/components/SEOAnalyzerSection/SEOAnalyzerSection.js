@@ -37,10 +37,11 @@ function SEOAnalyzerSection (props) {
                     </div>
                     <div>
                     <header className={classes.SEOSmallHeaders}>SEO Analysis</header>
-                    <p className={classes.SEOParagraphs}>If you want more search traffic, 
-                    <br />
+                    <p className={classes.SEOParagraphs}>
+                    If you want more search traffic, 
+                
                     all you have to do is follow the 
-                    <br />
+                    
                     website analysis report.</p>
                     </div>
                 </div>
@@ -50,12 +51,13 @@ function SEOAnalyzerSection (props) {
                     </div>
                     <div>
                     <header className={classes.SEOSmallHeaders}>SEO Checker</header>
-                    <p className={classes.SEOParagraphs}>Get a complete list of errors that
-                    <br />
+                    <p className={classes.SEOParagraphs}>
+                    Get a complete list of errors that
+                    
                     are hindering your site from
-                    <br />
+                    
                     achieving the top spot on
-                    <br />
+                   
                     Google.</p>
                     </div>
                 </div>
@@ -65,30 +67,36 @@ function SEOAnalyzerSection (props) {
                     </div>
                     <div>
                     <header className={classes.SEOSmallHeaders}>Site Speed</header>
-                    <p className={classes.SEOParagraphs}>Site speed no longer just
-                    <br />
+                    <p className={classes.SEOParagraphs}>
+                    Site speed no longer just
+                    
                     impacts your conversion rate,
-                    <br />
+                   
                     but it also affects how high your
-                    <br />
+                    
                     site can rank in search engines.</p>
                     </div>
                 </div>
                 </div>
 
                 <div className={classes.SEOSmallCards}>
+
+                <div className={classes.SEOSmallCardsSubSEOEmptyFirst}>
+                </div>
+
                 <div className={classes.SEOSmallCardsSubSEOAudit}>
                     <div className={classes.SEOCardRec}>
                         <img src={AuditReportImg} alt='AuditReport_Image' />
                     </div>
                     <div>
                     <header className={classes.SEOSmallHeaders}>SEO Audit Report</header>
-                    <p className={classes.SEOParagraphs}>Our SEO Analysis doesn’t just
-                    <br />
+                    <p className={classes.SEOParagraphs}>
+                    Our SEO Analysis doesn’t just
+                   
                     point out errors, but we give you
-                    <br />
+                  
                     step by step instructions on how
-                    <br />
+                    
                     you can fix each of them.</p>
                     </div>
                 </div>
@@ -99,13 +107,18 @@ function SEOAnalyzerSection (props) {
                     </div>
                     <div>
                     <header className={classes.SEOSmallHeaders}>Blacklink Checker</header>
-                    <p className={classes.SEOParagraphs}>A website analysis is
-                    <br />
+                    <p className={classes.SEOParagraphs}>
+                    A website analysis is
+                 
                     never complete without analyzing
-                    <br />
+                   
                     your backlinks.</p>
                     </div>
                 </div>
+
+                <div className={classes.SEOSmallCardsSubSEOEmptySecond}>
+                </div>
+
                 </div>
             </div>
         </div>
