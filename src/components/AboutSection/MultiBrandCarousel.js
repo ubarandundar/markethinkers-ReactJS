@@ -51,7 +51,7 @@ const responsive = {
     // }
   };
 
-function MultiBrandCarousel () {
+function MultiBrandCarousel (props) {
     const updateContent = (previousSlide, currentSlide) => {
         console.log(previousSlide, currentSlide);
     };

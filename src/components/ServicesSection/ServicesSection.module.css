@@ -49,7 +49,7 @@
 
 .ServiceSectionCardBottom {
     /* max-width: 750px; */
-    /* height: 350px; */
+    height: 355px;
     background: #FFFFFF;
     border-radius: 0px 0px 50px 50px;
     opacity: 1;
@@ -114,20 +114,16 @@
     margin-right: 5px;
 }
 
+.ServicesButtons:hover, .ServicesButtonsActive {
+    background-color: #1F0242;
+    border: 1px solid #1F0242;
+    color: white;
+}
+
 @media (max-width: 768px) {
     .ServicesButtons {
         padding: 10px 7px;
     }
-}
-
-.ServicesButtons:hover {
-    background-color: #1F0242;
-    color: white;
-}
-
-.Active {
-    background-color: #1F0242;
-    color: white;
 }
 
 /* .ServiceSectionCardBottom img {

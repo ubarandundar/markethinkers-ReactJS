@@ -44,11 +44,6 @@ function ServicesSection (props) {
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    // const [isSelected, setIsSelected] = useState(null);
-
-    // const selectHandler = () => {
-    //     setIsSelected(true);
-    // };
 
     const contentHandler = (currentIndex) => {
         setCurrentIndex(currentIndex);
@@ -82,15 +77,15 @@ function ServicesSection (props) {
                         <div>
                             <ul className={classes.ServiceSectionCardTopFirstRow}>
                                 <li>
-                                    <button onClick={() => contentHandler(0)} type="button" className={classes.ServicesButtons}>SEO Copywriting
+                                    <button onClick={() => contentHandler(0)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 0 ? classes.ServicesButtonsActive:""}`}>SEO Copywriting
+                                    </button>
+                                </li>
+                                <li>
+                                    <button onClick={() => contentHandler(1)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 1 ? classes.ServicesButtonsActive:""}`}>SEO Consulting
                                 </button>
                                 </li>
                                 <li>
-                                    <button onClick={() => contentHandler(1)} type="button" className={classes.ServicesButtons}>SEO Consulting
-                                </button>
-                                </li>
-                                <li>
-                                    <button onClick={() => contentHandler(2)} type="button" className={classes.ServicesButtons}>ASO Marketing
+                                    <button onClick={() => contentHandler(2)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 2 ? classes.ServicesButtonsActive:""}`}>ASO Marketing
                                     </button>
                                 </li>
                             </ul>
@@ -98,11 +93,11 @@ function ServicesSection (props) {
                         <div>
                             <ul className={classes.ServiceSectionCardTopSecondRow}>
                                 <li>
-                                    <button onClick={() => contentHandler(3)} type="button" className={classes.ServicesButtons}>Performance Marketing
+                                    <button onClick={() => contentHandler(3)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 3 ? classes.ServicesButtonsActive:""}`}>Performance Marketing
                                 </button>
                                 </li>
                                 <li>
-                                    <button onClick={() => contentHandler(4)} type="button" className={classes.ServicesButtons}>Digital PR
+                                    <button onClick={() => contentHandler(4)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 4 ? classes.ServicesButtonsActive:""}`}>Digital PR
                                 </button>
                                 </li>
                             </ul>

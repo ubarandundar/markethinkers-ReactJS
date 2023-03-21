@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import classes from './Blog.module.css';
 import HangiKrediImg from '../../assets/hk-new-logo-white.png';
 import AmazonImg from '../../assets/Amazon logo (1).svg';
@@ -5,7 +7,7 @@ import ErhanMutluImg from '../../assets/Image 1.png';
 import FikriSabitImg from '../../assets/NoPath.png';
 import ForwardArrow from '../../assets/Group 34.svg';
 
-function Blog (props) {
+function Blog ({currentSlide} ) {
     const MultiBrandCarouselData = [
         {
             forwardTo: 'www.google.com',
@@ -27,10 +29,19 @@ function Blog (props) {
         }
     ]
 
+    const [isShowingCurrentSlide, setIsShowingCurrentSlide] = useState(currentSlide);
+
+    if (currentSlide === 6 || currentSlide === 12) {
+        setIsShowingCurrentSlide(MultiBrandCarouselData[0]);
+    }
+
+    if (currentSlide === 9) {
+        setIsShowingCurrentSlide(MultiBrandCarouselData[1]);
+    }
 
     return (
     <div className='container'>
-        <a href={MultiBrandCarouselData[0].forwardTo} className={classes.blogBody}>
+        {isShowingCurrentSlide && <a href={MultiBrandCarouselData[0].forwardTo} className={classes.blogBody}>
             <img className={classes.blogArrow} src={ForwardArrow} alt='Forward_Arrow' />
             <img className={classes.blogBodyBrandImg} src={MultiBrandCarouselData[0].image} alt='MultiBrandCarouselData_Image' />
             <p className={classes.blogBodyParag}>{MultiBrandCarouselData[0].explanation}</p>
@@ -43,7 +54,7 @@ function Blog (props) {
                         </div>
                 </div>
             </div>
-        </a>
+        </a>}
     </div>
     );
 }
