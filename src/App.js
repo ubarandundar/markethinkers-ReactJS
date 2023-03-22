@@ -4,7 +4,7 @@ import AboutSection from './components/AboutSection/AboutSection';
 import BlogSection from './components/BlogSection/BlogSection';
 import Footer from './components/Footer/Footer';
 import GrowWithUs from './components/GrowWithUs/GrowWithUs';
-import LookOuSection from './components/LookOutSection/LookOutSection';
+import ReferancesSection from './components/ReferancesSection/ReferancesSection';
 import Navbar from './components/Navbar/Navbar';
 import OurPartnersSection from './components/OurPartnersSection/OurPartnersSection';
 import SEOAnalyzerSection from './components/SEOAnalyzerSection/SEOAnalyzerSection';
@@ -16,7 +16,7 @@ function App() {
     <Fragment>
       <Navbar />
       <Welcome />
-      <LookOuSection />
+      <ReferancesSection />
       <SEOAnalyzerSection />
       <ServicesSection />
       <AboutSection />

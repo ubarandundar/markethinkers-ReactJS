@@ -1,11 +1,11 @@
-import classes from './LookOutSection.module.css';
+import classes from './ReferancesSection.module.css';
 import GCAImage from '../../assets/GCA-logo-light-background.png';
 import UKCAImage from '../../assets/UKCA-Logo.png';
 import UKDGAImage from '../../assets/UKDGAwards-Logo-Dark-Background.png';
 import MENAImage from '../../assets/MENA-New-Logo-Lockup.png';
 import GSAImage from '../../assets/GSA-New-Logo-Lockup-Diginius.png';
 
-function LookOuSection (props) {
+function ReferancesSection (props) {
     return (
         <div className='container'>
         <div className={classes.lookOutBody}>
@@ -51,4 +51,4 @@ function LookOuSection (props) {
     );
 }
 
-export default LookOuSection;
+export default ReferancesSection;

@@ -1,4 +1,3 @@
-// import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -12,6 +11,8 @@ import GlossierImg from '../../assets/Glossier logo.svg';
 import GoogleImg from '../../assets/Google logo.svg';
 import CustomLeftArrow from './CustomLeftArrow';
 import CustomRightArrow from './CustomRightArrow';
+import { useContext } from 'react';
+import { BlogContextProvider } from '../../store/BlogContextProvider';
 
 const responsive = {
     desktopS: {
@@ -52,10 +53,13 @@ const responsive = {
   };
 
 function MultiBrandCarousel (props) {
-    const updateContent = (previousSlide, currentSlide) => {
-        console.log(previousSlide, currentSlide);
+    const updateContent = (currentSlide) => {
+        console.log(currentSlide);
     };
     
+    const BlogData = useContext(BlogContextProvider);
+    console.log(BlogData);
+
     return (
         <div>
              <Carousel

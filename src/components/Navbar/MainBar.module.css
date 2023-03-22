@@ -29,6 +29,7 @@
     color: black;
     letter-spacing: 1.2px;
     font: normal normal 20px/28px Paralucent;
+    white-space: nowrap;
 }
 
 .mainbar ul li a:hover {
