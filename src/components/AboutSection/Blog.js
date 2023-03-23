@@ -2,7 +2,7 @@
 
 import classes from './Blog.module.css';
 import HangiKrediImg from '../../assets/hk-new-logo-white.png';
-import AmazonImg from '../../assets/Amazon logo (1).svg';
+import AmazonImg from '../../assets/Amazon logo-coloured.svg';
 // import ZoomImg from '../../assets/Zoom logo.svg';
 // import SalesforceImg from '../../assets/Salesforce logo.svg';
 // import GlossierImg from '../../assets/Glossier logo.svg';
