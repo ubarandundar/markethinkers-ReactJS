@@ -12,7 +12,7 @@ import GoogleImg from '../../assets/Google logo.svg';
 import CustomLeftArrow from './CustomLeftArrow';
 import CustomRightArrow from './CustomRightArrow';
 import { useContext } from 'react';
-import { BlogContextProvider } from '../../store/BlogContextProvider';
+import { BlogContext, BlogContextProvider } from '../../store/BlogContextProvider';
 
 const responsive = {
     desktopS: {
@@ -53,13 +53,12 @@ const responsive = {
   };
 
 function MultiBrandCarousel (props) {
+    const { setCurrentSlideIndex } = useContext(BlogContext);
+
     const updateContent = (currentSlide) => {
-        console.log(currentSlide);
+        setCurrentSlideIndex(currentSlide % 6);
     };
     
-    const BlogData = useContext(BlogContextProvider);
-    console.log(BlogData);
-
     return (
         <div>
              <Carousel

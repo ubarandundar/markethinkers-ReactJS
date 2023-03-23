@@ -1,11 +1,17 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState } from 'react';
 
-const BlogContext = createContext();
+export const BlogContext = createContext();
 
 export const BlogContextProvider = (props) => {
-    return <BlogContext.Provider value={'baran'}>
+
+    const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+
+    const values = {
+        currentSlideIndex,
+        setCurrentSlideIndex
+    }
+
+    return <BlogContext.Provider value={values}>
         {props.children}
     </BlogContext.Provider>
 }
-
-export default BlogContext;
