@@ -27,7 +27,7 @@ const MultiBrandCarouselData = [
         forwardTo: 'www.google.com',
         image: ZoomImg,
         explanation: 
-        'Zoom-Öne çıkan Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
+        'Zoom-Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
         profilePicture: ErhanMutluImg,
         nameSurname: 'Erhan Mutlu-Zoom',
         title: 'Founder & Marketing-Zoom'
