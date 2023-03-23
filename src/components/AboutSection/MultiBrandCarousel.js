@@ -55,8 +55,8 @@ const responsive = {
 function MultiBrandCarousel (props) {
     const { setCurrentSlideIndex } = useContext(BlogContext);
 
-    const updateContent = (currentSlide) => {
-        setCurrentSlideIndex(currentSlide % 6);
+    const updateContent = (previousSlide, currentSlide) => {
+            setCurrentSlideIndex(currentSlide % 6);
     };
     
     return (

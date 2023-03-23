@@ -3,10 +3,10 @@
 import classes from './Blog.module.css';
 import HangiKrediImg from '../../assets/hk-new-logo-white.png';
 import AmazonImg from '../../assets/Amazon logo (1).svg';
-import ZoomImg from '../../assets/Zoom logo.svg';
-import SalesforceImg from '../../assets/Salesforce logo.svg';
-import GlossierImg from '../../assets/Glossier logo.svg';
-import GoogleImg from '../../assets/Google logo.svg';
+// import ZoomImg from '../../assets/Zoom logo.svg';
+// import SalesforceImg from '../../assets/Salesforce logo.svg';
+// import GlossierImg from '../../assets/Glossier logo.svg';
+// import GoogleImg from '../../assets/Google logo.svg';
 import ErhanMutluImg from '../../assets/Image 1.png';
 import FikriSabitImg from '../../assets/NoPath.png';
 import ForwardArrow from '../../assets/Group 34.svg';
@@ -21,52 +21,52 @@ const MultiBrandCarouselData = [
         'Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
         profilePicture: ErhanMutluImg,
         nameSurname: 'Erhan Mutlu',
-        title: 'Founder & Marketing 1'
+        title: 'Founder & Marketing'
+    },
+    {
+        forwardTo: 'www.google.com',
+        image: HangiKrediImg,
+        explanation: 
+        'Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
+        profilePicture: ErhanMutluImg,
+        nameSurname: 'Erhan Mutlu',
+        title: 'Founder & Marketing'
+    },
+    {
+        forwardTo: 'www.google.com',
+        image: HangiKrediImg,
+        explanation: 
+        'Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
+        profilePicture: ErhanMutluImg,
+        nameSurname: 'Erhan Mutlu',
+        title: 'Founder & Marketing'
     },
     {
         forwardTo: 'www.google.com',
         image: AmazonImg,
         explanation: 
-        'Amazon - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         profilePicture: FikriSabitImg,
         nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing 2'
+        title: 'Founder & Marketing'
     },
     {
         forwardTo: 'www.google.com',
-        image: SalesforceImg,
+        image: AmazonImg,
         explanation: 
-        'Sales Force - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         profilePicture: FikriSabitImg,
         nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing 3'
+        title: 'Founder & Marketing'
     },
     {
         forwardTo: 'www.google.com',
-        image: ZoomImg,
+        image: AmazonImg,
         explanation: 
-        'Zoom - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         profilePicture: FikriSabitImg,
         nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing 4'
-    },
-    {
-        forwardTo: 'www.google.com',
-        image: GlossierImg,
-        explanation: 
-        'Glossier - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        profilePicture: FikriSabitImg,
-        nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing 5'
-    },
-    {
-        forwardTo: 'www.google.com',
-        image: GoogleImg,
-        explanation: 
-        'Google - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        profilePicture: FikriSabitImg,
-        nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing 6'
+        title: 'Founder & Marketing'
     }
 ]
 
