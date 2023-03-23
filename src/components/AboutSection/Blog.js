@@ -3,10 +3,10 @@
 import classes from './Blog.module.css';
 import HangiKrediImg from '../../assets/hk-new-logo-white.png';
 import AmazonImg from '../../assets/Amazon logo-coloured.svg';
-// import ZoomImg from '../../assets/Zoom logo.svg';
-// import SalesforceImg from '../../assets/Salesforce logo.svg';
-// import GlossierImg from '../../assets/Glossier logo.svg';
-// import GoogleImg from '../../assets/Google logo.svg';
+import ZoomImg from '../../assets/Zoom logo.svg';
+import SalesforceImg from '../../assets/Salesforce logo.svg';
+import GlossierImg from '../../assets/Glossier logo.svg';
+import GoogleImg from '../../assets/Google logo.svg';
 import ErhanMutluImg from '../../assets/Image 1.png';
 import FikriSabitImg from '../../assets/NoPath.png';
 import ForwardArrow from '../../assets/Group 34.svg';
@@ -25,21 +25,21 @@ const MultiBrandCarouselData = [
     },
     {
         forwardTo: 'www.google.com',
-        image: HangiKrediImg,
+        image: ZoomImg,
         explanation: 
-        'Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
+        'Zoom-Öne çıkan Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
         profilePicture: ErhanMutluImg,
-        nameSurname: 'Erhan Mutlu',
-        title: 'Founder & Marketing'
+        nameSurname: 'Erhan Mutlu-Zoom',
+        title: 'Founder & Marketing-Zoom'
     },
     {
         forwardTo: 'www.google.com',
-        image: HangiKrediImg,
+        image: SalesforceImg,
         explanation: 
-        'Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
+        'Salesforce-Öne çıkan özellikleri arasında daima çözüm odaklı olmaları ve hızlı çözümler getirmeleri var. Teknolojiyi ve alanlarındaki trendleri her zaman yakından takip ettiklerinden, ilettiğiniz sorulara en hızlı şekilde cevap alabilirsiniz.',
         profilePicture: ErhanMutluImg,
-        nameSurname: 'Erhan Mutlu',
-        title: 'Founder & Marketing'
+        nameSurname: 'Erhan Mutlu-Salesforce',
+        title: 'Founder & Marketing-Salesforce'
     },
     {
         forwardTo: 'www.google.com',
@@ -52,21 +52,21 @@ const MultiBrandCarouselData = [
     },
     {
         forwardTo: 'www.google.com',
-        image: AmazonImg,
+        image: GlossierImg,
         explanation: 
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Glossier-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         profilePicture: FikriSabitImg,
-        nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing'
+        nameSurname: 'Fikri Sabit-Glossier',
+        title: 'Founder & Marketing-Glossier'
     },
     {
         forwardTo: 'www.google.com',
-        image: AmazonImg,
+        image: GoogleImg,
         explanation: 
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Google-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         profilePicture: FikriSabitImg,
-        nameSurname: 'Fikri Sabit',
-        title: 'Founder & Marketing'
+        nameSurname: 'Fikri Sabit-Google',
+        title: 'Founder & Marketing-Google'
     }
 ]
 
