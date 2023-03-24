@@ -19,7 +19,7 @@ function GrowWithUs (props) {
     const [enteredWebsite, setEnteredWebsite] = useState('');
     const [enteredWebsiteTouched, setEnteredWebsiteTouched] = useState(false);
 
-    const enteredWebsiteIsValid = enteredWebsite.includes('http://');
+    const enteredWebsiteIsValid = enteredWebsite.includes('http://') || enteredWebsite.includes('https://');
     const enteredWebsiteIsInvalid = !enteredWebsiteIsValid && enteredWebsiteTouched;
 
     let websiteIsValid = false;
