@@ -1,5 +1,3 @@
-// import React, { useState } from 'react';
-
 import classes from './Blog.module.css';
 import HangiKrediImg from '../../assets/hk-new-logo-white.png';
 import AmazonImg from '../../assets/Amazon logo-coloured.svg';
@@ -74,9 +72,9 @@ function Blog (props) {
 
     const { currentSlideIndex } = useContext(BlogContext);
 
-    useEffect(() => {
-        console.log(currentSlideIndex)
-    }, [currentSlideIndex])
+    // useEffect(() => {
+    //     console.log(currentSlideIndex)
+    // }, [currentSlideIndex])
 
     return (
     <div className='container'>

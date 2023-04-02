@@ -1,23 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { CSSTransition } from 'react-transition-group';
 
 import classes from './GrowWithUs.module.css';
 import GrowWithUsImg from '../../assets/100001.png';
 
 function GrowWithUs (props) {
     const [isVisible, setIsVisible] = useState(false);
+    const [showTransition, setShowTransition] = useState(false);
+    const [enteredWebsite, setEnteredWebsite] = useState('');
+    const [enteredWebsiteTouched, setEnteredWebsiteTouched] = useState(false);
+    const [enteredName, setEnteredName] = useState('');
+    const [enteredEmail, setEnteredEmail] = useState('');
+    const [selectedOption, setSelectedOption] = useState('');
+    const [enteredPhone, setEnteredPhone] = useState('');
+    const [enteredMessage, setEnteredMessage] = useState('');
+    const nodeRef = useRef(null);
 
-    const ExpandClickHandler = () => { 
+    const expandClickHandler = () => {
         setIsVisible(true);
+        setShowTransition(true);
     };
+
+    const formSendingHandler = () => {
+        console.log(enteredWebsite);
+        console.log(enteredName);
+        console.log(enteredEmail);
+        console.log(selectedOption);
+        console.log(enteredPhone);
+        console.log(enteredMessage);
+    }
 
     const formContinueHandler = (event) => {
         event.preventDefault();
         setEnteredWebsiteTouched(false);
-        console.log(enteredWebsite);
     }
-
-    const [enteredWebsite, setEnteredWebsite] = useState('');
-    const [enteredWebsiteTouched, setEnteredWebsiteTouched] = useState(false);
 
     const enteredWebsiteIsValid = enteredWebsite.includes('http://') || enteredWebsite.includes('https://');
     const enteredWebsiteIsInvalid = !enteredWebsiteIsValid && enteredWebsiteTouched;
@@ -35,7 +51,27 @@ function GrowWithUs (props) {
     const websiteInputBlurHandler = (event) => {
         setEnteredWebsiteTouched(true);
     };
+
+    const nameInputChangeHandler = (event) => {
+        setEnteredName(event.target.value);
+    };
+
+    const emailInputChangeHandler = (event) => {
+        setEnteredEmail(event.target.value);
+    };
+
+    const selectOptionChangeHandler = (event) => {
+        setSelectedOption(event.target.value);
+    };
+
+    const phoneInputChangeHandler = (event) => {
+        setEnteredPhone(event.target.value);
+    };
     
+    const messageInputChangeHandler = (event) => {
+        setEnteredMessage(event.target.value);
+    };
+
     return (
     <div className='container'>
         <div className={classes.GrowWithUsSectionBody}>
@@ -49,10 +85,11 @@ function GrowWithUs (props) {
                     </div>
                     <div className={'col-8 position-relative'}>
                         <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
-                        <button className={classes.continueButton} onClick={ExpandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>      
+                        <button className={classes.continueButton} onClick={expandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>      
                     </div>
                  </div>
-                 {isVisible && <div className={'row'}>
+                <CSSTransition nodeRef={nodeRef} in={showTransition} timeout={1500} classNames={'formTransition'}>
+                    <div className={isVisible ? 'row' : 'row d-none'} ref={nodeRef}>
                     <div className={'col-4'}>
                         <p className={classes.GrowWithUsParagActive}>
                             You can send us your questions and requests
@@ -65,27 +102,27 @@ function GrowWithUs (props) {
                         <div className={'row'}>
                             <div className='col-sm-12 d-flex mb-4 mt-4'>
                                 <div className='col-sm-6'>
-                                    <input className={classes.GrowWithUsInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
+                                    <input onChange={nameInputChangeHandler} value={enteredName} className={classes.GrowWithUsInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                                 </div>
                                 <div className='col-sm-6'>
-                                    <input className={classes.GrowWithUsInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
+                                    <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.GrowWithUsInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
                             <div className='col-sm-12 d-flex mb-4'>
                                 <div className='col-sm-6 position-relative'>
-                                    <select className={classes.GrowWithUsSelectOption} name="choice">
-                                        <option value="first" selected>Service You are Interested in...</option>
+                                    <select onChange={selectOptionChangeHandler} value={selectedOption} className={classes.GrowWithUsSelectOption} name="choice">
+                                        <option defaultValue="default">Service You are Interested in...</option>
                                         <option value="second">Second Value</option>
                                         <option value="third">Third Value</option>
                                      </select>
                                 </div>
                                 <div className='col-sm-6'>  
-                                    <input className={classes.GrowWithUsInputYourPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
+                                    <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.GrowWithUsInputYourPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>  
                             </div>
                             <div className='col-sm-12 mb-4 position-relative'> 
-                                <textarea className={classes.GrowWithUsTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
-                                <button className={classes.sendButton} type='submit'>send</button>  
+                                <textarea onChange={messageInputChangeHandler} value={enteredMessage}className={classes.GrowWithUsTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
+                                <button onClick={formSendingHandler} className={classes.sendButton} type='submit'>send</button>  
                             </div>
                             <div className='col-sm-12 mb-4'>
                                 <div className={'d-flex align-items-center'}>
@@ -103,7 +140,8 @@ function GrowWithUs (props) {
                     </div>   
                         </div>
                     </div>
-                 </div>}
+                    </div>
+                </CSSTransition>
                 </div>
             </form>
          </div>

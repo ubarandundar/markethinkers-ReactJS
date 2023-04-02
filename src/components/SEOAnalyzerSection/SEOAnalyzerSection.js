@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import classes from './SEOAnalyzerSection.module.css';
 
 import AnalysisImg from '../../assets/analysis.svg';
@@ -9,6 +10,24 @@ import SEOAnalyzerLeftImg from '../../assets/Path 16725.svg';
 import SEOAnalyzerRightImg from '../../assets/Path 16763.svg';
 
 function SEOAnalyzerSection (props) {
+    const [enteredURL, setEnteredURL] = useState('');
+
+    const enteredURLIsValid = enteredURL.includes('http://') || enteredURL.includes('https://');
+
+    let URLIsValid = false;
+
+    if (enteredURLIsValid) {
+      URLIsValid = true;
+    }
+
+    const URLInputChangeHandler = (event) => {
+        setEnteredURL(event.target.value);
+      };
+
+      const analyzeClickHandler = () => {
+        console.log(enteredURL);
+    }
+
     return (
     <div className='container'>
         <img className={classes.SEOAnalyzerLeftImg} src={SEOAnalyzerLeftImg} alt='SEOAnalyzer_LeftImage' />
@@ -23,8 +42,8 @@ function SEOAnalyzerSection (props) {
                 </div>
                 <div className='col-sm-12 col-md-8 col-lg-8'>
                     <div className={classes.SEOInputDiv}>
-                        <input className={classes.SEOInput} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
-                        <button className={classes.analyzeButton} type='submit'>analyze</button>
+                        <input onChange={URLInputChangeHandler} value={enteredURL} className={classes.SEOInput} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
+                        <button onClick={analyzeClickHandler} className={classes.analyzeButton} type='submit' disabled={!URLIsValid}>analyze</button>
                     </div>
                 </div>
             </div>
