@@ -1,7 +1,0 @@
-.navbar {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-}

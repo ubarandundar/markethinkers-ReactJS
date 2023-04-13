@@ -1,0 +1,51 @@
+.GoogleMapSectionBody {
+    position: relative;
+    height: 353px;
+    border: 10px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    margin-bottom: 107px;
+}
+
+.GoogleMapSectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+.GoogleMapSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0 10px 0;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.GoogleMapSectionSocialMediaArea {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.GoogleMapSectionEmail, .GoogleMapSectionNumber, .GoogleMapSectionAddress {
+    text-align: left;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1.25px;
+    color: #565656;
+    opacity: 1;
+}
+
+.GoogleMapSectionEmail {
+    text-decoration: none;
+}
+
+.GoogleMapSectionEmail:hover {
+    color: #D3148B;
+}
+
+.GoogleMapSectionCard {
+    height: '100vh';
+    width: '100%';
+}

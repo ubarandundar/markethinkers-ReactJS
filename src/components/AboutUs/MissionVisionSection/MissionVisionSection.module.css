@@ -1,0 +1,93 @@
+.missionVisionSectionHeaderAboutUsBody {
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missionVisionSectionHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.missionVisionSectionHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.missionVisionSectionParag {
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.missionVisionSectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 1480px;
+    height: 640px;
+}
+
+.missionCard {
+    background: #F7F7F7;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 85px 100px 60px;
+    background-image: url('../../../assets/Mask Group 11.svg');
+    background-size: 213px 270px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.visionCard {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 85px 100px 60px;
+    background-image: url('../../../assets/Mask Group 11.svg');
+    background-size: 213px 270px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -270px;
+}
+
+.missionCardHeader, .visionCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.missionCardParag, .visionCardParag {
+    text-align: left;
+    font: normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}

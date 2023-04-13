@@ -1,29 +1,18 @@
 import { Fragment } from 'react';
 import './App.css';
-import AboutSection from './components/AboutSection/AboutSection';
-import BlogSection from './components/BlogSection/BlogSection';
-import Footer from './components/Footer/Footer';
-import GrowWithUs from './components/GrowWithUs/GrowWithUs';
-import ReferancesSection from './components/ReferancesSection/ReferancesSection';
-import Navbar from './components/Navbar/Navbar';
-import OurPartnersSection from './components/OurPartnersSection/OurPartnersSection';
-import SEOAnalyzerSection from './components/SEOAnalyzerSection/SEOAnalyzerSection';
-import ServicesSection from './components/ServicesSection/ServicesSection';
-import Welcome from './components/WelcomeSection/Welcome';
+import AboutUs from './components/AboutUs/AboutUs';
+import Contact from './components/Contact/Contact';
+import HomePage from './components/Home/HomePage';
 
 function App() {
   return (
     <Fragment>
-      <Navbar />
-      <Welcome />
-      <ReferancesSection />
-      <SEOAnalyzerSection />
-      <ServicesSection />
-      <AboutSection />
-      <OurPartnersSection />
-      <BlogSection />
-      <GrowWithUs />
-      <Footer />
+      <HomePage />
+      <hr />
+      <AboutUs />
+      <hr />
+      <Contact />
+      <hr />
     </Fragment>
   );
 }

@@ -1,0 +1,173 @@
+.FAQSectionTextArea {
+    margin-top: 240px;
+}
+
+.FAQSectionBackUpImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 46%;
+    margin-top: -30%;
+}
+
+.FAQSectionBackDownImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -25%;
+    margin-top: 12%;
+}
+
+.FAQSectionHeader {
+    text-align: center;
+    font: normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.FAQSectionParag {
+    font: normal normal 300 20px/35px Paralucent;
+    text-align: center;
+    color: #565656;
+    opacity: 1;
+}
+
+.FAQSectionCard {
+    position: relative;
+    height: auto;
+    background: #F7F7F7;
+    border-radius: 50px;
+    opacity: 1;
+    margin-top: 120px;
+    padding: 50px 60px;
+    margin-bottom: 276px;
+}
+
+.FAQSectionCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #565656;
+    opacity: 1
+}
+
+.FAQSectionCardParag {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.FAQSectionCardButton {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../assets/Group 239.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.FAQSectionCardButtonX {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../assets/Group 239.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.FAQSectionCardSub {
+    background: #F7F7F7;
+}
+
+/* .FAQSectionCardSub:hover {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+} */
+
+.FAQSectionCardSubToggle {
+    display: flex;
+    flex-direction: column;
+}
+
+.FAQSectionCardSubToggleParag {
+    text-align: left;
+    font: normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.FAQSectionCardSubToggleQue {
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.FAQSectionCardSubToggleCond {
+    margin-top: 20px;
+}
+
+.FAQSectionCardSubToggleIf {
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.FAQSectionCardSubToggleA, .FAQSectionCardSubToggleA:hover {
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.FAQSectionCardSubToggleArrow {
+    width: 9px;
+    height: 9px;
+    margin-left: 5px;
+}
+
+.FAQSectionCardSubToggleButtonFirst {
+    width: 58px;
+    height: 58px;
+    background-image: url('../../../assets/g1986.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.FAQSectionCardSubToggleButtonSecond {
+    width: 58px;
+    height: 58px;
+    background-image: url('../../../assets/Neutral.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.FAQSectionCardSubToggleButtonThird {
+    width: 58px;
+    height: 58px;
+    background-image: url('../../../assets/g249.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.FAQSectionCardSubToggleButtonFirst:hover, .FAQSectionCardSubToggleButtonSecond:hover, .FAQSectionCardSubToggleButtonThird:hover {
+    background-color: #EBEBEB;
+    border-radius: 50%;
+    border: 5px solid #EBEBEB;
+}

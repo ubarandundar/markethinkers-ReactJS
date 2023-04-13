@@ -1,0 +1,117 @@
+.languageBarEN {
+    flex: 0 0 100px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+}
+
+.languageBarENOnScroll {
+    flex: 0 0 100px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+    background-color: white;
+}
+
+.languageBarENImg {
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.languageBarENToggle img {
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.languageBarENToggle {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 190px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding-top: 36px;
+    border-radius: 50px;
+    transition: 500ms ease-out;
+    /* margin-bottom: -95px; */
+}
+
+.languageBarENToggleOnScroll {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 190px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding-top: 36px;
+    border-radius: 50px;
+    transition: 500ms ease-out;
+    /* margin-bottom: -95px; */
+    background-color: white;
+}
+
+.languageBarTR {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 40px 10px 10px 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+}
+
+.languageBarENA {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #929393;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+}
+
+.languageBarENToggle a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #929393;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+}
+
+.languageBarENToggle a nav {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #929393;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+}

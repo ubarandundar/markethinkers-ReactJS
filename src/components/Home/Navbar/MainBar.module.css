@@ -1,0 +1,144 @@
+.mainbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    margin: 60px 0 0 60px;
+}
+
+.mainbarOnScroll {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    margin: 60px 0 0 60px;
+    background-color: white;
+}
+
+.mainbarUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainbarLi {
+    margin: 30px 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.mainbarA {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.2px;
+    font: normal normal 20px/28px Paralucent;
+    white-space: nowrap;
+}
+
+.mainbarA:hover {
+    color: #D3148B;
+    background: #E3E3E3;
+    border-radius: 26px;
+    padding: 10px 20px;
+    margin: -10px -20px;
+    opacity: 1;
+}
+
+.markeThinkersImage {
+    margin-top: 20px;
+    max-width: 286px;
+    height: auto;
+    opacity: 1;
+}
+
+.markeThinkersImageOnScroll {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 67px;
+    max-width: 199px;
+    height: auto;
+    opacity: 1;
+}
+
+.contactButton {
+    font: normal normal 20px/28px Paralucent;
+    margin-top: -6px;
+    width: 128px;
+    height: 52px;
+    background-color: #1F0242;
+    border: 1px solid #1F0242;
+    color: white;
+    border-radius: 29px;
+    opacity: 1
+}
+
+.contactButton:hover {
+    background: #D3148B;
+    color: #1F0242;
+    border: 1px solid #D3148B;
+}
+
+.subMenus {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -15px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    opacity: 1; 
+    padding: 20px 20px 30px 0;
+}
+
+.subMenus ul {
+    list-style-type: none;
+    margin-left: -32px;
+}
+
+.subMenus ul li {
+    display: flex;
+    padding-right: 20px;
+}
+
+.subMenus ul li:hover {
+    background-color: #F7F7F7;
+    border-radius: 0px 29px 29px 0px;
+}
+
+.subMenus ul li:hover .subMenusDiv {
+    background: #D3148B;
+    border: 1px solid #D3148B;
+}
+
+.subMenus ul li a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 1px;
+    color: #1F0242;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.subMenusDiv {
+    width: 9px;
+    height: 52px;
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    border-radius: 0px 29px 29px 0px;
+    opacity: 1;
+}
+
+
+

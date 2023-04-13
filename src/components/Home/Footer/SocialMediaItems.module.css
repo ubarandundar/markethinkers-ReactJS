@@ -1,0 +1,42 @@
+.footerSocialMedia {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
+    opacity: 1;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+/* .footerSocialMediaBorderChange {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #EBEBEB;
+    border-radius: 21px;
+    opacity: 1;
+    background-color: transparent;
+    margin-left: 10px;
+} */
+
+/* .footerSocialMediaArea a:hover {
+    transition: 300ms ease-out;
+} */
+
+.footerSocialMediaEx {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.footerSocialMediaEx:hover {
+    background: #1F0242;
+}
+
+.footerSocialMedia img, .footerSocialMediaEx img {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
