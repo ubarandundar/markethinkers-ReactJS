@@ -22,7 +22,7 @@ function ContactHelpSection () {
             <div>
                 <div className={'row d-flex justify-content-center'}>
                     <div className={'col-sm-6'}>
-                        <img className={classes.contactHelpSectionImg} src={contactHelpSectionImg} alt='contactHelp_Image' />
+                        <img className={`img-fluid ${classes.contactHelpSectionImg}`} src={contactHelpSectionImg} alt='contactHelp_Image' />
                     </div>
                     <div className={'col-sm-6 d-flex justify-content-center flex-column align-items-center'}>
                         <div className={classes.contactHelpSectionBottomSideHeader}>

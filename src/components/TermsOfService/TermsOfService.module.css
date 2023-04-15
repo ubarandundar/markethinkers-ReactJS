@@ -1,0 +1,68 @@
+.termsOfServiceBody {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.termsOfServiceHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 25px;
+    margin-top: 240px;
+}
+
+.termsOfServiceHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.termsOfServiceDateOfUpdate {
+    text-align: center;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+}
+
+.termsOfServiceDate {
+    text-align: center;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    margin-left: 5px;
+}
+
+.termsOfServiceExpHeader {
+    text-align: left;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.termsOfServiceParag {
+    text-align: left;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.termsOfServiceBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 2%;
+    margin-top: 8%;
+    filter: blur(50px);
+}
+

@@ -12,7 +12,7 @@ function AboutUs (props) {
                 <a href='www.google.com'>
                     <img className={classes.aboutSectionLeftSideForwardArrow} src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
-                <img className={classes.aboutSectionLeftSideAboutIconImg} src={AboutIconImg} alt='AboutIcon_Image' />
+                <img className={`img-fluid ${classes.aboutSectionLeftSideAboutIconImg}`} src={AboutIconImg} alt='AboutIcon_Image' />
             </div>
 
             <div className={classes.aboutSectionRightSide}>

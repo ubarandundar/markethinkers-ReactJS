@@ -101,7 +101,7 @@ function ContactFormSection (props) {
                  </div>
                     <div className={'row'}>
                     <div className={'col-4'}>
-                        <img className={classes.contactFormSectionImage} src={EnvelopeImg} alt='Envelope_Image' />
+                        <img className={`img-fluid ${classes.contactFormSectionImage}`} src={EnvelopeImg} alt='Envelope_Image' />
                     </div>
                     <div className={'col-8'}>
                         <div className={'row'}>

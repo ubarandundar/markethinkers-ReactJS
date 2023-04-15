@@ -52,19 +52,19 @@
 }
 
 .aboutSectionLeftSideAboutIconImg {
-    width: 445px;
-    height: auto;
+    /* width: 445px;
+    height: auto; */
     display: block;
     margin-left: auto;
     margin-right: auto;  
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .aboutSectionLeftSideAboutIconImg {
         width: 380px;
         height: auto;
     }
-}
+} */
 
 .aboutSectionLeftSideHeader {
     font-size: 25px;

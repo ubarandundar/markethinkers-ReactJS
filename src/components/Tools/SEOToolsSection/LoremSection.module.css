@@ -1,0 +1,54 @@
+.loremSectionHeader {
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.loremSectionParag {
+    text-align: center;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.loremCard {
+    background: #F7F7F7;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 80px 60px 50px;
+    z-index: 1;
+}
+
+.loremOtherCard {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 80px 60px 50px;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -270px;
+}
+
+.loremCardHeader, .loremOtherCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.loremCardParag, .loremOtherCardParag {
+    text-align: left;
+    font: normal normal 300 18px/26px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}

@@ -1,0 +1,68 @@
+.SEOToolsSectionWrapper {
+    margin-top: 200px;
+    position: relative;
+}
+
+.SEOToolsSectioBody {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 150px;
+}
+
+.SEOToolsSectionHeader {
+    text-align: left;
+    font: normal normal 20px/47px Paralucent;
+    letter-spacing: 1px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.SEOToolsSectionHeaderSub {
+    text-align: left;
+    font: normal normal bold 40px/64px Paralucent;
+    letter-spacing: 2px;
+    color: #3B3B3B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.SEOToolsSectionParag {
+    text-align: left;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 68px;
+}
+
+.SEOToolsSectionButton {
+    background: #FFFFFF;
+    border-radius: 26px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+    width: 264px;
+    height: 52px;
+    border: 1px solid white;
+}
+
+.SEOToolsSectionButton:hover {
+    background: transparent;
+    color: white;
+}
+
+.SEOToolsSectionBackLeftImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -51%;
+    margin-top: 4%;
+}
+
+.SEOToolsSectionBackRightImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 52%;
+    margin-top: -37%;
+}

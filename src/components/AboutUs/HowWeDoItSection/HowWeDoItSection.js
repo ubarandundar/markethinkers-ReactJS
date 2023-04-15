@@ -9,7 +9,7 @@ import HowWeDoItSectionBackRightImg from '../../../assets/Path 16848.png';
 
 function HowWeDoItSection() {
   return (
-    <div className='container'>
+    <div className={`container ${classes.howWeDoItSectionWrapper}`}>
         <img className={classes.howWeDoItSectionBackLeftImg} src={HowWeDoItSectionBackLeftImg} alt='HowWeDoItSectionBackLeft_Image' />
         <img className={classes.howWeDoItSectionBackRightImg} src={HowWeDoItSectionBackRightImg} alt='HowWeDoItSectionBackRight_Image' />
         <div className='row'>
@@ -21,10 +21,10 @@ function HowWeDoItSection() {
             </div>
         </div>
         <div className='row'>
-            <div className='col-sm-6'>
+            <div className={`col-sm-6 ${classes.howWeDoItSectionImageWrapper}`}>
                 <img className='img-fluid' src={HowWeDoItImage} alt='HowWeDoIt_Image' />
             </div>
-            <div className='col-sm-6'>
+            <div className={`col-sm-6 ${classes.howWeDoItSectionRightSide}`}>
                 <header className={classes.howWeDoItSectionHeaderSub}>
                 Get literary visible
                 <br />

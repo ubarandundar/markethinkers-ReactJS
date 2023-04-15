@@ -1,0 +1,95 @@
+.SEOToolsSectionCardWrapper {
+    margin-bottom: 120px;
+}
+
+.SEOToolsSectionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SEOToolsSectionCardBody {
+    background: #FFFFFF;
+    border-radius: 53px;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    padding: 40px;
+    height: 622px;
+}
+
+.SEOToolsSectionCardWrapper {
+    text-decoration: none;
+}
+
+.SEOToolsSectionCardBody:hover {
+    background: transparent linear-gradient(180deg, #FC4AAB 0%, #B83FD1 100%);
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardArrowImage {
+    margin: -10px -10px;
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardJSONImage {
+    margin-top: 140px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardCounterImage {
+    margin-top: 142px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardPreviewImage {
+    margin-top: 114px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardHeader, .SEOToolsSectionCardBody:hover .SEOToolsSectionCardParag {
+    color: white;
+}
+
+.SEOToolsSectionCardBody:hover .SEOToolsSectionCardArrowImage path[fill] {
+    fill: #FFFFFF;
+}
+
+.SEOToolsSectionCardArrowImage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SEOToolsSectionCardJSONImage {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.SEOToolsSectionCardCounterImage {
+    margin-top: 122px;
+    margin-bottom: 30px;
+}
+
+.SEOToolsSectionCardPreviewImage {
+    margin-top: 94px;
+    margin-bottom: 30px;
+}
+
+.SEOToolsSectionCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.SEOToolsSectionCardParag {
+    text-align: left;
+    font: normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
