@@ -6,6 +6,7 @@ import HomePage from './components/Home/HomePage';
 import TermsOfService from './components/TermsOfService/TermsOfService';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Tools from './components/Tools/Tools';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <AboutUs />
       <hr />
       <Contact />
+      <hr />
+      <FAQ />
       <hr />
       <TermsOfService />
       <hr />

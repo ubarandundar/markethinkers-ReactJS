@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import ContactFormSection from './ContactFormSection/ContactFormSection';
 import ContactHelpSection from './ContactHelpSection/ContactHelpSection';
-import FAQSection from './FAQSection/FAQSection';
+import ContactFAQSection from './ContactFAQSection/ContactFAQSection';
 import GoogleMapSection from './GoogleMapSection/GoogleMapSection';
 
 function Contact() {
@@ -10,7 +10,7 @@ function Contact() {
       <ContactHelpSection />
       <GoogleMapSection />
       <ContactFormSection />
-      <FAQSection />
+      <ContactFAQSection />
     </Fragment>
   )
 }

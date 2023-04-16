@@ -1,0 +1,33 @@
+.contactFAQSectionTextArea {
+    margin-top: 240px;
+}
+
+.FAQSectionBackUpImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 46%;
+    margin-top: -30%;
+}
+
+.FAQSectionBackDownImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -25%;
+    margin-top: 12%;
+}
+
+.contactFAQSectionHeader {
+    text-align: center;
+    font: normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.contactFAQSectionParag {
+    font: normal normal 300 20px/35px Paralucent;
+    text-align: center;
+    color: #565656;
+    opacity: 1;
+}
