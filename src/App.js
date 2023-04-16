@@ -7,6 +7,7 @@ import TermsOfService from './components/TermsOfService/TermsOfService';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Tools from './components/Tools/Tools';
 import FAQ from './components/FAQ/FAQ';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <AboutUs />
       <hr />
       <Contact />
+      <hr />
+      <Blog />
       <hr />
       <FAQ />
       <hr />

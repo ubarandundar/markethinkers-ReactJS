@@ -1,0 +1,61 @@
+.FAQCardOptionsBody {
+    border: 1px solid #FFFFFF;
+    border-radius: 50px 50px 0px 0px;
+    opacity: 1; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FAQCardOptionsButtons {
+    font: normal normal 20px/28px Paralucent;
+    background-color: transparent;
+    border: none;
+    border: 1px solid transparent;
+    color: #1F0242;
+    opacity: 1;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+
+.FAQCardOptionsButtons:hover {
+    color: #D3148B;
+    border-radius: 26px;
+    background: #E3E3E3;
+    border: 1px solid #EBEBEB;
+    padding: 10px 20px;
+    opacity: 1;
+}
+
+.FAQCardOptionsButtonsActive {
+    font: normal normal 20px/28px Paralucent;
+    opacity: 1;
+    margin: 30px 0;
+    color: white;
+    background: #1F0242;
+    border: 1px solid #1F0242;
+    border-radius: 26px;
+    padding: 10px 20px;
+    opacity: 1;
+}
+
+.FAQCardOptionsInput {
+    width: 25%;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    padding-left: 50px;
+    opacity: 1;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    /* background: url('') no-repeat scroll 7px 7px; */
+}
+
+.FAQCardOptionsInput::placeholder {
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    font-size: 20px;
+}

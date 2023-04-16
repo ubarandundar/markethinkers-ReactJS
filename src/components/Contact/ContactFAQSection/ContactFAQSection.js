@@ -6,7 +6,7 @@ import FAQCardSelections from '../../FAQ/FAQCard/FAQCardSelections';
 function ContactFAQSection() {
 
   return (
-    <div className={'container'}>
+    <div className={`container ${classes.contactFormSectionWrapper}`}>
         <div className={classes.contactFAQSectionTextArea}>
             <header className={classes.contactFAQSectionHeader}>
                 FAQ

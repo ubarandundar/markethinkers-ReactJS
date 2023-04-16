@@ -1,5 +1,10 @@
+.contactFormSectionWrapper {
+    margin-bottom: 275px;
+}
+
 .contactFAQSectionTextArea {
     margin-top: 240px;
+    margin-bottom: 120px;
 }
 
 .FAQSectionBackUpImg {

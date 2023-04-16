@@ -73,7 +73,7 @@ function ContactFormSection (props) {
     };
 
     return (
-    <div className={'container'}>
+    <div className='container'>
         <img className={classes.contactFormSectionBackImg} src={ContactFormSectionBackImg} alt='contactHelpBack_Image' />
         <div className={classes.contactFormSectionBody}>
             <div className={'container'}>
