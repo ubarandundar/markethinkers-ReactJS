@@ -18,7 +18,7 @@ function LanguageBar (props) {
     const [languagebar, setLanguagebar] = useState(false);
 
     const changeBackground = () => {
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
         if (window.scrollY >= 20) {
             setLanguagebar(true);
         } else {

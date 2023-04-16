@@ -10,7 +10,7 @@ function MainBar (props) {
     const [showSubMenusTools, setShowSubMenusTools] = useState(false);
 
     const changeBackground = () => {
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
         if (window.scrollY >= 20) {
           setNavbar(true);
         } else {
