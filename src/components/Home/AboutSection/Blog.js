@@ -87,7 +87,7 @@ function Blog (props) {
                         <img className={classes.blogProfileImg} src={MultiBrandCarouselData[currentSlideIndex].profilePicture} alt='MultiBrandCarouselData_profilePicture' />
                         <div>
                             <header className={classes.blogPorfileNameSurname}>{MultiBrandCarouselData[currentSlideIndex].nameSurname}</header>
-                            <header className={classes.blogPorfileTtile}>{MultiBrandCarouselData[currentSlideIndex].title}</header>
+                            <header className={classes.blogPorfileTitle}>{MultiBrandCarouselData[currentSlideIndex].title}</header>
                         </div>
                 </div>
             </div>

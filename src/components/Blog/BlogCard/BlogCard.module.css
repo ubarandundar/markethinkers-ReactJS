@@ -1,0 +1,111 @@
+.blogCardWrapper {
+    text-decoration: none;
+}
+
+.blogCardTopSide {
+    border-radius: 25px 25px 0px 0px;
+    background: grey;
+    height: 240px;
+    position: relative;
+    background-image: url('../../../assets/working.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #FF8049;
+}
+
+.blogCardWrapper:hover .blogCardTopSide {
+    mix-blend-mode: normal;
+}
+
+.blogCardTopSideHeader {
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    background: #FFFFFF;
+    border-radius: 0px 6px 6px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 0;
+    padding: 10px 40px 10px 40px;
+}
+
+.blogCardBottomSide {
+    border-radius: 0 0 25px 25px;
+    background: white;
+    padding: 40px 40px 40px 40px;
+}
+
+.blogCardBottomSideHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.blogCardBottomSideHeaderSub {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.blogProfileImg {
+    width: 69px;
+    height: 69px;
+}
+
+.blogCardBottomSideNameSurname {
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 4px;
+    margin-left: 16px;
+}
+
+.blogCardBottomSidePorfileTtile {
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+    margin-left: 16px;
+}
+
+.blogCardBottomSideDate {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.blogCardBottomSideForwardArrow {
+    width: 30px;
+    height: 30px;
+}
+
+.blogCardWrapper:hover .blogCardBottomSideForwardArrow path[fill] {
+    fill: #D3148B;
+}
+
+.blogCardWrapper:hover .blogCardBottomSideForwardArrow {
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.blogCardWrapper:hover .blogCardTopSide {
+    background-blend-mode: normal;
+    background-color: none;
+}
+
+

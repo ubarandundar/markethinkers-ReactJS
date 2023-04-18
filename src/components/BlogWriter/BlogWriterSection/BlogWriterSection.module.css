@@ -1,0 +1,99 @@
+.blogWriterSectionCardBody {
+    background: #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 60px 40px 60px 40px; 
+    margin-top: 330px;
+    margin-bottom: 80px;
+}
+
+.blogWriterSectionCardBodyProfilPicture {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    top: -45%;
+    left: 3%;
+}
+
+.blogWriterSectionCardNameSurname {
+    text-align: left;
+    font: normal normal 47px/65px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.blogWriterSectionCardTitle {
+    text-align: left;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 75px;
+}
+
+.blogWriterSectionCardInfo {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.blogWriterSectionCardExplanation {
+    text-align: left;
+    font: normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.blogWriterSectionCardLinkedin {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #1F0242;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.blogWriterSectionCardLinkedin img {
+    width: 16px;
+    height: 14px;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.blogWriterSectionCardShortName {
+    text-align: center;
+    font: normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.blogWriterSectionHeader {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.blogWriterSectionExplanation {
+    text-align: left;
+    font: normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
