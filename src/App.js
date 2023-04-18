@@ -10,6 +10,7 @@ import FAQ from './components/FAQ/FAQ';
 import Blog from './components/Blog/Blog';
 import BlogWriter from './components/BlogWriter/BlogWriter';
 import SuccessStories from './components/SuccessStories/SuccessStories';
+import Career from './components/Career/Career';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Tools />
       <hr />
       <AboutUs />
+      <hr />
+      <Career />
       <hr />
       <Contact />
       <hr />

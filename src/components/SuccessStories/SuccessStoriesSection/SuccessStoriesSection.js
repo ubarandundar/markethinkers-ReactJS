@@ -16,7 +16,6 @@ function SuccessStoriesSection() {
                 <br />
                 sometimes looks like
             </header>
-            <SuccessStoriesDragBar />
         </div>
     </div>
   )

@@ -1,0 +1,119 @@
+.joinAndApplySectionHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 40px;
+    margin-top: 240px;
+}
+
+.joinAndApplySectionHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.joinAndApplySectionParag {
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.joinAndApplySectionJoinButton {
+    width: 264px !important;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 26px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+    margin: 0 auto 40px auto;
+}
+
+.joinAndApplySectionJoinButton:hover {
+    background: transparent ;
+    color: #FFFFFF;
+    border: 1px solid white;
+}
+
+.joinAndApplySectionBackMiddleImg {
+    width: 1500px;
+    height: 750px;
+    position: absolute;
+    z-index: 0;
+    margin-left: -4%;
+    margin-top: 5%;
+}
+
+.joinSectionWhiteCard {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    padding: 60px 90px 60px 60px;
+    max-width: 37%;
+}
+
+.joinSectionWhiteCardOther {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    padding: 60px 60px 60px 90px;
+    max-width: 37%;
+}
+
+.joinSectionCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.joinSectionCardParag {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.joinSectionOrangeCard {
+    background: #FF8049;
+    border-radius: 41px;
+    opacity: 1;
+    padding: 60px 90px 60px 60px;
+    max-width: 37%;
+    position: relative;
+    z-index: 2;
+    margin-top: -325px;
+}
+
+.joinSectionOrangeCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.joinSectionOrangeCardParag {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

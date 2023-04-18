@@ -1,13 +1,13 @@
 import SuccessStoriesSection from "./SuccessStoriesSection/SuccessStoriesSection"
-import SuccessStoryCard from "./SuccessStroyCard/SuccessStoryCard";
+import SuccessStoriesDragBar from "./SuccessStoriesDragBar/SuccessStoriesDragBar";
+import SuccessStoryCards from "./SuccessStroyCard/SuccessStoryCards";
 
 function SuccessStories() {
   return (
     <>
         <SuccessStoriesSection />
-        <div className="container pt-5 pb-5">
-            <SuccessStoryCard />
-        </div>
+        <SuccessStoriesDragBar />
+        <SuccessStoryCards />
     </>
   )
 }

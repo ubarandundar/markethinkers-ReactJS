@@ -9,7 +9,7 @@ function SuccessStoriesDragBar() {
     };
 
     return (
-        <div className='container'>
+        <div className='container position-relative'>
           <div className={'row'}>
             <div className={classes.successStoriesDragBarBody}>
                 <button onClick={() => contentHandler(0)} type="button" className={currentIndex === 0 ? classes.successStoriesDragBarButtonsActive: classes.successStoriesDragBarButtons}>All</button>
