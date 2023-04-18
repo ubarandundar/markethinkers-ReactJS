@@ -1,0 +1,27 @@
+.successStoriesSectionHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1; 
+    margin-top: 240px;
+    margin-bottom: 25px;
+}
+
+.successStoriesSectionHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 65px;
+}
+
+.termsOfServiceBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 4%;
+    margin-top: -4%;
+    filter: blur(50px);
+}

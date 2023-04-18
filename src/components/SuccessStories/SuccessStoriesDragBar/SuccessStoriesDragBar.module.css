@@ -1,0 +1,42 @@
+.successStoriesDragBarBody {
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    border-radius: 72px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.successStoriesDragBarButtons {
+    font: normal normal 20px/28px Paralucent;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #EBEBEB;
+    border-radius: 26px;
+    color: #1F0242;
+    opacity: 1;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+
+.successStoriesDragBarButtons:hover {
+    color: #D3148B;
+    border-radius: 26px;
+    background: #E3E3E3;
+    border: 1px solid #EBEBEB;
+    padding: 10px 20px;
+    opacity: 1;
+}
+
+.successStoriesDragBarButtonsActive {
+    font: normal normal 20px/28px Paralucent;
+    opacity: 1;
+    margin: 30px 0;
+    color: white;
+    background: #1F0242;
+    border: 1px solid #1F0242;
+    border-radius: 26px;
+    padding: 10px 20px;
+    opacity: 1;
+}

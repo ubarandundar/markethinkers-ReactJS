@@ -1,0 +1,18 @@
+.successStoryCardWrapper {
+    text-decoration: none;
+}
+
+.successStoryCardBody {
+    background-color: #FF8049;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.successStoryCardArrow {
+    width: 15px;
+    height: 15px;
+}
