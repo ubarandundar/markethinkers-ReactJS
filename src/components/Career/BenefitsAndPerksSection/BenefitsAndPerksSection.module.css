@@ -1,0 +1,17 @@
+.benefitsAndPerksSectionHeader {
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+    margin-top: 215px;
+}
+
+.benefitsAndPerksSectionParag {
+    text-align: center;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    margin-bottom: 60px;
+}

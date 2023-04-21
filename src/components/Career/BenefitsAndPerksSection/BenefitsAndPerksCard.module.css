@@ -1,0 +1,68 @@
+.benefitsAndPerksCardBody {
+    background: #F7F7F7;
+    border-radius: 41px;
+    opacity: 1;
+    padding: 60px 55px 60px 55px;
+}
+
+.benefitsAndPerksCardToggle {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+}
+
+.benefitsAndPerkCardRec {
+    flex: 0 0 90px;
+    max-width: 90px;
+    height: 90px;
+    background: #FFFFFF no-repeat;
+    border-radius: 25px;
+    opacity: 1;
+    margin-right: 25px;
+}
+
+.benefitsAndPerkCardRec img {
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.benefitsAndPerksCardHeader {
+    text-align: left;
+    font: normal normal 26px/39px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.benefitsAndPerksCardParag {
+    text-align: left;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-left: 115px;
+    margin-right: 36px;
+}
+
+.benefitsAndPerkCardButton {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../../assets/Group 239.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+
+.benefitsAndPerkCardButtonX {
+    width: 16px;
+    background-image: url('../../../assets/Group 239-neg.svg');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+

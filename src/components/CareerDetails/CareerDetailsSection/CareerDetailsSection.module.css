@@ -1,0 +1,92 @@
+.careerDetailsSectionHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+    margin-top: 240px;
+    margin-bottom: 40px;
+}
+
+.careerDetailsSectionHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.careerDetailsSectionParag {
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.careerDetailsSectionBackMiddleImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 2%;
+    margin-top: 9%;
+    filter: blur(50px);
+}
+
+.careerDetailsSectionLeftCard {
+    background: #F7F7F7;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 80px 60px 50px;
+    z-index: 1;
+}
+
+.careerDetailsSectionRightCard {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 80px 60px 50px;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -32%;
+}
+
+.careerDetailsSectionLeftCardHeader, .careerDetailsSectionRightCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.careerDetailsSectionLeftCard li, .careerDetailsSectionRightCard li {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 1px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.careerDetailsSectionLeftCard ul, .careerDetailsSectionRightCard ul {
+    list-style: none;
+}
+
+.careerDetailsSectionLeftCard ul li::before, .careerDetailsSectionRightCard ul li::before {
+    content: '•';
+    color: #D3148B;
+    font-weight: normal;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1.5em; 
+}
+
+.careerDetailsSectionCardWrapper {
+    margin-bottom: -100px;
+}

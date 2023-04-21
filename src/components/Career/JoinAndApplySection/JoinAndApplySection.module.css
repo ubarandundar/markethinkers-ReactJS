@@ -57,6 +57,13 @@
     margin-top: 5%;
 }
 
+.joinAndApplySectionBackLeftImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -39%;
+    margin-top: 40%;
+}
+
 .joinSectionWhiteCard {
     background: #FFFFFF;
     border-radius: 41px;
@@ -116,4 +123,66 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.applySectionWrapper {
+    margin-top: 200px !important;
+    position: relative;
+}
+
+.applySectionBodyLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.applySectionHeader {
+    text-align: left;
+    font: normal normal 900 50px/50px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.applySectionButton {
+    width: 264px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 26px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+
+}
+
+.applySectionButton:hover {
+    background: transparent;
+    color: white;
+}
+
+.applySectionBodyRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.applySectionParagFirst {
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    margin-bottom: 40px;
+}
+
+.applySectionParagSecond {
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
 }

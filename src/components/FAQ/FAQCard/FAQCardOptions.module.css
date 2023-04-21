@@ -50,7 +50,9 @@
     font-family: 'Paralucent', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    /* background: url('') no-repeat scroll 7px 7px; */
+    background-image: url('../../../assets/search.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
 }
 
 .FAQCardOptionsInput::placeholder {

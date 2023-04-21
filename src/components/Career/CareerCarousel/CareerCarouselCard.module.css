@@ -1,0 +1,53 @@
+.careerCarouselCardBody {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    text-decoration: none;
+    padding: 40px 40px 60px 40px;
+    max-width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.careerCarouselCardBodySub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.careerCarouselCardProfilPicture {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.careerCarouselCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.careerCarouselCardTitle {
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.careerCarouselCardInfoBody {
+    margin-left: 30px;
+}
+
+.careerCarouselCardParag {
+    margin-top: 40px;
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+}

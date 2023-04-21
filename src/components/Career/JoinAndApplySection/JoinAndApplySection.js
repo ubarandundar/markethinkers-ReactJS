@@ -1,11 +1,13 @@
 import classes from './JoinAndApplySection.module.css';
 
-import JoinAndApplySectionBackMiddleImg from '../../../assets/Path 16768@2x.png';
+import JoinAndApplySectionBackMiddleImg from '../../../assets/Path 16768-1.png';
+import JoinAndApplySectionBackLeftImg from '../../../assets/Path 16728-1.png';
 
 function JoinAndApplySection() {
   return (
     <div className='container'>
         <img className={classes.joinAndApplySectionBackMiddleImg} src={JoinAndApplySectionBackMiddleImg} alt='JoinAndApplySectionBackMiddle_Image' />
+        <img className={classes.joinAndApplySectionBackLeftImg} src={JoinAndApplySectionBackLeftImg} alt='JoinAndApplySectionBackLeft_Image' />
         <div className='d-flex flex-column position-relative'>
             <header className={classes.joinAndApplySectionHeader}>
                 career
@@ -49,6 +51,26 @@ function JoinAndApplySection() {
                 </header>
                 <span className={classes.joinSectionOrangeCardParag}>
                     Do you want to create value for brands by using the power of words? Then you can join our team as an SEO-compatible content writer, content editor or content manager.
+                </span>
+            </div>
+        </div>
+        <div className={`row ${classes.applySectionWrapper}`}>
+            <div className={`col-sm-6 ${classes.applySectionBodyLeft}`}>
+                <header className={classes.applySectionHeader}>
+                    Imagination is
+                    <br />
+                    mandatory.
+                </header>
+                <button className={classes.applySectionButton} type='button'>
+                    Apply Now
+                </button>
+            </div>
+            <div className={`col-sm-6 ${classes.applySectionBodyRight}`}>
+                <span className={classes.applySectionParagFirst}>
+                    We practice what we preach, and it's why our remote team has been thriving for more than a decade. Using Markethinkers, we collaborate seamlessly from all over the world, which lets us hire the best people, no matter where they are. ‍ 
+                </span>
+                <span className={classes.applySectionParagSecond}>
+                    Every day, we work together in a product that’s designed to cultivate creativity, empathy, and open-mindedness. And Markethinkers is committed to building a team where people of all races, genders, and orientations feel seen, heard, and valued. We strive to be the most equitable employer out there, so we insist on using hiring processes that reduce bias, internal resources that promote visibility, and ongoing evaluations that help us constantly do better.
                 </span>
             </div>
         </div>

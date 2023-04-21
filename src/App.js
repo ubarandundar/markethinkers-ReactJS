@@ -11,6 +11,7 @@ import Blog from './components/Blog/Blog';
 import BlogWriter from './components/BlogWriter/BlogWriter';
 import SuccessStories from './components/SuccessStories/SuccessStories';
 import Career from './components/Career/Career';
+import CareerDetails from './components/CareerDetails/CareerDetails';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <AboutUs />
       <hr />
       <Career />
+      <hr />
+      <CareerDetails />
       <hr />
       <Contact />
       <hr />
