@@ -9,9 +9,9 @@ function BenefitsAndPerksCard() {
   return (
     <div className='container position-relative'>
             <div className={`row ${classes.benefitsAndPerksCardBody}`}>
-                <div className='col-sm-12 col-md-6 col-lg-6 pb-3'>
+                <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -21,18 +21,18 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-6 col-lg-6 pb-3'>
+                <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -42,18 +42,18 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-6 col-lg-6 pb-3'>
+                <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -63,18 +63,18 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-6 col-lg-6 pb-3'>
+                <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -84,18 +84,18 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-6 col-lg-6 '>
+                <div className='col-sm-12 col-md-12 col-lg-6'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -105,18 +105,18 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-6 col-lg-6 '>
+                <div className='col-sm-12 col-md-12 col-lg-6'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
-                    <div className='d-flex flex-row justify-content-between'>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
                             <div className={classes.benefitsAndPerkCardRec}>
                                 <img src={CheckerImg} alt='Checker_Image' />
@@ -126,11 +126,11 @@ function BenefitsAndPerksCard() {
                             </header>
                         </div>
                         <div className='d-flex align-items-center'>
-                            <button onClick={() => setIsVisible(!isVisible)} type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
+                            <button type='button' className={!isVisible ? classes.benefitsAndPerkCardButton : classes.benefitsAndPerkCardButtonX} />
                         </div> 
                     </div>
                     {isVisible &&
-                    <div className={classes.benefitsAndPerksCardParag}>
+                    <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardParag}>
                         As a passionate and committed team, our creativity reflects on every single aspect of our work, providing the best solutions for you.
                     </div>}
                     </div>

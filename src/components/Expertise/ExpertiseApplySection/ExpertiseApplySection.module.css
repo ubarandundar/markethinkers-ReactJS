@@ -1,0 +1,96 @@
+.expertiseApplySectionDep {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1; 
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 240px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.expertiseApplySectionButtons {
+    font: normal normal 20px/28px Paralucent;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #EBEBEB;
+    border-radius: 26px;
+    color: #1F0242;
+    opacity: 1;
+    margin: 30px 0 30px 30px;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+.expertiseApplySectionButtons:hover {
+    color: #D3148B;
+    border-radius: 26px;
+    background: #E3E3E3;
+    border: 1px solid #EBEBEB;
+    padding: 10px 20px;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.expertiseApplySectionButtonsActive {
+    font: normal normal 20px/28px Paralucent;
+    opacity: 1;
+    margin: 30px 0;
+    color: white;
+    background: #1F0242;
+    border: 1px solid #1F0242;
+    border-radius: 26px;
+    padding: 10px 20px;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.expertiseApplySectionHeader {
+    text-align: left;
+    font: normal normal 20px/47px Paralucent;
+    letter-spacing: 1px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.expertiseApplySectionHeaderSub {
+    text-align: left;
+    font: normal normal bold 40px/64px Paralucent;
+    letter-spacing: 2px;
+    color: #3B3B3B;
+}
+
+.expertiseApplySectionHeaderSubLarge {
+    text-align: left;
+    font: normal normal bold 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #3B3B3B; 
+    margin-bottom: 30px;
+}
+
+.expertiseApplySectionParag {
+    text-align: left;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1; 
+    margin-bottom: 60px;
+}
+
+.expertiseApplySectionButton {
+    width: 264px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 26px;
+    border: 1px solid white;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+}

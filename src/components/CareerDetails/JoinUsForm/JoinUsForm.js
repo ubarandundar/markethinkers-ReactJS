@@ -8,15 +8,16 @@ function JoinUsForm() {
     const [enteredPhone, setEnteredPhone] = useState('');
     const [enteredEmail, setEnteredEmail] = useState('');
     const [enteredportfolioURL, setEnteredPortfolioURL] = useState('');
-    const [enteredCV, setEnteredCV] = useState('');
+    const [uploadedCV, setUploadedCV] = useState('');
     const [enteredMessage, setEnteredMessage] = useState('');
+    const [fileNameChange, setFileNameChange] = useState('Add Your CV');
 
     const formSendingHandler = () => {
         console.log(enteredName);
         console.log(enteredPhone);
         console.log(enteredEmail);
         console.log(enteredportfolioURL);
-        console.log(enteredCV);
+        console.log(uploadedCV);
         console.log(enteredMessage);
     }
 
@@ -41,7 +42,7 @@ function JoinUsForm() {
     };
 
     const CVInputChangeHandler = (event) => {
-        setEnteredCV(event.target.value);
+        setUploadedCV(event.target.value);
     };
     
     const messageInputChangeHandler = (event) => {
@@ -57,43 +58,47 @@ function JoinUsForm() {
                 <div className={'container'}>
                     <div className={'row'}>
                     <div className={'col-4'}>
-                        <img className={`img-fluid ${classes.contactFormSectionImage}`} src={EnvelopeImg} alt='Envelope_Image' />
+                        <img className={`img-fluid ${classes.joinUsFormImage}`} src={EnvelopeImg} alt='Envelope_Image' />
                     </div>
                     <div className={'col-8'}>
                         <div className={'row'}>
                             <div className={'col-sm-12 d-flex mb-4 mt-4'}>
-                                <input onChange={nameInputChangeHandler} value={enteredName} className={classes.contactFormSectionInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
+                                <input onChange={nameInputChangeHandler} value={enteredName} className={classes.joinUsFormInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                             </div>
                             <div className={'col-sm-12 d-flex mb-4'}>
                                 <div className={'col-sm-6'}>
-                                    <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.contactFormSectionInputName} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
+                                    <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.joinUsFormInputPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>
                                 <div className={'col-sm-6'}>
-                                    <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.contactFormSectionInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
+                                    <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.joinUsFormInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
                             <div className={'col-sm-12 d-flex mb-4'}>
                                 <div className={'col-sm-6'}>
-                                    <input onChange={portfolioURLInputChangeHandler} value={enteredportfolioURL} className={classes.contactFormSectionInputCompanyName} type='text' placeholder='Portfolio URL' minLength="1" maxLength="50" />
+                                    <input onChange={portfolioURLInputChangeHandler} value={enteredportfolioURL} className={classes.joinUsFormInputPortfolioURL} type='text' placeholder='Portfolio URL' minLength="1" maxLength="50" />
                                 </div>
-                                <div className={'col-sm-6'}>  
-                                    <input onChange={CVInputChangeHandler} value={enteredCV} className={classes.contactFormSectionInputPhone} type='text' placeholder='Add Your CV' minLength="1" maxLength="50" />
+                                <div className={'col-sm-6 position-relative'}>  
+                                    <div className={classes.joinUsFormInputCVOther}>
+                                        {fileNameChange}
+                                    </div>
+                                    <input onChange={CVInputChangeHandler} value={uploadedCV} type="file" id="upload" hidden/>
+                                    <label for="upload" className={classes.joinUsFormInputCV}>choose</label>
                                 </div>  
                             </div>
-                            <div className={'col-sm-12 mb-4 position-relative'}> 
-                                <textarea onChange={messageInputChangeHandler} value={enteredMessage}className={classes.contactFormSectionTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
-                                <button onClick={formSendingHandler} className={classes.sendButton} type='submit'>send</button>  
+                            <div className={'col-sm-12 mb-3 position-relative'}> 
+                                <textarea onChange={messageInputChangeHandler} value={enteredMessage}className={classes.joinUsFormTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
+                                <button onClick={formSendingHandler} className={classes.joinUsFormSendButton} type='submit'>send</button>  
                             </div>
-                            <div className={'col-sm-12 mb-4'}>
+                            <div className={'col-sm-12'}>
                                 <div className={'d-flex align-items-center'}>
-                                    <input className={classes.contactFormSectionCheckbox} type="checkbox" id="grow" name="scales" />
-                                    <label className={classes.contactFormSectionCheckboxLabel} htmlFor="scales">
+                                    <input className={classes.joinUsFormCheckbox} type="checkbox" id="grow" name="scales" />
+                                    <label className={classes.joinUsFormCheckboxLabel} htmlFor="scales">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </label>
                                 </div>
                                 <div className={'d-flex align-items-center'}>
-                                    <input className={classes.contactFormSectionCheckbox} type="checkbox" id="grow" name="scales" />
-                                    <label className={classes.contactFormSectionCheckboxLabel} htmlFor="scales">
+                                    <input className={classes.joinUsFormCheckbox} type="checkbox" id="grow" name="scales" />
+                                    <label className={classes.joinUsFormCheckboxLabel} htmlFor="scales">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod.
                                     </label>
                             </div>

@@ -5,6 +5,13 @@
     padding: 60px 55px 60px 55px;
 }
 
+.benefitsAndPerksCardBodySub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 .benefitsAndPerksCardToggle {
     background: #FFFFFF;
     border-radius: 25px;
@@ -45,6 +52,7 @@
     opacity: 1;
     margin-left: 115px;
     margin-right: 36px;
+    cursor: pointer;
 }
 
 .benefitsAndPerkCardButton {

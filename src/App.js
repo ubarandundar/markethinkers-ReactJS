@@ -12,6 +12,7 @@ import BlogWriter from './components/BlogWriter/BlogWriter';
 import SuccessStories from './components/SuccessStories/SuccessStories';
 import Career from './components/Career/Career';
 import CareerDetails from './components/CareerDetails/CareerDetails';
+import Expertise from './components/Expertise/Expertise';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <HomePage />
       <hr />
       <SuccessStories />
+      <hr />
+      <Expertise />
       <hr />
       <Tools />
       <hr />
