@@ -1,0 +1,22 @@
+.expertiseMultiBrandBody {
+    margin-top: 100px;
+    margin-bottom: 160px;
+    position: relative;
+    z-index: 2;
+}
+
+.expertiseMultiBrandImageCard {
+    width: 330px;
+    height: 126px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expertiseMultiBrandImage {
+    filter: grayscale(100%);
+}
+

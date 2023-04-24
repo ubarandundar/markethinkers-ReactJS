@@ -1,0 +1,27 @@
+.expertiseSubServicesSectionHeader {
+    text-align: center;
+    font: normal normal 25px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    text-transform: lowercase;
+    opacity: 1;
+    margin-bottom: 16px;
+    margin-top: 160px; 
+}
+
+.expertiseSubServicesSectionHeaderSub {
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    margin-bottom: 60px;
+}
+
+.expertiseSubServicesSectionParag {
+    text-align: center;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 60px;
+}

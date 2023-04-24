@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="64" viewBox="0 0 82 64">
+  <g id="Group_150" data-name="Group 150" transform="translate(-437 -2071)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="26.5" cy="26.5" r="26.5" transform="translate(437 2082)" fill="#d3148b"/>
+    <rect id="Rectangle_180" data-name="Rectangle 180" width="27" height="8" rx="4" transform="translate(499.908 2110.251) rotate(45)" fill="#7e10bc"/>
+    <path id="Intersection_1" data-name="Intersection 1" d="M-4053,30.5a26.4,26.4,0,0,1,6.54-17.431q.971-.068,1.961-.069A27.5,27.5,0,0,1-4017,40.5a27.373,27.373,0,0,1-5.247,16.16A26.681,26.681,0,0,1-4026.5,57,26.5,26.5,0,0,1-4053,30.5Z" transform="translate(4509 2067)" fill="#f826ca"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(456 2071)" fill="none" stroke="#7e10bc" stroke-width="6">
+      <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+      <circle cx="26.5" cy="26.5" r="23.5" fill="none"/>
+    </g>
+  </g>
+</svg>

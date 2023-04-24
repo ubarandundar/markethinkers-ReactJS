@@ -10,7 +10,6 @@
     position: relative;
     z-index: 2;
     overflow-x: hidden;
-    padding-left: 30px;
 }
 
 .expertiseApplySectionButtons {
@@ -39,7 +38,7 @@
 .expertiseApplySectionButtonsActive {
     font: normal normal 20px/28px Paralucent;
     opacity: 1;
-    margin: 30px 0;
+    margin: 30px 0 30px 30px;
     color: white;
     background: #1F0242;
     border: 1px solid #1F0242;
@@ -93,4 +92,16 @@
     font: normal normal 17px/20px Montserrat;
     letter-spacing: 0.17px;
     color: #D3148B;
+}
+
+.expertiseApplySectionButton:hover {
+    background: transparent;
+    color: white;
+}
+
+.expertiseApplySectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 37%;
+    margin-top: -25%;
 }

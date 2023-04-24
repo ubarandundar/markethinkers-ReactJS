@@ -1,0 +1,28 @@
+.expertiseSubServicesCardsBody {
+    background: #FFFFFF;
+    border-radius: 53px;
+    opacity: 1;
+    padding: 60px 40px 60px 40px;
+    max-width: 330px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.expertiseSubServicesCardsHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.expertiseSubServicesCardsParag {
+    text-align: left;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
