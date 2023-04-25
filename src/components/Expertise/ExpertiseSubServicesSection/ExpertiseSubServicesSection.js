@@ -3,7 +3,7 @@ import classes from './ExpertiseSubServicesSection.module.css';
 
 function ExpertiseSubServicesSection() {
   return (
-    <div className='container position-relative'>
+    <div className='container-fluid position-relative'>
         <div className='d-flex flex-column'>
             <header className={classes.expertiseSubServicesSectionHeader}>
                 our subservices

@@ -1,0 +1,15 @@
+.expertiseSEOTeamCardsInfoBody {
+    background: white;
+    border-radius: 40px;
+    padding: 60px;
+    margin-top: 30px !important;
+    margin-bottom: 120px;
+}
+
+.expertiseSEOTeamCardsInfoBody div {
+    text-align: left;
+    font: normal normal 300 18px/26px Paralucent;
+    letter-spacing: 0.9px;
+    color: #444444;
+    opacity: 1; 
+}

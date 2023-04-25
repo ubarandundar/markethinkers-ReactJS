@@ -1,0 +1,76 @@
+.expertiseMultiBrandWrapper {
+    margin-left: 15% !important;
+}
+
+.expertiseMultiBrandWrapper ul {
+    padding-top: 70px !important;
+}
+
+.expertiseSEOTeamCardsBody {
+    background: transparent linear-gradient(180deg, #FC4AAB 0%, #B83FD1 100%);
+    border-radius: 40px;
+    opacity: 1;
+    padding: 40px;
+    max-width: 330px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.expertiseSEOTeamCardsHeader {
+    text-align: left;
+    font: normal normal 25px/35px Paralucent;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 127px;
+    margin-bottom: 48px;
+}
+
+.expertiseSEOTeamCardsHeaderOther {
+    text-align: left;
+    font: normal normal 25px/35px Paralucent;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-top: 113px;
+    margin-bottom: 27px;
+}
+
+
+.expertiseSEOTeamCardsHeadImages {
+    position: absolute;
+    z-index: 2;
+    top: -17%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.expertiseSEOTeamCardsBody:hover {
+    cursor: pointer;
+    background: white;
+    padding-bottom: 50px;
+}
+
+.expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsHeader {
+    color: #444444;
+}
+
+.expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsHeaderOther {
+    color: #444444;
+}
+
+
+.expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsWhiteArrow {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsHeadImages {
+    margin-top: -10px;
+}
+
+.expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsWhiteArrow path[fill] {
+    fill: #444444;
+}

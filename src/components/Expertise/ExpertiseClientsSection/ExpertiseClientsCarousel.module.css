@@ -1,0 +1,66 @@
+/* .expertiseClientsCarouselBody ul {
+    padding-bottom: 60px !important;
+} */
+
+.expertiseClientsCarouselBlogBody {
+    background: #FFFFFF ;
+    border-radius: 33px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('../../../assets/Mask Group 43.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.expertiseClientsCarouselImagesBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.expertiseClientsCarouselBlogBodyParag {
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #696969;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.expertiseClientsCarouselBlogProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expertiseClientsCarouselBlogPorfileNameSurname {
+    text-align: left;
+    font: normal normal 25px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.expertiseClientsCarouselBlogPorfileTitle {
+    text-align: left;
+    font: normal normal 300 20px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-top: -35px;
+}
+
+.expertiseClientsCarouselBlogArrow path[fill] {
+    fill: #929393;
+}
+
+.expertiseClientsCarouselBlogArrow svg {
+    width: 29px;
+    height: 30px;
+}
