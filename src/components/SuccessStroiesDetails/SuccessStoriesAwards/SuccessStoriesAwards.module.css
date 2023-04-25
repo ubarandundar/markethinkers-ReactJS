@@ -1,0 +1,38 @@
+.successStoriesAwardsCardBody {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 40px 30px 40px 100px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../../assets/Mask Group 31.png');
+    /* background-size: 374px 472px; */
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    max-width: 690px;
+}
+
+.successStoriesAwardsCardBody img {
+    width: 167px;
+    height: 110px;
+    display: block;
+    margin: auto;
+}
+
+.successStoriesAwardsCardBody header {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.successStoriesAwardsCardBody span {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 1px;
+    color: #444444;
+    opacity: 1;
+}
+
+

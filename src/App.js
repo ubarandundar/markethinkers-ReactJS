@@ -13,6 +13,7 @@ import SuccessStories from './components/SuccessStories/SuccessStories';
 import Career from './components/Career/Career';
 import CareerDetails from './components/CareerDetails/CareerDetails';
 import Expertise from './components/Expertise/Expertise';
+import SuccessStoriesDetails from './components/SuccessStroiesDetails/SuccessStoriesDetails';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <HomePage />
       <hr />
       <SuccessStories />
+      <hr />
+      <SuccessStoriesDetails />
       <hr />
       <Expertise />
       <hr />

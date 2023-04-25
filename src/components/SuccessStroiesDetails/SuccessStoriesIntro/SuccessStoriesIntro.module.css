@@ -1,0 +1,97 @@
+.successStoriesIntroHeader {
+    text-align: left;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.successStoriesIntroParag {
+    text-align: left;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.successStoriesIntroBlueArea {
+    background: #124A95;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 50px 70px;
+    margin-top: 145px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.successStoriesIntroWhiteArea {
+    position: absolute;
+    z-index: 2;
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 60px 120px 60px 60px;
+    top: -15%;
+    right: 3%;
+}
+
+.successStoriesIntroRateBody {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.successStoriesIntroNumber {
+    text-align: center;
+    font: normal normal bold 91px/83px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF; 
+}
+
+.successStoriesIntroNumberSub {
+    text-align: center;
+    font: normal normal 59px/83px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.successStoriesIntroExplanation {
+    text-align: center;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.successStoriesIntroWhiteArea ul {
+    list-style: none;
+}
+
+.successStoriesIntroWhiteArea ul li::before{
+    content: '•';
+    color: #D3148B;
+    font-weight: normal;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1.3em; 
+}
+
+.successStoriesIntroWhiteArea ul li{
+    text-align: left;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #929393;
+    opacity: 1;
+}
+
+.successStoriesIntroWhiteArea header {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
