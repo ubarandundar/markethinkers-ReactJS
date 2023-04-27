@@ -4,9 +4,9 @@ import WhiteForwardArrow from '../../../assets/Group 34-white.svg';
 import AvansasLogo from '../../../assets/avansas logo.svg';
 import GeminilabLogo from '../../../assets/GeminiLab.svg';
 
-function SuccessStoryCard({changeLogo, changeRate, changeBackgroundColor, changeDistance, changeColForCase, changeMarginForCase,changeDistanceForHover}) {
+function SuccessStoryCard({changeLogo, changeRate, changeBackgroundColor, changeDistance, changeColForCase, changeMarginForCase,changeDistanceForHover, changeWidth}) {
   return (
-    <div className={changeColForCase ? 'col-6' : 'col-4'}>
+    <div style={changeWidth ? {width: '450px'} : {}} className={changeColForCase ? 'col-6' : 'col-4'}>
         <a href='www.google.com' className={classes.successStoryCardWrapper}>
             <div style={changeBackgroundColor ? {backgroundColor: '#0D1835'} : {} && changeMarginForCase ? {marginTop: '60px'} : {}} className={classes.successStoryCardBody}>
                 <img style={changeDistance ? {marginBottom: '135px'} : {}} className={classes.successStoryCardArrow} src={WhiteForwardArrow} alt='WhiteForward_Arrow' />

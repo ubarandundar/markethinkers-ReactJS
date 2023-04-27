@@ -2,7 +2,7 @@
     width: 42px;
     height: 42px;
     border: 1px solid #FFFFFF;
-    border-radius: 21px;
+    border-radius: 50%;
     opacity: 1;
     background-color: transparent;
     margin-left: 10px;
@@ -31,6 +31,19 @@
     margin-left: 10px;
 }
 
+.footerSocialMediaExForSuccessStories {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.footerSocialMediaExForSuccessStories:hover {
+    background: #1F0242;
+}
+
 .footerSocialMediaEx:hover {
     background: #1F0242;
 }
@@ -39,4 +52,11 @@
     display: block;
     margin: auto;
     padding-top: 10px;
+}
+
+.footerSocialMediaExForSuccessStories img {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    height: 36px;
 }

@@ -14,7 +14,7 @@ function LoremSection() {
             </div>
         </div>
         <div className='row'>
-            <div className={'d-flex flex-column'}>
+            <div className='d-flex flex-column'>
                 <div className={classes.loremCard}>
                     <header className={classes.loremCardHeader}>
                         Lorem ipsum dolor sit amet, consectetur adi

@@ -33,7 +33,7 @@ function SuccessStoriesAwards (props) {
 
     return (
         <div style={{marginTop: '100px', marginBottom: '50px', marginLeft: '18%'}} className='container-fluid'>
-            <div className={classes.expertiseMultiBrandBody}>
+            <div>
             <Carousel
                 swipeable={false}
                 draggable={true}

@@ -1,6 +1,6 @@
 import classes from './SuccessStoriesContent.module.css';
 
-import SuccessStoriesMobilePicture from '../../../../assets/mobile.png';
+import x from '../../../../assets/picturedarea.png';
 
 function SuccessStoriesContent() {
   return (
@@ -172,12 +172,146 @@ function SuccessStoriesContent() {
                 </div>
             </div>
         </div>
-        <div className='row'>
+        <div className='row' style={{marginBottom: '60px', marginTop: '30px'}}>
+            <div className='col-sm-12 col-md-12 col-lg-6'>
+                <div className={classes.successStoriesContentsBodyColouredCard}>
+                </div>
+            </div>
             <div className='col-sm-12 col-md-12 col-lg-6'>
                 <div className={classes.successStoriesContentsBodyColouredCard}>
                 </div>
             </div>
         </div>
+        <div className={classes.successStoriesTableOfContentsBodyOneOther}>
+            <div className={classes.successStoriesTableOfContentsHeaderOneOther}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            </div>
+            <div className={classes.successStoriesTableOfContentsParag}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
+            </div>
+        </div>
+        <div className={classes.successStoriesTableOfContentsStatement}>
+            <div className={classes.successStoriesTableOfContentsStatementParag}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </div>
+            <div style={{textAlign: 'center'}} className={classes.successStoriesTableOfContentsHeaderCore}>
+                core web vitals
+            </div>
+        </div>
+        <div className={classes.successStoriesTableOfContentsStatementOther}>
+            <header>
+                Lorem ipsum dolor sit
+            </header>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
+            </div>
+        </div>
+        <div className='d-flex flex-column'>
+                <div className={classes.successStoriesTableOfContentsSmallFirstCard}>
+                    <div className={classes.successStoriesTableOfContentsCardNumber}>
+                        1
+                    </div>
+                    <header className={classes.successStoriesTableOfContentsSmallCardHeader}>
+                        Lorem ipsum dolor sit
+                    </header>
+                    <span className={classes.successStoriesTableOfContentsSmallCardParag}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                </div>
+                <div className={classes.successStoriesTableOfContentsSmallSecondCard}>
+                    <div className={classes.successStoriesTableOfContentsCardNumber}>
+                        2
+                    </div>
+                    <header className={classes.successStoriesTableOfContentsSmallCardHeader}>
+                        Lorem ipsum dolor sit
+                    </header>
+                    <span className={classes.successStoriesTableOfContentsSmallCardParag}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                </div>
+                <div className={classes.successStoriesTableOfContentsSmallThirdCard}>
+                    <div className={classes.successStoriesTableOfContentsCardNumber}>
+                        3
+                    </div>
+                    <header className={classes.successStoriesTableOfContentsSmallCardHeader}>
+                        Lorem ipsum dolor sit
+                    </header>
+                    <span className={classes.successStoriesTableOfContentsSmallCardParag}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                </div>
+                <div className={classes.successStoriesTableOfContentsSmallFourthCard}>
+                    <div className={classes.successStoriesTableOfContentsCardNumber}>
+                        4
+                    </div>
+                    <header className={classes.successStoriesTableOfContentsSmallCardHeader}>
+                        Lorem ipsum dolor sit
+                    </header>
+                    <span className={classes.successStoriesTableOfContentsSmallCardParag}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                </div>
+            </div>
+            <div>
+                <header className={classes.successStoriesTableOfContentsTableHeader}>
+                    Table Title
+                </header>
+                <div className={classes.successStoriesTableOfContentsTableBody}>
+                    <table>
+                    <tr>
+                        <th style={{textAlign: 'left'}}>Lorem İpsum</th>
+                        <th>Lorem İpsum</th>    
+                        <th>Lorem İpsum</th>
+                        <th>Lorem İpsum</th>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum Dolor</td>
+                        <td>123</td>
+                        <td>123</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum Sit</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>      
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum Amet</td>
+                        <td>123</td>
+                        <td>-</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                        <td>1234</td>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum</td>
+                        <td>123</td>
+                        <td>-</td>
+                        <td>123</td>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum</td>
+                        <td>12</td>
+                        <td>-</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td style={{textAlign: 'left'}}>Lorem İpsum</td>
+                        <td>123</td>
+                        <td>-</td>
+                        <td>123</td>
+                    </tr>
+                    </table>
+                </div>
+                <caption className={classes.successStoriesTableOfContentsTableDescription}>
+                    table description
+                </caption>
+            </div>
     </div>
   )
 }

@@ -108,7 +108,7 @@
 
 .successStoriesTableOfContentsNumber {
     text-align: left;
-    font: normal normal bold 80px/60px Paralucent;
+    font: normal normal bold 70px/50px Paralucent;
     letter-spacing: 0px;
     color: #FF8049;
     opacity: 1;
@@ -217,9 +217,190 @@
 
 .successStoriesContentsBodyColouredCard {
     width: 100%;
-    max-height: 280px;
+    height: 280px;
     border-radius: 25px;
-    background-image: url('../../../../assets/picturedarea.png');
+    background-image: url('../../../../assets/picturedareasm.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.successStoriesTableOfContentsStatement {
+    padding: 60px 60px 44px 60px;
+    background: white;
+    border-radius: 25px;
+    opacity: 1;
+    margin-top: 64px;
+    margin-bottom: 94px;
+}
+
+.successStoriesTableOfContentsStatementParag {
+    text-align: center;
+    font: italic normal 42px/52px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.successStoriesTableOfContentsStatementOther {
+    padding: 60px 60px 60px 200px;
+    background: white;
+    border-radius: 25px;
+    opacity: 1;
+    background-image: url('../../../../assets/Mask Group 31.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    margin-bottom: 101px;
+}
+
+.successStoriesTableOfContentsStatementOther header {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.successStoriesTableOfContentsStatementOther div {
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #929393;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsSmallFirstCard {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    max-width: 52%;
+    padding: 40px 60px 40px 60px;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.successStoriesTableOfContentsSmallSecondCard {
+    background: #F7F7F7;
+    border-radius: 25px;
+    opacity: 1;
+    max-width: 52%;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -80px;
+    position: relative;
+}
+
+.successStoriesTableOfContentsSmallThirdCard {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    max-width: 52%;
+    padding: 40px 60px 40px 60px;
+    margin-right: auto;
+    z-index: 3;
+    margin-top: -80px;
+    position: relative;
+}
+
+.successStoriesTableOfContentsSmallFourthCard {
+    background: #F7F7F7;
+    border-radius: 25px;
+    opacity: 1;
+    max-width: 52%;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    z-index: 4;
+    margin-top: -80px;
+    position: relative;
+}
+
+.successStoriesTableOfContentsSmallCardHeader {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.successStoriesTableOfContentsSmallCardParag {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsCardNumber {
+    text-align: left;
+    font: normal normal 900 82px/104px Paralucent;
+    letter-spacing: 4.1px;
+    color: #D3148B;
+    opacity: 1;
+    position: absolute;
+    top: -25%;
+}
+
+.successStoriesTableOfContentsTableHeader {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-top: 68px;
+    margin-bottom: 30px;
+}
+
+.successStoriesTableOfContentsTableBody {
+    background: #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    padding: 40px;
+}
+
+.successStoriesTableOfContentsTableBody table, .successStoriesTableOfContentsTableBody th, .successStoriesTableOfContentsTableBody td {
+    border: 1px solid #E3E3E3;
+    border-collapse: collapse;
+}
+
+.successStoriesTableOfContentsTableBody table {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.successStoriesTableOfContentsTableBody th {
+    background-color: #EBEBEB;
+    padding: 23px 58px 21px 30px;
+    text-align: center;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsTableBody td {
+    padding: 16px 30px 16px 30px;
+    text-align: center;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsTableBody tr:nth-child(2n+1) {
+    background: #F7F7F7;
+}
+
+.successStoriesTableOfContentsTableDescription {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }

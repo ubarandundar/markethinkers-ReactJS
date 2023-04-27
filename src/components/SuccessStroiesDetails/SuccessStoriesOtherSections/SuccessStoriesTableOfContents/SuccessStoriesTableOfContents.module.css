@@ -2,4 +2,82 @@
     background: #F7F7F7;
     border-radius: 0 50px 50px 0;
     opacity: 1;
+    padding: 40px 40px 40px 0;
 }
+
+.successStoriesTableOfContentsBody hr {
+    border-top: 1px solid #E3E3E3 !important;
+}
+
+.successStoriesTableOfContentsTitle {
+    text-align: left;
+    font: normal normal 16px/22px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsBoldArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.successStoriesTableOfContentsLightLargeArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.successStoriesTableOfContentsLightSmallArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.successStoriesTableOfContentsBoldContent {
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsLightLargeContent {
+    text-align: left;
+    font: normal normal 18px/26px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsLightSmallContent {
+    text-align: left;
+    font: normal normal 16px/22px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.successStoriesTableOfContentsBoldArea:hover, .successStoriesTableOfContentsLightLargeArea:hover, .successStoriesTableOfContentsLightSmallArea:hover {
+    cursor: pointer;
+}
+
+.successStoriesTableOfContentsBoldArea:hover .successStoriesTableOfContentsBoldContent, .successStoriesTableOfContentsLightLargeArea:hover .successStoriesTableOfContentsLightLargeContent, .successStoriesTableOfContentsLightSmallArea:hover .successStoriesTableOfContentsLightSmallContent {
+    color: #D3148B;
+}
+
+.successStoriesTableOfContentsBoldArea:hover .successStoriesTableOfContentsArrow, .successStoriesTableOfContentsLightLargeArea:hover .successStoriesTableOfContentsArrowGray, .successStoriesTableOfContentsLightSmallArea:hover .successStoriesTableOfContentsArrowGray{
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.successStoriesTableOfContentsBoldArea:hover .successStoriesTableOfContentsArrow path[fill], .successStoriesTableOfContentsLightLargeArea:hover .successStoriesTableOfContentsArrowGray path[fill], .successStoriesTableOfContentsLightSmallArea:hover .successStoriesTableOfContentsArrowGray path[fill] {
+    fill: #D3148B;
+}
+
+/* .successStoriesTableOfContentsLightSmallArea:hover {
+    margin-top: 20px;
+    margin-bottom: 22px;
+} */

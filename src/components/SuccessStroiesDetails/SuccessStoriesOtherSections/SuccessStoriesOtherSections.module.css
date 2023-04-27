@@ -1,0 +1,12 @@
+.successStoriesOtherSectionsSocialWrapper {
+    position: sticky;
+    top: 18%;
+    background: #FFFFFF;
+    border-radius: 45px 0px 0px 45px;
+    opacity: 1;
+    padding: 15px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
