@@ -1,0 +1,63 @@
+.BlogDetailsIntroHeader {
+    margin: 270px 0 30px 30px;
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.blogDetailsIntroImage {
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.blogDetailsIntroProfileArea {
+    position: absolute;
+    z-index: 2;
+    top: -10%;
+    right: -25%;
+}
+
+.blogDetailsIntroProfileBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F7F7F7;
+    border-radius: 72px 0 0 72px;
+    opacity: 1;
+    padding: 24px 270px 24px 24px;
+}
+
+.blogDetailsIntroProfileDate {
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.blogCardBottomSideNameSurname {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+.blogCardBottomSidePorfileTtile {
+    text-align: left;
+    font: normal normal 300 16px/22px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+.blogProfileImg {
+    width: 96px;
+    height: 96px;
+}

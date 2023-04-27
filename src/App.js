@@ -14,6 +14,8 @@ import Career from './components/Career/Career';
 import CareerDetails from './components/CareerDetails/CareerDetails';
 import Expertise from './components/Expertise/Expertise';
 import SuccessStoriesDetails from './components/SuccessStroiesDetails/SuccessStoriesDetails';
+import BlogDetails from './components/BlogDetails/BlogDetails';
+import WordCounter from './components/WordCounter/WordCounter';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <hr />
       <Tools />
       <hr />
+      <WordCounter />
+      <hr />
       <AboutUs />
       <hr />
       <Career />
@@ -39,6 +43,8 @@ function App() {
       <Blog />
       <hr />
       <BlogWriter />
+      <hr />
+      <BlogDetails />
       <hr />
       <FAQ />
       <hr />

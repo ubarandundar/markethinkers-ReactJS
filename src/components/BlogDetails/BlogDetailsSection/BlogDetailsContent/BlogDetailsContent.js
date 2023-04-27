@@ -1,17 +1,21 @@
-import classes from './SuccessStoriesContent.module.css';
+import classes from './BlogDetailsContent.module.css';
 
 import TopQuoteImage from '../../../../assets/quote.svg';
 import BottomQuoteImage from '../../../../assets/quote (1).svg';
 import CoreWebVitalsGraphics from '../../../../assets/Mask Group 26.png';
+import SocialMediaItems from '../../../Home/Footer/SocialMediaItems';
 
-function SuccessStoriesContent() {
+function BlogDetailsContent() {
   return (
     <div>
-        <header className={classes.successStoriesTableOfContentsMainHeader}>
-            Markethinkers & Avansas: Content Marketing for Top Rankings
+        <header className={classes.blogDetailsContentMainHeader}>
+            2023 Guide for Digital Marketers: Recommendations From Top Experts
         </header>
-        <div className={classes.successStoriesTableOfContentsParag}>
-            Our cooperation with avansas.com, which is Turkey’s leading office and stationery supplies e-commerce website, began in September of 2020. As part of our cooperation, we started to prepare promotional articles, category contents, product contents and blog contents incrementally and studiously.
+        <div className={classes.blogDetailsContentParag}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
+            <br />
+            <br />
+            Dolor sed viverra ipsum nunc aliquet bibendum enim Markethinkers facilisis gravida. Viverra accumsan in nisl nisi. Sit amet volutpat consequat mauris nunc congue nisi. Ut porttitor leo a diam sollicitudin tempor id eu. Sit amet volutpat consequat mauris nunc congue nisi. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Viverra adipiscing at in tellus integer feugiat scelerisque. Tristique senectus et netus et malesuada fames ac. Quis commodo odio aenean sed. Adipiscing commodo elit at imperdiet dui accumsan. Amet luctus venenatis lectus magna.
         </div>
         <div className={classes.successStoriesTableOfContentsWhiteArea}>
                 <ul>
@@ -29,7 +33,7 @@ function SuccessStoriesContent() {
                     </li>
                 </ul>
         </div>
-        <div className={classes.successStoriesTableOfContentsParag}>
+        <div className={classes.blogDetailsContentParag}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
         </div>
         <div className='row'>
@@ -70,7 +74,7 @@ function SuccessStoriesContent() {
             <div className={classes.successStoriesTableOfContentsHeaderOther}>
                 Lorem ipsum dolor sit
             </div>
-            <div className={classes.successStoriesTableOfContentsParag}>
+            <div className={classes.blogDetailsContentParag}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
                 <br />
                 <br />
@@ -128,7 +132,7 @@ function SuccessStoriesContent() {
             <div className={classes.successStoriesTableOfContentsHeaderOneOther}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             </div>
-            <div className={classes.successStoriesTableOfContentsParag}>
+            <div className={classes.blogDetailsContentParag}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
             </div>
             <ul>
@@ -185,7 +189,7 @@ function SuccessStoriesContent() {
             <div className={classes.successStoriesTableOfContentsHeaderOneOther}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             </div>
-            <div className={classes.successStoriesTableOfContentsParag}>
+            <div className={classes.blogDetailsContentParag}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
             </div>
         </div>
@@ -312,9 +316,15 @@ function SuccessStoriesContent() {
                 <caption className={classes.successStoriesTableOfContentsTableDescription}>
                     table description
                 </caption>
+                <div className='d-flex flex-row'>
+                    <div className={classes.blogDetailsContentShareHere}>
+                        Share here:
+                    </div>
+                    <SocialMediaItems changeFacebookBackground={true} />
+                </div>
             </div>
     </div>
   )
 }
 
-export default SuccessStoriesContent;
+export default BlogDetailsContent;

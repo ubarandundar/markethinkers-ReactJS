@@ -8,55 +8,58 @@
     margin-left: 10px;
 }
 
-/* .footerSocialMediaBorderChange {
-    width: 42px;
-    height: 42px;
+.footerSocialMediaForSuccessStories {
+    width: 60px;
+    height: 60px;
     border: 1px solid #EBEBEB;
-    border-radius: 21px;
+    border-radius: 50%;
     opacity: 1;
     background-color: transparent;
-    margin-left: 10px;
-} */
-
-/* .footerSocialMediaArea a:hover {
-    transition: 300ms ease-out;
-} */
+    margin-bottom: 8px;
+}
 
 .footerSocialMediaEx {
     width: 42px;
     height: 42px;
     border: 1px solid #FFFFFF;
-    border-radius: 21px;
+    border-radius: 50%;
     opacity: 1;
     margin-left: 10px;
 }
 
 .footerSocialMediaExForSuccessStories {
-    width: 42px;
-    height: 42px;
-    border: 1px solid #FFFFFF;
-    border-radius: 21px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
     opacity: 1;
-    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.footerSocialMediaExForSuccessStories:hover .footerSocialMediaFaceIcon path[fill] {
+    fill: #d3148b;
 }
 
 .footerSocialMediaExForSuccessStories:hover {
     background: #1F0242;
 }
 
+.footerSocialMediaFaceIconForBlogDetails path[fill] {
+    fill: #d3148b;
+}
+
 .footerSocialMediaEx:hover {
     background: #1F0242;
 }
 
-.footerSocialMedia img, .footerSocialMediaEx img {
+.footerSocialMedia img, .footerSocialMediaEx svg {
     display: block;
     margin: auto;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
-.footerSocialMediaExForSuccessStories img {
+.footerSocialMediaExForSuccessStories svg, .footerSocialMediaForSuccessStories img  {
     display: block;
     margin: auto;
-    padding-top: 10px;
-    height: 36px;
+    margin-top: 12px;
 }

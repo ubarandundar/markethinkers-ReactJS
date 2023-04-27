@@ -1,4 +1,4 @@
-.successStoriesTableOfContentsMainHeader {
+.blogDetailsContentMainHeader {
     text-align: left;
     font: normal normal 50px/64px Paralucent;
     letter-spacing: 2.5px;
@@ -7,7 +7,7 @@
     margin-bottom: 60px;
 }
 
-.successStoriesTableOfContentsParag {
+.blogDetailsContentParag {
     text-align: left;
     font: normal normal 300 20px/35px Paralucent;
     letter-spacing: 1px;
@@ -412,5 +412,17 @@
     opacity: 1;
     white-space: nowrap;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+.blogDetailsContentShareHere {
+    text-align: right;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-right: 30px;
 }

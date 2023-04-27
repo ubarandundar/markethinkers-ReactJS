@@ -17,7 +17,7 @@ function SuccessStoriesOtherSections() {
             </div>
             <div className='col-2'>
                 <div className={classes.successStoriesOtherSectionsSocialWrapper}>
-                    <SocialMediaItems changeBorderColor={true} changeFaceColor={true} changeFaceSize={true} changeMarginLeft={true} />
+                    <SocialMediaItems changesForSuccessStories={true} />
                 </div>
             </div>
         </div>

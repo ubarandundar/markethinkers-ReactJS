@@ -1,0 +1,62 @@
+.blogDetailsBarBody {
+    background: #F7F7F7;
+    border-radius: 92px;
+    padding: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blogDetailsBarProfileBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blogDetailsBarNameSurname {
+    text-align: left;
+    font: normal normal 24px/34px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.blogDetailsBarProfileTitle {
+    text-align: left;
+    font: normal normal 300 16px/22px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+.blogDetailsBarImg {
+    width: 96px;
+    height: 96px;
+}
+
+.blogDetailsBarDetails {
+    text-align: left;
+    font: normal normal 300 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #929393;
+    opacity: 1;
+}
+
+.blogDetailsBarBody button {
+    background: #FF8049;
+    border: 1px solid #FF8049;
+    border-radius: 40px;
+    text-align: center;
+    font: normal normal bold 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    white-space: nowrap;
+    width: 210px;
+    height: 80px;
+    padding: 0 43px;
+}
