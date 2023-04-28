@@ -1,14 +1,18 @@
 import classes from './WordCounter.module.css';
+import WordCounterCard from './WordCounterCard/WordCounterCard';
 
 function WordCounter() {
   return (
     <div className='container'>
-        <header>
+        <header className={classes.wordCounterHeader}>
             Word Counter
         </header>
-        <header>
-            You can now prepare your texts professionally!
+        <header className={classes.wordCounterHeaderSub}>
+            You can now prepare your texts
+            <br />
+            professionally!
         </header>
+        <WordCounterCard />
     </div>
   )
 }
