@@ -7,9 +7,12 @@ function WordCounterCard() {
             <header className={classes.wordCounterBodyHeader}>
                 Word Counter
             </header>
-            <div className={classes.wordCounterRangeArea}>
-                <input id='spaces' type='range' />
-                <label htmlFor='spaces' name='spaces' min="0" max="10" step='1' className={classes.wordCounterRangeHeader}>
+            <div className={classes.wordCounterSwitchArea}>
+                <label className={classes.wordCounterSwitch}>
+                    <input className={classes.wordCounterSwitchInput} id='spaces' type='checkbox' />
+                    <span className={classes.slider}></span>
+                </label>
+                <label htmlFor='spaces' name='spaces' min="0" max="10" step='1' className={classes.wordCounterSwitchHeader}>
                     Spaces Included
                 </label>
             </div>

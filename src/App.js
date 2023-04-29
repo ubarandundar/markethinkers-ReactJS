@@ -16,6 +16,7 @@ import Expertise from './components/Expertise/Expertise';
 import SuccessStoriesDetails from './components/SuccessStroiesDetails/SuccessStoriesDetails';
 import BlogDetails from './components/BlogDetails/BlogDetails';
 import WordCounter from './components/WordCounter/WordCounter';
+import SERPPreviewTool from './components/SERPPreviewTool/SERPPreviewTool';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Tools />
       <hr />
       <WordCounter />
+      <hr />
+      <SERPPreviewTool />
       <hr />
       <AboutUs />
       <hr />
