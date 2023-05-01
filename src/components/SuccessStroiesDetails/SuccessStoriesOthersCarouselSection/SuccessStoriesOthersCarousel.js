@@ -2,6 +2,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import CustomDot from '../../Home/OurPartnersSection/CustomDot';
 import SuccessStoryCard from '../../SuccessStories/SuccessStroyCard/SuccessStoryCard';
+import CustomLeftLargeArrow from './CustomLeftLargeArrow';
+import CustomRightLargeArrow from './CustomRightLargeArrow';
 
 import classes from './SuccessStoriesOthersCarousel.module.css';
 
@@ -53,6 +55,9 @@ function SuccessStoriesOthersCarousel (props) {
                 arrows={true}
                 centerMode={true}
                 customDot={<CustomDot />}
+                customLeftArrow={<CustomLeftLargeArrow />}
+                customRightArrow={<CustomRightLargeArrow />}
+                // renderDotsOutside={true}
                 // customTransition='transform 300ms ease-in-out'
                 >
                 <div>

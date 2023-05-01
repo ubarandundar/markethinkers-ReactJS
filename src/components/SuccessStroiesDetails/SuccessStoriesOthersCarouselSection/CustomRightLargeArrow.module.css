@@ -1,0 +1,44 @@
+.customRightLargeArrowBody {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px 0 0 50px;
+    opacity: 0.95;
+    width: 164px;
+    height: 570px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.customRightLargeArrowBodySub {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px 0 0 50px;
+    opacity: 0.4;
+    width: 231px;
+    height: 458px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.customRightLargeArrowBody img {
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    transition: all 0.5 ease-out;
+    right: 0;
+}
+
+.customRightLargeArrowBody:hover {
+    width: 184px;
+}
+
+.customRightLargeArrowBody:hover img {
+    margin-right: 20px;
+}
+
