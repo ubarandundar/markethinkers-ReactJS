@@ -10,10 +10,10 @@
     height: 1011px; 
     opacity: 1;
     /* border: 1px solid black; */
-    background-image: url('../../../assets/Asset 1@2x.png');
-    background-size: 1343px 1000px;
+    /* background-image: url('../../../assets/Asset 1@2x.png'); */
+    /* background-size: 1343px 1000px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     font-weight: 500;
     position: relative;
     z-index: 3;
@@ -183,7 +183,14 @@
     }
 }
 
-
+.welcomeLottie {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(20px);
+}
 
 
 

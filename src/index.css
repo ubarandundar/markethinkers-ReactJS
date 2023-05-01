@@ -14,3 +14,7 @@ body {
   opacity: 1;
   transition: 1500ms ease-out;
 }
+
+:root {
+  background: #EBECED;
+}

@@ -3,7 +3,7 @@
     border-radius: 50px;
     opacity: 1;
     padding: 60px 40px 60px 40px; 
-    margin-top: 330px;
+    margin-top: 330px !important;
     margin-bottom: 80px;
 }
 

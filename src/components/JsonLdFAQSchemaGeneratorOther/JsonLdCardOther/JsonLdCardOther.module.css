@@ -1,0 +1,254 @@
+.jsonLdCodeCardBody {
+    background: #F7F7F7;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 60px !important;
+    position: relative;
+    width: 51% !important;
+    margin-right: auto;
+}
+
+.jsonLdCodeCardBodyOther {
+    background: #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 60px !important;
+    position: relative;
+    width: 51% !important;
+    margin-left: auto;
+    margin-top: -32% !important;
+    margin-bottom: 24px;
+}
+
+.jsonLdCodeCardBody header, .jsonLdCodeCardBodyOther header {
+    text-align: left;
+    font: normal normal 25px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.jsonLdCodeCardBody label, .jsonLdCodeCardBodyOther label {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.jsonLdCodeCardBody textarea {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+    resize: none;
+    width: 100%;
+    height: 220px;
+    border: none;
+    overflow-y: scroll;
+    background: #F7F7F7;
+}
+
+.jsonLdCodeCardBodyOther textarea {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+    resize: none;
+    width: 100%;
+    height: 220px;
+    border: none;
+    overflow-y: scroll;
+}
+
+.copyFAQSchemaButton {
+    background: #1F0242;
+    border: 1px solid #1F0242;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 16px 32px 16px 32px;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.editingButton {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 16px 32px 16px 32px;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.editingButton:hover {
+    color: #D3148B;
+}
+
+.backToFAQSchemaGenerator {
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #1F0242;
+    opacity: 1;
+}
+
+.backArrow {
+    margin-right: 5px;
+}
+
+.backToFAQSchemaGeneratorWrapper {
+    position: absolute;
+    z-index: 3;
+    top: -10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.backToFAQSchemaGeneratorWrapper:hover .backToFAQSchemaGenerator {
+    color: #D3148B;
+}
+
+.backToFAQSchemaGeneratorWrapper:hover .backArrow {
+    margin-right: 15px;
+}
+
+.jsonTopArrow {
+    width: 76px !important;
+    /* height: 67px; */
+    position: absolute;
+    z-index: 3;
+    top: -18%;
+    left: 0%;
+}
+
+.jsonBottomArrow {
+    position: absolute;
+    z-index: 3;
+    width: 83px !important;
+    /* height: 75px; */
+    bottom: -20%;
+    left: 80%;
+}
+
+.jsonLdSwitchArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.jsonLdSwitch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    margin-top: 29px;
+}
+  
+.jsonLdSwitch .jsonLdSwitchInput {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    bottom: -10px;
+    background-color: white;
+    border: 2px solid #929393;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.jsonLdSwitchInput:checked + .slider {
+    background-color: #929393;
+}
+
+.jsonLdSwitchInput:checked + .slider::before {
+    background-color: #1F0242;
+}
+  
+.jsonLdSwitchInput:focus + .slider {
+    box-shadow: 0 0 1px #929393;
+}
+  
+.jsonLdSwitchInput:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider {
+    border-radius: 34px;
+}
+
+.slider:before {
+    border-radius: 50%;
+}
+
+.jsonLdSwitchArea:hover  label {  
+    color: #D3148B;
+}
+
+.jsonLdCodeCardBody hr, .jsonLdCodeCardBodyOther hr {
+    border-top: 1px solid #EBEBEB;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #EBEBEB;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #D3148B;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D3148B;
+  }

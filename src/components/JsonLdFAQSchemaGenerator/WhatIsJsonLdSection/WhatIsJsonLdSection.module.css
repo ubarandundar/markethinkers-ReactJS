@@ -1,13 +1,12 @@
-.whatIsWordCounterSectionHeader {
+.whatIsJsonLdSectionHeader {
     text-align: center;
     font: normal normal bold 60px/60px Paralucent;
     letter-spacing: 0px;
     color: #444444;
-    margin-top: 200px;
-    margin-bottom: 38px;
+    margin-top: 172px;
 }
 
-.whatIsWordCounterSectionParag {
+.whatIsJsonLdSectionParag {
     text-align: left;
     font: normal normal 300 20px/25px Paralucent;
     letter-spacing: 1px;
@@ -15,17 +14,17 @@
     opacity: 1;
 }
 
-.whatIsWordCounterSectionCard {
+.whatIsJsonLdSectionCard {
     background: #F7F7F7;
     border-radius: 41px;
     opacity: 1;
     max-width: 53%;
     padding: 60px 90px 100px 60px;
     z-index: 1;
-    margin-top: 74px;
+    margin-top: 96px;
 }
 
-.whatIsWordCounterSectionOtherCard {
+.whatIsJsonLdSectionOtherCard {
     background: #FFFFFF;
     border-radius: 41px;
     opacity: 1;
@@ -36,7 +35,7 @@
     margin-top: -270px;
 }
 
-.whatIsWordCounterSectionCardHeader, .whatIsWordCounterSectionOtherCardHeader {
+.whatIsJsonLdSectionCardHeader, .whatIsJsonLdSectionOtherCardHeader {
     text-align: left;
     font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
@@ -45,7 +44,7 @@
     margin-bottom: 20px;
 }
 
-.whatIsWordCounterSectionCardParag, .whatIsWordCounterSectionOtherCardParag {
+.whatIsJsonLdSectionCardParag, .whatIsJsonLdSectionOtherCardParag {
     text-align: left;
     font: normal normal 300 18px/26px Paralucent;
     letter-spacing: 0px;
@@ -53,7 +52,7 @@
     opacity: 1;
 }
 
-.whatIsWordCounterSectionLoremHeader {
+.whatIsJsonLdSectionLoremHeader {
     text-align: center;
     font: normal normal bold 60px/60px Paralucent;
     letter-spacing: 0px;
@@ -63,7 +62,7 @@
     margin-bottom: 30px;
 }
 
-.whatIsWordCounterSectionLoremParag {
+.whatIsJsonLdSectionLoremParag {
     text-align: center;
     font: normal normal 20px/35px Paralucent;
     letter-spacing: 1px;
@@ -72,14 +71,14 @@
     margin-bottom: 60px;
 }
 
-.whatIsWordCounterSectionLoremCardBody {
+.whatIsJsonLdSectionLoremCardBody {
     background: #FFFFFF;
     border-radius: 53px;
     opacity: 1;
     padding: 60px 40px 60px 40px;
 }
 
-.whatIsWordCounterSectionLoremCardHeader {
+.whatIsJsonLdSectionLoremCardHeader {
     text-align: left;
     font: normal normal 30px/43px Paralucent;
     letter-spacing: 0px;
@@ -88,7 +87,7 @@
     margin-bottom: 20px;
 }
 
-.whatIsWordCounterSectionLoremCardParag {
+.whatIsJsonLdSectionLoremCardParag {
     text-align: left;
     font: normal normal normal 20px/24px Montserrat;
     letter-spacing: 0px;

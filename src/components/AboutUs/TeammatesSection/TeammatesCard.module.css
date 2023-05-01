@@ -34,9 +34,10 @@
 
 .teammatesSectionCardInfo {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+    padding: 0 40px 30px 40px;
 }
 
 .teammatesSectionCardInfoLinkedinBody {
@@ -52,8 +53,11 @@
     filter: grayscale(100%);
     position: absolute;
     z-index: 1;
-    top: -10%;
-    left: 16%;
+    /* top: -10%;
+    left: 16%; */
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .teammatesSectionCardLinkedin {
@@ -83,24 +87,24 @@
     margin-top: 5px;
 }
 
-.teammatesSectionForwardArrow {
-    width: 16px;
-    height: 16px;
+.teammatesSectionForwardArrowWrapper {
+    margin-left: auto;
     margin-top: -7px;
 }
 
+.teammatesSectionForwardArrow {
+    width: 16px;
+    height: 16px;
+}
+
 .teammatesSectionCardBody:hover .teammatesSectionForwardArrow {
-    margin-top: -20px;
-    margin-left: 20px;
+    margin-top: -10px;
+    margin-right: -10px;
 }
 
 .teammatesSectionCardBody:hover .teammatesSectionCardProfilPicture {
     filter: grayscale(0%);
-    top: -15%;
-}
-
-.teammatesSectionCardBody:hover .teammatesSectionCardInfoLinkedinBody  {
-    margin-left: 20px;
+    top: 11%;
 }
 
 .teammatesSectionCardBody:hover .teammatesSectionCardName {

@@ -17,6 +17,8 @@ import SuccessStoriesDetails from './components/SuccessStroiesDetails/SuccessSto
 import BlogDetails from './components/BlogDetails/BlogDetails';
 import WordCounter from './components/WordCounter/WordCounter';
 import SERPPreviewTool from './components/SERPPreviewTool/SERPPreviewTool';
+import JsonLdFAQSchemaGenerator from './components/JsonLdFAQSchemaGenerator/JsonLdFAQSchemaGenerator';
+import JsonLdFAQSchemaGeneratorOther from './components/JsonLdFAQSchemaGeneratorOther/JsonLdFAQSchemaGeneratorOther';
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
       <WordCounter />
       <hr />
       <SERPPreviewTool />
+      <hr />
+      <JsonLdFAQSchemaGenerator />
+      <hr />
+      <JsonLdFAQSchemaGeneratorOther />
       <hr />
       <AboutUs />
       <hr />

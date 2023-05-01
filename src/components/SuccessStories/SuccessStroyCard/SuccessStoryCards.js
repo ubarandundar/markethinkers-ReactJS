@@ -6,7 +6,7 @@ function SuccessStoryCards() {
     <div className={`container ps-5 pe-5 ${classes.successStoryCardWrapper}`}>
         <div className="row pb-4">
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true}/>
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceForHover={true} />
             <SuccessStoryCard />
         </div>
         <div className="row pb-4">

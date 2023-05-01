@@ -1,0 +1,96 @@
+.whatIsSERPPreviewToolSectionHeader {
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    margin-top: 120px;
+}
+
+.whatIsSERPPreviewToolSectionParag {
+    text-align: left;
+    font: normal normal 300 20px/25px Paralucent;
+    letter-spacing: 1px;
+    color: #444444;
+    opacity: 1;
+}
+
+.whatIsSERPPreviewToolSectionCard {
+    background: #F7F7F7;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 90px 100px 60px;
+    z-index: 1;
+    margin-top: 74px;
+}
+
+.whatIsSERPPreviewToolSectionOtherCard {
+    background: #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+    max-width: 53%;
+    padding: 60px 90px 100px 60px;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -270px;
+}
+
+.whatIsSERPPreviewToolSectionCardHeader, .whatIsSERPPreviewToolSectionOtherCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.whatIsSERPPreviewToolSectionCardParag, .whatIsSERPPreviewToolSectionOtherCardParag {
+    text-align: left;
+    font: normal normal 300 18px/26px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.whatIsSERPPreviewToolSectionLoremHeader {
+    text-align: center;
+    font: normal normal bold 60px/60px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1; 
+    margin-top: 120px !important;
+    margin-bottom: 30px;
+}
+
+.whatIsSERPPreviewToolSectionLoremParag {
+    text-align: center;
+    font: normal normal 20px/35px Paralucent;
+    letter-spacing: 1px;
+    color: #565656;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.whatIsSERPPreviewToolSectionLoremCardBody {
+    background: #FFFFFF;
+    border-radius: 53px;
+    opacity: 1;
+    padding: 60px 40px 60px 40px;
+}
+
+.whatIsSERPPreviewToolSectionLoremCardHeader {
+    text-align: left;
+    font: normal normal 30px/43px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.whatIsSERPPreviewToolSectionLoremCardParag {
+    text-align: left;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}

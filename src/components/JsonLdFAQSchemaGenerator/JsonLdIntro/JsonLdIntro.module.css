@@ -1,0 +1,19 @@
+.jsonLdIntroHeader {
+    text-align: center;
+    font: normal normal 47px/47px Paralucent;
+    letter-spacing: 2.35px;
+    color: #D3148B;
+    opacity: 1;
+    margin-bottom: 40px;
+    margin-top: 240px;
+}
+
+.jsonLdIntroHeaderSub {
+    text-align: center;
+    font: normal normal 50px/64px Paralucent;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 100px;
+}

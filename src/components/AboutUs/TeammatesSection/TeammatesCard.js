@@ -33,7 +33,7 @@ function TeammatesCard() {
                         /b.bilir
                     </div>
                 </div>
-            <div>
+            <div className={classes.teammatesSectionForwardArrowWrapper}>
                 <ReactSVG className={classes.teammatesSectionForwardArrow} src={ForwardArrow} />
             </div>
         </div>
@@ -65,7 +65,7 @@ function TeammatesCard() {
                         /b.bilir
                     </div>
                 </div>
-            <div>
+            <div className={classes.teammatesSectionForwardArrowWrapper}>
                 <ReactSVG className={classes.teammatesSectionForwardArrow} src={ForwardArrow} />
             </div>
         </div>

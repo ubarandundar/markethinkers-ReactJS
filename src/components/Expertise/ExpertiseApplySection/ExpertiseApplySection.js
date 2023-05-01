@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { useDraggable } from "react-use-draggable-scroll";
+import ScrollContainer from 'react-indiana-drag-scroll'
 import classes from './ExpertiseApplySection.module.css';
 
 import ExpertiseApplySectionApplyImg from '../../../assets/Design.png';
@@ -40,19 +40,22 @@ function ExpertiseApplySection() {
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
-    const ref = useRef();
-
-    const { events } = useDraggable(ref);
 
     const contentHandler = (currentIndex) => {
         setCurrentIndex(currentIndex);
     };
 
   return (
-        <div className="container position-relative flex max-w-xl space-x-3 overflow-x-scroll scrollbar-hide" {...events} ref={ref}>
+        <div className="container position-relative">
             <img className={classes.expertiseApplySectionBackImg} src={ExpertiseApplySectionBackImg} alt='ExpertiseApplySectionBack_Image' />
             <div className={classes.expertiseApplySectionDep}>
-                <button onClick={() => contentHandler(0)} type="button" className={`flex-none w-52 h-32 bg-red-200 ${currentIndex === 0 ? classes.expertiseApplySectionButtonsActive: classes.expertiseApplySectionButtons}`}>
+            <ScrollContainer
+              className="scroll-container"
+              vertical={false}
+              horizontal={true}
+              >
+                {<div className='d-flex flex-row'>
+                    <button onClick={() => contentHandler(0)} type="button" className={currentIndex === 0 ? classes.expertiseApplySectionButtonsActive: classes.expertiseApplySectionButtons}>
                     Professional SEO Consulting
                 </button>
                 <button onClick={() => contentHandler(1)} type="button" className={currentIndex === 1 ? classes.expertiseApplySectionButtonsActive: classes.expertiseApplySectionButtons}>
@@ -67,6 +70,8 @@ function ExpertiseApplySection() {
                 <button onClick={() => contentHandler(4)} type="button" className={currentIndex === 4 ? classes.expertiseApplySectionButtonsActive: classes.expertiseApplySectionButtons}>
                     Digital Advertising Services
                 </button>
+                </div>}
+                </ScrollContainer>
             </div>
             <div className='row position-relative'>
                 <div className='col-sm-12 col-md-12 col-lg-6 d-flex flex-column'>

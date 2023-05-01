@@ -1,0 +1,63 @@
+.errorPageOops {
+    text-align: center;
+    font: normal normal 180px/180px Paralucent;
+    letter-spacing: 9px;
+    color: #D3148B;
+    opacity: 0.1;
+    margin-top: 200px;
+}
+
+.errorPage404 {
+    text-align: center;
+    font: normal normal 900 420px/420px Montserrat;
+    letter-spacing: 21px;
+    color: #7E10BC;
+    opacity: 1;
+}
+
+.errorPageLottie {
+    position: absolute;
+    z-index: 2;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.errorPageHeader {
+    text-align: center;
+    font: normal normal 40px/64px Paralucent;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.errorPageHeaderSub {
+    text-align: center;
+    font: normal normal 300 24px/34px Paralucent;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #00000033;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+.errorPageButton {
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 16px 70px;
+    text-align: center;
+    font: normal normal 17px/20px Montserrat;
+    letter-spacing: 0.17px;
+    color: #D3148B;
+    display: block;
+    margin: 0 auto 115px auto;
+}
+
+.errorPageButton:hover {
+    background: transparent;
+    color: white;
+}
