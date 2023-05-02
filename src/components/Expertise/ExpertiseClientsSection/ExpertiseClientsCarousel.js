@@ -7,6 +7,8 @@ import CustomDot from "../../Home/OurPartnersSection/CustomDot";
 import HangiKrediImg from '../../../assets/hk-new-logo-white.png';
 import ErhanMutluImg from '../../../assets/Image 1.png';
 import ForwardArrow from '../../../assets/Group 25657.svg';
+import CustomLeftLargeArrow from "../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow";
+import CustomRightLargeArrow from "../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow";
 
 function ExpertiseClientsCarousel (props) {
 
@@ -49,14 +51,15 @@ function ExpertiseClientsCarousel (props) {
                 customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                removeArrowOnDeviceType={false}
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
                 centerMode={true}
                 customDot={<CustomDot />}
-                // customTransition='transform 300ms ease-in-out'
+                customLeftArrow={<CustomLeftLargeArrow changesForExpertise={true} />}
+                customRightArrow={<CustomRightLargeArrow changesForExpertise={true} />}
                 >
                 <a href='wwww.google.com' className={classes.expertiseClientsCarouselBlogBody}>
                     <div className={classes.expertiseClientsCarouselImagesBody}>

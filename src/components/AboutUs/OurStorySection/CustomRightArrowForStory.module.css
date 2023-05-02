@@ -1,0 +1,16 @@
+/* .customLeftArrowImageForStory {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 1000;
+    transition: all .5s;
+    right: calc(4% + -27px);
+    margin: auto 0;
+    filter: grayscale(100%);
+    transform: rotate(180deg);
+} */
+
+.customLeftArrowImageForStory svg:hover {
+    margin-left: 10px;
+}

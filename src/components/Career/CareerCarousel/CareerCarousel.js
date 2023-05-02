@@ -5,6 +5,8 @@ import classes from './CareerCarousel.module.css';
 
 import CareerCarouselCard from './CareerCarouselCard';
 import CustomDot from '../../Home/OurPartnersSection/CustomDot';
+import CustomLeftLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow';
+import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow';
 
 const responsive = {
     desktopS: {
@@ -61,13 +63,15 @@ function CareerCarousel (props) {
                 customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                removeArrowOnDeviceType={false}
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
                 centerMode={true}
                 customDot={<CustomDot />}
+                customLeftArrow={<CustomLeftLargeArrow />}
+                customRightArrow={<CustomRightLargeArrow />}
                 >
                 <CareerCarouselCard />
                 <CareerCarouselCard />

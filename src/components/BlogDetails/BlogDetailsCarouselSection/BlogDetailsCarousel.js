@@ -1,6 +1,8 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import CustomDot from '../../Home/OurPartnersSection/CustomDot';
+import CustomLeftLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow';
+import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow';
 
 import classes from './BlogDetailsCarousel.module.css';
 import BlogDetailsCarouselCard from './BlogDetailsCarouselCard';
@@ -46,14 +48,15 @@ function BlogDetailsCarousel (props) {
                 customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                removeArrowOnDeviceType={false}
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
                 centerMode={true}
                 customDot={<CustomDot />}
-                // customTransition='transform 300ms ease-in-out'
+                customLeftArrow={<CustomLeftLargeArrow />}
+                customRightArrow={<CustomRightLargeArrow />}
                 >
                 <div>
                   <BlogDetailsCarouselCard changeBackground={true} changeMarginBottom={true} />

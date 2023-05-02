@@ -1,7 +1,8 @@
 .careerCarouselWrapper {
     position: relative;
 }
-/* 
-.careerCarouselWrapper .react-multi-carousel-dot-list {
-    margin-top: 100px;
-} */
+
+.careerCarouselWrapper ul {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

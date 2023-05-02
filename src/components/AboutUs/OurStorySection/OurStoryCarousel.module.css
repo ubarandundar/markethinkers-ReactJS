@@ -1,4 +1,28 @@
+.ourStorySectionBody {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    border-radius: 50px;
+    opacity: 1; 
+}
+
 .ourStoryCarouselImage {
     display: flex;
     flex-direction: column;
 }
+
+.ourStoryDate {
+    text-align: center;
+    font: normal normal bold 48px/68px Paralucent;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+}
+
+.ourStoryMonth {
+    text-align: center;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #D3148B;
+    opacity: 1;
+}
+

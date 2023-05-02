@@ -64,3 +64,8 @@
     width: 29px;
     height: 30px;
 }
+
+.expertiseClientsCarouselBody ul {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

@@ -1,5 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import CustomLeftArrowForStory from './CustomLeftArrowForStory';
+import CustomRightArrowForStory from './CustomRightArrowForStory';
 
 import classes from './OurStoryCarousel.module.css';
 
@@ -29,8 +31,8 @@ function OurStoryCarousel (props) {
       };
 
     return (
-        <div className='container-fluid'>
-            <div className={classes.ourPartnersSectionBody}>
+        <div className='container'>
+            <div className={classes.ourStorySectionBody}>
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -44,44 +46,43 @@ function OurStoryCarousel (props) {
                 customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
                 centerMode={false}
-                // customTransition='transform 300ms ease-in-out'
-    
+                customLeftArrow={<CustomLeftArrowForStory />}
+                customRightArrow={<CustomRightArrowForStory />}
                 >
                 <div className={classes.ourStoryCarouselImage}>
-                    <span>
+                    <span className={classes.ourStoryDate}>
                         2019
                     </span>
-                    <span>
+                    <span className={classes.ourStoryMonth}>
                         April
                     </span>
                 </div>
                 <div className={classes.ourStoryCarouselImage}>
-                    <span>
+                    <span className={classes.ourStoryDate}>
                         2020
                     </span>
-                    <span>
+                    <span className={classes.ourStoryMonth}>
                         July
                     </span>
                 </div>
                 <div className={classes.ourStoryCarouselImage}>
-                    <span>
+                    <span className={classes.ourStoryDate}>
                         2020
                     </span>
-                    <span>
+                    <span className={classes.ourStoryMonth}>
                         November
                     </span>
                 </div>
                 <div className={classes.ourStoryCarouselImage}>
-                    <span>
+                    <span className={classes.ourStoryDate}>
                         2021
                     </span>
-                    <span>
+                    <span className={classes.ourStoryMonth}>
                         February
                     </span>
                 </div>

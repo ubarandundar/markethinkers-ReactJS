@@ -1,13 +1,14 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import classes from './X.module.css';
+import classes from './TeammatesCarousel.module.css';
 
 import TeammatesCard from "./TeammatesCard";
 import TeammatesSectionBackImg from '../../../assets/Path 16762.png';
+import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow';
 
 
-function x (props) {
+function TeammatesCarousel (props) {
 
     const responsive = {
         desktopXXL: {
@@ -34,6 +35,7 @@ function x (props) {
 
     return (
         <div className='container'>
+          <div className={classes.teammatesSectionBody}>
             <img className={classes.teammatesSectionBackImg} src={TeammatesSectionBackImg} alt='contactHelpBack_Image' />
             <div>
             <header className={classes.teammatesSectionHeader}>
@@ -58,7 +60,7 @@ function x (props) {
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
                 centerMode={false}
-                // customTransition='transform 300ms ease-in-out'
+                customRightArrow={<CustomRightLargeArrow changesForTeammates={true} />}
                 
                 >
                 
@@ -71,10 +73,11 @@ function x (props) {
 
             </Carousel>
             </div>
+            </div>
         </div>
     );
 }
 
-export default x;
+export default TeammatesCarousel;
 
 

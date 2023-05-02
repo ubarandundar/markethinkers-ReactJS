@@ -2,19 +2,17 @@ import { Fragment } from 'react';
 import MissionVisionSection from './MissionVisionSection/MissionVisionSection';
 import OurStorySection from './OurStorySection/OurStorySection';
 import HowWeDoItSection from './HowWeDoItSection/HowWeDoItSection';
-import TeammatesSection from './TeammatesSection/TeammatesSection';
-import X from './TeammatesSection/X';
 import AboutUsSection from './AboutSection/AboutUsSection';
 import OurPartnersSection from "../Home/OurPartnersSection/OurPartnersSection";
 import GrowWithUs from "../Home/GrowWithUs/GrowWithUs";
+import TeammatesCarousel from './TeammatesSection/TeammatesCarousel';
 
 
 function AboutUs() {
   return (
     <Fragment>
         <MissionVisionSection />
-        {/* <TeammatesSection /> */}
-        <X />
+        <TeammatesCarousel />
         <HowWeDoItSection />
         <OurStorySection />
         <AboutUsSection />
