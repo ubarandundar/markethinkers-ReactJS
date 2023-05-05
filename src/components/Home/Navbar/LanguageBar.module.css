@@ -73,8 +73,12 @@
     border-radius: 50px;
     transition: 500ms ease-out;
     /* margin-bottom: -95px; */
-    background-color: white;
+    background: white;
 }
+
+/* .languageBarENToggle:hover {
+    background: white;
+} */
 
 .languageBarTR {
     display: flex;

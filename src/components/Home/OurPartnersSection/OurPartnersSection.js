@@ -57,6 +57,7 @@ function OurPartnersSection (props) {
                 centerMode={true}
                 // customTransition='transform 300ms ease-in-out'
                 customDot={<CustomDot />}
+                renderDotsOutside={true}
                 >
                 
                 <div className={classes.ourPartnersImageBody}>

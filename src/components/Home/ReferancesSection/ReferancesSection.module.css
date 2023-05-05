@@ -78,7 +78,7 @@
 .referancesBodySub {
     display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding-bottom: 94px;
 }
 
 @media (max-width:1200px) {
@@ -110,9 +110,9 @@
 
 
 .referancesBodyHr {
-    margin-top: 100px;
+    margin-top: 80px;
     /* margin-bottom: 60px; */
-    padding-bottom: 20px;
+    padding-bottom: 63px;
 }
 
 .lookOutBody img {

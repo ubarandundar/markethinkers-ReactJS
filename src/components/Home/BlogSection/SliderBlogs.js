@@ -3,7 +3,7 @@ import classes from './SliderBlogs.module.css';
 import WhiteForwardArrow from '../../../assets/Group 34-white.svg';
 import { Fragment } from 'react';
 
-function SliderBlogs (props) {
+function SliderBlogs ({changesForHome}) {
     return (
         <Fragment>
             <a href='www.google.com' className={classes.sliderBlogBodyWrapper}>

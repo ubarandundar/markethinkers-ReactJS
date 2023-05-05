@@ -6,6 +6,11 @@
     margin-bottom: 30px;
     position: relative;
     z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #FF8049;
 }
 
 .sliderBlogBodyWrapper {
@@ -38,6 +43,11 @@
     border-radius: 25px;
     position: relative;
     z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0D1835;
 }
 
 .sliderBlogSecondBody:hover {

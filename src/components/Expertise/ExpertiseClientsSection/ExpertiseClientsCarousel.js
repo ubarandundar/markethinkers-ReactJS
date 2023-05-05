@@ -2,6 +2,7 @@ import { ReactSVG } from "react-svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import classes from './ExpertiseClientsCarousel.module.css';
+import './ExpertiseClientsCarousel.css';
 import CustomDot from "../../Home/OurPartnersSection/CustomDot";
 
 import HangiKrediImg from '../../../assets/hk-new-logo-white.png';
@@ -37,7 +38,7 @@ function ExpertiseClientsCarousel (props) {
 
     return (
         <div className='container-fluid'>
-            <div className={classes.expertiseClientsCarouselBody}>
+            <div id='expertiseClientsCarouselBodyId' className={classes.expertiseClientsCarouselBody}>
             <Carousel
                 swipeable={false}
                 draggable={true}
@@ -60,6 +61,7 @@ function ExpertiseClientsCarousel (props) {
                 customDot={<CustomDot />}
                 customLeftArrow={<CustomLeftLargeArrow changesForExpertise={true} />}
                 customRightArrow={<CustomRightLargeArrow changesForExpertise={true} />}
+                renderDotsOutside={true}
                 >
                 <a href='wwww.google.com' className={classes.expertiseClientsCarouselBlogBody}>
                     <div className={classes.expertiseClientsCarouselImagesBody}>

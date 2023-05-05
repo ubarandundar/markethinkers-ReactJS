@@ -7,14 +7,16 @@ import SliderBlogs from './SliderBlogs';
 import SliderBlogControlArrow from './SliderBlogsControlArrow';
 import BlogSectionLeftImg from '../../../assets/Path 16728.svg';
 import BlogSectionRightImg from '../../../assets/Path 16727.svg';
+import BlogCarousel from './BlogCarousel';
 
 function BlogSection (props) {
     return (
     <div className='container-fluid'>
+        <div className='row'>
         <img className={classes.BlogSectionLeftImg} src={BlogSectionLeftImg} alt='BlogSection_LeftImg' />
         <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' />
         <div className={classes.blogSectionBody}>
-           <div className={classes.blogPageBody}>
+           <div className={`col-5 ${classes.blogPageBody}`}>
                 <a href='www.google.com'>
                     <header className={classes.blogPageHeader}>blog</header>
                     <p className={classes.blogPageParagFirst}>
@@ -30,7 +32,7 @@ function BlogSection (props) {
                     <img src={WhiteForwardArrow} alt='WhiteForward_Arrow' />
                 </a>
             </div>
-            <div className={classes.blogsBody}>
+            <div className={`col-2 ${classes.blogsBody}`}>
                 <PinnedBlog />
                 <a href='www.google.com' className={classes.howToGuide}>
                     <header>how to guide</header>
@@ -41,12 +43,16 @@ function BlogSection (props) {
                     <img src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
            </div>
-           <div className={classes.sliderBody}>
+           {/* <div className={classes.sliderBody}>
                 <SliderBlogs />
+           </div> */}
+           <div className={`col-5 ${classes.blogCarouselbody}`}>
+                <BlogCarousel />
            </div>
-           <div className={classes.sliderBodyControlArrow}>
+           {/* <div className={classes.sliderBodyControlArrow}>
                 <SliderBlogControlArrow />
-            </div>
+            </div> */}
+        </div>
         </div>
     </div>
     );

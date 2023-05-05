@@ -4,6 +4,7 @@ import CustomLeftArrowForStory from './CustomLeftArrowForStory';
 import CustomRightArrowForStory from './CustomRightArrowForStory';
 
 import classes from './OurStoryCarousel.module.css';
+import './OurStoryCarousel.css';
 
 function OurStoryCarousel (props) {
 
@@ -32,7 +33,7 @@ function OurStoryCarousel (props) {
 
     return (
         <div className='container'>
-            <div className={classes.ourStorySectionBody}>
+            <div id='ourStorySectionBodyId' className={classes.ourStorySectionBody}>
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -53,6 +54,7 @@ function OurStoryCarousel (props) {
                 centerMode={false}
                 customLeftArrow={<CustomLeftArrowForStory />}
                 customRightArrow={<CustomRightArrowForStory />}
+                renderButtonGroupOutside={true}
                 >
                 <div className={classes.ourStoryCarouselImage}>
                     <span className={classes.ourStoryDate}>

@@ -1,20 +1,18 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import CustomDot from '../../Home/OurPartnersSection/CustomDot';
-import CustomLeftLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow';
 import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow';
+import SliderBlogs from './SliderBlogs';
+import classes from './BlogCarousel.module.css';
+import './BlogCarousel.css';
 
-import classes from './BlogDetailsCarousel.module.css';
-import './BlogDetailsCarousel.css';
-import BlogDetailsCarouselCard from './BlogDetailsCarouselCard';
-
-function BlogDetailsCarousel (props) {
+function BlogCarousel (props) {
 
     const responsive = {
         desktopXXL: {
           breakpoint: { max: 3000, min: 1700 },
           items: 1,
           slidesToSlide: 1,
+          partialVisibilityGutter:  350
         },
         desktopXL: {
             breakpoint: { max: 1700, min: 1300 },
@@ -33,18 +31,17 @@ function BlogDetailsCarousel (props) {
         }
       };
 
-
     return (
-        <div className='container-fluid'>
-            <div id='blogDetailsCarouselBodyId' className={classes.blogDetailsCarouselBody}>
+        <div className='container'>
+            <div id='blogCarouselWrapperId' className={classes.blogCarouselWrapper}>
             <Carousel
                 swipeable={false}
                 draggable={true}
-                showDots={true}
+                showDots={false}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                autoPlay={false}
+                autoPlay={true}
                 autoPlaySpeed={4000}
                 keyBoardControl={true}
                 customTransition="transform 1000ms ease-in-out"
@@ -55,31 +52,26 @@ function BlogDetailsCarousel (props) {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 arrows={true}
-                centerMode={true}
-                customDot={<CustomDot />}
-                customLeftArrow={<CustomLeftLargeArrow />}
-                customRightArrow={<CustomRightLargeArrow />}
-                renderDotsOutside={true}
+                centerMode={false}
+                customRightArrow={<CustomRightLargeArrow changesForHome={true} /> }
+                partialVisbile={true}
+                
                 >
-                  
-                <div>
-                  <BlogDetailsCarouselCard changeBackground={true} changeMarginBottom={true} />
-                </div>
-                <div>
-                  <BlogDetailsCarouselCard />
-                </div>
-                <div>
-                  <BlogDetailsCarouselCard changeBackground={true} />
-                </div>
-                <div>
-                  <BlogDetailsCarouselCard />
-                </div>
+            <div className={classes.sliderBody}>
+                <SliderBlogs />
+           </div>
+           <div className={classes.sliderBody}>
+                <SliderBlogs />
+           </div>
+           <div className={classes.sliderBody}>
+                <SliderBlogs />
+           </div>
             </Carousel>
             </div>
         </div>
     );
 }
 
-export default BlogDetailsCarousel;
+export default BlogCarousel;
 
 

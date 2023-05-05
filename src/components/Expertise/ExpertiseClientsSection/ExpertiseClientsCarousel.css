@@ -1,0 +1,9 @@
+#expertiseClientsCarouselBodyId .react-multi-carousel-item {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  
+#expertiseClientsCarouselBodyId .react-multi-carousel-item--active {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }

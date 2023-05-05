@@ -6,9 +6,9 @@ import CustomLeftArrowImg from '../../../assets/Path 16724.svg';
 function CustomLeftArrowForStory ({onClick}) {
     
     return (
-    <div className={classes.CustomLeftArrowForStoryBody}>
+    <button className={classes.customLeftArrowForStoryBody}>
         <ReactSVG onClick={() => onClick()} className={classes.customLeftArrowImageForStory} src={CustomLeftArrowImg} alt='CustomLeftArrow_Image' />
-    </div>
+    </button>
     );
 }
 

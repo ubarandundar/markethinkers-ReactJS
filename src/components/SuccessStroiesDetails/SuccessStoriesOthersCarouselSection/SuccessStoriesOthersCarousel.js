@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import CustomDot from '../../Home/OurPartnersSection/CustomDot';
@@ -6,6 +7,7 @@ import CustomLeftLargeArrow from './CustomLeftLargeArrow';
 import CustomRightLargeArrow from './CustomRightLargeArrow';
 
 import classes from './SuccessStoriesOthersCarousel.module.css';
+import './SuccessStoriesOthersCarousel.css';
 
 function SuccessStoriesOthersCarousel (props) {
 
@@ -34,7 +36,7 @@ function SuccessStoriesOthersCarousel (props) {
 
     return (
         <div className='container-fluid'>
-            <div className={classes.successStoriesOthersCarouselBody}>
+            <div id='successStoriesOthersCarouselBodyId' className={classes.successStoriesOthersCarouselBody}>
             <Carousel
                 swipeable={false}
                 draggable={true}
@@ -57,20 +59,21 @@ function SuccessStoriesOthersCarousel (props) {
                 customDot={<CustomDot />}
                 customLeftArrow={<CustomLeftLargeArrow />}
                 customRightArrow={<CustomRightLargeArrow />}
-                // renderDotsOutside={true}
+                renderDotsOutside={true}
                 // customTransition='transform 300ms ease-in-out'
+           
                 >
                 <div>
                   <SuccessStoryCard changeWidth={true} />
                 </div>
                 <div>
-                  <SuccessStoryCard changeWidth={true} changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} />
+                  <SuccessStoryCard changeWidth={true} changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
                 </div>
                 <div>
                   <SuccessStoryCard changeWidth={true} />
                 </div>
                 <div>
-                  <SuccessStoryCard changeWidth={true} changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} />
+                  <SuccessStoryCard changeWidth={true} changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
                 </div>
             </Carousel>
             </div>

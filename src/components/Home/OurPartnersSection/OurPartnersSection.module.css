@@ -3,6 +3,8 @@
     height: 500px;
     /* border: 1px solid black; */
     margin-top: 850px;
+    position: relative;
+    z-index: 2;
 }
 
 .ourPartnersSectionHeader {
@@ -25,5 +27,10 @@
 
 .ourPartnersImages:hover {
     filter: grayscale(0%);
+}
+
+.ourPartnersSectionBody ul {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 

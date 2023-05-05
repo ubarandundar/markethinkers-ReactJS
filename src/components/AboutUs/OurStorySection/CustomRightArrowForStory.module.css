@@ -11,6 +11,28 @@
     transform: rotate(180deg);
 } */
 
-.customLeftArrowImageForStory svg:hover {
-    margin-left: 10px;
+.customRightArrowForStoryBody {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customRightArrowImageForStory svg {
+    width: 32px;
+    height: 32px;
+    filter: grayscale(100%);
+}
+
+.customRightArrowImageForStory:hover svg {
+    margin-right: 10px;
+    cursor: pointer;
+    filter: grayscale(0%);
 }

@@ -6,7 +6,7 @@ import FikriSabitImg from '../../../assets/NoPath.png';
 function BlogDetailsCarouselCard({changeBackground, changeMarginBottom}) {
     const [isVisible, setIsVisible] = useState(false);
     // const [changeMarginBottom, setChangeMarginBottom] = useState(false);
-
+  
   return (
     <a href='www.google.com' className={classes.blogDetailsCarouselCardWrapper}>
         <div onMouseOver={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)} className={changeBackground ? classes.blogDetailsCarouselCardBodyForBlogDetails : classes.blogDetailsCarouselCardBody}>

@@ -1,0 +1,19 @@
+#careerCarouselWrapperId .react-multi-carousel-item {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+  
+#careerCarouselWrapperId .react-multi-carousel-item--active {
+    transform: scale(0.9) !important;
+    opacity: 0.7 !important;
+  }
+  
+#careerCarouselWrapperId .react-multi-carousel-item--active +  .react-multi-carousel-item--active {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+  
+#careerCarouselWrapperId .react-multi-carousel-item--active +  .react-multi-carousel-item--active  + .react-multi-carousel-item--active{
+    transform: scale(0.9) !important;
+    opacity: 0.7 !important;
+  }

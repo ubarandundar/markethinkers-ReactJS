@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import classes from './CareerCarousel.module.css';
+import './CareerCarousel.css';
 
 import CareerCarouselCard from './CareerCarouselCard';
 import CustomDot from '../../Home/OurPartnersSection/CustomDot';
@@ -49,7 +50,7 @@ const responsive = {
 function CareerCarousel (props) {
     
     return (
-        <div className={`container-fluid ${classes.careerCarouselWrapper}`}>
+        <div id='careerCarouselWrapperId' className={`container-fluid ${classes.careerCarouselWrapper}`}>
              <Carousel
                 swipeable={true}
                 draggable={false}
@@ -72,6 +73,7 @@ function CareerCarousel (props) {
                 customDot={<CustomDot />}
                 customLeftArrow={<CustomLeftLargeArrow />}
                 customRightArrow={<CustomRightLargeArrow />}
+                renderDotsOutside={true}
                 >
                 <CareerCarouselCard />
                 <CareerCarouselCard />

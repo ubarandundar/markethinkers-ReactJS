@@ -1,0 +1,11 @@
+.sliderBody {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 40px 0 10px; */
+}
+
+.blogCarouselWrapper button {
+    position: absolute;
+    z-index: -1;
+}

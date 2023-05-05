@@ -11,8 +11,8 @@ function ExpertiseCaseStudies() {
             Case Studies
         </header>
         <div className='row'>
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeColForCase={true}/>
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={false} changeDistance={true} changeColForCase={true} changeMarginForCase={true}/>
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeColForCase={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={false} changeDistance={true} changeColForCase={true} changeMarginForCase={true} changeDistanceLogo={true} />
         </div>
     </div>
   )

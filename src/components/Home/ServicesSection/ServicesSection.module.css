@@ -104,7 +104,8 @@
     letter-spacing: 1px;
     background: transparent;
     color: #1F0242;
-    border: 1px solid #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
+    border: 1px solid transparent;
     border-radius: 26px;
     opacity: 1;
     padding: 10px 15px;
@@ -114,7 +115,7 @@
     margin-right: 5px;
 }
 
-.ServicesButtons:hover, .ServicesButtonsActive {
+.ServicesButtonsActive {
     background-color: #1F0242;
     border: 1px solid #1F0242;
     color: white;

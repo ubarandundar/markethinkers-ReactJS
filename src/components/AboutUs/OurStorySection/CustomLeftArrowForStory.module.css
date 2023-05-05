@@ -10,16 +10,28 @@
     filter: grayscale(100%);
 } */
 
-.CustomLeftArrowForStoryBody {
+.customLeftArrowForStoryBody {
     width: 90px;
     height: 90px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     opacity: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.customLeftArrowImageForStory svg:hover  {
-    margin-left: 10px;
+.customLeftArrowImageForStory svg {
+    width: 32px;
+    height: 32px;
+    filter: grayscale(100%);
+}
+
+.customLeftArrowImageForStory:hover svg {
+    margin-right: 10px;
+    cursor: pointer;
+    filter: grayscale(0%);
 }
 
 /* .customLeftArrowImageForStory svg {
