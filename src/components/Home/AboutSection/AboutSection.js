@@ -12,8 +12,8 @@ function AboutSection(props) {
         <BlogContextProvider>
             <div className="container-fluid">
                 <div className={classes.blogBody}>
-                    <img className={classes.AboutSectionRightImg} src={AboutSectionRightImg} alt='AboutSection_RightImage' />
-                    <img className={classes.AboutSectionLeftImg} src={AboutSectionLeftImg} alt='AboutSection_LeftImage' />
+                    <img className={`img-fluid ${classes.AboutSectionRightImg}`} src={AboutSectionRightImg} alt='AboutSection_RightImage' />
+                    <img className={`img-fluid ${classes.AboutSectionLeftImg}`} src={AboutSectionLeftImg} alt='AboutSection_LeftImage' />
                     <AboutUs />
                     <Graphics />
                     <Blog />

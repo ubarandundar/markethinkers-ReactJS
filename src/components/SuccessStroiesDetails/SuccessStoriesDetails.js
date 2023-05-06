@@ -11,7 +11,9 @@ function SuccessStoriesDetails() {
         <SuccessStoriesIntro />
         <SuccessStoriesAwards />
         <SuccessStoriesOtherSections />
-        <GrowWithUs changeMarginBottom={true} />
+        <div style={{zIndex: '3'}} className='position-relative'>
+          <GrowWithUs changeMarginBottom={true} />
+        </div>
         <SuccessStoriesOthersCarouselSection />
     </>
   )

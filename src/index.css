@@ -3,7 +3,7 @@ body {
   font-family: 'Paralucent' , 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 :root {
@@ -19,31 +19,12 @@ body {
   transition: 1500ms ease-out;
 }
 
-.react-multi-carousel-dot-list {
+/* .react-multi-carousel-dot-list {
   position: static !important;
 }
 
 .react-multi-carousel-track {
   padding-top: 100px !important;
   padding-bottom: 100px !important;
-}
-
-/* .react-multi-carousel-item {
-  transform: scale(0.8);
-  opacity: 0.7;
-}
-
-.react-multi-carousel-item--active {
-  transform: scale(0.9) !important;
-  opacity: 0.7 !important;
-}
-
-.react-multi-carousel-item--active +  .react-multi-carousel-item--active {
-  transform: scale(1) !important;
-  opacity: 1 !important;
-}
-
-.react-multi-carousel-item--active +  .react-multi-carousel-item--active  + .react-multi-carousel-item--active{
-  transform: scale(0.9) !important;
-  opacity: 0.7 !important;
 } */
+

@@ -13,8 +13,8 @@ function BlogSection (props) {
     return (
     <div className='container-fluid'>
         <div className='row'>
-        <img className={classes.BlogSectionLeftImg} src={BlogSectionLeftImg} alt='BlogSection_LeftImg' />
-        <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' />
+        <img className={`img-fluid ${classes.BlogSectionLeftImg}`} src={BlogSectionLeftImg} alt='BlogSection_LeftImg' />
+        {/* <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' /> */}
         <div className={classes.blogSectionBody}>
            <div className={`col-5 ${classes.blogPageBody}`}>
                 <a href='www.google.com'>

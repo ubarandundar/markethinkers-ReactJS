@@ -32,7 +32,7 @@ function OurStoryCarousel (props) {
       };
 
     return (
-        <div className='container'>
+        <div className='container position-relative'>
             <div id='ourStorySectionBodyId' className={classes.ourStorySectionBody}>
             <Carousel
                 swipeable={false}

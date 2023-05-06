@@ -30,8 +30,8 @@ function SEOAnalyzerSection (props) {
 
     return (
     <div className='container'>
-        <img className={classes.SEOAnalyzerLeftImg} src={SEOAnalyzerLeftImg} alt='SEOAnalyzer_LeftImage' />
-        <img className={classes.SEOAnalyzerRightImg} src={SEOAnalyzerRightImg} alt='SEOAnalyzer_RightImage' />
+        <img className={`img-fluid ${classes.SEOAnalyzerLeftImg}`} src={SEOAnalyzerLeftImg} alt='SEOAnalyzer_LeftImage' />
+        <img className={`img-fluid ${classes.SEOAnalyzerRightImg}`} src={SEOAnalyzerRightImg} alt='SEOAnalyzer_RightImage' />
         <div className={classes.SEOAnalyzerSectionBody}>
             <header className={classes.SEOHeader}>SEO Analyzer</header>
             <div className={classes.SEOCard}>

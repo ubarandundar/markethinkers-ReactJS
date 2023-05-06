@@ -7,9 +7,9 @@ function CustomLeftArrow ({onClick}) {
     
     return (
     <Fragment>
-        <button onClick={() => onClick()} className={classes.customLeftArrowButton} type='button'>
+        <div onClick={() => onClick()} className={classes.customLeftArrowButton} type='button'>
                 <img className={classes.customLeftArrowImg} src={CustomLeftArrowImg} alt='CustomLeftArrow_Image' />
-            </button>
+            </div>
     </Fragment>
     );
 }

@@ -47,6 +47,19 @@ function ExpertiseApplySection() {
 
   return (
         <div className="container position-relative">
+            <div className={classes.expertiseApplySectionLink}>
+                <a href='www.google.com'>
+                    Homepage
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Success Stories
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Professional SEO Consulting
+                </a>
+            </div>
             <img className={classes.expertiseApplySectionBackImg} src={ExpertiseApplySectionBackImg} alt='ExpertiseApplySectionBack_Image' />
             <div className={classes.expertiseApplySectionDep}>
             <ScrollContainer
@@ -73,7 +86,7 @@ function ExpertiseApplySection() {
                 </div>}
                 </ScrollContainer>
             </div>
-            <div className='row position-relative'>
+            <div style={{zIndex: '3'}} className='row position-relative'>
                 <div className='col-sm-12 col-md-12 col-lg-6 d-flex flex-column'>
                     <header className={classes.expertiseApplySectionHeader}>
                         {expertiseData[currentIndex].section}

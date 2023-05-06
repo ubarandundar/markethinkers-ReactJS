@@ -19,16 +19,16 @@
     filter: blur(50px);
     z-index: 0;
     margin-left: -42% !important;
-    margin-top: -11% !important;
+    margin-top: -5% !important;
 }
 
-.BlogSectionRightImg {
+/* .BlogSectionRightImg {
     position: absolute;
     filter: blur(50px);
     z-index: 0;
     margin-left: 60% !important;
     margin-top: -26% !important;
-}
+} */
 
 .blogPageBody {
     display: flex;

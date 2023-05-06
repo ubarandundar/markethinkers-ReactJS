@@ -1,35 +1,14 @@
-.multiBrandCarouselBodyImagesHangiKredi {
-    /* width: 286px; */
-    width: 180px;
+/* .multiBrandCarouselBodyImagesHangiKredi {
+    width: 250px;
     height: auto;
+} */
+
+.multiBrandCarouselBodySub img {
+    transform: scale(0.9);
 }
 
-.multiBrandCarouselBodyImagesZoom {
-    /* width: 142px; */
-    width: 95px;
-    height: auto;
-}
-
-.multiBrandCarouselBodyImagesSalesforce {
-    /* width: 91px; */
-    width: 75px;
-    height: auto;
-}
-
-.multiBrandCarouselBodyImagesAmazon {
-    /* width: 148px; */
-    width: 100px;
-    height: auto;
-}
-
-.multiBrandCarouselBodyImagesGlossier {
-    /* width: 154px; */
-    width: 105px;
-    height: auto;
-}
-
-.multiBrandCarouselBodyImagesGoogle {
-    /* width: 128px; */
-    width: 85px;
-    height: auto;
+.multiBrandCarouselWrapper {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }

@@ -4,7 +4,7 @@
     height: 32px;
     position: absolute;
     z-index: 1000;
-    transition: all .5s;
+    /* transition: all .5s; */
     right: calc(4% + -27px);
     margin: auto 0;
     filter: grayscale(100%);
@@ -31,7 +31,7 @@
 
 .customRightArrowImg:hover {
     filter: grayscale(0%);
-    transition: ease-out;
+    margin-right: -10px;
 }
 
 .CustomRightArrowButton {

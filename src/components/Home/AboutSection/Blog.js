@@ -77,7 +77,7 @@ function Blog (props) {
     // }, [currentSlideIndex])
 
     return (
-    <div className='container'>
+    <div className='container-fluid'>
         <a href={MultiBrandCarouselData[currentSlideIndex].forwardTo} className={classes.blogBody}>
             <img className={classes.blogArrow} src={ForwardArrow} alt='Forward_Arrow' />
             <img className={classes.blogBodyBrandImg} src={MultiBrandCarouselData[currentSlideIndex].image} alt='MultiBrandCarouselData_Image' />

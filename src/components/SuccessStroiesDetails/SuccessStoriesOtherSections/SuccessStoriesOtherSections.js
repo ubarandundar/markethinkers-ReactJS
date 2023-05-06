@@ -8,7 +8,7 @@ function SuccessStoriesOtherSections() {
     <div className='container-fluid'>
         <div className='row'>
             <div className='col-4'>
-                <div style={{position: 'sticky', top: '18%'}}>
+                <div style={{position: 'sticky', top: '18%', zIndex: '2'}}>
                     <SuccessStoriesTableOfContents />
                 </div>
             </div>

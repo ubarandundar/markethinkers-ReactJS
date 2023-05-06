@@ -2,7 +2,7 @@
     background: #FFFFFF;
     box-shadow: 0px 10px 99px #00000029;
     border-radius: 50px 0 0 50px;
-    opacity: 0.95;
+    opacity: 0.98;
     width: 164px;
     height: 570px;
     position: absolute;
@@ -16,7 +16,7 @@
     background: #FFFFFF;
     box-shadow: 0px 10px 99px #00000029;
     border-radius: 50px 0 0 50px;
-    opacity: 0.4;
+    opacity: 0.5;
     width: 231px;
     height: 458px;
     position: absolute;
@@ -30,7 +30,7 @@
     background: #FFFFFF;
     box-shadow: 0px 10px 99px #00000029;
     border-radius: 50px 0 0 50px;
-    opacity: 0.4;
+    opacity: 0.3;
     width: 317px;
     height: 743px;
     position: absolute;
@@ -56,3 +56,34 @@
     margin-right: 20px;
 }
 
+/* changesforHome CSS */
+
+.changesForHomeCSS {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px 0 0 50px;
+    opacity: 0.98;
+    width: 198px;
+    height: 830px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.changesForHomeCSS:hover {
+    width: 218px !important;
+} 
+
+.changesForHomeCSS img {
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    transition: all 0.5 ease-out;
+    right: 0;
+}
+
+.changesForHomeCSS:hover img {
+    margin-right: 20px;
+}

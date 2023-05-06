@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import classes from './TeammatesCarousel.module.css';
+import './TeammatesCarousel.css';
 
 import TeammatesCard from "./TeammatesCard";
 import TeammatesSectionBackImg from '../../../assets/Path 16762.png';
@@ -35,7 +36,7 @@ function TeammatesCarousel (props) {
 
     return (
         <div className='container'>
-          <div className={classes.teammatesSectionBody}>
+          <div id='teammatesSectionBodyId' className={classes.teammatesSectionBody}>
             <img className={classes.teammatesSectionBackImg} src={TeammatesSectionBackImg} alt='contactHelpBack_Image' />
             <div>
             <header className={classes.teammatesSectionHeader}>

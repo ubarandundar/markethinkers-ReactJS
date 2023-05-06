@@ -32,12 +32,12 @@ function LanguageBar (props) {
       })
 
     return (
-            <nav onMouseOver={onMouseOverHoverHandler} onMouseOut={onMouseOutHoverHandler} className={isVisibleOn ? classes.languageBarENToggle : classes.languageBarEN && !languagebar ? classes.languageBarEN : classes.languageBarENOnScroll}>
+            <nav onMouseOver={onMouseOverHoverHandler} onMouseOut={onMouseOutHoverHandler} style={languagebar ? {background: 'white'} : {}} className={isVisibleOn ? classes.languageBarENToggle : classes.languageBarEN && !languagebar ? classes.languageBarEN : classes.languageBarENOnScroll}>
                 <a className={classes.languageBarENA} href="https://www.google.com/">
                 <img className={classes.languageBarENImg} src={NavbarEnglishLangImage} alt='English' />
                     EN 
                 </a>
-                {isVisibleOn && <nav className={classes.languageBarTR}>
+                {isVisibleOn && <nav style={languagebar ? {background: 'white'} : {}} className={classes.languageBarTR}>
                     <a href="https://www.google.com/">
                     <img src={NavbarTurkishLangImage} alt='Turkish' />
                     TR

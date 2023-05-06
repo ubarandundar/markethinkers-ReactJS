@@ -3,6 +3,8 @@
     border-radius: 0 50px 50px 0;
     opacity: 1;
     padding: 40px 40px 40px 0;
+    position: relative;
+    z-index: 10;
 }
 
 .successStoriesTableOfContentsBody hr {
@@ -81,3 +83,11 @@
     margin-top: 20px;
     margin-bottom: 22px;
 } */
+
+.tableOfContentBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -18%;
+    margin-top: 34%;
+    filter: blur(50px);
+}

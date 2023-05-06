@@ -4,16 +4,26 @@
   }
   
 #ourStorySectionBodyId .react-multi-carousel-item--active {
-    transform: scale(0.9) !important;
+    transform: scale(0.8) !important;
     opacity: 0.7 !important;
+    
   }
   
 #ourStorySectionBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active {
     transform: scale(1) !important;
     opacity: 1 !important;
   }
+
+/* #ourStorySectionBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active .ourStoryMonth {
+    color: yellow !important;
+} */
   
-#ourStorySectionBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active  + .react-multi-carousel-item--active{
-    transform: scale(0.9) !important;
+#ourStorySectionBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active  + .react-multi-carousel-item--active {
+    transform: scale(0.8) !important;
     opacity: 0.7 !important;
+    
   }
+
+#ourStorySectionBodyId .carousel-container {
+  position: inherit !important;
+}

@@ -3,8 +3,8 @@
     width: 32px;
     height: 32px;
     position: absolute;
-    z-index: 1000;
-    transition: all .5s;
+    z-index: 999;
+    /* transition: all .5s; */
     left: calc(4% + -27px);
     margin: auto 0;
     filter: grayscale(100%);
@@ -30,7 +30,7 @@
 
 .customLeftArrowImg:hover {
     filter: grayscale(0%);
-    transition: ease-out;
+    margin-left: -10px;
 }
 
 .customLeftArrowButton {

@@ -3,9 +3,9 @@ import classes from './AboutUs.module.css';
 import ForwardArrow from '../../../assets/Group 34.svg';
 import AboutIconImg from '../../../assets/Mask Group 10.png';
 
-function AboutUs (props) {
+function AboutUs ({}) {
     return (
-    <div className='container'>
+    <div className='container-fluid'>
         <div className={classes.aboutSection}>
             <div className={classes.aboutSectionLeftSide}>
                 <header className={classes.aboutSectionLeftSideHeader}>about us</header>

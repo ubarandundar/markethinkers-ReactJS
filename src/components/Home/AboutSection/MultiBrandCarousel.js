@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import classes from './MultiBrandCarousel.module.css';
+import './MultiBrandCarousel.css';
 
 import HangiKrediImg from '../../../assets/hk-new-logo-white.svg';
 import ZoomImg from '../../../assets/Zoom logo.svg';
@@ -60,7 +61,7 @@ function MultiBrandCarousel (props) {
     };
     
     return (
-        <div>
+        <div id='multiBrandCarouselWrapperId' className={classes.multiBrandCarouselWrapper}>
              <Carousel
                 swipeable={true}
                 draggable={false}

@@ -1,13 +1,12 @@
 .graphicsBody {
-    /* max-width: 762px; */
-    max-width: 550px;
+    max-width: 762px;
     height: 915px;
     background: #FF8049;
     border-radius: 0px 50px 50px 0px;
     opacity: 1;
     position: absolute;
     z-index: 2;
-    top: 73%;
+    top: 65%;
     left: 0;
 }
 
@@ -33,6 +32,7 @@
     /* width: 762px; */
     height: 915px;
     margin-bottom: 55px;
+    padding: 100px 120px;
 }
 
 .graphicsBodySubNum {
@@ -66,26 +66,25 @@
 .graphicsBodySubFirstRow {
     display: flex;
     flex-direction: column;
-    padding: 107px 0 54px 35px;
+    margin-bottom: 54px;
 }
 
 .graphicsBodySubSecondRow {
     display: flex;
     flex-direction: column;
-    padding: 0 0 84px 35px;
+    margin-bottom: 84px;
 }
 
 .graphicsBodySubThirdRow {
     display: flex;
     flex-direction: row;
-    padding: 0 0 0 35px;
     margin-bottom: 100px;
+    justify-content: space-between;
 }
 
 .graphicsBodySubThirdRowFirstColumn {
     display: flex;
     flex-direction: column;
-    padding: 0 104px 0 0;
 }
 
 .graphicsBodySubThirdRowSecondColumn {

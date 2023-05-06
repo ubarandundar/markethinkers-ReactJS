@@ -11,7 +11,7 @@
 } */
 
 .customLeftArrowForStoryBody {
-    width: 90px;
+    width: 90px !important;
     height: 90px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
@@ -20,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 0;
+    background: transparent;
 }
 
 .customLeftArrowImageForStory svg {

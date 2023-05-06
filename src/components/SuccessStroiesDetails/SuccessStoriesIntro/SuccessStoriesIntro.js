@@ -1,11 +1,26 @@
 import classes from './SuccessStoriesIntro.module.css';
 
 import AvansasLogo from '../../../assets/avansas logo.png';
+import AvansasIntroBackImg from '../../../assets/Path 18650.svg';
 
 function SuccessStoriesIntro() {
   return (
     <div className='container'>
-        <div style={{marginTop: '330px'}} className='row'>
+        <img className={`img-fluid ${classes.successStoriesIntroBackImg}`} src={AvansasIntroBackImg} alt='AvansasIntroBackImg' />
+        <div className={classes.successStoriesIntroLink}>
+          <a href='www.google.com'>
+            Homepage
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Success Stories
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Avansas
+          </a>
+        </div>
+        <div className='row position-relative'>
             <div className='col-sm-12 col-md-6 col-lg-6'>
                 <header className={classes.successStoriesIntroHeader}>
                     Revenue increase by 42%

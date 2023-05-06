@@ -3,9 +3,12 @@ import classes from './SuccessStoriesTableOfContents.module.css';
 
 import ForwardArrow from '../../../../assets/Group 34.svg';
 import ForwardArrowGray from '../../../../assets/Group 34-gray.svg';
+import TableOfContentBackImg from '../../../../assets/Path 16725-1.svg';
 
 function SuccessStoriesTableOfContents() {
   return (
+    <>
+    <img className={`img-fluid ${classes.tableOfContentBackImg}`} src={TableOfContentBackImg} alt='TableOfContentBackImg' />
     <div className={classes.successStoriesTableOfContentsBody}>
         <div className='row'>
             <div className='col-5'></div>
@@ -76,6 +79,7 @@ function SuccessStoriesTableOfContents() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

@@ -6,13 +6,14 @@
     opacity: 1;
     position: absolute;
     z-index: 1;
-    top: 93%;
+    top: 90%;
     right: 3%;
     display: flex;
     flex-direction: column;
     padding: 0 20px 150px 0;
     margin-left: 340px;
     text-decoration: none;
+    max-width: 1250px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

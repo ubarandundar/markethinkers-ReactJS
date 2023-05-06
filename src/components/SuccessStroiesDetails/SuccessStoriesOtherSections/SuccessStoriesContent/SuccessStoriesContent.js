@@ -3,10 +3,28 @@ import classes from './SuccessStoriesContent.module.css';
 import TopQuoteImage from '../../../../assets/quote.svg';
 import BottomQuoteImage from '../../../../assets/quote (1).svg';
 import CoreWebVitalsGraphics from '../../../../assets/Mask Group 26.png';
+import SuccessStoriesContentRightFirstImg from '../../../../assets/Path 16763.svg';
+import SuccessStoriesContentLeftFirstImg from '../../../../assets/Path 16762-1.svg';
+import SuccessStoriesContentRightSecondImg from '../../../../assets/Path 16726-1.svg';
+import SuccessStoriesContentLeftSecondImg from '../../../../assets/Path 16843.svg';
+import SuccessStoriesContentRightThirdImg from '../../../../assets/Path 18675.svg';
+import SuccessStoriesContentLeftThirdImg from '../../../../assets/Path 18676.svg';
+import SuccessStoriesContentRightFourthImg from '../../../../assets/Path 18678.svg';
+import SuccessStoriesContentLeftFourthImg from '../../../../assets/Path 18677.svg';
+import SuccessStoriesContentRightFifthImg from '../../../../assets/Path 16727-1.svg';
 
 function SuccessStoriesContent() {
   return (
-    <div>
+    <div className='position-relative'>
+        <img className={`img-fluid ${classes.successStoriesContentRightFirstImg}`} src={SuccessStoriesContentRightFirstImg} alt='SuccessStoriesContentRightFirstImg' />
+        <img className={`img-fluid ${classes.successStoriesContentLeftFirstImg}`} src={SuccessStoriesContentLeftFirstImg} alt='SuccessStoriesContentLeftFirstImg' />
+        <img className={`img-fluid ${classes.successStoriesContentRightSecondImg}`} src={SuccessStoriesContentRightSecondImg} alt='SuccessStoriesContentRightSecondImg' />
+        <img className={`img-fluid ${classes.successStoriesContentLeftSecondImg}`} src={SuccessStoriesContentLeftSecondImg} alt='SuccessStoriesContentLeftSecondImg' />
+        <img className={`img-fluid ${classes.successStoriesContentRightThirdImg}`} src={SuccessStoriesContentRightThirdImg} alt='SuccessStoriesContentRightThirdImg' />
+        <img className={`img-fluid ${classes.successStoriesContentLeftThirdImg}`} src={SuccessStoriesContentLeftThirdImg} alt='SuccessStoriesContentLeftThirdImg' />
+        <img className={`img-fluid ${classes.successStoriesContentRightFourthImg}`} src={SuccessStoriesContentRightFourthImg} alt='SuccessStoriesContentRightFourthImg' />
+        <img className={`img-fluid ${classes.successStoriesContentLeftFourthImg}`} src={SuccessStoriesContentLeftFourthImg} alt='SuccessStoriesContentLeftFourthImg' />
+        <img className={`img-fluid ${classes.successStoriesContentRightFifthImg}`} src={SuccessStoriesContentRightFifthImg} alt='SuccessStoriesContentRightFifthImg' />
         <header className={classes.successStoriesTableOfContentsMainHeader}>
             Markethinkers & Avansas: Content Marketing for Top Rankings
         </header>
@@ -32,7 +50,7 @@ function SuccessStoriesContent() {
         <div className={classes.successStoriesTableOfContentsParag}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
         </div>
-        <div className='row'>
+        <div className='row position-relative'>
             <div className='col-6'>
                 <div className={classes.successStoriesTableOfContentsOtherArea}>
                     <ul>
@@ -77,7 +95,7 @@ function SuccessStoriesContent() {
                 Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Viverra accumsan in nisl nisi. Sit amet volutpat consequat mauris nunc congue nisi. Ut porttitor leo a diam sollicitudin tempor id eu. Sit amet volutpat consequat mauris nunc congue nisi. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Viverra adipiscing at in tellus integer feugiat scelerisque. Tristique senectus et netus et malesuada fames ac. Quis commodo odio aenean sed. Adipiscing commodo elit at imperdiet dui accumsan. Amet luctus venenatis lectus magna.
             </div>
         </div>
-        <div>
+        <div className='position-relative'>
             <header className={classes.successStoriesTableOfContentsHeaderCore}>
                 core web vitals
             </header>
@@ -118,7 +136,7 @@ function SuccessStoriesContent() {
                 </div>
             </div>
         </div>
-        <div>
+        <div className='position-relative'>
             <header className={classes.successStoriesTableOfContentsHeaderCore}>
                 core web vitals
             </header>
@@ -149,7 +167,7 @@ function SuccessStoriesContent() {
                 </li>
             </ul>
         </div>
-        <div className='row'>
+        <div className='row position-relative'>
             <div className='col-sm-12 col-md-12 col-lg-6'>
                 <div className={classes.successStoriesContentsBodyWhiteCard}>
                     <header>
@@ -171,7 +189,7 @@ function SuccessStoriesContent() {
                 </div>
             </div>
         </div>
-        <div className='row' style={{marginBottom: '60px', marginTop: '30px'}}>
+        <div className='row position-relative' style={{marginBottom: '60px', marginTop: '30px'}}>
             <div className='col-sm-12 col-md-12 col-lg-6'>
                 <div className={classes.successStoriesContentsBodyColouredCard}>
                 </div>
@@ -207,7 +225,7 @@ function SuccessStoriesContent() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
             </div>
         </div>
-        <div className='d-flex flex-column'>
+        <div className='d-flex flex-column positon-relative'>
                 <div className={classes.successStoriesTableOfContentsSmallFirstCard}>
                     <div className={classes.successStoriesTableOfContentsCardNumber}>
                         1
@@ -253,17 +271,18 @@ function SuccessStoriesContent() {
                     </span>
                 </div>
             </div>
-            <div>
+            <div className='posiiton-relative'>
                 <header className={classes.successStoriesTableOfContentsTableHeader}>
                     Table Title
                 </header>
                 <div className={classes.successStoriesTableOfContentsTableBody}>
+                    <div style={{borderRadius: '16px'}}>
                     <table>
                     <tr>
-                        <th style={{textAlign: 'left'}}>Lorem İpsum</th>
+                        <th style={{textAlign: 'left', borderTopLeftRadius: '16px'}}>Lorem İpsum</th>
                         <th>Lorem İpsum</th>    
                         <th>Lorem İpsum</th>
-                        <th>Lorem İpsum</th>
+                        <th style={{borderTopRightRadius: '16px'}}>Lorem İpsum</th>
                     </tr>
                     <tr>
                         <td style={{textAlign: 'left'}}>Lorem İpsum Dolor</td>
@@ -302,12 +321,13 @@ function SuccessStoriesContent() {
                         <td>12</td>
                     </tr>
                     <tr>
-                        <td style={{textAlign: 'left'}}>Lorem İpsum</td>
+                        <td style={{textAlign: 'left', borderBottomLeftRadius: '16px'}}>Lorem İpsum</td>
                         <td>123</td>
                         <td>-</td>
-                        <td>123</td>
+                        <td style={{borderBottomRightRadius: '16px'}}>123</td>
                     </tr>
                     </table>
+                    </div>
                 </div>
                 <caption className={classes.successStoriesTableOfContentsTableDescription}>
                     table description

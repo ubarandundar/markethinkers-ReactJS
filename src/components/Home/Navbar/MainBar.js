@@ -50,9 +50,9 @@ function MainBar (props) {
                 </div>
                 <div>
                 <ul className={classes.mainbarUl}>
-                    <li className={classes.mainbarLi}>
-                        <a onMouseEnter={() => setShowSubMenusExpertise(true)} className={classes.mainbarA} href="https://www.google.com/">expertise</a>
-                        {showSubMenusExpertise && <div onMouseLeave={() => setShowSubMenusExpertise(false)} className={classes.subMenus}>
+                    <li onMouseOver={() => setShowSubMenusExpertise(true)} onMouseLeave={() => setShowSubMenusExpertise(false)} className={classes.mainbarLi}>
+                        <a className={classes.mainbarA} href="https://www.google.com/">expertise</a>
+                        {showSubMenusExpertise && <div className={classes.subMenus}>
                             <ul>
                                 <li>
                                 <div className={classes.subMenusDiv}></div>
@@ -77,9 +77,9 @@ function MainBar (props) {
                             </ul>
                         </div>} 
                     </li>
-                    <li className={classes.mainbarLi}>
-                        <a onMouseEnter={() => setShowSubMenusTools(true)} className={classes.mainbarA} href="https://www.google.com/">tools</a>
-                        {showSubMenusTools && <div onMouseLeave={() => setShowSubMenusTools(false)} className={classes.subMenus}>
+                    <li onMouseOver={() => setShowSubMenusTools(true)} onMouseLeave={() => setShowSubMenusTools(false)} className={classes.mainbarLi}>
+                        <a className={classes.mainbarA} href="https://www.google.com/">tools</a>
+                        {showSubMenusTools && <div className={classes.subMenus}>
                             <ul>
                                 <li>
                                 <div className={classes.subMenusDiv}></div>

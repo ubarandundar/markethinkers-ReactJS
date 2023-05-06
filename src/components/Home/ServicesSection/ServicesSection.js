@@ -51,7 +51,7 @@ function ServicesSection (props) {
 
     return (
     <div className='container'>
-        <img className={classes.ServicesSectionLeftImg} src={ServicesSectionLeftImg} alt='ServicesSection_LeftImg' />
+        <img className={`img-fluid ${classes.ServicesSectionLeftImg}`} src={ServicesSectionLeftImg} alt='ServicesSection_LeftImg' />
         <div className={classes.ServicesSectionBody}>
             <div className='container'>
                 <div className={classes.ServicesSectionLeftSide}>

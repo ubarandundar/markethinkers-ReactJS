@@ -3,6 +3,9 @@
     background: transparent;
     border-radius: 50px;
     opacity: 1; 
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .ourStoryCarouselImage {
@@ -23,6 +26,7 @@
     font: normal normal 300 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #D3148B;
+    /* color: #444444; */
     opacity: 1;
 }
 

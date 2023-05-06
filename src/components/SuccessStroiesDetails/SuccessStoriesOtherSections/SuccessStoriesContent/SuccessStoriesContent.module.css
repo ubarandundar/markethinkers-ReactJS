@@ -377,8 +377,10 @@
 }
 
 .successStoriesTableOfContentsTableBody table {
-    width: 100%;
-    border-radius: 16px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid white !important;
+
 }
 
 .successStoriesTableOfContentsTableBody th {
@@ -414,3 +416,78 @@
     margin-top: 30px;
     margin-bottom: 80px;
 }
+
+.successStoriesContentRightFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 74%;
+    margin-top: 90%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -116%;
+    margin-top: 162%;
+    filter: blur(50px);
+}
+
+.successStoriesContentRightSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 74%;
+    margin-top: 265%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -115%;
+    margin-top: 318%;
+    filter: blur(50px);
+}
+
+.successStoriesContentRightThirdImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 74%;
+    margin-top: 418%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftThirdImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -115%;
+    margin-top: 482%;
+    filter: blur(50px);
+}
+
+.successStoriesContentRightFourthImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 68%;
+    margin-top: 587%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftFourthImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -115%;
+    margin-top: 689%;
+    filter: blur(50px);
+}
+
+.successStoriesContentRightFifthImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 70%;
+    margin-top: 761%;
+    filter: blur(50px);
+}
+
+
+
