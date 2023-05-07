@@ -1,12 +1,42 @@
+.SEOToolsSectionLink {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 46px;
+}
+
+.SEOToolsSectionLink a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 300 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #929393;
+    opacity: 1;
+}
+
+.SEOToolsSectionLink a:hover {
+    color: #D3148B;
+}
+
+.redDot {
+    width: 6px;
+    height: 6px;    
+    background: #D3148B;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
 .SEOToolsSectionWrapper {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     position: relative;
 }
 
 .SEOToolsSectioBody {
     position: relative;
     z-index: 1;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .SEOToolsSectionHeader {
@@ -57,12 +87,12 @@
     position: absolute;
     z-index: 0;
     margin-left: -51%;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 .SEOToolsSectionBackRightImg {
     position: absolute;
     z-index: 0;
     margin-left: 52%;
-    margin-top: -37%;
+    margin-top: -26%;
 }

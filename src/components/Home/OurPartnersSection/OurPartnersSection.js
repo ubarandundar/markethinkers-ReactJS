@@ -2,6 +2,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import classes from './OurPartnersSection.module.css';
+import './OurPartnersSection.css';
 
 import CrosstechImage from '../../../assets/Mask Group 13.png';
 import ShopifyImage from '../../../assets/Shopify_logo_2018.svg.png';
@@ -34,7 +35,7 @@ function OurPartnersSection (props) {
 
     return (
         <div className='container-fluid'>
-            <div className={classes.ourPartnersSectionBody}>
+            <div id='ourPartnersSectionBodyId' className={classes.ourPartnersSectionBody}>
             <header className={classes.ourPartnersSectionHeader}>Our Partners</header>
             <Carousel
                 swipeable={false}

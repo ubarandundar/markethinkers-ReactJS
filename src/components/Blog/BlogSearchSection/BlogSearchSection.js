@@ -5,9 +5,18 @@ import BlogSearchBar from './BlogSearchBar';
 
 function BlogSearchSection() {
   return (
-    <div className='container'>
+    <div className='container position-relative'>
         <img className={classes.blogSearchSectionMiddleBackImg} src={BlogSearchSectionMiddleBackImg} alt='BlogSearchSectionMiddleBack_Image' />
-        <div className='d-flex flex-column position-relative'>
+        <div className={classes.blogSearchSectionLink}>
+                <a href='www.google.com'>
+                    Homepage
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Blog
+                </a>
+            </div>
+        <div style={{zIndex: '3'}} className='d-flex flex-column position-relative'>
             <header className={classes.blogSearchSectionHeader}>
                 blog
             </header>

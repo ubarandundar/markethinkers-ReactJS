@@ -1,12 +1,14 @@
 import classes from './SERPPreviewToolCard.module.css';
 
 import GoogleImage from '../../../assets/google.png';
+import SERPPreviewToolCardBackImg from '../../../assets/Path 16728-2.svg';
 
 function SERPPreviewToolCard() {
   return (
     <>
-    <div className='row'>
-        <div className='col-sm-12 col-md-8 col-lg-8'>
+    <div className='row position-relative'>
+        <img className={`img-fluid ${classes.SERPPreviewToolCardBackImg}`} src={SERPPreviewToolCardBackImg} alt='SERPPreviewToolCardBackImg' />
+        <div className='col-sm-12 col-md-8 col-lg-8 position-relative'>
                 <div className={classes.desktopViewBodyTop}>
                     <img className='img-fluid' src={GoogleImage} alt='GoogleImage' />
                     <div className={classes.desktopViewSearchBar}>
@@ -39,7 +41,7 @@ function SERPPreviewToolCard() {
                     <div className={classes.desktopViewBarFourth}></div>
                 </div>
         </div>
-        <div className='col-sm-12 col-md-4 col-lg-4'>
+        <div className='col-sm-12 col-md-4 col-lg-4 position-relative'>
                 <div className={classes.mobileViewBodyTop}>
                     <img className='img-fluid' src={GoogleImage} alt='GoogleImage' />
                     <div className={classes.mobileViewSearchBar}>

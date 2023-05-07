@@ -9,6 +9,7 @@ import MidasImage from '../../../assets/Image 13.png';
 import ExpansienceLabImage from '../../../assets/Image 14.png';
 import MaskGroupImage from '../../../assets/Mask Group 40.png';
 
+
 function ExpertiseMultiBrand (props) {
 
     const responsive = {

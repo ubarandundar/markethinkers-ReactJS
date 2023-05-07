@@ -5,8 +5,16 @@ import contactHelpSectionImg from '../../../assets/7744137.png';
 
 function ContactHelpSection () {
   return (
-    <div>
-        <div className={'container'}>
+        <div className='container'>
+            <div className={classes.contactHelpSectionLink}>
+                <a href='www.google.com'>
+                    Homepage
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Contact
+                </a>
+            </div>
             <div className={classes.contactHelpSection}>
                 <img className={classes.contactHelpSectionBackImg} src={contactHelpSectionBackImg} alt='contactHelpBack_Image' />
                 <header className={classes.contactHelpSectionHeader}>
@@ -35,7 +43,6 @@ function ContactHelpSection () {
                 </div>
             </div>
         </div>
-    </div>
   )
 }
 

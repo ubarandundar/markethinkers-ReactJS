@@ -2,13 +2,15 @@ import { useState } from 'react';
 import classes from './BenefitsAndPerksCard.module.css';
 
 import CheckerImg from '../../../assets/inspiration.svg';
+import BenefitsAndPerksCardBackImg from '../../../assets/Path 16725-2.svg';
 
 function BenefitsAndPerksCard() {
     const [isVisible, setIsVisible] = useState(false);
 
   return (
     <div className='container position-relative'>
-            <div className={`row ${classes.benefitsAndPerksCardBody}`}>
+            <img className={classes.benefitsAndPerksCardBackImg} src={BenefitsAndPerksCardBackImg} alt='BenefitsAndPerksCardBackImg' />
+            <div className={`row position-relative ${classes.benefitsAndPerksCardBody}`}>
                 <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
                     <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>

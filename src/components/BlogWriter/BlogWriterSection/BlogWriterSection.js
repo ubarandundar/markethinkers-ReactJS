@@ -6,6 +6,19 @@ import LinkedinIcon from '../../../assets/linkedin.svg';
 function BlogWriterSection() {
   return (
     <div className='container'>
+        <div className={classes.blogWriterSectionLink}>
+                <a href='www.google.com'>
+                    Homepage
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    About Us
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Bilge Bilir
+                </a>
+        </div>
         <div className={`row ${classes.blogWriterSectionCardBody}`}>
             <div className='col-4 position-relative'>
                 <img className={classes.blogWriterSectionCardBodyProfilPicture} src={ProfilPicture} alt='Profil_Picture' />

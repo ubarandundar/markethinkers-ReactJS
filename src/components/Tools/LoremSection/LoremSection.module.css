@@ -34,6 +34,7 @@
     margin-left: auto;
     z-index: 2;
     margin-top: -270px;
+    margin-bottom: 120px;
 }
 
 .loremCardHeader, .loremOtherCardHeader {
@@ -51,4 +52,11 @@
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
+}
+
+.loremSectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -51%;
+    margin-top: -4%;
 }

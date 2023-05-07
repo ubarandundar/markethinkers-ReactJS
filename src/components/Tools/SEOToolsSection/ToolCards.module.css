@@ -93,3 +93,10 @@
     color: #444444;
     opacity: 1;
 }
+
+.SEOToolCardsBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 67%;
+    margin-top: -20%;
+}

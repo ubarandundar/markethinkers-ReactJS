@@ -5,10 +5,12 @@ import ForwardArrow from '../../../assets/Group 34.svg';
 import SEOToolSectionCardJSONImage from '../../../assets/faq.png';
 import SEOToolSectionCardCounterImage from '../../../assets/counter.png';
 import SEOToolSectionCardPreviewImage from '../../../assets/pagerank.png';
+import SEOToolCardsBackImg from '../../../assets/Path 16762-2.png';
 
 function ToolCards() {
   return (
     <div className={`row ${classes.SEOToolsSectionCardWrapper}`}>
+        <img className={classes.SEOToolCardsBackImg} src={SEOToolCardsBackImg} alt='SEOToolCardsBackImg' />
         <div className='col-sm-4'>
             <div className={classes.SEOToolsSectionCard}>
                 <a href='www.google.com' className={classes.SEOToolsSectionCardWrapper}>

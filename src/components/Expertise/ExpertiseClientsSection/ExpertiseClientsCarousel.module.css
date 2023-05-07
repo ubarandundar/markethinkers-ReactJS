@@ -64,3 +64,17 @@
     width: 29px;
     height: 30px;
 }
+
+.expertiseClientsCarouselLeftBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -21%;
+    margin-top: -33%;
+}
+
+.expertiseClientsCarouselRightBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 66%;
+    margin-top: 24%;
+}

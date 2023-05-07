@@ -6,6 +6,15 @@ import FikriSabitImg from '../../../assets/NoPath.png';
 function BlogDetailsIntro() {
   return (
     <div className='container'>
+        <div className={classes.blogDetailsIntroLink}>
+                <a href='www.google.com'>
+                    Blog
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    Digital Marketing and SEO Blog
+                </a>
+        </div>
         <div className='position-relative'>
             <header className={classes.BlogDetailsIntroHeader}>
                 2023 Guide for Digital Marketers: Recommendations From Top Experts

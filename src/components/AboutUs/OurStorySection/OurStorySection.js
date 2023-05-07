@@ -3,10 +3,13 @@ import classes from './OurStorySection.module.css';
 import MarketingBlogImage from '../../../assets/text-seo-editing.png';
 import OurStoryCarousel from './OurStoryCarousel';
 
+import OurStorySectionBackImg from '../../../assets/Path 16813.svg';
+
 function OurStorySection() {
   return (
     <div className={`container ${classes.ourStorySectionWrapper}`}>
-        <div className='row'>
+        <img className={classes.ourStorySectionBackImg} src={OurStorySectionBackImg} alt='OurStorySectionBackImg' />
+        <div className='row position-relative'>
             <div className='col-sm-5'>
                 <div className='d-flex flex-column'>
                     <header className={classes.ourStorySectionLeftSideHeader}>
@@ -20,7 +23,7 @@ function OurStorySection() {
                     </span>
                 </div>
             </div>
-            <div className='col-sm-7'>
+            <div className='col-sm-7 position-relative'>
                 <div className={classes.ourStoryCarouselBody}>
                     <OurStoryCarousel />
                 </div>

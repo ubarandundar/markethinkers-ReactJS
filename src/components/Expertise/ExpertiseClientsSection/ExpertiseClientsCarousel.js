@@ -10,6 +10,8 @@ import ErhanMutluImg from '../../../assets/Image 1.png';
 import ForwardArrow from '../../../assets/Group 25657.svg';
 import CustomLeftLargeArrow from "../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow";
 import CustomRightLargeArrow from "../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow";
+import ExpertiseClientsCarouselLeftBackImg from '../../../assets/Path 36635.png';
+import ExpertiseClientsCarouselRightBackImg from '../../../assets/Path 16726.png';
 
 function ExpertiseClientsCarousel (props) {
 
@@ -38,6 +40,8 @@ function ExpertiseClientsCarousel (props) {
 
     return (
         <div className='container-fluid'>
+            <img className={`img-fluid ${classes.expertiseClientsCarouselLeftBackImg}`} src={ExpertiseClientsCarouselLeftBackImg} alt='ExpertiseClientsCarouselLeftBackImg' />
+            <img className={`img-fluid ${classes.expertiseClientsCarouselRightBackImg}`} src={ExpertiseClientsCarouselRightBackImg} alt='ExpertiseClientsCarouselRightBackImg' />
             <div id='expertiseClientsCarouselBodyId' className={classes.expertiseClientsCarouselBody}>
             <Carousel
                 swipeable={false}

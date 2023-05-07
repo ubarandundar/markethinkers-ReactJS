@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import classes from './JoinUsForm.module.css';
 
 import EnvelopeImg from '../../../assets/email_marketing.png';
+import JoinUsFormBackImg from '../../../assets/Path 18604.svg';
 
 function JoinUsForm() {
     const [enteredName, setEnteredName] = useState('');
@@ -50,7 +51,8 @@ function JoinUsForm() {
     };
 
   return (
-    <div className='container'>
+    <div className='container position-relative'>
+        <img className={classes.joinUsFormBackImg} src={JoinUsFormBackImg} alt='JoinUsFormBackImg' />
         <header className={classes.joinUsFormHeader}>
             join us
         </header>

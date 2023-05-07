@@ -1,6 +1,6 @@
 import classes from './GoogleMapSection.module.css';
 import SocialMediaItems from '../../Home/Footer/SocialMediaItems';
-import GoogleMapSectionBackImg from '../../../assets/Path 16768.png';
+import GoogleMapSectionBackImg from '../../../assets/Path 16845.svg';
 import GoogleMap from './GoogleMap';
 
 function GoogleMapSection () {

@@ -1,15 +1,21 @@
 import classes from './WhatIsSERPPreviewToolSection.module.css';
 
 import SERPPreviewToolImage from '../../../assets/web_browser.png';
+import WhatIsWordCounterSectionBackRightImg from '../../../assets/Path 36630.png';
+import WhatIsWordCounterSectionBackLeftImg from '../../../assets/Path 36629.png';
+import WhatIsWordCounterSectionBackRightSecondImg from '../../../assets/Path 36633.png';
 
 function WhatIsSERPPreviewToolSection() {
     return (
-        <>
-            <div>
+        <div className='position-relative'>
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightImg}`} src={WhatIsWordCounterSectionBackRightImg} alt='WhatIsWordCounterSectionBackRightImg' />
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackLeftImg}`} src={WhatIsWordCounterSectionBackLeftImg} alt='WhatIsWordCounterSectionBackLefttImg' />
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightSecondImg}`} src={WhatIsWordCounterSectionBackRightSecondImg} alt='WhatIsWordCounterSectionBackRightSecondImg' />
+            <div className='position-relative'>
                 <header className={classes.whatIsSERPPreviewToolSectionHeader}>
                     What is SERP Preview Tool
                 </header>
-                <div className='row'>
+                <div className='row position-relative'>
                     <div className='col-sm-12 col-md-12 col-lg-6'>
                         <img className='img-fluid' src={SERPPreviewToolImage} alt='SERPPreviewToolImage' />
                     </div>
@@ -40,7 +46,7 @@ function WhatIsSERPPreviewToolSection() {
                         </span>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row position-relative'>
                     <header className={classes.whatIsSERPPreviewToolSectionLoremHeader}>
                         lorem ipsum dolor
                     </header>
@@ -50,7 +56,7 @@ function WhatIsSERPPreviewToolSection() {
                         aliqua. Ut enim ad minim veniam, exercitation ullamco labor aliquip ea commodo consequat.
                     </div>
                 </div>
-                <div style={{marginBottom: '-430px'}} className='row'>
+                <div style={{marginBottom: '-430px', zIndex: '3'}} className='row position-relative'>
                     <div className='col-sm-12 col-md-4 col-lg-4'>
                         <div className={classes.whatIsSERPPreviewToolSectionLoremCardBody}>
                             <header className={classes.whatIsWordCounterSectionLoremCardHeader}>
@@ -83,7 +89,7 @@ function WhatIsSERPPreviewToolSection() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
       )
     }
 export default WhatIsSERPPreviewToolSection;

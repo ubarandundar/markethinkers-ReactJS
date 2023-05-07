@@ -1,6 +1,6 @@
 import classes from './ContactFAQSection.module.css';
-import FAQSectionBackUpImg from '../../../assets/Path 16821.png';
-import FAQSectionBackDownImg from '../../../assets/Path 16820.png';
+import FAQSectionBackUpImg from '../../../assets/Path 16821.svg';
+import FAQSectionBackDownImg from '../../../assets/Path 16820.svg';
 import FAQCardSelections from '../../FAQ/FAQCard/FAQCardSelections';
 
 function ContactFAQSection() {

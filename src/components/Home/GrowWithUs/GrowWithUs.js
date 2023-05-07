@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import classes from './GrowWithUs.module.css';
 import GrowWithUsImg from '../../../assets/100001.png';
 
-function GrowWithUs ({changeMarginBottom}) {
+function GrowWithUs ({changeMarginBottom, changesForAboutUs}) {
     const [isVisible, setIsVisible] = useState(false);
     const [showTransition, setShowTransition] = useState(false);
     const [enteredWebsite, setEnteredWebsite] = useState('');
@@ -75,7 +75,7 @@ function GrowWithUs ({changeMarginBottom}) {
     return (
     <div className='container'>
         <div style={changeMarginBottom ? {height: 'auto'} : {}} className={classes.GrowWithUsSectionBody}>
-            <form className={isVisible ? classes.GrowWithUsCardToggle : classes.GrowWithUsCard} onSubmit={formContinueHandler}>
+            <form style={changesForAboutUs ? {marginTop: '120px'} : {}} className={isVisible ? classes.GrowWithUsCardToggle : classes.GrowWithUsCard} onSubmit={formContinueHandler}>
                 <div className={'container'}>
                 <div className={'row d-flex align-items-center'}>
                     <div className={'col-4'}>

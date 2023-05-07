@@ -6,6 +6,19 @@ function CareerDetailsSection() {
   return (
     <div className='container'>
         <img className={classes.careerDetailsSectionBackMiddleImg} src={CareerDetailsSectionBackMiddleImg} alt='JoinAndApplySectionBackMiddle_Image' />
+        <div className={classes.careerDetailsSectionLink}>
+          <a href='www.google.com'>
+            Homepage
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Career
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Lorem ipsum dolor sit amet
+          </a>
+        </div>
         <div className='d-flex flex-column position-relative'>
             <header className={classes.careerDetailsSectionHeader}>
                 career

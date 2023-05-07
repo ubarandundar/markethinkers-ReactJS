@@ -1,9 +1,12 @@
 import classes from './LoremSection.module.css';
 
+import LoremSectionBackImg from '../../../assets/Path 16843.png';
+
 function LoremSection() {
   return (
-    <div className='container'>
-        <div className='row'>
+    <div className='container position-relative'>
+        <img className={classes.loremSectionBackImg} src={LoremSectionBackImg} alt='LoremSectionBackImg' />
+        <div className='row position-relative'>
             <div className='d-flex flex-column'>
                 <header className={classes.loremSectionHeader}>
                     Lorem Ipsum Dolor

@@ -1,0 +1,23 @@
+.blogPanigationLeftFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -35%;
+    margin-top: -21%;
+    filter: blur(50px);
+}
+
+.blogPanigationRightImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 52%;
+    margin-top: 25%;
+    filter: blur(50px);
+}
+
+.blogPanigationLeftSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -28%;
+    margin-top: 70%;
+    filter: blur(50px);
+}

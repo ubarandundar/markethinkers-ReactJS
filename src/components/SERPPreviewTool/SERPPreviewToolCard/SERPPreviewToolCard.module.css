@@ -336,6 +336,7 @@
     opacity: 1;
     padding: 60px 40px 60px 40px !important;
     margin-top: 30px !important;
+    position: relative;
 }
 
 .SERPInputArea header {
@@ -522,4 +523,12 @@
     position: absolute;
     top: 4px;
     left: 4px;
+}
+
+.SERPPreviewToolCardBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 13%;
+    margin-top: -5%;
+    filter: blur(50px);
 }

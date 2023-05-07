@@ -4,7 +4,8 @@
     letter-spacing: 9px;
     color: #D3148B;
     opacity: 0.1;
-    margin-top: 200px;
+    margin-top: 40px;
+    position: relative;
 }
 
 .errorPage404 {
@@ -13,6 +14,7 @@
     letter-spacing: 21px;
     color: #7E10BC;
     opacity: 1;
+    position: relative;
 }
 
 .errorPageLottie {
@@ -31,6 +33,7 @@
     text-shadow: 0px 4px 10px #00000033;
     opacity: 1;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .errorPageHeaderSub {
@@ -41,6 +44,7 @@
     text-shadow: 0px 4px 10px #00000033;
     opacity: 1;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .errorPageButton {
@@ -55,9 +59,18 @@
     color: #D3148B;
     display: block;
     margin: 0 auto 115px auto;
+    position: relative;
 }
 
 .errorPageButton:hover {
     background: transparent;
     color: white;
+}
+
+.errorPageBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 3%;
+    margin-top: 25%;
+    filter: blur(50px);
 }

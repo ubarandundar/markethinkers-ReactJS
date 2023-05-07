@@ -16,3 +16,10 @@
     color: #444444;
     margin-bottom: 120px;
 }
+
+.expertiseCaseStudiesBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -52%;
+    margin-top: 8%;
+}

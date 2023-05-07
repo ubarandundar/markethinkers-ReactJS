@@ -1,6 +1,6 @@
 .ourPartnersSectionBody {
-    width: 100%;
-    height: 500px;
+    /* width: 100%;
+    height: 500px; */
     /* border: 1px solid black; */
     margin-top: 850px;
     position: relative;
@@ -17,9 +17,9 @@
     margin: 100px auto;
 }
 
-.ourPartnersImageBody {
+/* .ourPartnersImageBody {
     margin-bottom: 100px;
-}
+} */
 
 .ourPartnersImages {
     filter: grayscale(100%);
@@ -28,9 +28,8 @@
 .ourPartnersImages:hover {
     filter: grayscale(0%);
 }
-
+/* 
 .ourPartnersSectionBody ul {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding-bottom: 30px !important;
 }
-
+ */

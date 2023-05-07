@@ -1,13 +1,13 @@
 import LoremSection from './LoremSection/LoremSection';
 import SEOToolsSection from './SEOToolsSection/SEOToolsSection';
-import GrowWithUs from '../Home/GrowWithUs/GrowWithUs';
+import ToolsFAQSection from './ToolsFAQSection/ToolsFAQSection';
 
 function Tools() {
   return (
     <>
       <SEOToolsSection />
       <LoremSection />
-      <GrowWithUs />
+      <ToolsFAQSection />
     </>
   )
 }

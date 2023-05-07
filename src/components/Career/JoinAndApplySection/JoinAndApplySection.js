@@ -1,6 +1,6 @@
 import classes from './JoinAndApplySection.module.css';
 
-import JoinAndApplySectionBackMiddleImg from '../../../assets/Path 16768-1.png';
+import JoinAndApplySectionBackMiddleImg from '../../../assets/Path 16768-5.svg';
 import JoinAndApplySectionBackLeftImg from '../../../assets/Path 16728-1.png';
 
 function JoinAndApplySection() {
@@ -8,6 +8,15 @@ function JoinAndApplySection() {
     <div className='container'>
         <img className={classes.joinAndApplySectionBackMiddleImg} src={JoinAndApplySectionBackMiddleImg} alt='JoinAndApplySectionBackMiddle_Image' />
         <img className={classes.joinAndApplySectionBackLeftImg} src={JoinAndApplySectionBackLeftImg} alt='JoinAndApplySectionBackLeft_Image' />
+        <div className={classes.joinAndApplySectionLink}>
+          <a href='www.google.com'>
+            Homepage
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Career
+          </a>
+        </div>
         <div className='d-flex flex-column position-relative'>
             <header className={classes.joinAndApplySectionHeader}>
                 career

@@ -6,4 +6,30 @@
     opacity: 1;
     margin-top: 550px;
     margin-bottom: 60px;
+    position: relative;
 }
+
+.wordCounterOtherSectionsBackLeftFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -55%;
+    margin-top: -46%;
+    filter: blur(50px);
+}
+
+.wordCounterOtherSectionsBackLeftSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -55%;
+    margin-top: 32%;
+    filter: blur(50px);
+}
+
+.wordCounterOtherSectionsBackRightImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 72%;
+    margin-top: 19%;
+    filter: blur(50px);
+}
+

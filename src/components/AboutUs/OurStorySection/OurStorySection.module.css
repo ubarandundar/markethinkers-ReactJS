@@ -55,3 +55,11 @@
 .ourStoryCarouselBody {
     margin-bottom: 30px;
 }
+
+.ourStorySectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -36%;
+    margin-top: -3%;
+    filter: blur(50px);
+}

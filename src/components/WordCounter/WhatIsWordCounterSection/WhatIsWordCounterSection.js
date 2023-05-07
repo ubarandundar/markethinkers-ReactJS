@@ -1,15 +1,21 @@
 import classes from './WhatIsWordCounterSection.module.css';
 
 import WordCounterImage from '../../../assets/Mask Group 42.png';
+import WhatIsWordCounterSectionBackRightImg from '../../../assets/Path 36630.png';
+import WhatIsWordCounterSectionBackLeftImg from '../../../assets/Path 36629.png';
+import WhatIsWordCounterSectionBackRightSecondImg from '../../../assets/Path 36633.png';
 
 function WhatIsWordCounterSection() {
   return (
-    <>
-        <div>
+    <div className='position-relative'>  
+        <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightImg}`} src={WhatIsWordCounterSectionBackRightImg} alt='WhatIsWordCounterSectionBackRightImg' />
+        <img className={`img-fluid ${classes.whatIsWordCounterSectionBackLeftImg}`} src={WhatIsWordCounterSectionBackLeftImg} alt='WhatIsWordCounterSectionBackLefttImg' />
+        <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightSecondImg}`} src={WhatIsWordCounterSectionBackRightSecondImg} alt='WhatIsWordCounterSectionBackRightSecondImg' />
+        <div className='position-relative'>
             <header className={classes.whatIsWordCounterSectionHeader}>
                 What is Word Counter
             </header>
-            <div className='row'>
+            <div className='row posiiton-relative'>
                 <div className='col-sm-12 col-md-12 col-lg-6'>
                     <img className='img-fluid' src={WordCounterImage} alt='WordCounterImage' />
                 </div>
@@ -40,7 +46,7 @@ function WhatIsWordCounterSection() {
                     </span>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row position-relative'>
                 <header className={classes.whatIsWordCounterSectionLoremHeader}>
                     lorem ipsum dolor
                 </header>
@@ -50,7 +56,7 @@ function WhatIsWordCounterSection() {
                     aliqua. Ut enim ad minim veniam, exercitation ullamco labor aliquip ea commodo consequat.
                 </div>
             </div>
-            <div style={{marginBottom: '-430px'}} className='row'>
+            <div style={{marginBottom: '-430px', zIndex: '3'}} className='row position-relative'>
                 <div className='col-sm-12 col-md-4 col-lg-4'>
                     <div className={classes.whatIsWordCounterSectionLoremCardBody}>
                         <header className={classes.whatIsWordCounterSectionLoremCardHeader}>
@@ -83,7 +89,7 @@ function WhatIsWordCounterSection() {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   )
 }
 

@@ -7,6 +7,7 @@ import ExpertiseSubServicesCardsTeknikSEOImage from '../../../assets/Group 41579
 import ExpertiseSubServicesCardsUluslararasiSEOImage from '../../../assets/Group 150.svg';
 import ExpertiseSubServicesCardsSiteiciSEOImage from '../../../assets/Group 198.svg';
 import ExpertiseSubServicesCardsSitedisiSEOImage from '../../../assets/Group 4439.svg';
+import ExpertiseSubServicesCardsBackImg from '../../../assets/Path 16763.png';
 
 const responsive = {
   desktopXXL: {
@@ -38,6 +39,7 @@ const responsive = {
 function ExpertiseSubServicesCards() {
   return (
     <div style={{marginLeft: '15%'}} className='container-fluid'>
+            <img className={`img-fluid ${classes.expertiseSubServicesCardsBackImg}`} src={ExpertiseSubServicesCardsBackImg} alt='ExpertiseSubServicesCardsBackImg' />
             <div className={classes.expertiseMultiBrandBody}>
             <Carousel
                 swipeable={false}

@@ -3,6 +3,7 @@
     border-radius: 41px;
     opacity: 1;
     padding: 60px 55px 60px 55px;
+    z-index: 3;
 }
 
 .benefitsAndPerksCardBodySub {
@@ -74,3 +75,10 @@
     margin-right: 20px;
 }
 
+.benefitsAndPerksCardBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -42%;
+    margin-top: -27%;
+    filter: blur(50px);
+}

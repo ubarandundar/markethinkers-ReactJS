@@ -2,10 +2,13 @@ import Lottie from 'react-lottie-player'
 import ErrorJSON from  './404-edited.json';
 import classes from './ErrorPage.module.css';
 
+import ErrorPageBackImg from '../../assets/Path 16768-4.svg';
+
 function ErrorPage() {
 
   return (
     <div className='container position-relative'>
+      <img className={classes.errorPageBackImg} src={ErrorPageBackImg} alt='ErrorPageBackImg' />
       <div className={classes.errorPageOops}>
         Oops...
       </div>

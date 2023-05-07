@@ -9,6 +9,8 @@ import CustomDot from '../../Home/OurPartnersSection/CustomDot';
 import CustomLeftLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomLeftLargeArrow';
 import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOthersCarouselSection/CustomRightLargeArrow';
 
+import CareerCarouselBackImg from '../../../assets/Path 16727-2.svg';
+
 const responsive = {
     desktopS: {
         breakpoint: { max: 576, min: 0 },
@@ -51,6 +53,7 @@ function CareerCarousel (props) {
     
     return (
         <div id='careerCarouselWrapperId' className={`container-fluid ${classes.careerCarouselWrapper}`}>
+            <img className={classes.careerCarouselBackImg} src={CareerCarouselBackImg} alt='CareerCarouselBackImg' />
              <Carousel
                 swipeable={true}
                 draggable={false}

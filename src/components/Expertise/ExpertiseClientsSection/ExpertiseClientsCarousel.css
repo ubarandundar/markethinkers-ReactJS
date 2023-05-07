@@ -1,3 +1,12 @@
+#expertiseClientsCarouselBodyId .react-multi-carousel-dot-list {
+  position: static !important;
+}
+
+#expertiseClientsCarouselBodyId .react-multi-carousel-track {
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+}
+
 #expertiseClientsCarouselBodyId .react-multi-carousel-item {
     transform: scale(0.9);
     opacity: 0.7;

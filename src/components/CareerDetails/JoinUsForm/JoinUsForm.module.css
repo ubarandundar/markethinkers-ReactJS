@@ -11,6 +11,7 @@
 .joinUsFormBody {
     padding-top: 40px;
     margin-bottom: 120px;
+    position: relative;
 }
 
 .joinUsFormInputName::placeholder, .joinUsFormInputPhone::placeholder,
@@ -165,4 +166,10 @@
     left: 6px;
 }
 
-  
+.joinUsFormBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 58%;
+    margin-top: -53%;
+    filter: blur(50px);
+}

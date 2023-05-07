@@ -1,0 +1,7 @@
+.ourStoryOtherSectionBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -19%;
+    margin-top: -27%;
+    filter: blur(50px);
+}

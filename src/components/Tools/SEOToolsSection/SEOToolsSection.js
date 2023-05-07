@@ -17,6 +17,15 @@ function SEOToolsSection() {
     <div className={`container ${classes.SEOToolsSectionWrapper}`}>
         <img className={classes.SEOToolsSectionBackLeftImg} src={SEOToolsSectionBackLeftImg} alt='SEOToolsSectionBackLeft_Image' />
         <img className={classes.SEOToolsSectionBackRightImg} src={SEOToolsSectionBackRightImg} alt='SEOToolsSectionBackRight_Image' />
+        <div className={classes.SEOToolsSectionLink}>
+          <a href='www.google.com'>
+            Homepage
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Tools
+          </a>
+        </div>
       <div className={`row ${classes.SEOToolsSectioBody}`}>
         <div className='col-sm-6 d-flex flex-column justify-content-center '>
             <header className={classes.SEOToolsSectionHeader}>

@@ -1,0 +1,8 @@
+#ourPartnersSectionBodyId .react-multi-carousel-dot-list {
+    position: static !important;
+    margin-bottom: 80px !important;
+  }
+  
+  #ourPartnersSectionBodyId .react-multi-carousel-track {
+    padding-bottom: 120px !important;
+  }

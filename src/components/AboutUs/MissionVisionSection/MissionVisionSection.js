@@ -1,10 +1,19 @@
 import classes from './MissionVisionSection.module.css';
 
-import MissionVisionSectionBackImg from '../../../assets/Path 16768@2x.png';
+import MissionVisionSectionBackImg from '../../../assets/Path 16768-3.svg';
 
 function MissionVisionSection() {
   return (
-    <div className={'container'}>
+    <div className='container'>
+        <div className={classes.missionVisionSectionLink}>
+                <a href='www.google.com'>
+                    Homepage
+                </a>
+                <div className={classes.redDot}></div>
+                <a href='www.google.com'>
+                    About Us
+                </a>
+        </div>
         <div className={classes.missionVisionSectionHeaderAboutUsBody}>
             <img className={classes.missionVisionSectionBackImg} src={MissionVisionSectionBackImg} alt='missionVisionSectionBack_Image' />
             <header className={classes.missionVisionSectionHeader}>

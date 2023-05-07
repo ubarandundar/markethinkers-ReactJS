@@ -4,14 +4,14 @@ import WhyYouShouldChooseUsSectionImage from '../../../assets/5.png';
 import CreativeApproachImage from '../../../assets/inspiration.png';
 import TechnicalKnowledgeImage from '../../../assets/g4155.png';
 import DedicatedServiceImage from '../../../assets/Union 6.png';
-// import HowWeDoItSectionBackLeftImg from '../../../assets/Path 16725.png';
-// import HowWeDoItSectionBackRightImg from '../../../assets/Path 16848.png';
+import WhyYouShouldChooseUsSectionBackLeftImg from '../../../assets/Path 16762-1.png';
+import WhyYouShouldChooseUsSectionBackRightImg from '../../../assets/Path 36608.png';
 
 function WhyYouShouldChooseUsSection() {
   return (
     <div className={`container ${classes.whyYouShouldChooseUsSectionWrapper}`}>
-        {/* <img className={classes.howWeDoItSectionBackLeftImg} src={HowWeDoItSectionBackLeftImg} alt='HowWeDoItSectionBackLeft_Image' />
-        <img className={classes.howWeDoItSectionBackRightImg} src={HowWeDoItSectionBackRightImg} alt='HowWeDoItSectionBackRight_Image' /> */}
+        <img className={classes.whyYouShouldChooseUsSectionBackLeftImg} src={WhyYouShouldChooseUsSectionBackLeftImg} alt='WhyYouShouldChooseUsSectionBackLeftImg' />
+        <img className={classes.whyYouShouldChooseUsSectionBackRightImg} src={WhyYouShouldChooseUsSectionBackRightImg} alt='WhyYouShouldChooseUsSectionBackRightImg' />
         <div className='row'>
             <div className='col-sm-6'></div>
             <div className='col-sm-6'>

@@ -1,17 +1,23 @@
 import classes from './WhatIsJsonLdSection.module.css';
 
 import WhatIsJsonLdSectionImage from '../../../assets/1820.png';
+import WhatIsWordCounterSectionBackRightImg from '../../../assets/Path 36630.png';
+import WhatIsWordCounterSectionBackLeftImg from '../../../assets/Path 36629.png';
+import WhatIsWordCounterSectionBackRightSecondImg from '../../../assets/Path 36633.png';
 
 function WhatIsJsonLdSection() {
     return (
-        <>
-            <div>
+        <div className='position-relative'>
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightImg}`} src={WhatIsWordCounterSectionBackRightImg} alt='WhatIsWordCounterSectionBackRightImg' />
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackLeftImg}`} src={WhatIsWordCounterSectionBackLeftImg} alt='WhatIsWordCounterSectionBackLefttImg' />
+            <img className={`img-fluid ${classes.whatIsWordCounterSectionBackRightSecondImg}`} src={WhatIsWordCounterSectionBackRightSecondImg} alt='WhatIsWordCounterSectionBackRightSecondImg' />
+            <div className='position-relative'>
                 <header className={classes.whatIsJsonLdSectionHeader}>
                     What is json-ld FAQ schema
                     <br />
                     generator
                 </header>
-                <div className='row'>
+                <div className='row position-relative'>
                     <div className='col-sm-12 col-md-12 col-lg-6'>
                         <img className='img-fluid' src={WhatIsJsonLdSectionImage} alt='WhatIsJsonLdSectionImage' />
                     </div>
@@ -42,7 +48,7 @@ function WhatIsJsonLdSection() {
                         </span>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row position-relative'>
                     <header className={classes.whatIsJsonLdSectionLoremHeader}>
                         lorem ipsum dolor
                     </header>
@@ -52,7 +58,7 @@ function WhatIsJsonLdSection() {
                         aliqua. Ut enim ad minim veniam, exercitation ullamco labor aliquip ea commodo consequat.
                     </div>
                 </div>
-                <div style={{marginBottom: '120px'}} className='row'>
+                <div style={{marginBottom: '120px', zIndex: '3'}} className='row position-relative'>
                     <div className='col-sm-12 col-md-4 col-lg-4'>
                         <div className={classes.whatIsJsonLdSectionLoremCardBody}>
                             <header className={classes.whatIsJsonLdSectionLoremCardHeader}>
@@ -85,7 +91,7 @@ function WhatIsJsonLdSection() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
       )
     }
 export default WhatIsJsonLdSection;

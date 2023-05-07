@@ -10,8 +10,9 @@
 .FAQSectionBackUpImg {
     position: absolute;
     z-index: 0;
-    margin-left: 46%;
-    margin-top: -30%;
+    margin-left: 49%;
+    margin-top: -31%;
+    filter: blur(50px);
 }
 
 .FAQSectionBackDownImg {
@@ -19,6 +20,7 @@
     z-index: 0;
     margin-left: -25%;
     margin-top: 12%;
+    filter: blur(50px);
 }
 
 .contactFAQSectionHeader {

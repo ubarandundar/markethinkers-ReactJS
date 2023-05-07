@@ -11,3 +11,19 @@
     margin-top: 200px;
     margin-bottom: 60px;
 }
+
+.positionYouCanWorkSectionRightImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 56%;
+    margin-top: 3%;
+    filter: blur(50px);
+}
+
+.positionYouCanWorkSectionLeftImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -26%;
+    margin-top: 38%;
+    filter: blur(50px);
+}
