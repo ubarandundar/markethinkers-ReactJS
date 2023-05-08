@@ -377,8 +377,9 @@
 }
 
 .successStoriesTableOfContentsTableBody table {
-    width: 100%;
-    border-radius: 16px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid white !important;
 }
 
 .successStoriesTableOfContentsTableBody th {
@@ -425,4 +426,36 @@
     align-items: center; 
     justify-content: center;
     margin-right: 30px;
+}
+
+.successStoriesContentRightFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 74%;
+    margin-top: 133%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftFirstImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -110%;
+    margin-top: 86%;
+    filter: blur(50px);
+}
+
+.successStoriesContentRightSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 74%;
+    margin-top: 301%;
+    filter: blur(50px);
+}
+
+.successStoriesContentLeftSecondImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -115%;
+    margin-top: 318%;
+    filter: blur(50px);
 }

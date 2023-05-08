@@ -33,7 +33,7 @@ function OurStoryCarousel (props) {
 
     return (
         <div className='container'>
-            <div id='ourStorySectionBody' className={classes.ourStorySectionBody}>
+            <div id='ourStorySectionBodyId' className={classes.ourStorySectionBody}>
             <Carousel
                 swipeable={false}
                 draggable={false}

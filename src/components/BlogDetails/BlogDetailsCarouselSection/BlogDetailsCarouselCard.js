@@ -10,7 +10,7 @@ function BlogDetailsCarouselCard({changeBackground, changeMarginBottom}) {
   return (
     <a href='www.google.com' className={classes.blogDetailsCarouselCardWrapper}>
         <div onMouseOver={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)} className={changeBackground ? classes.blogDetailsCarouselCardBodyForBlogDetails : classes.blogDetailsCarouselCardBody}>
-            <img className={classes.blogDetailsWhiteArrow} src={WhiteForwardArrow} alt='Forward_Arrow' />
+            <img style={isVisible ? {marginBottom: '40px'} : {}} className={classes.blogDetailsWhiteArrow} src={WhiteForwardArrow} alt='Forward_Arrow' />
             <header className={classes.blogDetailsCarouselCardHeader}>
                 strategy
             </header>

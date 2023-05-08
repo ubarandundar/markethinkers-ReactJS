@@ -24,6 +24,6 @@
     
   }
 
-#ourStorySectionBodyId .carousel-container {
+#ourStorySectionBodyId .react-multi-carousel-list {
   position: inherit !important;
 }

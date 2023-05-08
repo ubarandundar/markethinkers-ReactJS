@@ -261,6 +261,7 @@
     background-position: bottom left;
     background-repeat: no-repeat;
     margin-bottom: 101px;
+    position: relative;
 }
 
 .successStoriesTableOfContentsStatementOther header {

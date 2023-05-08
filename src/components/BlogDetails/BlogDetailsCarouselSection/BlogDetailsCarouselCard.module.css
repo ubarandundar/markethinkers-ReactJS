@@ -28,6 +28,10 @@
     padding: 35px;
 }
 
+/* .blogDetailsCarouselCardBody:hover .blogDetailsWhiteArrow {
+    margin-bottom: 50px !important;
+} */
+
 .blogDetailsWhiteArrow {
     margin-bottom: 174px;
     display: block;
@@ -64,6 +68,10 @@
     margin-right: -10px;
     margin-bottom: 184px;
     
+}
+
+.blogDetailsCarouselCardBody:hover .blogDetailsCarouselCardHeader {
+    margin-top: 10px;
 }
 
 .blogDetailsCarouselCardBodyForBlogDetails:hover .blogDetailsWhiteArrow {

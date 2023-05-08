@@ -2,3 +2,19 @@
     position: relative;
     margin-bottom: 75px;
 }
+
+.FAQCardRightImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 72%;
+    margin-top: -16%;
+    filter: blur(50px);
+}
+
+.FAQCardLeftImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: -36%;
+    margin-top: 16%;
+    filter: blur(50px);
+}

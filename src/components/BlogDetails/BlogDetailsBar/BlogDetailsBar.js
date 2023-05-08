@@ -1,10 +1,12 @@
 import classes from './BlogDetailsBar.module.css';
 
 import FikriSabitImg from '../../../assets/NoPath.png';
+import BlogDetailsBarBackImg from '../../../assets/Path 16727-3.svg';
 
 function BlogDetailsBar() {
   return (
-    <div className='container'>
+    <div className='container position-relative'>
+        <img className={`img-fluid ${classes.blogDetailsBarBackImg}`} src={BlogDetailsBarBackImg} alt='BlogDetailsBarBackImg' />
         <div className={classes.blogDetailsBarBody}>
             <div className={`col-3 ${classes.blogDetailsBarProfileBody}`}>
                 <img className={classes.blogDetailsBarImg} src={FikriSabitImg} alt='MultiBrandCarouselData_profilePicture' />

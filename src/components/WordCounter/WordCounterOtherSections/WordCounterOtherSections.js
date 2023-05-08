@@ -15,7 +15,7 @@ function WordCounterOtherSections() {
         <header className={classes.wordCounterOtherSectionsHeader}>
             frequently asked question
         </header>
-        <FAQCard />
+        <FAQCard removeBackImages={true} />
         <GrowWithUs changeMarginBottom={true} />
     </div>
   )

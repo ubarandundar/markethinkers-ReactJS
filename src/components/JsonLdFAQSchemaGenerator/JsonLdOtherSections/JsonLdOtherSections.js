@@ -16,7 +16,7 @@ function JsonLdOtherSections() {
         <header className={classes.JsonLdOtherSectionsHeader}>
             frequently asked question
         </header>
-        <FAQCard />
+        <FAQCard removeBackImages={true} />
     </div>
   )
 }

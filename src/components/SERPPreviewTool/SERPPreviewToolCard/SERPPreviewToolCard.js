@@ -1,4 +1,5 @@
 import classes from './SERPPreviewToolCard.module.css';
+import './SERPPreviewToolCard.css';
 
 import GoogleImage from '../../../assets/google.png';
 import SERPPreviewToolCardBackImg from '../../../assets/Path 16728-2.svg';
@@ -180,8 +181,9 @@ function SERPPreviewToolCard() {
         </div>
         <div className='row'>
             <div className={classes.SERPOptions}>
-                <div className={classes.SERPOptionsBody}>
+                <div id='custom-radio-button' className={classes.SERPOptionsBody}>
                     <input id='standart-view' type='radio' />
+                    <span class="checkmark"></span>
                     <label className={classes.SERPLabels} htmlFor='standart-view'>Standart View</label>
                 </div>
                 <div style={{marginLeft: '40px'}} className={classes.SERPOptionsBody}>
@@ -195,12 +197,12 @@ function SERPPreviewToolCard() {
             </div>
             <div className={classes.SERPOtherOptions}>
                 <div className={classes.SERPOtherOptionsBody}>
-                    <input className={classes.SERPOtherOptionsCheckbox} id='standart-view' type='checkbox' />
-                    <label className={classes.SERPLabelsOther} htmlFor='standart-view'>Add Date <span>(Affects the length of the meta description.)</span></label>
+                    <input className={classes.SERPOtherOptionsCheckbox} id='add-date' type='checkbox' />
+                    <label className={classes.SERPLabelsOther} htmlFor='add-date'>Add Date <span>(Affects the length of the meta description.)</span></label>
                 </div>
                 <div style={{marginLeft: '40px'}} className={classes.SERPOtherOptionsBody}>
-                    <input className={classes.SERPOtherOptionsCheckbox} id='visual-view' type='checkbox' />
-                    <label className={classes.SERPLabelsOther} htmlFor='visual-view'>Product Schema</label>
+                    <input className={classes.SERPOtherOptionsCheckbox} id='product-schema' type='checkbox' />
+                    <label className={classes.SERPLabelsOther} htmlFor='product-schema'>Product Schema</label>
                 </div>
             </div>
         </div>

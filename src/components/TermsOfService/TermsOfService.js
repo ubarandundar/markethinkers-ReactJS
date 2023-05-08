@@ -4,7 +4,17 @@ import TermsOfServiceBackImg from '../../assets/Path 16768.svg';
 function TermsOfService() {
   return (
     <div className='container'>
-        <img className={classes.termsOfServiceBackImg} src={TermsOfServiceBackImg} alt='TermsOfServiceBack_Image' />
+        <img className={classes.termsOfServiceBackImg} src={TermsOfServiceBackImg} 
+        alt='TermsOfServiceBack_Image' />
+          <div className={classes.termsOfServiceLink}>
+          <a href='www.google.com'>
+            Homepage
+          </a>
+          <div className={classes.redDot}></div>
+          <a href='www.google.com'>
+            Terms of Service
+          </a>
+        </div>
         <div className='row'>
         <div className='col-2'></div>
         <div className={`col-8 ${classes.termsOfServiceBody}`}>

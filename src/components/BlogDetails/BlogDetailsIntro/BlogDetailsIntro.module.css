@@ -94,3 +94,11 @@
     width: 96px;
     height: 96px;
 }
+
+.blogDetailsIntroBackImg {
+    position: absolute;
+    z-index: 0;
+    margin-left: 69%;
+    margin-top: -22%;
+    filter: blur(50px);
+}

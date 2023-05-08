@@ -13,7 +13,7 @@ function ExpertiseFAQSection({changesforTool}) {
         <header className={classes.expertiseFAQSectionHeader}>
             frequently asked question
         </header>
-        <FAQCard />
+        <FAQCard removeBackImages={true} />
         <GrowWithUs changeMarginBottom={true} />
     </div>
   )

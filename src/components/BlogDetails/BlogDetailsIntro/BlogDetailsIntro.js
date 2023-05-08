@@ -2,10 +2,12 @@ import classes from './BlogDetailsIntro.module.css';
 
 import BlogDetailsIntroImage from '../../../assets/Mask Group 24.png';
 import FikriSabitImg from '../../../assets/NoPath.png';
+import BlogDetailsIntroBackImg from '../../../assets/Path 16844.svg';
 
 function BlogDetailsIntro() {
   return (
-    <div className='container'>
+    <div className='container position-relative'>
+        <img className={`img-fluid ${classes.blogDetailsIntroBackImg}`} src={BlogDetailsIntroBackImg} alt='BlogDetailsIntroBackImg' />
         <div className={classes.blogDetailsIntroLink}>
                 <a href='www.google.com'>
                     Blog

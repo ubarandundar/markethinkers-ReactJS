@@ -236,19 +236,19 @@
     border-top: 1px solid #EBEBEB;
 }
 
-::-webkit-scrollbar {
+.jsonLdCodeCardBody textarea::-webkit-scrollbar, .jsonLdCodeCardBodyOther textarea::-webkit-scrollbar {
     width: 4px;
   }
   
-  ::-webkit-scrollbar-track {
+.jsonLdCodeCardBody textarea::-webkit-scrollbar-track, .jsonLdCodeCardBodyOther textarea::-webkit-scrollbar-track {
     background: #EBEBEB;
   }
   
-  ::-webkit-scrollbar-thumb {
+.jsonLdCodeCardBody textarea::-webkit-scrollbar-thumb, .jsonLdCodeCardBodyOther textarea::-webkit-scrollbar-thumb {
     background: #D3148B;
     border-radius: 10px;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
+.jsonLdCodeCardBody textarea::-webkit-scrollbar-thumb:hover, .jsonLdCodeCardBodyOther textarea::-webkit-scrollbar-thumb:hover {
     background: #D3148B;
   }
