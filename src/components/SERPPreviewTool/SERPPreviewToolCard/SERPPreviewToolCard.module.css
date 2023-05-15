@@ -510,7 +510,8 @@
 
 .SERPOtherOptionsBody:hover .SERPOtherOptionsCheckbox[type=checkbox]:before {
     border: 2px solid #D3148B;
-    /* opacity: 0.3; */
+    opacity: 0.3;
+    content: "" !important;
 }
 
 .SERPOtherOptionsCheckbox[type=checkbox]:checked:after {

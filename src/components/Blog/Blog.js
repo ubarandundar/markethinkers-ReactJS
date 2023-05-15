@@ -1,12 +1,12 @@
 import React from 'react'
-import BlogPanigation from './BlogPanigation/BlogPanigation';
+import BlogPagination from './BlogPagination/BlogPagination';
 import BlogSearchSection from './BlogSearchSection/BlogSearchSection';
 
 function Blog() {
   return (
     <>
     <BlogSearchSection />
-    <BlogPanigation />
+    <BlogPagination />
     </>
   )
 }
