@@ -6,3 +6,115 @@
     width: 100%;
     position: fixed;
 }
+
+.mainbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    margin: 60px 0 0 60px;
+}
+
+.mainbarOnScroll {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    opacity: 1;
+    margin: 60px 0 0 60px;
+    background-color: white;
+}
+
+.markeThinkersImageMobile {
+    margin-top: 20px;
+    max-width: 286px;
+    height: auto;
+    opacity: 1;
+}
+
+.markeThinkersImageOnScrollMobile {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 67px;
+    max-width: 199px;
+    height: auto;
+    opacity: 1;
+}
+
+.mobileMenuTitlesWrapper {
+    background: #F7F7F7;
+    border-radius: 26px;
+    opacity: 1;
+    width: 100%;
+    padding: 14px 16px;
+}
+
+.mobileMenuTitlesBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.mobileMenuTitles {
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 1px;
+    color: #1F0242;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hamburgerMenuArrowRotate {
+    transform: rotate(180deg);
+}
+
+.mobileSubMenus ul {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mobileSubMenus ul li a {
+    text-decoration: none !important;
+    text-align: left;
+    font: normal normal 16px/22px Paralucent;
+    letter-spacing: 0.8px;
+    color: #D3148B;
+    opacity: 1;
+}
+
+.mobileMenuTitlesBody a {
+    text-decoration: none !important;
+}
+
+.mobileMenuTitlesBody a:hover {
+    color: #1F0242;
+}
+
+.mobileHr {
+    border-top: 3px solid #EBEBEB;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+    .markeThinkersImageMobile {
+        width: 176px;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .markeThinkersImageOnScrollMobile {
+        width: 132px;
+        height: auto;
+        margin-top: 40px;
+    }
+}
+

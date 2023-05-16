@@ -11,7 +11,7 @@ import InstagramIconLarge from '../../../assets/instagram-large.svg';
 import LinkedinIcon from '../../../assets/linkedin.svg';
 import LinkedinIconLarge from '../../../assets/linkedin-large.svg';
 
-function SocialMediaItems( {changeBorderColor, changesForSuccessStories, changeFacebookBackground, changesforBlogDetails}) {
+function SocialMediaItems( {changeBorderColor, changesForSuccessStories, changeFacebookBackground, changesforBlogDetails, changesforMobile}) {
 
   return (
         <Fragment>

@@ -85,7 +85,8 @@ function GrowWithUs ({changeMarginBottom, changesForAboutUs}) {
                     </div>
                     <div className={'col-8 position-relative'}>
                         <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
-                        <button className={classes.continueButton} onClick={expandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>      
+                        <button className={classes.continueButton} onClick={expandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>
+                        {/* {enteredWebsiteIsInvalid && <p>Error</p>}  */}
                     </div>
                  </div>
                 <CSSTransition nodeRef={nodeRef} in={showTransition} timeout={1500} classNames={'formTransition'}>

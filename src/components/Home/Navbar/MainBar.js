@@ -44,10 +44,10 @@ function MainBar (props) {
 
     return (
         <Fragment>
-            <nav className={navbar ? classes.mainbarOnScroll : classes.mainbar}>
-                <div>
+            {/* <nav className={navbar ? classes.mainbarOnScroll : classes.mainbar}> */}
+                {/* <div>
                     <img src={markeThinkersImage} className={!navbarLogo ? classes.markeThinkersImage : classes.markeThinkersImageOnScroll} alt='markeThinkersImage' />
-                </div>
+                </div> */}
                 <div>
                 <ul className={classes.mainbarUl}>
                     <li onMouseOver={() => setShowSubMenusExpertise(true)} onMouseLeave={() => setShowSubMenusExpertise(false)} className={classes.mainbarLi}>
@@ -113,7 +113,7 @@ function MainBar (props) {
                     </li>
                 </ul>
                 </div>
-            </nav>
+            {/* </nav> */}
         </Fragment>
     );
 }
