@@ -2,18 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: -190px;
-    /* margin-bottom: 110px; */
-    /* margin-top: 20px; */
-    /* margin-left: auto;
-    /* margin-right: auto; */
-    /* max-width: 1343px;  */
     height: 1011px; 
     opacity: 1;
-    /* border: 1px solid black; */
-    /* background-image: url('../../../assets/Asset 1@2x.png'); */
-    /* background-size: 1343px 1000px;
-    background-position: center;
-    background-repeat: no-repeat; */
     font-weight: 500;
     position: relative;
     z-index: 3;
@@ -23,19 +13,9 @@
     padding-top: 150px !important;
 }
 
-/* .y {
-    position: absolute;
-    top: 25%;
-    right: 15%;
-    z-index: 3;
-    width: 1343px;
-    height: 1000px;
-} */
-
 .welcome {
     margin-left: auto;
     margin-right: auto;
-    font-size: 47px;
     margin-top: 38px;
     text-align: center;
     font: normal normal 47px/47px Paralucent;
@@ -48,7 +28,6 @@
 .increase {
     margin-left: auto;
     margin-right: auto;
-    font-size: 50px;
     margin-top: 45px;
     text-align: center;
     font: normal normal 50px/71px Paralucent;
@@ -61,7 +40,6 @@
 .services {
     margin-left: auto;
     margin-right: auto;
-    font-size: 50px;
     text-align: center;
     font: normal normal 50px/71px Paralucent;
     letter-spacing: 2.5px;
@@ -74,32 +52,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
-    font-size: 24px;
     text-align: center;
     font: normal normal 300 24px/34px Paralucent;
     letter-spacing: 1.2px;
     color: #FFFFFF;
     text-shadow: 0px 4px 10px #00000033;
     opacity: 1;
-}
-
-.experience {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    font-size: 24px;
-    text-align: center;
-    font: normal normal 300 24px/34px Paralucent;
-    letter-spacing: 1.2px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 10px #00000033;
-    opacity: 1;
+    margin-bottom: 75px;
 }
 
 .contactUs {
-    margin-top: 94px;
     margin-right: 20px;
-    font-size: 17px;
     width: 264px;
     height: 52px;
     text-align: center;
@@ -120,8 +83,6 @@
 }
 
 .ourServices {
-    margin-top: 94px;
-    font-size: 17px;
     width: 264px;
     height: 52px;
     text-align: center;
@@ -153,36 +114,6 @@
     color: white;
 }
 
-@media (max-width: 1060px) {
-    .welcomeBody {
-        margin-bottom: -160px;
-    }
-}
-
-@media (max-width: 770px) {
-    .welcomeBody {
-        margin-bottom: -130px;
-    }
-}
-
-@media (max-width: 690px) {
-    .welcomeBody {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 602px) {
-    .welcomeBody {
-        margin-bottom: 105px;
-    }
-}
-
-@media (max-width: 595px) {
-    .welcomeBody {
-        margin-bottom: 140px;
-    }
-}
-
 .welcomeLottie {
     position: absolute;
     z-index: -1;
@@ -191,6 +122,83 @@
     transform: translate(-50%, -50%);
     filter: blur(20px);
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcomeBody {
+        margin-bottom: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcomeBody {
+        margin-bottom: 120px;
+        height: auto;
+    }
+    
+    .welcomeBodyWrapper {
+        padding-top: 150px !important;
+    }
+    
+    .welcome {
+        font: normal normal 16px Paralucent;
+        margin-top: -60px;
+    }
+    
+    .increase {
+        font: normal normal 24px Paralucent;
+        margin-top: 30px;
+    }
+    
+    .services {
+        font: normal normal 24px Paralucent;
+    }
+    
+    .weAre {
+        font: normal normal 300 16px Paralucent;
+        line-height: 25px !important;
+        margin-bottom: 50px;
+    }
+    
+    .contactUs {
+        width: 318px;
+        height: 36px;
+        font: normal normal 14px Montserrat;
+        margin-bottom: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .ourServices {
+        width: 318px;
+        height: 36px;
+        font: normal normal 14px Montserrat;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .welcomeBr {
+        display: none;
+    }
+
+    .welcomeLottie {
+        top: 0%;
+        left: 50%;
+        width: 990px;
+        height: 660px;
+    }
+    
+}
+
+
+
+
 
 
 

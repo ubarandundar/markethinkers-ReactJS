@@ -29,6 +29,7 @@ import markeThinkersImage from '../../../assets/Group 200.svg';
 import hamburgerMenu from '../../../assets/menu-hamburger.svg';
 import hamburgerMenuX from '../../../assets/menu-x.svg';
 import hamburgerMenuArrow from '../../../assets/Group 64.svg';
+import TurkishLangImage from '../../../assets/turkey.png';
 
 function Navbar () {
     // showSettings (event) {
@@ -111,7 +112,7 @@ const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
         customBurgerIcon={ <ReactSVG src={hamburgerMenu} alt='menu-hamburger' /> }
         customCrossIcon={ <ReactSVG src={hamburgerMenuX} alt='menu-hamburger-x' /> }
         >
-        <img style={{width: '132px'}} src={markeThinkersImage} alt='markeThinkersImage' />
+        <img style={{width: '132px', marginLeft: '16px'}} src={markeThinkersImage} alt='markeThinkersImage' />
         <div style={{marginTop: '78px'}}>
             <div className={classes.mobileMenuTitlesWrapper}>
                 <div onClick={() => (setShowSubMenusExpertise(!showSubMenusExpertise), setShowArrow(!showArrow))} className={classes.mobileMenuTitlesBody}>
@@ -204,8 +205,15 @@ const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
             </div>
         </div>
         <hr className={classes.mobileHr} />
-        <div className='d-flex flex-row'>
-            <SocialMediaItems changeFacebookBackground={true} />
+        <div style={{marginBottom: '115px'}} className='d-flex flex-row justify-content-between align-items-center'>
+            <div style={{marginLeft: '11px'}} className='d-flex flex-row'>
+                <SocialMediaItems changeFacebookBackground={true} changesforMobile={true} />
+            </div>
+            <div className={classes.mobileLang}>
+                <a href='www.google.com'>
+                    <img src={TurkishLangImage} alt='Turkish' />Türkçe
+                </a>
+            </div>
         </div>
         </Menu>
   );

@@ -1,10 +1,5 @@
 .lookOutBody {
-    /* margin-top: -200px; */
     margin-top: -80px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* max-width: 1600px; */
-    /* height: 684px; */
     background: #FFFFFF;
     border-radius: 25px;
     opacity: 1; 
@@ -21,7 +16,6 @@
 
 .lookOutBodySub {
     display: flex;
-    /* margin-top: 100px; */
     padding-top: 200px;
 }
 
@@ -69,6 +63,7 @@
 .referances {
     display: flex;
     flex: 1;
+    justify-content: center;
 }
 
 .referancesBody {
@@ -79,9 +74,32 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 94px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (max-width:1200px) {
+.referancesBodyHr {
+    margin-top: 80px;
+    padding-bottom: 63px;
+    border-top: 1px solid #565656;
+    opacity: 0.15; 
+}
+
+.lookOutBody img {
+    /* height: 72px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    filter: grayscale(100%);
+}
+
+.lookOutBody img:hover {
+    /* height: 72px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    filter: grayscale(0%);
+}
+
+/* @media (max-width:1200px) {
     .referances {
         margin: 0 2px;
     }
@@ -103,32 +121,136 @@
     .referances {
         margin: 10px 0;
     }
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .lookOutBodySub {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 36px 0 36px;
+    }
+    
     .rightSide {
-        display: none;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+      .allIn {
+        margin-top: 40px;
+    }
+    
+    .lookOutSectionHeader {
+        margin-left: 0;
+    }
+    
+    .referancesBody {
+        padding: 0 36px;
+    }
+    
+    .referancesBodySub {
+        padding-bottom: 60px;
+    }
+    
+    .referancesBodyHr {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .lookOutBody img {
+        /* height: 72px; */
+        margin-left: auto;
+        margin-right: 29px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .lookOutBody img:hover {
+        /* height: 72px; */
+        margin-left: auto;
+        margin-right: 29px;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .lookOutBody {
+        margin-top: -80px;
+        background: #FFFFFF;
+        border-radius: 25px;
+        opacity: 1; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        background-image: url('../../../assets/Mask Group 11.svg');
+        background-size: 188px 238px;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .lookOutBodySub {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 36px 0 36px;
+    }
+    
+    .lookOut, .beyond {
+        font: normal normal 900 40px Paralucent;
+    }
+    
+    
+    .allIn {
+        font: normal normal 20px Paralucent;
+        margin-top: 40px;
+    }
+    
+    .allInSub {
+        font: normal normal 300 16px Paralucent;
+        padding-right: 0;
+    }
+    
+    .leftSide {
+        display: flex;
+        flex: 1;
+    }
+    
+    .rightSide {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+    
+    .lookOutSectionHeader {
+        margin-left: 0;
+    }
+    
+    .referancesBody {
+        padding: 0 36px;
+    }
+    
+    .referancesBodySub {
+        padding-bottom: 60px;
+    }
+    
+    .referancesBodyHr {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .lookOutBody img {
+        height: 53px;
+        margin-left: auto;
+        margin-right: 29px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .lookOutBody img:hover {
+        height: 53px;
+        margin-left: auto;
+        margin-right: 29px;
     }
 }
-
-
-.referancesBodyHr {
-    margin-top: 80px;
-    /* margin-bottom: 60px; */
-    padding-bottom: 63px;
-    border-top: 1px solid #565656;
-    opacity: 0.15; 
-}
-
-.lookOutBody img {
-    height: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    filter: grayscale(100%);
-}
-
-.lookOutBody img:hover {
-    height: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    filter: grayscale(0%);
-}
-
-

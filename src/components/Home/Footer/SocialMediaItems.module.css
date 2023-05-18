@@ -63,3 +63,7 @@
     margin: auto;
     margin-top: 12px;
 }
+
+.mobileImages {
+    transform: scale(0.8);
+}

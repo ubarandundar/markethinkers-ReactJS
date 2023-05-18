@@ -16,23 +16,23 @@ function SocialMediaItems( {changeBorderColor, changesForSuccessStories, changeF
   return (
         <Fragment>
                     <a href='www.google.com'>
-                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories : classes.footerSocialMedia}>
-                            <img src={changesForSuccessStories ? TwitterIconLarge : TwitterIcon} alt='Twitter_Icon' />
+                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {} && changesforMobile ? {width: '32px', height: '32px'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories : classes.footerSocialMedia}>
+                            <img className={changesforMobile ? classes.mobileImages : ''} src={changesForSuccessStories ? TwitterIconLarge : TwitterIcon} alt='Twitter_Icon' />
                         </div>
                     </a>
                     <a href='www.google.com'>
-                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {} && changeFacebookBackground ? {background: '#1F0242'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaExForSuccessStories : classes.footerSocialMediaEx}>
-                            <ReactSVG  className={changesforBlogDetails ? classes.footerSocialMediaFaceIconForBlogDetails : classes.footerSocialMediaFaceIcon} src={changesForSuccessStories ? FacebookBlueIcon : FacebookIcon} alt='Facebook_Icon' />
+                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {} && changeFacebookBackground ? {background: '#1F0242'} : {} && changesforMobile ? {width: '32px', height: '32px'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaExForSuccessStories : classes.footerSocialMediaEx}>
+                            <ReactSVG  className={changesforBlogDetails ? classes.footerSocialMediaFaceIconForBlogDetails : classes.footerSocialMediaFaceIcon && changesforMobile ? classes.mobileImages : ''} src={changesForSuccessStories ? FacebookBlueIcon : FacebookIcon} alt='Facebook_Icon' />
                         </div>  
                     </a>
                     <a href='www.google.com'>
-                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories :classes.footerSocialMedia}>
-                            <img src={changesForSuccessStories ? InstagramIconLarge : InstagramIcon} alt='Instagram_Icon' />
+                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {} && changesforMobile ? {width: '32px', height: '32px'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories :classes.footerSocialMedia}>
+                            <img className={changesforMobile ? classes.mobileImages : ''} src={changesForSuccessStories ? InstagramIconLarge : InstagramIcon} alt='Instagram_Icon' />
                         </div>
                     </a>
                     <a href='www.google.com'>
-                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories :classes.footerSocialMedia}>
-                            <img src={changesForSuccessStories ? LinkedinIconLarge : LinkedinIcon} alt='Linkedin_Icon' />
+                        <div style={changeBorderColor ? {border: '1px solid #EBEBEB'} : {} && changesforMobile ? {width: '32px', height: '32px'} : {}} className={changesForSuccessStories ? classes.footerSocialMediaForSuccessStories :classes.footerSocialMedia}>
+                            <img className={changesforMobile ? classes.mobileImages : ''} src={changesForSuccessStories ? LinkedinIconLarge : LinkedinIcon} alt='Linkedin_Icon' />
                         </div>
                     </a>
         </Fragment>

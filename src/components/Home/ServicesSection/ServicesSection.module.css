@@ -1,9 +1,5 @@
 .ServicesSectionBody {
-    margin: 208px 0 280px 0;
-    /* width: 100%;
-    height: 1000px;
-    margin-top: -300px; */
-    /* border: 1px solid black; */
+    margin: 208px 0;
     display: flex;
     align-items: center;
     position: relative;
@@ -19,8 +15,6 @@
 }
 
 .ServiceSectionCardTop {
-    /* max-width: 750px; */
-    /* height: 180px; */
     border: 1px solid #FFFFFF;
     border-radius: 50px 50px 0px 0px;
     opacity: 1;
@@ -30,8 +24,6 @@
 
 .ServiceSectionCardTop li {
     list-style-type: none;
-    /* padding-right: 15px;
-    padding-left: 15px; */
 }
 
 .ServiceSectionCardTop ul {
@@ -48,7 +40,6 @@
 }
 
 .ServiceSectionCardBottom {
-    /* max-width: 750px; */
     height: 355px;
     background: #FFFFFF;
     border-radius: 0px 0px 50px 50px;
@@ -121,12 +112,6 @@
     color: white;
 }
 
-@media (max-width: 768px) {
-    .ServicesButtons {
-        padding: 10px 7px;
-    }
-}
-
 /* .ServiceSectionCardBottom img {
     color: #D3148B;
 } */
@@ -159,7 +144,7 @@
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
-    padding: 10px 40px;
+    margin: 10px 40px;
 }
 
 .ServiceSectionCardBottomParag {
@@ -168,8 +153,16 @@
     letter-spacing: 0px;
     color: #444444;
     opacity: 1;
-    padding: 10px 40px;
+    margin: 10px 40px;
 }
+
+/* 
+.xHover {
+    margin-top: -10px;
+    margin-right: 10px;
+    fill: #D3148B;
+} */
+
 
 @media (max-width: 1400px) {
     .ServicesButtons {
@@ -186,8 +179,82 @@
     }
 }
 
-.xHover {
-    margin-top: -10px;
-    margin-right: 10px;
-    fill: #D3148B;
+/* @media (max-width: 768px) {
+    .ServicesButtons {
+        padding: 10px 7px;
+    }
+} */
+
+@media (max-width: 767px) {
+    .ServicesSectionBody {
+        margin: 103px 0 71px 0;
+    }
+
+    .ServiceSectionCardTop {
+        flex-direction: row;
+    }
+    
+    
+    .ServiceSectionCardTopFirstRow {
+        margin-top: 20px;
+        margin-left: -18px;
+    }
+    
+    .ServiceSectionCardTopSecondRow {
+        margin-left: -18px;
+    }
+    
+    .ServiceSectionCardBottom {
+        height: auto;
+        padding-bottom: 0;
+    }
+    
+    .ServiceSectionLeftSideHeader {      
+        font: normal normal 16px Paralucent;  
+        margin-bottom: 20px;   
+    }
+    
+    .ServiceSectionLeftSideParag {
+        font: normal normal bold 40px Paralucent;
+    }
+    
+    .ServiceSectionLeftSideParagSub {
+        font: normal normal 300 16px Paralucent;
+
+    }
+    
+    .ServicesButtons {
+        font: normal normal 16px Paralucent;
+        margin-right: 5px;
+        white-space: nowrap;
+    }
+    
+    .ServicesIcons {
+        padding: 30px 16px 20px 16px;
+    }
+
+    .ServicesIcons img {
+        transform: scale(0.75);
+    }
+    
+    .ServicesIconForwardArrowLarge svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 0;
+    }
+
+    .ServicesIconForwardArrowLarge {
+        margin-right: 0;
+    }
+    
+    .ServiceSectionCardBottomHeader {
+        font: normal normal 20px Paralucent;
+        margin: 0 16px 20px 16px;
+    }
+    
+    .ServiceSectionCardBottomParag {
+        font: normal normal 16px Montserrat;
+        padding: 0 16px 25px 16px;
+        margin: 0;
+    }
 }

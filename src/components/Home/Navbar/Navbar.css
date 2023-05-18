@@ -69,6 +69,12 @@
     background: rgba(0, 0, 0, 0.3) !important;
   }
 
+  @media (max-width: 400px) {
+  .bm-menu-wrap {
+      max-width: 100%;
+  }
+}
+
   /* @media (max-width: 576px) {
     .bm-cross-button svg[width]{
         width: 32px !important;

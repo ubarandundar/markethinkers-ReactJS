@@ -7,7 +7,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 50px;
     opacity: 1;
-    margin: 60px 0 0 60px;
+    margin: 60px 0;
 }
 
 .mainbarOnScroll {
@@ -19,7 +19,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 50px;
     opacity: 1;
-    margin: 60px 0 0 60px;
+    margin: 60px 0;
     background-color: white;
 }
 

@@ -35,12 +35,12 @@ function SEOAnalyzerSection (props) {
         <div className={classes.SEOAnalyzerSectionBody}>
             <header className={classes.SEOHeader}>SEO Analyzer</header>
             <div className={classes.SEOCard}>
-                <div className='col-sm-12 col-md-4 col-lg-4'>
+                <div className='col-sm-12 col-md-5 col-lg-4'>
                     <div className={classes.SEOParag}>
                     If you’re struggling to get more visitors to your site, the answer might just lie in this <span className={classes.free}>FREE</span> report!
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-8 col-lg-8'>
+                <div className='col-sm-12 col-md-7 col-lg-8'>
                     <div className={classes.SEOInputDiv}>
                         <input onChange={URLInputChangeHandler} value={enteredURL} className={classes.SEOInput} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
                         <button onClick={analyzeClickHandler} className={classes.analyzeButton} type='submit' disabled={!URLIsValid}>analyze</button>

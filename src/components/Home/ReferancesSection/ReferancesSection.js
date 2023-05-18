@@ -30,19 +30,19 @@ function ReferancesSection (props) {
             <hr className={classes.referancesBodyHr} />
             <div className={classes.referancesBodySub}>
                 <div className={classes.referances}>
-                    <img src={GCAImage} alt='GCA_Image' />
+                    <img className='img-fluid' src={GCAImage} alt='GCA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={UKCAImage} alt='UKCA_Image' />
+                    <img className='img-fluid' src={UKCAImage} alt='UKCA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={UKDGAImage} alt='UKDGA_Image' />
+                    <img className='img-fluid' src={UKDGAImage} alt='UKDGA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={MENAImage} alt='MENA_Image' />
+                    <img className='img-fluid' src={MENAImage} alt='MENA_Image' />
                 </div>
                 <div className={classes.referances}>
-                    <img src={GSAImage} alt='GSA_Image' />
+                    <img className='img-fluid' src={GSAImage} alt='GSA_Image' />
                 </div>
             </div>
         </div>
