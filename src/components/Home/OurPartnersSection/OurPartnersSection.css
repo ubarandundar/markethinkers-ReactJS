@@ -5,4 +5,16 @@
   
   #ourPartnersSectionBodyId .react-multi-carousel-track {
     padding-bottom: 120px !important;
+    display: flex;
+    align-items: center;
   }
+
+  @media (max-width: 767px) {
+    #ourPartnersSectionBodyId .react-multi-carousel-track {
+      padding-bottom: 58px !important;
+    }
+
+    #ourPartnersSectionBodyId .react-multi-carousel-dot-list {
+      margin-bottom: 150px !important;
+    }
+}

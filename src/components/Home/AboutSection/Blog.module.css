@@ -1,6 +1,4 @@
 .blogBody {
-    /* width: 1239px;
-    height: 734px; */
     background: #FFFFFF ;
     border-radius: 33px;
     opacity: 1;
@@ -15,29 +13,6 @@
     text-decoration: none;
     max-width: 1250px;
 }
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .blogBody {
-        margin-left: 270px;
-    }
-}
-
-@media (max-width: 992px) {
-    .blogBody {
-        position: static;
-        margin: auto;
-    }
-    .blogBodyBrandImg {
-        margin-left: 100px !important;
-    }
-    .blogBodyParag {
-        margin-left: 100px !important;
-    }
-    .blogProfileImg {
-        margin-left: 100px !important;
-    }
-}
-
 
 .blogArrow {
     margin: 50px 50px 0 auto;
@@ -95,4 +70,84 @@
     color: #444444;
     opacity: 1;
     margin-top: -35px;
+}
+
+/* @media (min-width: 992px) and (max-width: 1200px) {
+    .blogBody {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    .blogBody {
+        position: static;
+        margin: auto;
+    }
+    .blogBodyBrandImg {
+        margin-left: 100px !important;
+    }
+    .blogBodyParag {
+        margin-left: 100px !important;
+    }
+    .blogProfileImg {
+        margin-left: 100px !important;
+    }
+} */
+
+@media (max-width: 767px) {
+    .blogBody {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px 116px 30px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        margin-top: -70px;
+    }
+    
+    .blogArrow {
+        display: none;
+    }
+    
+    .blogBodyBrandImg {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        padding-top: 0;
+        /* transform: scale(0.6); */
+        margin-bottom: 20px;
+        height: 30px;
+        width: auto;
+    }
+    
+    .blogBodyParag {
+        font: normal normal 300 16px Paralucent;
+        margin: 0;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    
+    .blogProfile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .blogProfileImg {
+        margin-left: 0;
+        margin-right: 8px;
+        width: 48px;
+        height: 48px;
+    }
+    
+    .blogPorfileNameSurname {
+        font: normal normal 20px Paralucent;
+    }
+    
+    .blogPorfileTitle {
+        font: normal normal 300 16px Paralucent;
+        margin-top: 0;
+    }
 }

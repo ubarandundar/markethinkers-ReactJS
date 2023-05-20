@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import classes from './Footer.module.css';
 
 import markeThinkersImage from '../../../assets/Group 200.svg';
@@ -5,14 +6,35 @@ import TurkishLangImage from '../../../assets/turkey.png';
 import SocialMediaItems from './SocialMediaItems';
 
 function Footer (props) {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+    
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
+    
+    const socialMobile = <SocialMediaItems changesforMobile={true} changeFacebookBackground={true} />
+    const socialDesktop = <SocialMediaItems />
+
+    const socialMediaMobile = windowWidth <= 767 ? socialMobile : '';
+    const socialMediaDesktop = windowWidth > 768 ? socialDesktop : '';
+
     return (
         <div className='container'>
              <div className={classes.footerBody}>
                 <div className={classes.footerBodySub}>
-                    <div className={classes.footerBodySubFistColumn}>
+                    <div className={`col-sm-12 col-md-3 col-lg-3 ${classes.footerBodySubFistColumn}`}>
                         <img src={markeThinkersImage} className={classes.markeThinkersImage} alt='markeThinkersImage' />
                     </div>
-                    <div className={classes.footerBodySubSecondColumn}>
+                    <div className={`d-sm-none d-md-block col-md-2 col-lg-2 ${classes.footerBodySubSecondColumn}`}>
                         <header className={classes.footerHeaderCompany}>Company</header>
                         <ul>
                             <li>
@@ -29,7 +51,7 @@ function Footer (props) {
                             </li>
                         </ul>
                     </div>
-                    <div className={classes.footerBodySubThirdColumn}>
+                    <div className={`d-sm-none d-md-block col-md-2 col-lg-2 ${classes.footerBodySubThirdColumn}`}>
                         <header className={classes.footerHeaderServices}>Services</header>
                         <ul>
                             <li>
@@ -46,7 +68,7 @@ function Footer (props) {
                             </li>
                         </ul>
                     </div>
-                    <div className={classes.footerBodySubFourthColumn}>
+                    <div className={`d-sm-none d-md-block col-md-2 col-lg-2 ${classes.footerBodySubFourthColumn}`}>
                         <header className={classes.footerHeaderOurTools}>Our Tools</header>
                         <ul>
                             <li>
@@ -60,7 +82,7 @@ function Footer (props) {
                             </li>
                         </ul>
                     </div>
-                    <div className={classes.footerBodySubFifthColumn}>
+                    <div className={`col-sm-12 col-md-3 col-lg-3 ${classes.footerBodySubFifthColumn}`}>
                         <header className={classes.footerHeaderGetOurNews}>Get Our News</header>
                         <div className='position-relative'>
                             <input className={classes.footerEmailAddress} type='email' placeholder='Your E-Mail Address' />
@@ -69,26 +91,36 @@ function Footer (props) {
                         <div className={classes.footerCheckboxWrapper}>
                             <input className={classes.footerCheckbox} type="checkbox" id="scales" name="scales" />
                             <label htmlFor="scales">
-                            Lorem ipsum dolor sit amet, consectetur
-                            <br />
+                            Lorem ipsum dolor sit amet, consectetur 
+                            <br /><span> </span>
                             adipiscing elit, sed do eiusmod tempor.
                             </label>
                         </div>
                     </div>
                 </div>
             </div>
-                <div className={classes.footerBodyBottom}>
+            <div className={classes.footerBodyBottom}>
                 <div className={classes.footerSocialMediaArea}>
-                    <SocialMediaItems />
+                    <div className='d-flex flex-row'>
+                        {socialMediaMobile}
+                        {socialMediaDesktop}
+                    </div>
+                    <div className={classes.footerBottomSideLangExtra}>
+                            <a href='www.google.com'>
+                                <img src={TurkishLangImage} alt='Turkish' />Türkçe
+                            </a>
+                    </div>
                 </div>
                     <hr />
                     <div className={classes.footerBottomSide}>
-                        <div className='d-flex'>
+                        <div className={classes.footerBottomSideSub}>
                             <span className={classes.footerCopyright}>Copyright © 2023 | Marketinkers</span>
-                            <span>-</span>
-                            <a className={classes.footerBottomSideLinks} href='www.google.com'>Privacy Policy</a>
-                            <span>-</span>
-                            <a className={classes.footerBottomSideLinks} href='www.google.com'>Terms of Service</a>
+                            <span className={classes.footerBottomSideSpan}>-</span>
+                            <div>
+                                <a className={classes.footerBottomSideLinks} href='www.google.com'>Privacy Policy</a>
+                                <span>-</span>
+                                <a className={classes.footerBottomSideLinks} href='www.google.com'>Terms of Service</a>
+                                </div>
                             </div>
                         <div className={classes.footerBottomSideLang}>
                             <a href='www.google.com'>

@@ -76,14 +76,19 @@ function GrowWithUs ({changeMarginBottom, changesForAboutUs}) {
     <div className='container'>
         <div style={changeMarginBottom ? {height: 'auto'} : {}} className={classes.GrowWithUsSectionBody}>
             <form style={changesForAboutUs ? {marginTop: '120px'} : {}} className={isVisible ? classes.GrowWithUsCardToggle : classes.GrowWithUsCard} onSubmit={formContinueHandler}>
-                <div className={'container'}>
-                <div className={'row d-flex align-items-center'}>
-                    <div className={'col-4'}>
+                <div className='container'>
+                <div className='row d-flex align-items-center'>
+                    <div className='col-sm-12 col-md-4 col-lg-4'>
                         <p className={classes.GrowWithUsParagDefault}>
                         do you want to grow with us?
                         </p>
+                        <p className={classes.GrowWithUsParagActiveExtra}>
+                            You can send us your questions and requests
+                            about the services we offer as Markethinkers SEO 
+                            and Content Agency via this form.
+                        </p>
                     </div>
-                    <div className={'col-8 position-relative'}>
+                    <div className='col-sm-12 col-md-8 col-lg-8 position-relative'>
                         <input onChange={websiteInputChangeHandler} onBlur={websiteInputBlurHandler} value={enteredWebsite} className={enteredWebsiteIsInvalid ? classes.GrowWithUsInputDefaultInvalid :classes.GrowWithUsInputDefault} type='text' placeholder='Your Website URL' minLength="1" maxLength="50" />
                         <button className={classes.continueButton} onClick={expandClickHandler} type='submit' disabled={!websiteIsValid}>continue</button>
                         {/* {enteredWebsiteIsInvalid && <p>Error</p>}  */}
@@ -91,33 +96,33 @@ function GrowWithUs ({changeMarginBottom, changesForAboutUs}) {
                  </div>
                 <CSSTransition nodeRef={nodeRef} in={showTransition} timeout={1500} classNames={'formTransition'}>
                     <div className={isVisible ? 'row' : 'row d-none'} ref={nodeRef}>
-                    <div className={'col-4'}>
+                    <div className={`col-md-4 col-lg-4 ${classes.GrowWithUsImageArea}`}>
                         <p className={classes.GrowWithUsParagActive}>
                             You can send us your questions and requests
                             about the services we offer as Markethinkers SEO 
                             and Content Agency via this form.
                         </p>
-                        <img className={classes.GrowWithUsImage} src={GrowWithUsImg} alt='GrowWithUs_Image' />
+                        <img className={`img-fluid ${classes.GrowWithUsImage}`} src={GrowWithUsImg} alt='GrowWithUs_Image' />
                     </div>
-                    <div className={'col-8'}>
-                        <div className={'row'}>
-                            <div className='col-sm-12 d-flex mb-4 mt-4'>
-                                <div className='col-sm-6'>
+                    <div className='col-sm-12 col-md-8 col-lg-8'>
+                        <div className='row'>
+                            <div className={`col-sm-12 ${classes.GrowWithUsFirstInputAarea}`} >
+                                <div className='col-sm-12 col-md-6 col-lg-6'>
                                     <input onChange={nameInputChangeHandler} value={enteredName} className={classes.GrowWithUsInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                                 </div>
-                                <div className='col-sm-6'>
+                                <div className='col-sm-12 col-md-6 col-lg-6'>
                                     <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.GrowWithUsInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
-                            <div className='col-sm-12 d-flex mb-4'>
-                                <div className='col-sm-6 position-relative'>
+                            <div className={`col-sm-12 ${classes.GrowWithUsSecondInputAarea}`}>
+                                <div className='col-sm-12 col-md-6 col-lg-6 position-relative'>
                                     <select onChange={selectOptionChangeHandler} value={selectedOption} className={classes.GrowWithUsSelectOption} name="choice">
                                         <option defaultValue="default">Service You are Interested in...</option>
                                         <option value="second">Second Value</option>
                                         <option value="third">Third Value</option>
                                      </select>
                                 </div>
-                                <div className='col-sm-6'>  
+                                <div className='col-sm-12 col-md-6 col-lg-6'>  
                                     <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.GrowWithUsInputYourPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>  
                             </div>
@@ -126,13 +131,13 @@ function GrowWithUs ({changeMarginBottom, changesForAboutUs}) {
                                 <button onClick={formSendingHandler} className={classes.sendButton} type='submit'>send</button>  
                             </div>
                             <div className='col-sm-12 mb-4'>
-                                <div className={'d-flex align-items-center'}>
+                                <div className={`d-flex align-items-center ${classes.GrowWithUsFirstCheckboxArea}`}>
                                     <input className={classes.GrowWithUsCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.GrowWithUsCheckboxLabel} htmlFor="scales">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </label>
                                 </div>
-                                <div className={'d-flex align-items-center'}>
+                                <div className='d-flex align-items-center'>
                                     <input className={classes.GrowWithUsCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.GrowWithUsCheckboxLabel} htmlFor="scales">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod.

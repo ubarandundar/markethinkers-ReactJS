@@ -6,9 +6,9 @@ import { Fragment } from 'react';
 function CustomRightArrow ({ onClick}) {
     return (
         <Fragment>
-            <button onClick={() => onClick()} className={classes.CustomRightArrowButton} type='button'>
-                <img className={classes.customRightArrowImg} src={CustomRightArrowImg} alt='CustomLeftArrow_Image' />
-            </button>
+      
+                <img onClick={() => onClick()} className={classes.customRightArrowImg} src={CustomRightArrowImg} alt='CustomLeftArrow_Image' />
+    
         </Fragment>
     );
 }

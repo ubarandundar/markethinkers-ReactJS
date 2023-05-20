@@ -27,6 +27,28 @@
     margin-left: 10px;
 }
 
+.footerSocialMediaForMobile  {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: transparent;
+    margin-left: 8px;
+}
+
+.footerSocialMediaForMobile svg {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.footerSocialMediaForMobile img {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+}
+
 .footerSocialMediaExForSuccessStories {
     width: 60px;
     height: 60px;

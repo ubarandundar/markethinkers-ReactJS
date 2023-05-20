@@ -10,26 +10,7 @@
     left: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .graphicsBody {
-        max-width: 480px; 
-    }
-}
-
-@media (max-width: 992px) {
-    .graphicsBody {
-        position: static;
-        border-radius: 50px 50px 50px 50px;
-        max-width: none;
-        margin-bottom: 20px;
-    }
-    .graphicsBodySub {
-        height: auto;  
-    }
-}
-
 .graphicsBodySub {
-    /* width: 762px; */
     height: 915px;
     margin-bottom: 55px;
     padding: 100px 120px;
@@ -107,3 +88,84 @@
     width: 12px !important;
     height: 12px !important;
 } */
+
+
+/* @media (min-width: 992px) and (max-width: 1200px) {
+    .graphicsBody {
+        max-width: 480px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .graphicsBody {
+        position: static;
+        border-radius: 50px 50px 50px 50px;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+    .graphicsBodySub {
+        height: auto;  
+    }
+} */
+
+@media (max-width: 767px) {
+    .graphicsBody {
+        width: 85%;
+        height: auto;
+        top: 95%;
+    }
+    
+    .graphicsBodySub {
+        height: auto;
+        margin-bottom: 55px;
+        padding: 30px 36px;
+    }
+
+    .firstAndSecondRowDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+    
+    .graphicsBodySubNum {
+        font: normal normal bold 24px Paralucent;
+    }
+    
+    .graphicsBodySubNumSub {
+        font: normal normal bold 24px Paralucent;
+    }
+    
+    .graphicsBodySubHeader {
+        font: normal normal 16px Paralucent;
+    }
+    
+    .graphicsBodySubFirstRow {
+        margin-bottom: 0;
+    }
+    
+    .graphicsBodySubSecondRow {
+        margin-bottom: 0;
+    }
+    
+    .graphicsBodySubThirdRow {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+    
+    .graphicsBodySubThirdRowFirstColumn {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .graphicsBodySubThirdRowSecondColumn {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .graphicSampleImg {
+        display: none !important;
+    }
+}

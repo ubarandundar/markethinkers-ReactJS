@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ReactSVG } from "react-svg";
+import ScrollContainer from 'react-indiana-drag-scroll'
 
 import classes from './ServicesSection.module.css';
 
@@ -49,32 +50,61 @@ function ServicesSection (props) {
         setCurrentIndex(currentIndex);
     };
 
-    return (
-    <div className='container'>
-        <img className={`img-fluid ${classes.ServicesSectionLeftImg}`} src={ServicesSectionLeftImg} alt='ServicesSection_LeftImg' />
-        <div className={classes.ServicesSectionBody}>
-            <div className='container'>
-                <div className={classes.ServicesSectionLeftSide}>
-                    <a href='www.google.com' className={classes.ServicesSectionLeftSideWrapper}>
-                        <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
-                        <p className={classes.ServiceSectionLeftSideParag}>
-                        Our Services That
-                        <br />
-                        Will Digitally Grow
-                        <br />
-                        Your Brand</p>
-                        <p className={classes.ServiceSectionLeftSideParagSub}>
-                        Reduce Costs, Increase Efficiency
-                        <br />    
-                        in a Secure Infrastructure!</p>
-                        <img src={ForwardArrow} alt='Forward_Arrow' />
-                    </a>
-                </div>
-            </div>
-            <div className='container'>
-                <div className={classes.ServicesSectionRightSide}>
-                    <div className={classes.ServiceSectionCardTop}>
-                        <div>
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+    
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
+    const servicesMobile =  
+                        <ScrollContainer
+    className={classes.servicesMobileScrollWrapper}
+    vertical={false}
+    horizontal={true}
+    >
+    {<>
+        <div>
+                            <ul className={classes.ServiceSectionCardTopFirstRow}>
+                                <li>
+                                    <button onClick={() => contentHandler(0)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 0 ? classes.ServicesButtonsActive:""}`}>SEO Copywriting
+                                    </button>
+                                </li>
+                                <li>
+                                    <button onClick={() => contentHandler(1)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 1 ? classes.ServicesButtonsActive:""}`}>SEO Consulting
+                                </button>
+                                </li>
+                                <li>
+                                    <button onClick={() => contentHandler(2)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 2 ? classes.ServicesButtonsActive:""}`}>ASO Marketing
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className={classes.ServiceSectionCardTopSecondRowWrapper}>
+                            <ul className={classes.ServiceSectionCardTopSecondRow}>
+                                <li>
+                                    <button onClick={() => contentHandler(3)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 3 ? classes.ServicesButtonsActive:""}`}>Performance Marketing
+                                </button>
+                                </li>
+                                <li>
+                                    <button onClick={() => contentHandler(4)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 4 ? classes.ServicesButtonsActive:""}`}>Digital PR
+                                </button>
+                                </li>
+                            </ul>
+                        </div>
+    </>}
+                        </ScrollContainer>
+    
+    const servicesDesktop = 
+    <>
+        <div>
                             <ul className={classes.ServiceSectionCardTopFirstRow}>
                                 <li>
                                     <button onClick={() => contentHandler(0)} type="button" className={`${classes.ServicesButtons} ${currentIndex === 0 ? classes.ServicesButtonsActive:""}`}>SEO Copywriting
@@ -102,6 +132,39 @@ function ServicesSection (props) {
                                 </li>
                             </ul>
                         </div>
+    </>
+    
+
+    const servicesForMobile = windowWidth <= 767 ? servicesMobile : '';
+    const servicesForDesktop = windowWidth > 768 ? servicesDesktop : '';
+
+    return (
+    <div className='container'>
+        <img className={`img-fluid ${classes.ServicesSectionLeftImg}`} src={ServicesSectionLeftImg} alt='ServicesSection_LeftImg' />
+        <div className={classes.ServicesSectionBody}>
+            <div className='container'>
+                <div className={classes.ServicesSectionLeftSide}>
+                    <a href='www.google.com' className={`container ${classes.ServicesSectionLeftSideWrapper}`}>
+                        <header className={classes.ServiceSectionLeftSideHeader}>Professional Seo Services</header>
+                        <p className={classes.ServiceSectionLeftSideParag}>
+                        Our Services That
+                        <br />
+                        Will Digitally Grow
+                        <br />
+                        Your Brand</p>
+                        <p className={classes.ServiceSectionLeftSideParagSub}>
+                        Reduce Costs, Increase Efficiency
+                        <br />    
+                        in a Secure Infrastructure!</p>
+                        <img src={ForwardArrow} alt='Forward_Arrow' />
+                    </a>
+                </div>
+            </div>
+            <div className='container'>
+                <div className={classes.ServicesSectionRightSide}>
+                    <div className={classes.ServiceSectionCardTop}>
+                        {servicesForMobile}
+                        {servicesForDesktop}
                     </div>
                     {ServicesData[currentIndex] && <div className={classes.ServiceSectionCardBottom}>
                         <a href={ServicesData[currentIndex].forwardTo}>

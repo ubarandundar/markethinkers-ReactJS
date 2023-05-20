@@ -1,16 +1,11 @@
 .GrowWithUsSectionBody {
-    /* width: 100%; */
     height: 566px;
     margin-bottom: 120px;
     position: relative;
 }
 
 .GrowWithUsCard {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 50px;
-    /* max-width: 1490px; */
-    /* height: 144px; */
     height: 144px;
     background: #F7F7F7;
     border-radius: 72px;
@@ -19,22 +14,12 @@
 }
 
 .GrowWithUsCardToggle {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 50px;
-    /* max-width: 1490px; */
-    /* max-height: 144px; */
     height: auto;
     background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
     padding-top: 40px;
-}
-
-@media (max-width: 1200px) {
-    .GrowWithUsCardDefaultWrapper {
-        flex: 0.9;
-    }
 }
 
 .GrowWithUsCardActiveWrapper {
@@ -49,6 +34,17 @@
     display: flex;
     flex: 2;
     flex-direction: column;
+}
+
+.GrowWithUsFirstInputAarea {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px !important;
+}
+
+.GrowWithUsSecondInputAarea {
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .GrowWithUsInputDefault {
@@ -111,6 +107,10 @@
     margin-bottom: auto;
 }
 
+.GrowWithUsParagActiveExtra {
+    display: none;
+}
+
 .continueButton {
     width: 134px;
     height: 36px;
@@ -125,16 +125,11 @@
 }
 
 .GrowWithUsCardActive {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 50px;
     padding-top: 40px;
-    /* max-width: 1490px;
-    height: 552px; */
     background: #F7F7F7;
     border-radius: 72px;
     opacity: 1;
- 
 }
 
 .GrowWithUsCardActiveFirstRow {
@@ -287,22 +282,131 @@
     background-position-y: 60%;
 }
 
-/* .demo-enter {
-    opacity: 0;
-  }
-  
-.demo-enter-active {
-    opacity: 1;
-    transition: 1500ms ease-out;
+@media (max-width: 1200px) {
+    .GrowWithUsCardDefaultWrapper {
+        flex: 0.9;
+    }
 }
 
-.demo-exit {
-    opacity: 0;
-  }
-  
-.demo-exit-active {
-    opacity: 1;
-    transition: 1500ms ease-out;
+@media (max-width: 767px) {
+    .GrowWithUsSectionBody {
+        height: auto;
+        margin-bottom: 88px;
+    }
+    
+    .GrowWithUsCardToggle {
+        margin-top: 0;
+        height: auto;
+        border-radius: 0;
+        padding: 30px 36px;
+    }
+    
+    .GrowWithUsFirstInputAarea {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+        margin-top: 16px !important;
+    }
+
+    .GrowWithUsSecondInputAarea {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    .GrowWithUsImageArea {
+        display: none;
+    }
+
+    .GrowWithUsInputDefault {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .GrowWithUsInputDefaultInvalid {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .GrowWithUsInputDefaultInvalid::placeholder {
+        font: normal normal 300 16px Paralucent;
+    }
+    
+    .GrowWithUsInputDefault::placeholder, .GrowWithUsSelectOption, .GrowWithUsInputName::placeholder, .GrowWithUsInputEmail::placeholder,
+    .GrowWithUsInputYourPhone::placeholder  {
+        font: normal normal 300 16px Paralucent;
+    }
+    
+    .GrowWithUsTextArea::placeholder {
+        font: normal normal 300 16px Paralucent;
+    }
+    
+    .GrowWithUsParagDefault {
+        font: normal normal 300 24px Paralucent;
+        /* margin-top: auto; */
+        margin-bottom: 15px;
+    }
+    
+    .continueButton {
+        display: none;
+    }
+    
+    .GrowWithUsParagActiveExtra {
+        display: block;
+        text-align: left;
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+        color: #929393;
+        opacity: 1;
+        margin-bottom: 30px;
+    }
+    
+    .GrowWithUsInputName, .GrowWithUsInputEmail, .GrowWithUsInputYourPhone, .GrowWithUsSelectOption  {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .GrowWithUsInputName, .GrowWithUsSelectOption {
+        margin-bottom: 16px;
+    }
+    
+    .GrowWithUsTextArea {
+        width: 100%;
+        height: 96px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    .GrowWithUsFirstCheckboxArea {
+        margin-bottom: 16px;
+    }
+    
+    .GrowWithUsCheckboxLabel {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .sendButton {
+        width: 318px;
+        height: 48px;
+        font: normal normal bold 16px Paralucent;
+        top: 260%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
-   */
-  
+
+@media (max-width: 518px) {
+    .sendButton {
+        top: 275%;
+    }
+}
+
+@media (max-width: 402px) {
+    .sendButton {
+        top: 305%;
+    }
+}

@@ -9,6 +9,7 @@
     margin: auto 0;
     filter: grayscale(100%);
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 @media (max-width: 1400px) {
@@ -23,17 +24,26 @@
     }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .customRightArrowImg {
         right: calc(4% + -11px);
     }
-}
+} */
 
 .customRightArrowImg:hover {
     filter: grayscale(0%);
     margin-right: -10px;
 }
 
-.CustomRightArrowButton {
+/* .CustomRightArrowButton {
     margin-bottom: 30px;
+} */
+
+
+@media (max-width: 767px) {
+    .customRightArrowImg {
+        width: 16px;
+        height: 16px;
+    }
+    
 }

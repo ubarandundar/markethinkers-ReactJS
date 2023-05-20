@@ -16,11 +16,11 @@ function BlogSection (props) {
         <img className={`img-fluid ${classes.BlogSectionLeftImg}`} src={BlogSectionLeftImg} alt='BlogSection_LeftImg' />
         {/* <img className={classes.BlogSectionRightImg} src={BlogSectionRightImg} alt='BlogSection_RightImg' /> */}
         <div className={classes.blogSectionBody}>
-           <div className={`col-5 ${classes.blogPageBody}`}>
+           <div className={`col-sm-12 col-md-5 col-lg-5 ${classes.blogPageBody}`}>
                 <a href='www.google.com'>
                     <header className={classes.blogPageHeader}>blog</header>
                     <p className={classes.blogPageParagFirst}>
-                    somethink new,
+                    something new,
                     <br />
                     from everything
                     </p>
@@ -32,7 +32,7 @@ function BlogSection (props) {
                     <img src={WhiteForwardArrow} alt='WhiteForward_Arrow' />
                 </a>
             </div>
-            <div className={`col-2 ${classes.blogsBody}`}>
+            <div className={`col-sm-12 col-md-2 col-lg-2 ${classes.blogsBody}`}>
                 <PinnedBlog />
                 <a href='www.google.com' className={classes.howToGuide}>
                     <header>how to guide</header>
@@ -43,15 +43,9 @@ function BlogSection (props) {
                     <img src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
            </div>
-           {/* <div className={classes.sliderBody}>
-                <SliderBlogs />
-           </div> */}
-           <div className={`col-5 ${classes.blogCarouselbody}`}>
+           <div className={`col-sm-12 col-md-5 col-lg-5 ${classes.blogCarouselbody}`}>
                 <BlogCarousel />
            </div>
-           {/* <div className={classes.sliderBodyControlArrow}>
-                <SliderBlogControlArrow />
-            </div> */}
         </div>
         </div>
     </div>

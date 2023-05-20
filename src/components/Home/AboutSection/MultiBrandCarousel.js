@@ -16,20 +16,20 @@ import { useContext } from 'react';
 import { BlogContext, BlogContextProvider } from '../../../store/BlogContextProvider';
 
 const responsive = {
-    desktopS: {
-        breakpoint: { max: 576, min: 0 },
+    mobile: {
+        breakpoint: { max: 767, min: 0 },
         items: 1,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1
       },
-    desktopM: {
-        breakpoint: { max: 992, min: 520 },
+    tablet: {
+        breakpoint: { max: 991, min: 768 },
         items: 2,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1 
       },
     desktopL: {
         breakpoint: { max: 1200, min: 992 },
         items: 1,
-        slidesToSlide: 1 // optional, default to 1.
+        slidesToSlide: 1 
       },
     desktopXL: {
         breakpoint: { max: 1400, min: 1200 },
@@ -75,7 +75,6 @@ function MultiBrandCarousel (props) {
                 customTransition="transform 1000ms ease-in-out"
                 transitionDuration={500}
                 containerClass="carousel-container"
-                removeArrowOnDeviceType={["tablet", "mobile"]}
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"

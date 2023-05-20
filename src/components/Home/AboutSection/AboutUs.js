@@ -6,8 +6,8 @@ import AboutIconImg from '../../../assets/Mask Group 10.png';
 function AboutUs ({}) {
     return (
     <div className='container-fluid'>
-        <div className={classes.aboutSection}>
-            <div className={classes.aboutSectionLeftSide}>
+        <div className={`row ${classes.aboutSection}`}>
+            <div className={`col-sm-12 col-md-4 col-lg-4 ${classes.aboutSectionLeftSide}`}>
                 <header className={classes.aboutSectionLeftSideHeader}>about us</header>
                 <a href='www.google.com'>
                     <img className={classes.aboutSectionLeftSideForwardArrow} src={ForwardArrow} alt='Forward_Arrow' />
@@ -15,7 +15,7 @@ function AboutUs ({}) {
                 <img className={`img-fluid ${classes.aboutSectionLeftSideAboutIconImg}`} src={AboutIconImg} alt='AboutIcon_Image' />
             </div>
 
-            <div className={classes.aboutSectionRightSide}>
+            <div className={`col-sm-12 col-md-4 col-lg-8 ${classes.aboutSectionRightSide}`}>
                 <div className={classes.aboutSectionRightSideBody}>
                     <header className={classes.aboutSectionRightSideHeader}>
                         Get literary visible

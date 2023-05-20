@@ -53,7 +53,7 @@
 
 .ServicesSectionLeftSide {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .ServicesSectionRightSide {
@@ -156,44 +156,36 @@
     margin: 10px 40px;
 }
 
-/* 
-.xHover {
-    margin-top: -10px;
-    margin-right: 10px;
-    fill: #D3148B;
-} */
-
-
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
     .ServicesButtons {
         margin-right: 15px;
     }
-}
+} */
 
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .ServicesSectionBody {
+        margin: 103px 0 71px 0;
         flex-direction: column;
     }
     .ServicesSectionLeftSide {
-        margin-bottom: 50px;
+        margin-bottom: 33px;
     }
 }
-
-/* @media (max-width: 768px) {
-    .ServicesButtons {
-        padding: 10px 7px;
-    }
-} */
 
 @media (max-width: 767px) {
     .ServicesSectionBody {
         margin: 103px 0 71px 0;
+        flex-direction: column;
     }
 
     .ServiceSectionCardTop {
         flex-direction: row;
+        border-radius: 50px 0 0px 0px;
     }
-    
+
+    .ServicesSectionLeftSide {
+        margin-bottom: 33px;
+    }   
     
     .ServiceSectionCardTopFirstRow {
         margin-top: 20px;
@@ -201,12 +193,13 @@
     }
     
     .ServiceSectionCardTopSecondRow {
-        margin-left: -18px;
+        margin-left: -36px;
     }
     
     .ServiceSectionCardBottom {
         height: auto;
         padding-bottom: 0;
+        border-radius: 0px 0px 0 50px;
     }
     
     .ServiceSectionLeftSideHeader {      
@@ -246,6 +239,11 @@
     .ServicesIconForwardArrowLarge {
         margin-right: 0;
     }
+
+    .ServiceSectionCardBottom a:hover .ServicesIconForwardArrowLarge {
+        margin-top: -10px;
+        margin-right: -10px;
+    }
     
     .ServiceSectionCardBottomHeader {
         font: normal normal 20px Paralucent;
@@ -256,5 +254,15 @@
         font: normal normal 16px Montserrat;
         padding: 0 16px 25px 16px;
         margin: 0;
+    }
+
+    .servicesMobileScrollWrapper {
+        display: flex;
+        cursor: grab;
+    }
+
+    .ServiceSectionCardTopSecondRowWrapper {
+        display: flex;
+        align-items: flex-end;
     }
 }

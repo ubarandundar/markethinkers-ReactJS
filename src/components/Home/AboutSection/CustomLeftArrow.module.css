@@ -8,6 +8,7 @@
     left: calc(4% + -27px);
     margin: auto 0;
     filter: grayscale(100%);
+    cursor: pointer;
 }
 
 @media (max-width: 1400px) {
@@ -22,17 +23,25 @@
     }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .customLeftArrowImg {
         left: calc(4% + -11px);
     }
-}
+} */
 
 .customLeftArrowImg:hover {
     filter: grayscale(0%);
     margin-left: -10px;
 }
 
-.customLeftArrowButton {
+/* .customLeftArrowButton {
     margin-bottom: 30px;
+} */
+
+@media (max-width: 767px) {
+    .customLeftArrowImg {
+        width: 16px;
+        height: 16px;
+    }
+    
 }

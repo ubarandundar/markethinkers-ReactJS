@@ -56,6 +56,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
               }}
               >
                 <div className={classes.graphicsBodySub}>
+                  <div className={classes.firstAndSecondRowDiv}>
                   <div className={classes.graphicsBodySubFirstRow}>
                     <span className={classes.graphicsBodySubNum}>+ %113,31</span>
                     <header className={classes.graphicsBodySubHeader}>organik trafik</header>
@@ -63,6 +64,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
                   <div className={classes.graphicsBodySubSecondRow}>
                     <span className={classes.graphicsBodySubNum}>+ %328,98</span>
                     <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
                   </div>
                   <div className={classes.graphicsBodySubThirdRow}>
                     <div className={classes.graphicsBodySubThirdRowFirstColumn}>
@@ -80,6 +82,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
                 </div>
                 
                 <div className={classes.graphicsBodySub}>
+                  <div className={classes.firstAndSecondRowDiv}>
                   <div className={classes.graphicsBodySubFirstRow}>
                     <span className={classes.graphicsBodySubNum}>+ %108,56</span>
                     <header className={classes.graphicsBodySubHeader}>organik trafik</header>
@@ -87,6 +90,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
                   <div className={classes.graphicsBodySubSecondRow}>
                     <span className={classes.graphicsBodySubNum}>+ %299,48</span>
                     <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
                   </div>
                   <div className={classes.graphicsBodySubThirdRow}>
                     <div className={classes.graphicsBodySubThirdRowFirstColumn}>
@@ -104,6 +108,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
                 </div>
 
                 <div className={classes.graphicsBodySub}>
+                  <div className={classes.firstAndSecondRowDiv}>
                   <div className={classes.graphicsBodySubFirstRow}>
                     <span className={classes.graphicsBodySubNum}>+ %113,31</span>
                     <header className={classes.graphicsBodySubHeader}>organik trafik</header>
@@ -111,6 +116,7 @@ function Graphics ({onClickHandler, isSelected, index, label}) {
                   <div className={classes.graphicsBodySubSecondRow}>
                     <span className={classes.graphicsBodySubNum}>+ %328,98</span>
                     <header className={classes.graphicsBodySubHeader}>organik gelir</header>
+                  </div>
                   </div>
                   <div className={classes.graphicsBodySubThirdRow}>
                     <div className={classes.graphicsBodySubThirdRowFirstColumn}>

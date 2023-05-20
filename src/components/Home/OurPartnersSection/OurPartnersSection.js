@@ -11,25 +11,30 @@ import CustomDot from './CustomDot';
 function OurPartnersSection (props) {
 
     const responsive = {
-        desktopXXL: {
+        desktopL: {
           breakpoint: { max: 3000, min: 1700 },
           items: 4,
-          slidesToSlide: 1 // optional, default to 1.
+          slidesToSlide: 1 
         },
-        desktopXL: {
-            breakpoint: { max: 1700, min: 1300 },
+        desktopM: {
+            breakpoint: { max: 1699, min: 1300 },
             items: 3,
-            slidesToSlide: 1 // optional, default to 1.
+            slidesToSlide: 1 
+          },
+        desktopS: {
+            breakpoint: { max: 1299, min: 992 },
+            items: 2,
+            slidesToSlide: 1 
           },
         tablet: {
-          breakpoint: { max: 1300, min: 464 },
-          items: 2,
-          slidesToSlide: 2 // optional, default to 1.
+          breakpoint: { max: 991, min: 767 },
+          items: 1,
+          slidesToSlide: 1 
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 767, min: 0 },
           items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          slidesToSlide: 1 
         }
       };
 
@@ -64,19 +69,19 @@ function OurPartnersSection (props) {
                 <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
                 </div>
-                <div>
+                <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
                 </div>
-                <div>
+                <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
                 </div>
-                <div>
+                <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
                 </div>
-                <div>
+                <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={CrosstechImage} alt='Crosstech_Image' />
                 </div>
-                <div>
+                <div className={classes.ourPartnersImageBody}>
                     <img className={classes.ourPartnersImages} src={ShopifyImage} alt='Shopify_Image' />
                 </div>         
             </Carousel>
