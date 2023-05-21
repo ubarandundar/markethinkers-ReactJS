@@ -21,7 +21,7 @@ function SuccessStoriesIntro() {
           </a>
         </div>
         <div className='row position-relative'>
-            <div className='col-sm-12 col-md-6 col-lg-6 order-2'>
+            <div className={`col-sm-12 col-md-6 col-lg-6 ${classes.successStoriesIntroLeftArea}`}>
                 <header className={classes.successStoriesIntroHeader}>
                     Revenue increase by 42%
                 </header>
@@ -31,7 +31,7 @@ function SuccessStoriesIntro() {
                     ecommerce trends.
                 </span>
             </div>
-            <div className='col-sm-12 col-md-6 col-lg-6 d-flex order-1 justify-content-center'>
+            <div className={`col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center ${classes.successStoriesIntroRightArea}`}>
                 <img className={`img-fluid ${classes.SuccessStoriesIntroCompanyLogo}`} src={AvansasLogo} alt='AvansasLogo' />
             </div>
         </div>
