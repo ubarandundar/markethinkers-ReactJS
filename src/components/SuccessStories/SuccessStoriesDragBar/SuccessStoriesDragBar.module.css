@@ -48,3 +48,28 @@
     white-space: nowrap;
     margin-left: 30px;
 }
+
+@media (max-width: 767px) {
+    .successStoriesDragBarBody {
+        padding-left: 16px;
+    }
+    
+    .successStoriesDragBarButtons {
+        font: normal normal 16px Paralucent;
+        margin: 10px 0;
+        padding: 10px 20px;
+        margin-left: 16px;
+    }
+
+    .successStoriesDragBarButtons:hover {
+        padding: 10px 20px;
+    }
+    
+    .successStoriesDragBarButtonsActive {
+        font: normal normal 16px Paralucent;
+        margin: 10px 0;
+        color: white;
+        padding: 10px 20px;
+        margin-left: 16px;
+    }
+}

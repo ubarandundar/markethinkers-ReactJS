@@ -6,8 +6,8 @@ function CustomRightLargeArrow ({onClick, changesForExpertise, changesForTeammat
     
     return (
     <>
-        <div style={changesForExpertise ? {height:'687px'} : {} && changesForTeammates ? {height:'1090px'} : {}} className={changesForHome ? classes.changesForHomeCSS : classes.customRightLargeArrowBody}>
-            <div style={changesForExpertise ? {height:'603px' , width: '225px'} : {} && changesForTeammates ? {height:'968px' , width: '225px'} : {} && changesForHome ? {height:'790px' , width: '265px'} : {}} className={classes.customRightLargeArrowBodySub}>
+        <div style={changesForExpertise ? {height:'687px'} : {} && changesForTeammates ? {height:'1090px'} : {}} className={changesForHome ? classes.blogSectionArrowBody : classes.customRightLargeArrowBody}>
+            <div style={changesForExpertise ? {height:'603px' , width: '225px'} : {} && changesForTeammates ? {height:'968px' , width: '225px'} : {}} className={changesForHome ? classes.blogSectionArrowBodySub : classes.customRightLargeArrowBodySub}>
                 {changesForHome && <div className={classes.customRightLargeArrowBodySubSub}>
                 </div>}
             </div>

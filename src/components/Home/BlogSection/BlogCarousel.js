@@ -4,41 +4,55 @@ import CustomRightLargeArrow from '../../SuccessStroiesDetails/SuccessStoriesOth
 import SliderBlogs from './SliderBlogs';
 import classes from './BlogCarousel.module.css';
 import './BlogCarousel.css';
+import CustomDot from '../OurPartnersSection/CustomDot';
+import SliderBlogsExtra from './SliderBlogsExtra';
 
-function BlogCarousel (props) {
+function BlogCarousel () {
 
     const responsive = {
-        desktopXXL: {
-          breakpoint: { max: 3000, min: 1700 },
+        desktopM: {
+          breakpoint: { max: 3000, min: 1200 },
           items: 1,
           slidesToSlide: 1,
           partialVisibilityGutter:  350
         },
-        desktopXL: {
-            breakpoint: { max: 1700, min: 1300 },
+        desktop: {
+            breakpoint: { max: 1200, min: 992},
             items: 1,
             slidesToSlide: 1 // optional, default to 1.
           },
         tablet: {
-          breakpoint: { max: 1300, min: 464 },
+          breakpoint: { max: 991, min: 768 },
           items: 1,
           slidesToSlide: 2 // optional, default to 1.
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 767, min: 471 },
           items: 1,
           slidesToSlide: 1,
-          partialVisibilityGutter:  350
+          partialVisibilityGutter:  180
+        },
+        mobileM: {
+          breakpoint: { max: 470, min: 411 },
+          items: 1,
+          slidesToSlide: 1,
+          partialVisibilityGutter:  120
+        },
+        mobileS: {
+          breakpoint: { max: 410, min: 0 },
+          items: 1,
+          slidesToSlide: 1,
+          partialVisibilityGutter:  0
         }
       };
 
     return (
-        <div className='container'>
+        <div>
             <div id='blogCarouselWrapperId' className={classes.blogCarouselWrapper}>
             <Carousel
                 swipeable={false}
                 draggable={true}
-                showDots={false}
+                showDots={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
@@ -56,16 +70,13 @@ function BlogCarousel (props) {
                 centerMode={false}
                 customRightArrow={<CustomRightLargeArrow changesForHome={true} /> }
                 partialVisbile={true}
-                
+                customDot={<CustomDot />}
                 >
             <div className={classes.sliderBody}>
-                <SliderBlogs />
+                <SliderBlogs isSmallScreen={true}  />
            </div>
            <div className={classes.sliderBody}>
-                <SliderBlogs />
-           </div>
-           <div className={classes.sliderBody}>
-                <SliderBlogs />
+                <SliderBlogs isSmallScreen={true} />
            </div>
             </Carousel>
             </div>

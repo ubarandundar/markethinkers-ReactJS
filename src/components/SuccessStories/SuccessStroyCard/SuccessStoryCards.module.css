@@ -1,4 +1,11 @@
 .successStoryCardWrapper {
     margin-top: 65px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+    .successStoryCardWrapper {
+        margin-top: 16px;
+        margin-bottom: 60px;
+    }
 }

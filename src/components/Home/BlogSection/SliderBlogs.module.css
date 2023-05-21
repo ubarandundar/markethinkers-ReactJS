@@ -103,3 +103,124 @@
     margin-left: 35px;
 }
 
+/* CSS for mobile */
+
+.sliderBlogBodyWrapperForMobile {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.sliderBlogSecondBodyForMobile {
+    width: 330px;
+    height: 400px;
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+    z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0D1835;
+}
+
+.sliderBlogSecondBodyForMobile:hover {
+    background: #0D1835;
+    opacity: 1;
+}
+
+.sliderBlogSecondBodyForMobile:hover img {
+    padding: 30px 30px;
+}
+
+.sliderBlogSecondBodyForMobile:hover .sliderBlogsHeaderBottomForMobile {
+    margin-top: 60px;
+}
+
+.sliderBlogSecondBodyForMobile img {
+    display: block;
+    margin-left: auto;
+    padding: 40px 40px;
+}
+
+.sliderBlogsHeaderBottomForMobile {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.sliderBlogsOtherHeaderForMobile {
+    font-size: 40px;
+    text-align: left;
+    font: normal normal 300 40px/56px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 35px;
+}
+
+@media (max-width: 767px) {
+    .sliderBlogBodyWrapperForMobile {
+        display: none;
+    }
+
+    .sliderBlogSecondBodyForMobile {
+        width: 235px;
+        height: 285px;
+        background: grey;
+        border-radius: 25px;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 4;
+        background-image: url('../../../assets/avansas back.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #0D1835;
+    }
+
+    .sliderBlogSecondBodyForMobile:hover {
+        background: #0D1835;
+        opacity: 1;
+    }
+    
+    .sliderBlogSecondBodyForMobile:hover img {
+        padding: 30px 30px;
+    }
+    
+    .sliderBlogSecondBodyForMobile:hover .sliderBlogsHeaderBottomForMobile {
+        margin-top: 60px;
+    }
+    
+    .sliderBlogSecondBodyForMobile img {
+        display: block;
+        margin-left: auto;
+        padding: 40px 40px;
+    }
+    
+    .sliderBlogsHeaderBottomForMobile {
+        text-align: left;
+        font: normal normal 16px Paralucent;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+    
+    .sliderBlogsOtherHeaderForMobile {
+        text-align: left;
+        font: normal normal 300 24px Paralucent;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 35px;
+    }
+    
+}

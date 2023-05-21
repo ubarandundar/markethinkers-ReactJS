@@ -54,3 +54,29 @@
     margin-top: -1%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .successStoriesSectionLink {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    
+    .successStoriesSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .successStoriesSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesSectionHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .successStoriesSectionHeaderSub br {
+        display: none;
+    }
+}

@@ -58,7 +58,7 @@
 
 /* changesforHome CSS */
 
-.changesForHomeCSS {
+.blogSectionArrowBody {
     background: #FFFFFF;
     box-shadow: 0px 10px 99px #00000029;
     border-radius: 50px 0 0 50px;
@@ -72,11 +72,11 @@
     right: 0;
 }
 
-.changesForHomeCSS:hover {
+.blogSectionArrowBody:hover {
     width: 218px !important;
 } 
 
-.changesForHomeCSS img {
+.blogSectionArrowBody img {
     cursor: pointer;
     position: absolute;
     z-index: 3;
@@ -84,6 +84,50 @@
     right: 0;
 }
 
-.changesForHomeCSS:hover img {
+.blogSectionArrowBody:hover img {
     margin-right: 20px;
+}
+
+.blogSectionArrowBodySub {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 99px #00000029;
+    border-radius: 50px 0 0 50px;
+    opacity: 0.5;
+    width: 265px;
+    height: 790px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+@media (max-width: 767px) {
+    .blogSectionArrowBody {
+        width: 56px;
+        height: 285px;
+    }
+    
+    .blogSectionArrowBody:hover {
+        width: 76px !important;
+    } 
+    
+    .blogSectionArrowBody img {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .blogSectionArrowBody:hover img {
+        margin-right: 20px;
+    }
+    
+    .blogSectionArrowBodySub {
+        width: 66px;
+        height: 267px;
+    }
+
+    .customRightLargeArrowBodySubSub {
+        width: 76px;
+        height: 251px;
+    }
 }

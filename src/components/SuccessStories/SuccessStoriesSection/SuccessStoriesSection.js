@@ -22,7 +22,7 @@ function SuccessStoriesSection() {
             </header>
             <header className={classes.successStoriesSectionHeaderSub}>
                 Let's check how our stories
-                <br />
+                <br /><span> </span>
                 sometimes looks like
             </header>
         </div>

@@ -3,8 +3,6 @@ import classes from './BlogSection.module.css';
 import PinnedBlog from './PinnedBlog';
 import ForwardArrow from '../../../assets/Group 34.svg';
 import WhiteForwardArrow from '../../../assets/Group 34-white.svg';
-import SliderBlogs from './SliderBlogs';
-import SliderBlogControlArrow from './SliderBlogsControlArrow';
 import BlogSectionLeftImg from '../../../assets/Path 16728.svg';
 import BlogSectionRightImg from '../../../assets/Path 16727.svg';
 import BlogCarousel from './BlogCarousel';
@@ -43,7 +41,7 @@ function BlogSection (props) {
                     <img src={ForwardArrow} alt='Forward_Arrow' />
                 </a>
            </div>
-           <div className={`col-sm-12 col-md-5 col-lg-5 ${classes.blogCarouselbody}`}>
+           <div className={`container col-sm-12 col-md-5 col-lg-5 ${classes.blogCarouselbody}`}>
                 <BlogCarousel />
            </div>
         </div>

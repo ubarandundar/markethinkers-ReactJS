@@ -3,10 +3,10 @@ import classes from './SliderBlogs.module.css';
 import WhiteForwardArrow from '../../../assets/Group 34-white.svg';
 import { Fragment } from 'react';
 
-function SliderBlogs ({changesForHome}) {
+function SliderBlogs ({isSmallScreen}) {
     return (
         <Fragment>
-            <a href='www.google.com' className={classes.sliderBlogBodyWrapper}>
+            <a href='www.google.com' className={isSmallScreen ? classes.sliderBlogBodyWrapperForMobile : classes.sliderBlogBodyWrapper}>
                 <div className={classes.sliderBlogFirstBody}>
                     <img src={WhiteForwardArrow} alt='Forward_Arrow' />
                     <header className={classes.sliderBlogsHeaderTop}>strategy</header>
@@ -18,10 +18,10 @@ function SliderBlogs ({changesForHome}) {
                 </div>
             </a>
             <a href='www.google.com' className={classes.sliderBlogBodyWrapper}>
-                <div className={classes.sliderBlogSecondBody}>
+                <div className={isSmallScreen ? classes.sliderBlogSecondBodyForMobile : classes.sliderBlogSecondBody}>
                     <img src={WhiteForwardArrow} alt='Forward_Arrow' />
-                    <header className={classes.sliderBlogsHeaderBottom}>strategy</header>
-                    <header className={classes.sliderBlogsOtherHeader}>
+                    <header className={isSmallScreen ? classes.sliderBlogsHeaderBottomForMobile : classes.sliderBlogsHeaderBottom}>strategy</header>
+                    <header className={isSmallScreen ? classes.sliderBlogsOtherHeaderForMobile : classes.sliderBlogsOtherHeader}>
                     Blog Content
                     <br />
                     Strategy for

@@ -1,0 +1,181 @@
+.sliderBlogExtraFirstBody {
+    width: 330px;
+    height: 400px;
+    background: grey;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #FF8049;
+}
+
+.sliderBlogExtraBodyWrapper {
+    text-decoration: none;
+}
+
+.sliderBlogExtraFirstBody:hover {
+    background: #FF8049;
+    opacity: 1;
+}
+
+.sliderBlogExtraFirstBody:hover img {
+    padding: 30px 30px;
+}
+
+.sliderBlogExtraFirstBody:hover .sliderBlogsHeaderTop {
+    margin-top: 100px;
+}
+
+.sliderBlogExtraFirstBody img {
+    display: block;
+    margin-left: auto;
+    padding: 40px 40px;
+}
+
+.sliderBlogExtraSecondBody {
+    width: 330px;
+    height: 400px;
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+    z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0D1835;
+}
+
+.sliderBlogExtraSecondBody:hover {
+    background: #0D1835;
+    opacity: 1;
+}
+
+.sliderBlogExtraSecondBody:hover img {
+    padding: 30px 30px;
+}
+
+.sliderBlogExtraSecondBody:hover .sliderBlogsHeaderBottom {
+    margin-top: 60px;
+}
+
+.sliderBlogExtraSecondBody img {
+    display: block;
+    margin-left: auto;
+    padding: 40px 40px;
+}
+
+.sliderBlogsExtraHeaderTop {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 80px;
+    margin-left: 35px;
+}
+
+.sliderBlogsExtraHeaderBottom {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal 20px/28px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.sliderBlogsExtraOtherHeader {
+    font-size: 40px;
+    text-align: left;
+    font: normal normal 300 40px/56px Paralucent;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 35px;
+}
+
+.sliderBlogExtraBodyWrapperForMobile {
+    text-decoration: none;
+}
+
+.sliderBlogExtraBodyWrapperForMobileOther {
+    text-decoration: none;
+}
+
+.sliderBlogExtraFirstBodyForMobile {
+    width: 330px;
+    height: 400px;
+    background: grey;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #FF8049;
+}
+
+.sliderBlogExtraSecondBodyForMobile {
+    width: 330px;
+    height: 400px;
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+    z-index: 4;
+    background-image: url('../../../assets/avansas back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0D1835;
+}
+
+@media (max-width: 767px) {
+    .sliderBlogExtraBodyWrapperForMobile {
+        display: none;
+    }
+
+    .sliderBlogExtraBodyWrapperForMobileOther {
+        display: none;
+    }
+    
+    .sliderBlogExtraFirstBodyForMobile {
+        width: 235px;
+        height: 285px;
+        background: grey;
+        border-radius: 25px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 4;
+        background-image: url('../../../assets/avansas back.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #FF8049;
+    }
+
+    .sliderBlogExtraSecondBodyForMobile {
+        width: 235px;
+        height: 285px;
+        background: grey;
+        border-radius: 25px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 4;
+        background-image: url('../../../assets/avansas back.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #FF8049;
+    }
+}

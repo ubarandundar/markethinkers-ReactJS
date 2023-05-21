@@ -11,7 +11,7 @@ function SuccessStoriesDragBar() {
 
     return (
         <div className='container position-relative'>       
-          <div className='row'>
+       
             <div className={classes.successStoriesDragBarBody}>
               <ScrollContainer
               className="scroll-container"
@@ -33,7 +33,7 @@ function SuccessStoriesDragBar() {
               </div>}
               </ScrollContainer>
             </div>
-          </div>
+     
         </div>
   )
 }

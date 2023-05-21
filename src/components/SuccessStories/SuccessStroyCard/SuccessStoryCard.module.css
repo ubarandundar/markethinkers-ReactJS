@@ -13,6 +13,7 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-color: #FF8049;
+    margin-bottom: 30px;
 }
 
 .successStoryCardWrapper:hover .successStoryCardBody {
@@ -72,6 +73,12 @@
     color: #FFFFFF;
 }
 
+.successStoryCardRateWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .successStoryCardRateSub {
     text-align: center;
     font: normal normal 41px/57px Paralucent;
@@ -89,3 +96,68 @@
     margin-top: 24px;
 }
 
+@media (max-width: 767px) {
+    .successStoryCardBody {
+        padding: 30px;
+        margin-bottom: 16px;
+    }
+    
+    .successStoryCardArrow {
+        width: 15px;
+        height: 15px;
+        margin-left: auto;
+        margin-bottom: 22px;
+    }
+    
+    .successStoryCardWrapper:hover .successStoryCardArrow {
+        margin-top: -10px;
+        margin-right: -10px;
+        margin-bottom: 32px;
+    }
+    
+    .successStoryCardAvansasLogo {
+        max-width: 180px;
+        height: auto;
+        margin: 0 auto 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .successStoryCardGenimilabLogo {
+        max-width: 174px;
+        height: auto;
+        margin: 0 auto 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .successStoryCardWrapper:hover .successStoryCardGenimilabLogo {
+        max-width: 254px;
+        height: auto;
+        margin: 0 auto 0 auto;
+        margin-bottom: 40px; 
+    
+    }
+
+    .successStoryCardRateWrapper {
+        align-items: center;
+    }
+    
+    .successStoryCardRate {
+        font: normal normal bold 44px Paralucent;
+    }
+    
+    .successStoryCardRateSub {
+        font: normal normal 29px Paralucent;
+    }
+    
+    .successStoryCardExplanation {
+        font: normal normal 16px Paralucent;
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    .successStoryCardWrapper:hover .successStoryCardGenimilabLogo {
+        transform: scale(1.01);
+    }
+    
+    
+}

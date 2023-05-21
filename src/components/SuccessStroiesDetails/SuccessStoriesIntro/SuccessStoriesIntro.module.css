@@ -133,3 +133,109 @@
     opacity: 1;
     margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    .successStoriesIntroLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .successStoriesIntroLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+
+    .SuccessStoriesIntroCompanyLogo {
+        width: 154px;
+        height: auto;
+    }
+    
+    .successStoriesIntroBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 43%;
+        margin-top: 8%;
+        filter: blur(50px);
+    }
+    
+    .successStoriesIntroHeader {
+        font: normal normal bold 30px Paralucent;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    
+    .successStoriesIntroParag {
+        font: normal normal 300 16px Paralucent;
+    }
+    
+    .successStoriesIntroBlueArea {
+        padding: 30px 30px 100px 30px;
+        margin-top: 53px;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    
+    .successStoriesIntroWhiteArea {
+        position: absolute;
+        z-index: 2;
+        background: #FFFFFF;
+        border-radius: 25px;
+        opacity: 1;
+        padding: 60px 120px 60px 60px;
+        top: -15%;
+        right: 3%;
+    }
+    
+    .successStoriesIntroRateBody {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .successStoriesIntroNumber {
+        font: normal normal bold 65px Paralucent;
+    }
+    
+    .successStoriesIntroNumberSub {
+        font: normal normal 42px Paralucent;
+    }
+    
+    .successStoriesIntroExplanation {
+        font: normal normal 20px Paralucent;
+        margin-top: 8px;
+        white-space: nowrap;
+    }
+    
+    .successStoriesIntroWhiteArea ul {
+        list-style: none;
+    }
+    
+    .successStoriesIntroWhiteArea ul li::before{
+        content: '•';
+        color: #D3148B;
+        font-weight: normal;
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1.3em; 
+    }
+    
+    .successStoriesIntroWhiteArea ul li{
+        text-align: left;
+        font: normal normal 300 24px/34px Paralucent;
+        letter-spacing: 1.2px;
+        color: #929393;
+        opacity: 1;
+    }
+    
+    .successStoriesIntroWhiteArea header {
+        text-align: left;
+        font: normal normal 300 20px/28px Paralucent;
+        letter-spacing: 0px;
+        color: #D3148B;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+}
