@@ -1,3 +1,15 @@
+.successStoriesAwardsWrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 18% !important;
+}
+
+.successStoriesAwardsCardTextWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
 .successStoriesAwardsCardBody {
     background: #FFFFFF;
     border-radius: 25px;
@@ -6,7 +18,6 @@
     display: flex;
     flex-direction: row;
     background-image: url('../../../assets/Mask Group 31.png');
-    /* background-size: 374px 472px; */
     background-position: bottom left;
     background-repeat: no-repeat;
     max-width: 690px;
@@ -35,4 +46,48 @@
     opacity: 1;
 }
 
+@media (max-width: 767px) {
+    .successStoriesAwardsWrapper {
+        margin-top: 265px;
+        margin-bottom: 60px;
+        margin-left: 0% !important;
+    }
+
+    .successStoriesAwardsCardTextWrapper {
+        margin-left: 0;
+    }   
+
+    .successStoriesAwardsCardBody {
+        padding: 40px;
+        flex-direction: column;
+        background-image: none;
+        max-width: 236px;
+    }
+    
+    .successStoriesAwardsCardBody img {
+        width: 156px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .successStoriesAwardsCardBody header {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesAwardsCardBody span {
+        font: normal normal 300 16px Paralucent;
+        margin-left: 0;
+    }
+    
+}
+
+
+@media (min-width: 400px) and (max-width: 767px) {
+    .successStoriesAwardsWrapper {
+        margin-left: 15% !important;
+    }
+}
 

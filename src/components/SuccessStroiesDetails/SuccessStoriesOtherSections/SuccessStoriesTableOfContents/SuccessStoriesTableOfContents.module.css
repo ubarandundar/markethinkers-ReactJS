@@ -91,3 +91,9 @@
     margin-top: 34%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .successStoriesTableOfContentsBody {
+        display: none;
+    }
+}

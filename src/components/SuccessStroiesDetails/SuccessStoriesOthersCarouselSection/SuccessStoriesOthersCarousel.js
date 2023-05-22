@@ -20,17 +20,17 @@ function SuccessStoriesOthersCarousel (props) {
         desktopXL: {
             breakpoint: { max: 1700, min: 1300 },
             items: 2,
-            slidesToSlide: 1 // optional, default to 1.
+            slidesToSlide: 1 
           },
         tablet: {
-          breakpoint: { max: 1300, min: 464 },
+          breakpoint: { max: 1300, min: 767 },
           items: 1,
-          slidesToSlide: 2 // optional, default to 1.
+          slidesToSlide: 2 
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 767, min: 0 },
           items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          slidesToSlide: 1 
         }
       };
 

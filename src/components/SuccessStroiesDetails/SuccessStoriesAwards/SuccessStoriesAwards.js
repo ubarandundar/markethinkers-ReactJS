@@ -20,20 +20,26 @@ function SuccessStoriesAwards (props) {
             slidesToSlide: 1 // optional, default to 1.
           },
         tablet: {
-          breakpoint: { max: 1300, min: 464 },
+          breakpoint: { max: 1300, min: 768 },
           items: 1,
-          slidesToSlide: 2 // optional, default to 1.
+          slidesToSlide: 2 
+        },
+        mobileM: {
+          breakpoint: { max: 767, min: 401 },
+          items: 1,
+          slidesToSlide: 1,
+          partialVisibilityGutter: 50
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 767, min: 0 },
           items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          slidesToSlide: 1,
+          partialVisibilityGutter: 50
         }
       };
 
     return (
-        <div style={{marginTop: '100px', marginBottom: '50px', marginLeft: '18%'}} className='container-fluid'>
-            <div>
+        <div className={`container-fluid ${classes.successStoriesAwardsWrapper}`}>
             <Carousel
                 swipeable={false}
                 draggable={true}
@@ -58,7 +64,7 @@ function SuccessStoriesAwards (props) {
                 >
                 <div className={classes.successStoriesAwardsCardBody}>
                     <img className='img-fluid' src={UKDGAImage} alt='UKDGA_Image' />
-                    <div style={{marginLeft: '30px'}} className='d-flex flex-column'>
+                    <div className={classes.successStoriesAwardsCardTextWrapper}>
                         <header>
                             Lorem ipsum dolor sit
                         </header>
@@ -69,7 +75,7 @@ function SuccessStoriesAwards (props) {
                 </div>
                 <div className={classes.successStoriesAwardsCardBody}>
                     <img className='img-fluid' src={UKDGAImage} alt='UKDGA_Image' />
-                    <div style={{marginLeft: '30px'}} className='d-flex flex-column'>
+                    <div className={classes.successStoriesAwardsCardTextWrapper}>
                         <header>
                             Lorem ipsum dolor sit
                         </header>
@@ -80,7 +86,7 @@ function SuccessStoriesAwards (props) {
                 </div>
                 <div className={classes.successStoriesAwardsCardBody}>
                     <img className='img-fluid' src={UKDGAImage} alt='UKDGA_Image' />
-                    <div style={{marginLeft: '30px'}} className='d-flex flex-column'>
+                    <div className={classes.successStoriesAwardsCardTextWrapper}>
                         <header>
                             Lorem ipsum dolor sit
                         </header>
@@ -90,7 +96,6 @@ function SuccessStoriesAwards (props) {
                     </div>
                 </div>
             </Carousel>
-            </div>
         </div>
     );
 }

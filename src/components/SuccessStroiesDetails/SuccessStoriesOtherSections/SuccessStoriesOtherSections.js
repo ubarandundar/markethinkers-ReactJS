@@ -12,7 +12,7 @@ function SuccessStoriesOtherSections() {
                     <SuccessStoriesTableOfContents />
                 </div>
             </div>
-            <div className='col-6' style={{paddingLeft: '50px'}}>
+            <div className='col-sm-12 col-md-6 col-lg-6' style={{paddingLeft: '50px'}}>
                 <SuccessStoriesContent />
             </div>
             <div className='col-2'>

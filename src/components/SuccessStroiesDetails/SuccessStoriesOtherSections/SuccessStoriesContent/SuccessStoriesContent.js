@@ -12,6 +12,7 @@ import SuccessStoriesContentLeftThirdImg from '../../../../assets/Path 18676.svg
 import SuccessStoriesContentRightFourthImg from '../../../../assets/Path 18678.svg';
 import SuccessStoriesContentLeftFourthImg from '../../../../assets/Path 18677.svg';
 import SuccessStoriesContentRightFifthImg from '../../../../assets/Path 16727-1.svg';
+import SocialMediaItems from '../../../Home/Footer/SocialMediaItems';
 
 function SuccessStoriesContent() {
   return (
@@ -189,7 +190,7 @@ function SuccessStoriesContent() {
                 </div>
             </div>
         </div>
-        <div className='row position-relative' style={{marginBottom: '60px', marginTop: '30px'}}>
+        <div className={`row position-relative ${classes.successStoriesContentsBodyColouredCardWrapper}`}>
             <div className='col-sm-12 col-md-12 col-lg-6'>
                 <div className={classes.successStoriesContentsBodyColouredCard}>
                 </div>
@@ -213,7 +214,7 @@ function SuccessStoriesContent() {
             <div className={classes.successStoriesTableOfContentsStatementParag}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
             </div>
-            <div style={{textAlign: 'center'}} className={classes.successStoriesTableOfContentsHeaderCore}>
+            <div style={{textAlign: 'center'}} className={classes.successStoriesTableOfContentsHeaderCoreOther}>
                 core web vitals
             </div>
         </div>
@@ -276,7 +277,7 @@ function SuccessStoriesContent() {
                     Table Title
                 </header>
                 <div className={classes.successStoriesTableOfContentsTableBody}>
-                    <div style={{borderRadius: '16px'}}>
+                    <div className={classes.successStoriesTableOfContentsTableWrapper} style={{borderRadius: '16px'}}>
                     <table>
                     <tr>
                         <th style={{textAlign: 'left', borderTopLeftRadius: '16px'}}>Lorem İpsum</th>
@@ -332,6 +333,12 @@ function SuccessStoriesContent() {
                 <caption className={classes.successStoriesTableOfContentsTableDescription}>
                     table description
                 </caption>
+                <div className={classes.successStoriesTableOfContentsShareHereWrapper}>
+                    <div className={classes.successStoriesTableOfContentsShareHere}>
+                        Share here:
+                    </div>
+                    <SocialMediaItems changeFacebookBackground={true} />
+                </div>
             </div>
     </div>
   )
