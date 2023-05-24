@@ -25,13 +25,13 @@ const responsive = {
       partialVisibilityGutter: 100
     },
   tablet: {
-    breakpoint: { max: 1300, min: 464 },
+    breakpoint: { max: 1300, min: 768 },
     items: 1,
     slidesToSlide: 1,
     partialVisibilityGutter: 100
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 767, min: 0 },
     items: 1,
     slidesToSlide: 1,
     partialVisibilityGutter: 100

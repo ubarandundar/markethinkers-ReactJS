@@ -138,3 +138,83 @@
     margin-left: 37%;
     margin-top: -25%;
 }
+
+.expertiseApplySectionLink br {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .expertiseApplySectionLink {
+        margin-top: 16px;
+        justify-content: center;
+    }
+    
+    .expertiseApplySectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+
+    .expertiseApplySectionLink br {
+        display: block;
+    }
+    
+    .expertiseApplySectionDep {
+        margin-top: 16px;
+        margin-bottom: 30px;
+        padding-left: 16px;
+    }
+    
+    .expertiseApplySectionButtons {
+        font: normal normal 16px Paralucent;
+        margin: 10px 20px 10px 0;
+        padding: 10px 20px;
+        white-space: nowrap;
+    }
+    
+    .expertiseApplySectionButtons:hover {
+        padding: 10px 20px;
+    }
+    
+    .expertiseApplySectionButtonsActive {
+        font: normal normal 16px Paralucent;
+        margin: 10px 20px 10px 0;
+        padding: 10px 20px;
+    }
+    
+    .expertiseApplySectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px; 
+    }
+    
+    .expertiseApplySectionHeaderSub {
+        font: normal normal bold 24px Paralucent;
+    }
+    
+    .expertiseApplySectionHeaderSubLarge {
+        font: normal normal bold 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .expertiseApplySectionParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+    
+    .expertiseApplySectionButton {
+        width: 318px;
+        height: 36px;
+        opacity: 1;
+        font: normal normal 14px Montserrat;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    
+    .expertiseApplySectionBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -8%;
+        margin-top: 80%;
+        width: 296px;
+        height: 382px;
+    }
+}

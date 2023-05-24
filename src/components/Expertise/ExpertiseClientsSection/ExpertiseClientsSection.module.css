@@ -13,3 +13,14 @@
     letter-spacing: 0px;
     color: #444444;
 }
+
+@media (max-width: 767px) {
+    .expertiseClientsSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .expertiseClientsSectionHeaderSub {
+        font: normal normal bold 40px Paralucent;
+    }
+}

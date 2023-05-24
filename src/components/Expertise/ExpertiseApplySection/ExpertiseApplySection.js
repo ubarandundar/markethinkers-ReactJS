@@ -56,6 +56,7 @@ function ExpertiseApplySection() {
                     Success Stories
                 </a>
                 <div className={classes.redDot}></div>
+                <br />
                 <a href='www.google.com'>
                     Professional SEO Consulting
                 </a>

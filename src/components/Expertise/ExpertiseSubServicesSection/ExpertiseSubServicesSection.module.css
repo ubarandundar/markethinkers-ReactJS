@@ -25,3 +25,26 @@
     opacity: 1;
     margin-bottom: 60px;
 }
+
+@media (max-width: 767px) {
+    .expertiseSubServicesSectionHeader {
+        text-align: center;
+        font: normal normal 16px Paralucent;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .expertiseSubServicesSectionHeaderSub {
+        font: normal normal bold 40px Paralucent;
+        margin-bottom: 16px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .expertiseSubServicesSectionParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 45px;
+        line-height: 22px;
+    }
+}

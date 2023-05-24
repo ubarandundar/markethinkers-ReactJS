@@ -11,8 +11,16 @@
     margin-left: auto;
 }
 
+.successStoriesContentWrapper {
+    padding-left: 50px;
+}
+
 @media (max-width: 767px) {
     .successStoriesOtherSectionsSocialWrapper {
         display: none;
+    }
+
+    .successStoriesContentWrapper {
+        padding-left: 12px;
     }
 }

@@ -13,18 +13,13 @@ function WhyYouShouldChooseUsSection() {
         <img className={classes.whyYouShouldChooseUsSectionBackLeftImg} src={WhyYouShouldChooseUsSectionBackLeftImg} alt='WhyYouShouldChooseUsSectionBackLeftImg' />
         <img className={classes.whyYouShouldChooseUsSectionBackRightImg} src={WhyYouShouldChooseUsSectionBackRightImg} alt='WhyYouShouldChooseUsSectionBackRightImg' />
         <div className='row'>
-            <div className='col-sm-6'></div>
-            <div className='col-sm-6'>
+            <div className={`col-sm-12 col-md-6 col-lg-6 ${classes.whyYouShouldChooseUsSectionImageWrapper}`}>
+                <img className='img-fluid' src={WhyYouShouldChooseUsSectionImage} alt='WhyYouShouldChooseUsSection_Image' />
+            </div>
+            <div className={`col-sm-12 col-md-6 col-lg-6 ${classes.whyYouShouldChooseUsSectionRightSide}`}>
                 <header className={classes.whyYouShouldChooseUsSectionHeader}>
                     why you should choose us
                 </header>
-            </div>
-        </div>
-        <div className='row'>
-            <div className={`col-sm-6 ${classes.whyYouShouldChooseUsSectionImageWrapper}`}>
-                <img className='img-fluid' src={WhyYouShouldChooseUsSectionImage} alt='WhyYouShouldChooseUsSection_Image' />
-            </div>
-            <div className={`col-sm-6 ${classes.whyYouShouldChooseUsSectionRightSide}`}>
                 <header className={classes.whyYouShouldChooseUsSectionHeaderSub}>
                 Get literary visible
                 <br />

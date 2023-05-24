@@ -85,3 +85,65 @@
 .whyYouShouldChooseUsSectionRightSide {
     z-index: 1;
 }
+
+@media (max-width: 767px) {
+    .whyYouShouldChooseUsSectionWrapper {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .whyYouShouldChooseUsSectionHeader {
+        font: normal normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .whyYouShouldChooseUsSectionHeaderSub {
+        font: normal normal bold 40px Paralucent;
+        margin-bottom: 30px;
+    }
+    
+    .whyYouShouldChooseUsSectionBody {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .whyYouShouldChooseUsSectionCardRec {
+        flex: 0 0 72px;
+        max-width: 62px;
+        height: 72px;
+        border-radius: 20px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    
+    .whyYouShouldChooseUsSectionSmallHeaders {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 8px;
+    }
+    
+    .whyYouShouldChooseUsSectionParag {
+        font: normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+    .whyYouShouldChooseUsSectionCardRec img {
+        margin: 15px auto;
+        width: 42px;
+        height: auto;
+    }
+    
+    .whyYouShouldChooseUsSectionBackLeftImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -56%;
+        margin-top: -15%;
+    }
+    
+    .whyYouShouldChooseUsSectionBackRightImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 72%;
+        margin-top: 21%;
+    }
+}

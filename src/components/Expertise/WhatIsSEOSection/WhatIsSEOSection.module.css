@@ -39,3 +39,30 @@
     margin-left: -39%;
     margin-top: -40%;
 }
+
+@media (max-width: 767px) {
+    .whatIsSEOSectionHeader {
+        font: normal normal 900 30px Paralucent;
+        margin-right: auto;
+    }
+    
+    .whatIsSEOSectionButton {
+        width: 318px;
+        height: 36px;
+        font: normal normal 14px Montserrat;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    
+    .whatIsSEOSectionParag {
+        font: normal normal 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .whatIsSEOSectionBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -39%;
+        margin-top: -40%;
+    }
+}

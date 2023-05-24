@@ -41,3 +41,30 @@
     margin-left: 20px;
 }
 
+@media (max-width: 767px) {
+    .customLeftLargeArrowBody {
+        border-radius: 0 25px 25px 0;
+        width: 56px;
+        height: 473px;
+    }
+    
+    .customLeftLargeArrowBodySub {
+        border-radius: 0 25px 25px 0;
+        width: 66px;
+        height: 455px;
+    }
+    
+    .customLeftLargeArrowBody img {
+        width: 34px;
+        height: auto;
+    }
+    
+    .customLeftLargeArrowBody:hover {
+        width: 76px;
+    }
+    
+    .customLeftLargeArrowBody:hover img {
+        margin-left: 20px;
+    }
+    
+}

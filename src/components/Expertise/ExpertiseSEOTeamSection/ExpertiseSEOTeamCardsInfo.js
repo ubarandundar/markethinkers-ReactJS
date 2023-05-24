@@ -22,7 +22,7 @@ function ExpertiseSEOTeamCardsInfo() {
 
   return (
     <div className='container'>
-        <div className={`row ${classes.expertiseSEOTeamCardsInfoBody}`}>
+        <div className={classes.expertiseSEOTeamCardsInfoBody}>
           <div className='col-sm-12 col-md-6 col-lg-6'>
               {ExpertiseCardInfo[0].firstParag} 
               <br />

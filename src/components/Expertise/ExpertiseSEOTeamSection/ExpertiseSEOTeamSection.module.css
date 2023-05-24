@@ -5,3 +5,10 @@
     color: #444444;
     margin-bottom: 60px;
 }
+
+@media (max-width: 767px) {
+    .expertiseSEOTeamSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-bottom: 36px;
+    }
+}

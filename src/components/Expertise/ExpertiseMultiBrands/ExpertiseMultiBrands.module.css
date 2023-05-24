@@ -20,4 +20,21 @@
     filter: grayscale(100%);
 }
 
+@media (max-width: 767px) {
+    .expertiseMultiBrandBody {
+        margin-top: 90px;
+        margin-bottom: 80px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .expertiseMultiBrandImageCard {
+        width: 236px;
+        height: 90px;
+    }
+
+    .expertiseMultiBrandImage {
+        transform: scale(0.8);
+    }
+}
 

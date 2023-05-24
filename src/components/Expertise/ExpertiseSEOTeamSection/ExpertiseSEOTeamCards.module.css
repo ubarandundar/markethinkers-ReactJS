@@ -74,3 +74,50 @@
 .expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsWhiteArrow path[fill] {
     fill: #444444;
 }
+
+@media (max-width: 767px) {
+    .expertiseMultiBrandWrapper {
+        margin-left: 0 !important;
+    }
+    
+    .expertiseMultiBrandWrapper ul {
+        padding-top: 0 !important;
+    }
+    
+    .expertiseSEOTeamCardsBody {
+        border-radius: 20px;
+        padding: 20px;
+        max-width: 154px;
+        height: 122px;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .expertiseSEOTeamCardsHeader {
+        font: normal normal 16px Paralucent;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .expertiseSEOTeamCardsHeaderOther {
+        font: normal normal 16px Paralucent;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .expertiseSEOTeamCardsHeadImages {
+        display: none;
+    }
+    
+    .expertiseSEOTeamCardsBody:hover {
+        padding-bottom: 0;
+    }
+    
+    .expertiseSEOTeamCardsBody:hover .expertiseSEOTeamCardsWhiteArrowMobile {
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+}
