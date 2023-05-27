@@ -70,3 +70,38 @@
     filter: blur(50px);
 }
 
+@media (max-width: 767px) {
+    .FAQSectionLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .FAQSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .FAQSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .FAQSectionHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .FAQSectionParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .FAQSectionBackImg {
+        margin-left: 2%;
+        margin-top: 0%;
+        width: 390px;
+        height: 160px;
+    }
+    
+}
+

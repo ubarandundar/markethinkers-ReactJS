@@ -27,7 +27,7 @@ function SEOToolsSection() {
           </a>
         </div>
       <div className={`row ${classes.SEOToolsSectioBody}`}>
-        <div className='col-sm-6 d-flex flex-column justify-content-center '>
+        <div className='col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center '>
             <header className={classes.SEOToolsSectionHeader}>
               seo tools
             </header >
@@ -41,7 +41,7 @@ function SEOToolsSection() {
               List of Tools
             </button>
         </div>
-        <div className='col-sm-6'>
+        <div className='col-sm-12 col-md-12 col-lg-6'>
           <img src={SEOToolsSectionImg} className='img-fluid' />
         </div>
       </div>

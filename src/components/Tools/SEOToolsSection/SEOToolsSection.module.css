@@ -29,7 +29,6 @@
 }
 
 .SEOToolsSectionWrapper {
-    /* margin-top: 200px; */
     position: relative;
 }
 
@@ -95,4 +94,57 @@
     z-index: 0;
     margin-left: 52%;
     margin-top: -26%;
+}
+
+@media (max-width: 767px) {
+    .SEOToolsSectionLink {
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .SEOToolsSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .SEOToolsSectioBody {
+        margin-bottom: 49px;
+    }
+    
+    .SEOToolsSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .SEOToolsSectionHeaderSub {
+        font: normal normal bold 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 30px;
+    }
+    
+    .SEOToolsSectionParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+    
+    .SEOToolsSectionButton {
+        font: normal normal 14px Montserrat;
+        width: 318px;
+        height: 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .SEOToolsSectionBackLeftImg {
+        display: none;
+    }
+    
+    .SEOToolsSectionBackRightImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 52%;
+        margin-top: -26%;
+    }
+    
 }

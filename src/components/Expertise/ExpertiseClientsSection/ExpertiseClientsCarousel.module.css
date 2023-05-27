@@ -1,7 +1,3 @@
-/* .expertiseClientsCarouselBody ul {
-    padding-bottom: 60px !important;
-} */
-
 .expertiseClientsCarouselBlogBody {
     background: #FFFFFF ;
     border-radius: 33px;
@@ -77,4 +73,55 @@
     z-index: 0;
     margin-left: 66%;
     margin-top: 24%;
+}
+
+@media (max-width: 767px) {
+    .expertiseClientsCarouselBlogBody {
+        border-radius: 25px;
+        padding: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        background-size: 139px 92px;
+    }
+    
+    .expertiseClientsCarouselImagesBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .expertiseClientsCarouselBlogBodyParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+
+    .expertiseClientsCarouselBlogPorfileNameSurname {
+        font: normal normal 16px Paralucent;
+    }
+    
+    .expertiseClientsCarouselBlogPorfileTitle {
+        font: normal normal 300 12px Paralucent;
+        margin-top: -35px;
+    }
+    
+    .expertiseClientsCarouselBlogArrow svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .expertiseClientsCarouselLeftBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -21%;
+        margin-top: -33%;
+    }
+    
+    .expertiseClientsCarouselRightBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 66%;
+        margin-top: 24%;
+    }
 }

@@ -100,3 +100,77 @@
     margin-left: 67%;
     margin-top: -20%;
 }
+
+@media (max-width: 767px) {
+    .SEOToolsSectionCardWrapper {
+        margin-bottom: 60px;
+    }
+    
+    .SEOToolsSectionCardBody {
+        background: #FFFFFF;
+        border-radius: 25px;
+        padding: 30px;
+        height: 452px;
+        width: 318px;
+        margin-bottom: -40px;
+    }
+
+    .SEOToolsSectionCardBody:hover .SEOToolsSectionCardArrowImage {
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    
+    .SEOToolsSectionCardBody:hover .SEOToolsSectionCardJSONImage {
+        margin-top: 20px;
+    }
+    
+    .SEOToolsSectionCardBody:hover .SEOToolsSectionCardCounterImage {
+        margin-top: 20px;
+    }
+    
+    .SEOToolsSectionCardBody:hover .SEOToolsSectionCardPreviewImage {
+        margin-top: 20px;
+    }
+    
+    .SEOToolsSectionCardArrowImage {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .SEOToolsSectionCardJSONImage {
+        width: 72px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .SEOToolsSectionCardCounterImage {
+        width: 72px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .SEOToolsSectionCardPreviewImage {
+        width: 72px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .SEOToolsSectionCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
+    
+    .SEOToolsSectionCardParag {
+        font: normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+    .SEOToolCardsBackImg {
+        display: none;
+    }
+    
+}

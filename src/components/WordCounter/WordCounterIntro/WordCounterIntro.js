@@ -25,7 +25,7 @@ function WordCounterIntro() {
           </header>
           <header className={classes.wordCounterHeaderSub}>
             You can now prepare your texts
-            <br />
+            <br /><span> </span>
             professionally!
           </header>
         </div>

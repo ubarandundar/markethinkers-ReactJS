@@ -28,3 +28,23 @@
     margin-left: 65%;
     margin-top: -12%;
 }
+
+@media (max-width: 767px) {
+    .expertiseFAQSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 60px;
+        margin-bottom: 16px;
+    }
+    
+    .expertiseFAQSectionBackRightImg {
+        display: none;
+    }
+    
+    .expertiseFAQSectionBackLeftImg {
+        display: none;
+    }
+    
+    .changesforTool {
+        display: none;
+    }
+}

@@ -18,3 +18,17 @@
     margin-top: 16%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .FAQCardWrapper {
+        margin-bottom: 90px;
+    }
+    
+    .FAQCardRightImg {
+        display: none;
+    }
+    
+    .FAQCardLeftImg {
+        display: none;
+    }
+}

@@ -23,3 +23,23 @@
     margin-left: -52%;
     margin-top: 8%;
 }
+
+@media (max-width: 767px) {
+    .expertiseCaseStudiesHeader {
+        font: normal normal 16px Paralucent;
+        margin-top: 63px; 
+        margin-bottom: 16px;
+    }
+    
+    .expertiseCaseStudiesHeaderSub {
+        font: normal normal bold 40px Paralucent;
+        margin-bottom: 30px;
+    }
+    
+    .expertiseCaseStudiesBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -52%;
+        margin-top: 8%;
+    }
+}

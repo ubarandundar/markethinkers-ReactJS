@@ -18,7 +18,7 @@ function WordCounterCard() {
             </div>
         </div>
         <div className='row'>
-            <div className='col-5'>
+            <div className='col-sm-12 col-md-5 col-lg-5'>
                 <div className={classes.focusKeywordBody}>
                     <label htmlFor='focus-keyword'>
                         Focus Keyword:
@@ -26,7 +26,7 @@ function WordCounterCard() {
                     <input id='focus-keyword' name='focus-keyword' type='text' placeholder='Enter the keyword you will focus on.' />
                 </div>
             </div>
-            <div className='col-7'>
+            <div className='col-sm-12 col-md-7 col-lg-7'>
                 <div className={classes.relevantKeywordsBody}>
                     <label htmlFor='relevant-keyword'>
                         Relevant Keywords:
@@ -47,8 +47,8 @@ function WordCounterCard() {
             <header>
                 Analysis Results
             </header>
-            <div style={{marginBottom: '20px'}} className='row'>
-                <div className='col-6'>
+            <div className={`row ${classes.wordCounterAnalysisBodyFirstRow}`}>
+                <div className='col-sm-12 col-md-6 col-lg-6'>
                     <div className={classes.wordCounterAnalysisBodySub}>
                         <header>
                             Character Count :
@@ -58,7 +58,7 @@ function WordCounterCard() {
                         </div>
                     </div>    
                 </div>
-                <div className='col-6'>
+                <div className='col-sm-12 col-md-6 col-lg-6'>
                     <div className={classes.wordCounterAnalysisBodySub}>
                         <header>
                             Focus Keywod Mentioned :
@@ -70,7 +70,7 @@ function WordCounterCard() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-sm-12 col-md-6 col-lg-6'>
                     <div className={classes.wordCounterAnalysisBodySub}>
                         <header>
                             Word Count :
@@ -80,7 +80,7 @@ function WordCounterCard() {
                         </div>
                     </div>    
                 </div>
-                <div className='col-6'>
+                <div className='col-sm-12 col-md-6 col-lg-6'>
                     <div className={classes.wordCounterAnalysisBodySub}>
                         <header>
                             Keyword Density :

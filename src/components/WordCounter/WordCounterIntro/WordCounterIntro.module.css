@@ -55,3 +55,37 @@
     margin-top: 0%;
 }
 
+@media (max-width: 767px) {
+    .wordCounterIntroLink {
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+    
+    .wordCounterIntroLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .wordCounterHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .wordCounterHeaderSub {
+        font: normal normal 24px Paralucent;
+        line-height: 30px;
+        margin-bottom: 44px;
+    }
+
+    .wordCounterHeaderSub br {
+        display: none;
+    }
+    
+    .wordCounterIntroBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+}
+

@@ -45,12 +45,6 @@
     background: #F7F7F7;
 }
 
-/* .FAQSectionCardSub:hover {
-    background: #FFFFFF;
-    border-radius: 25px;
-    opacity: 1;
-} */
-
 .FAQSectionCardSubToggle {
     display: flex;
     flex-direction: column;
@@ -134,4 +128,82 @@
     background-color: #EBEBEB;
     border-radius: 50%;
     border: 5px solid #EBEBEB;
+}
+
+@media (max-width: 767px) {
+    .FAQSectionCard {
+        border-radius: 0 0 25px 25px;
+        padding: 30px 36px;
+    }
+    
+    .FAQSectionCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .FAQSectionCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .FAQSectionCardButton {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .FAQSectionCardButtonX {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .FAQSectionCardSub {
+        background: #F7F7F7;
+    }
+    
+    .FAQSectionCardSubToggleParag {
+        font: normal 300 16px Paralucent;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    
+    .FAQSectionCardSubToggleQue {
+        font: normal normal normal 14px Montserrat;
+        margin-bottom: 16px;
+    }
+    
+    .FAQSectionCardSubToggleCond {
+        margin-top: 16px;
+    }
+    
+    .FAQSectionCardSubToggleIf {
+        font: normal normal normal 14px Montserrat;
+    }
+    
+    .FAQSectionCardSubToggleA, .FAQSectionCardSubToggleA:hover {
+        font: normal normal normal 14px Montserrat;
+        margin-left: 5px;
+    }
+    
+    .FAQSectionCardSubToggleArrow {
+        width: 9px;
+        height: 9px;
+        margin-left: 5px;
+    }
+    
+    .FAQSectionCardSubToggleButtonFirst {
+        width: 48px;
+        height: 48px;
+        margin-right: 30px;
+    }
+    
+    .FAQSectionCardSubToggleButtonSecond {
+        width: 48px;
+        height: 48px;
+        margin-right: 30px;
+    }
+    
+    .FAQSectionCardSubToggleButtonThird {
+        width: 48px;
+        height: 48px;
+    }
 }

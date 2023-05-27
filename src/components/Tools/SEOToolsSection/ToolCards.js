@@ -11,7 +11,7 @@ function ToolCards() {
   return (
     <div className={`row ${classes.SEOToolsSectionCardWrapper}`}>
         <img className={classes.SEOToolCardsBackImg} src={SEOToolCardsBackImg} alt='SEOToolCardsBackImg' />
-        <div className='col-sm-4'>
+        <div className='col-sm-12 col-md-12 col-lg-4'>
             <div className={classes.SEOToolsSectionCard}>
                 <a href='www.google.com' className={classes.SEOToolsSectionCardWrapper}>
                     <div className={classes.SEOToolsSectionCardBody}>
@@ -27,7 +27,7 @@ function ToolCards() {
                 </a>
             </div>
         </div>
-        <div className='col-sm-4'>
+        <div className='col-sm-12 col-md-12 col-lg-4'>
             <div className={classes.SEOToolsSectionCard}>
                 <a href='www.google.com' className={classes.SEOToolsSectionCardWrapper}>
                     <div className={classes.SEOToolsSectionCardBody}>
@@ -43,7 +43,7 @@ function ToolCards() {
                 </a>
             </div>
         </div>
-        <div className='col-sm-4'>
+        <div className='col-sm-12 col-md-12 col-lg-4'>
             <div className={classes.SEOToolsSectionCard}>
                 <a href='www.google.com' className={classes.SEOToolsSectionCardWrapper}>
                     <div className={classes.SEOToolsSectionCardBody}>
