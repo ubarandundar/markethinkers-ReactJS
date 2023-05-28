@@ -31,3 +31,23 @@
     margin-top: 19%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .JsonLdOtherSectionsHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 84px;
+        margin-bottom: 16px;
+    }
+    
+    .jsonLdOtherSectionsBackLeftFirstImg {
+        display: none;
+    }
+    
+    .jsonLdOtherSectionsBackLeftSecondImg {
+        display: none;
+    }
+    
+    .jsonLdOtherSectionsBackRightImg {
+        display: none;
+    }
+}

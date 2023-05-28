@@ -54,3 +54,35 @@
     margin-left: 7%;
     margin-top: 0%;
 }
+
+@media (max-width: 767px) {
+    .JsonLdIntroLink {
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+    
+    .JsonLdIntroLink a {
+        font: normal normal 300 14px Paralucent;
+        /* white-space: nowrap; */
+    }
+    
+    .jsonLdIntroHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .jsonLdIntroHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 60px;
+        line-height: 30px;
+    }
+    
+    .jsonLdIntroBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    
+}

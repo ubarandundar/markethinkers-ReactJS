@@ -16,7 +16,7 @@ const SchemaDefaultValue =
 
 function JsonLdCardOther() {
   return (
-    <>
+    <div className='container'>
         <div className='row position-relative'>
             <div className={classes.jsonLdCodeCardBody}>
                 <img className={`img-fluid ${classes.jsonBottomArrow}`} src={JsonBottomArrow} alt='JsonBottomArrow' />
@@ -66,7 +66,7 @@ function JsonLdCardOther() {
                 </button>
             </div>
         </div>
-    </>
+    </div>
   )
 }
 

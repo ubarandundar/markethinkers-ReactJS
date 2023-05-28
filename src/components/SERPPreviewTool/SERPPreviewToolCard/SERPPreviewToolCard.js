@@ -9,7 +9,7 @@ function SERPPreviewToolCard() {
     <>
     <div className='row position-relative'>
         <img className={`img-fluid ${classes.SERPPreviewToolCardBackImg}`} src={SERPPreviewToolCardBackImg} alt='SERPPreviewToolCardBackImg' />
-        <div className='col-sm-12 col-md-8 col-lg-8 position-relative'>
+        <div className={`col-md-8 col-lg-8 position-relative ${classes.desktopViewBody} `}>
                 <div className={classes.desktopViewBodyTop}>
                     <img className='img-fluid' src={GoogleImage} alt='GoogleImage' />
                     <div className={classes.desktopViewSearchBar}>
@@ -82,19 +82,19 @@ function SERPPreviewToolCard() {
     </div>
     <div className={classes.SERPInputArea}>
         <div className='row'>
-            <div className='col-8'>
+            <div className='col-sm-12 col-md-8 col-lg-8'>
                 <header>
                     Title
                 </header>
                 <textarea placeholder='Your Awesome SEO Title Here' />
             </div>
-            <div className='col-4 d-flex flex-row'>
+            <div className='col-sm-12 col-md-4 col-lg-4 d-flex flex-row'>
                 <div className='d-flex flex-column'>
                     <header className={classes.SERPDesktopCounterHeader}>
                         Desktop
                     </header>
                     <div className={classes.SERPDesktopCounter}>
-                        <div>
+                        <div className={classes.SERPMobileCounterPx}>
                             0 / 600 Pixels
                         </div>
                         <div>
@@ -110,7 +110,7 @@ function SERPPreviewToolCard() {
                         Mobile
                     </header>
                     <div className={classes.SERPMobileCounter}>
-                        <div>
+                        <div className={classes.SERPMobileCounterPx}>
                             0 / 600 Pixels
                         </div>
                         <div>
@@ -124,19 +124,19 @@ function SERPPreviewToolCard() {
             </div>
         </div>
         <div className='row'>
-            <div className='col-8'>
+            <div className='col-sm-12 col-md-8 col-lg-8'>
                 <header>
                     Meta Description
                 </header>
                 <textarea placeholder='Your Awesome Type a description that informs users about your page, includes keywords and encourages clicks' />
             </div>
-            <div className='col-4 d-flex flex-row'>
+            <div className='col-sm-12 col-md-4 col-lg-4 d-flex flex-row'>
                 <div className='d-flex flex-column'>
                     <header className={classes.SERPDesktopCounterHeader}>
                         Desktop
                     </header>
                     <div className={classes.SERPDesktopCounter}>
-                        <div>
+                        <div className={classes.SERPMobileCounterPx}>
                             0 / 1750 Pixels
                         </div>
                         <div>
@@ -152,7 +152,7 @@ function SERPPreviewToolCard() {
                         Mobile
                     </header>
                     <div className={classes.SERPMobileCounter}>
-                        <div>
+                        <div className={classes.SERPMobileCounterPx}>
                             0 / 680 Pixels
                         </div>
                         <div>

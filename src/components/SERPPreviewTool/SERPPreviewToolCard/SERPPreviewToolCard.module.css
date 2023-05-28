@@ -263,7 +263,7 @@
 
 .mobileViewHeader {
     text-align: left;
-    font: normal normal medium 20px/28px Paralucent;
+    font: normal normal 20px/28px Paralucent;
     letter-spacing: 0px;
     color: #0000BB;
     opacity: 1;
@@ -546,3 +546,129 @@
     border: 0.15em solid currentColor;
     border-radius: 50%;
   }
+
+@media (max-width: 767px) {
+.desktopViewBody {
+    display: none;
+}
+    
+.mobileViewBodyTop {
+    padding: 35px 40px 30px 40px;
+}
+
+.mobileViewBodyTop img {
+    max-width: 78px;
+    height: auto;
+    flex: 0 0 78px;
+}
+
+.mobileViewSearchBar {
+    padding: 8px 16px;
+    font: normal normal 300 16px Paralucent;
+    height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mobileViewSearchInfo {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
+}
+
+.mobileViewHeader {
+    font: normal normal 16px Paralucent;
+    margin-bottom: 8px;
+}
+
+.mobileViewURL {
+    font: normal normal 300 14px Paralucent;
+    margin-bottom: 8px;
+}
+
+.mobileViewDescription {
+    font: normal normal 300 14px Paralucent;
+    line-height: 21px;
+}
+
+/* Input Area CSS */
+
+.SERPInputArea {
+    padding: 30px 36px !important;
+}
+
+.SERPInputArea header {
+    font: normal normal 16px Paralucent;
+    margin-bottom: 8px;
+}
+
+.SERPInputArea textarea {
+    height: 144px;
+    border-radius: 24px;
+    padding: 16px 20px;
+    font: normal normal 300 16px Paralucent;
+    margin-bottom: 16px;
+}
+
+.SERPDesktopCounter {
+    border-radius: 24px 0px 0px 24px;
+    padding: 20px 10px;
+    font: normal normal 14px Paralucent;
+}
+
+.SERPMobileCounter {
+    border-radius: 0 24px 24px 0;
+    padding: 20px 10px;
+    font: normal normal 14px Paralucent;
+}
+
+.SERPDesktopCounterHeader {
+    margin-bottom: 8px;
+}
+
+.SERPMobileCounterHeader {
+    margin-bottom: 8px;
+}
+
+.SERPMobileCounterPx {
+    margin-bottom: 13px;
+}
+
+.SERPDesktopCounterError {
+    font: normal normal 16px Paralucent;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.SERPMobileCounterError {
+    font: normal normal 16px Paralucent;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.SERPInputURL, .SERPInputBold {
+    border-radius: 24px;
+    font: normal normal 300 16px Paralucent;
+    margin-bottom: 16px;
+    padding: 16px 20px;
+}
+
+.SERPOptions {
+    flex-direction: column;
+    margin-top: 2px !important;
+}
+
+.SERPLabels {
+    margin-left: 10px;
+}
+
+.SERPLabelsOther {
+    margin-left: 20px;
+}
+
+.SERPOtherOptions {
+    flex-direction: column;
+    margin-top: 0 !important;
+}
+
+}

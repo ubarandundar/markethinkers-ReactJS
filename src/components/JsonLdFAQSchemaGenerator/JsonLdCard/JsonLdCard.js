@@ -28,7 +28,7 @@ function JsonLdCard() {
         // onDrag={handleDrag}
         // onStop={handleStop}
         >
-        <div className='col-5'>
+        <div className='col-sm-12 col-md-5 col-lg-5'>
             <header className={classes.jsonLdCardQuestionHeader}>
                 FAQ's
             </header>
@@ -49,7 +49,7 @@ function JsonLdCard() {
             </div>
         </div>
         </Draggable>
-        <div className='col-7'>
+        <div className='col-sm-12 col-md-7 col-lg-7'>
             <div className={classes.jsonLdCodeCardBody}>
                 <div className='d-flex flex-row justify-content-between'>
                     <header>

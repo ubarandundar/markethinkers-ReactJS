@@ -115,3 +115,81 @@
     margin-left: 74%;
     margin-top: 95%;
 }
+
+@media (max-width: 767px) {
+    .whatIsSERPPreviewToolSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .whatIsSERPPreviewToolSectionParag {
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    
+    .whatIsSERPPreviewToolSectionCard {
+        border-radius: 25px;
+        max-width: 90%;
+        padding: 30px 30px 60px 30px;
+        margin-top: 30px;
+    }
+    
+    .whatIsSERPPreviewToolSectionOtherCard {
+        border-radius: 25px;
+        max-width: 90%;
+        padding: 30px;
+        margin-top: -30px;
+    }
+    
+    .whatIsSERPPreviewToolSectionCardHeader, .whatIsSERPPreviewToolSectionOtherCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
+    
+    .whatIsSERPPreviewToolSectionCardParag, .whatIsSERPPreviewToolSectionOtherCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 19px;
+    }
+    
+    .whatIsSERPPreviewToolSectionLoremHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 30px !important;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsSERPPreviewToolSectionLoremParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 40px;
+        line-height: 22px;
+    }
+    
+    .whatIsSERPPreviewToolSectionLoremCardBody {
+        border-radius: 25px;
+        padding: 30px;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsSERPPreviewToolSectionLoremCardHeader {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsSERPPreviewToolSectionLoremCardParag {
+        font: normal normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+    .whatIsWordCounterSectionBackRightImg {
+        display: none;
+    }
+    
+    .whatIsWordCounterSectionBackLeftImg {  
+        display: none;
+    }
+    
+    .whatIsWordCounterSectionBackRightSecondImg {
+        display: none;
+    }    
+}

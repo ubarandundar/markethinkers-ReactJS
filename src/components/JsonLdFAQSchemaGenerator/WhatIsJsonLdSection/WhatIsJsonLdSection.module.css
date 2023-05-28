@@ -115,3 +115,81 @@
     margin-left: 74%;
     margin-top: 95%;
 }
+
+@media (max-width: 767px) {
+    .whatIsJsonLdSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    .whatIsJsonLdSectionParag {
+        margin-top: 30px;
+        line-height: 25px;
+    }
+    
+    .whatIsJsonLdSectionCard {
+        border-radius: 25px;
+        max-width: 90%;
+        padding: 30px 30px 60px 30px;
+        margin-top: 30px;
+    }
+    
+    .whatIsJsonLdSectionOtherCard {
+        border-radius: 25px;
+        max-width: 90%;
+        padding: 30px;
+        margin-top: -30px;
+    }
+    
+    .whatIsJsonLdSectionCardHeader, .whatIsJsonLdSectionOtherCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
+    
+    .whatIsJsonLdSectionCardParag, .whatIsJsonLdSectionOtherCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 19px;
+    }
+    
+    .whatIsJsonLdSectionLoremHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 30px !important;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsJsonLdSectionLoremParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 40px;
+        line-height: 22px;
+    }
+    
+    .whatIsJsonLdSectionLoremCardBody {
+        border-radius: 25px;
+        padding: 30px;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsJsonLdSectionLoremCardHeader {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .whatIsJsonLdSectionLoremCardParag {
+        font: normal normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+    .whatIsWordCounterSectionBackRightImg {
+        display: none;
+    }
+    
+    .whatIsWordCounterSectionBackLeftImg {  
+        display: none;
+    }
+    
+    .whatIsWordCounterSectionBackRightSecondImg {
+        display: none;
+    }    
+}

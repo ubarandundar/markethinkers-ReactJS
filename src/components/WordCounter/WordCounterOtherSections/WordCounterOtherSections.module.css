@@ -33,3 +33,35 @@
     filter: blur(50px);
 }
 
+@media (max-width: 767px) {
+    .wordCounterOtherSectionsHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 485px;
+        margin-bottom: 16px;
+    }
+    
+    .wordCounterOtherSectionsBackLeftFirstImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -55%;
+        margin-top: -46%;
+        filter: blur(50px);
+    }
+    
+    .wordCounterOtherSectionsBackLeftSecondImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -55%;
+        margin-top: 32%;
+        filter: blur(50px);
+    }
+    
+    .wordCounterOtherSectionsBackRightImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 72%;
+        margin-top: 19%;
+        filter: blur(50px);
+    }
+}
+

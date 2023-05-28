@@ -25,7 +25,7 @@ function SERPPreviewToolIntro() {
           </header>
           <header className={classes.SERPPreviewToolIntroHeaderSub}>
             You can now prepare your texts
-            <br />
+            <br /><span> </span>
             professionally!
           </header>
         </div>

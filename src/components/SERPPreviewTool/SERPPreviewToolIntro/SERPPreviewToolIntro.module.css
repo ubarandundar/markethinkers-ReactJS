@@ -54,3 +54,38 @@
     margin-left: 7%;
     margin-top: 0%;
 }
+
+@media (max-width: 767px) {
+    .SERPPreviewToolIntroLink {
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 34px;
+    }
+    
+    .SERPPreviewToolIntroLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .SERPPreviewToolIntroHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+    
+    .SERPPreviewToolIntroHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 46px;
+        line-height: 30px;
+    }
+
+    .SERPPreviewToolIntroHeaderSub br {
+        display: none;
+    }
+    
+    .SERPPreviewToolIntroBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+}

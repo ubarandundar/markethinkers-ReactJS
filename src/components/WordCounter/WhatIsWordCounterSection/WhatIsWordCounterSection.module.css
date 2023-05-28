@@ -144,84 +144,54 @@
     }
     
     .whatIsWordCounterSectionCardHeader, .whatIsWordCounterSectionOtherCardHeader {
-        text-align: left;
-        font: normal normal 30px/43px Paralucent;
-        letter-spacing: 0px;
-        color: #D3148B;
-        opacity: 1;
-        margin-bottom: 20px;
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 34px;
     }
     
     .whatIsWordCounterSectionCardParag, .whatIsWordCounterSectionOtherCardParag {
-        text-align: left;
-        font: normal normal 300 18px/26px Paralucent;
-        letter-spacing: 0px;
-        color: #444444;
-        opacity: 1;
+        font: normal normal 300 16px Paralucent;
+        line-height: 19px;
     }
     
     .whatIsWordCounterSectionLoremHeader {
-        text-align: center;
-        font: normal normal bold 60px/60px Paralucent;
-        letter-spacing: 0px;
-        color: #444444;
-        opacity: 1; 
-        margin-top: 120px !important;
-        margin-bottom: 30px;
+        font: normal normal bold 40px Paralucent;
+        margin-top: 30px !important;
+        margin-bottom: 16px;
     }
     
     .whatIsWordCounterSectionLoremParag {
-        text-align: center;
-        font: normal normal 20px/35px Paralucent;
-        letter-spacing: 1px;
-        color: #565656;
-        opacity: 1;
-        margin-bottom: 60px;
+        font: normal normal 16px Paralucent;
+        margin-bottom: 40px;
+        line-height: 22px;
     }
     
     .whatIsWordCounterSectionLoremCardBody {
-        background: #FFFFFF;
-        border-radius: 53px;
-        opacity: 1;
-        padding: 60px 40px 60px 40px;
+        border-radius: 25px;
+        padding: 30px;
+        margin-bottom: 16px;
     }
     
     .whatIsWordCounterSectionLoremCardHeader {
-        text-align: left;
-        font: normal normal 30px/43px Paralucent;
-        letter-spacing: 0px;
-        color: #444444;
-        opacity: 1;
-        margin-bottom: 20px;
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
     }
     
     .whatIsWordCounterSectionLoremCardParag {
-        text-align: left;
-        font: normal normal normal 20px/24px Montserrat;
-        letter-spacing: 0px;
-        color: #444444;
-        opacity: 1;
+        font: normal normal normal 16px Montserrat;
+        line-height: 19px;
     }
     
     .whatIsWordCounterSectionBackRightImg {
-        position: absolute;
-        z-index: 0;
-        margin-left: 79%;
-        margin-top: -17%;
+        display: none;
     }
     
-    .whatIsWordCounterSectionBackLeftImg {
-        position: absolute;
-        z-index: 0;
-        margin-left: -51%;
-        margin-top: 24%;
+    .whatIsWordCounterSectionBackLeftImg {  
+        display: none;
     }
     
     .whatIsWordCounterSectionBackRightSecondImg {
-        position: absolute;
-        z-index: 0;
-        margin-left: 74%;
-        margin-top: 95%;
+        display: none;
     }    
 }
 
