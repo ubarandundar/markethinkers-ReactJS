@@ -121,3 +121,75 @@
     color: #444444;
     opacity: 1;
 }
+
+@media (max-width: 767px) {
+    .missionVisionSectionLink {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    
+    .missionVisionSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .missionVisionSectionHeaderAboutUsBody {
+        margin-top: 0;
+    }
+    
+    .missionVisionSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .missionVisionSectionHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 30px;
+    }
+    
+    .missionVisionSectionParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 40px;
+        line-height: 22px;
+    }
+
+    .missionVisionSectionParag br {
+        display: none;
+    }
+    
+    .missionVisionSectionBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 1%;
+        margin-top: 2%;
+        filter: blur(50px);
+    }
+    
+    .missionCard {
+        border-radius: 25px;
+        max-width: 95%;
+        padding: 30px 30px 60px 30px;
+        background-size: 180px 174px;
+        background-position: -20% 100%;
+    }
+    
+    .visionCard {
+        border-radius: 25px;
+        max-width: 95%;
+        padding: 30px 30px 60px 30px;
+        background-size: 180px 174px;
+        background-position: -20% 100%;
+        margin-top: -10%;
+    }
+    
+    .missionCardHeader, .visionCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .missionCardParag, .visionCardParag {
+        font: normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+}

@@ -13,21 +13,16 @@ function HowWeDoItSection() {
         <img className={classes.howWeDoItSectionBackLeftImg} src={HowWeDoItSectionBackLeftImg} alt='HowWeDoItSectionBackLeft_Image' />
         <img className={classes.howWeDoItSectionBackRightImg} src={HowWeDoItSectionBackRightImg} alt='HowWeDoItSectionBackRight_Image' />
         <div className='row'>
-            <div className='col-sm-6'></div>
-            <div className='col-sm-6'>
+            <div className={`col-sm-12 col-md-12 col-lg-6 ${classes.howWeDoItSectionImageWrapper}`}>
+                <img className='img-fluid' src={HowWeDoItImage} alt='HowWeDoIt_Image' />
+            </div>
+            <div className={`col-sm-12 col-md-12 col-lg-6 ${classes.howWeDoItSectionRightSide}`}>
                 <header className={classes.howWeDoItSectionHeader}>
                     how we do it
                 </header>
-            </div>
-        </div>
-        <div className='row'>
-            <div className={`col-sm-6 ${classes.howWeDoItSectionImageWrapper}`}>
-                <img className='img-fluid' src={HowWeDoItImage} alt='HowWeDoIt_Image' />
-            </div>
-            <div className={`col-sm-6 ${classes.howWeDoItSectionRightSide}`}>
                 <header className={classes.howWeDoItSectionHeaderSub}>
                 Get literary visible
-                <br />
+                <br /><span> </span>
                 all in search platforms
                 </header>
                 <div className={classes.howWeDoItSectionSmallCards}>

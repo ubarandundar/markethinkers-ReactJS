@@ -27,3 +27,25 @@
     margin-top: 38%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .positionYouCanWorkSectionWrapper {
+        margin-bottom: 0;
+    }
+    
+    .positionYouCanWorkSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    
+    .positionYouCanWorkSectionRightImg {
+        display: none;
+    }
+    
+    .positionYouCanWorkSectionLeftImg {
+        display: none;
+    }
+    
+}

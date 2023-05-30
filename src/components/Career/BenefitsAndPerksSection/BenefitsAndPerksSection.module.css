@@ -15,3 +15,17 @@
     color: #565656;
     margin-bottom: 60px;
 }
+
+@media (max-width:767px) {
+    .benefitsAndPerksSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-bottom: 16px;
+        margin-top: 90px;
+    }
+    
+    .benefitsAndPerksSectionParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+}

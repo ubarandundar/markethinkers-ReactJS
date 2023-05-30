@@ -7,7 +7,7 @@ import LinkedinIcon from '../../../assets/linkedin.svg';
 
 function TeammatesCard() {
   return (
-    <div className="col">
+    <div className={`col ${classes.teammatesCardWrapper}`}>
     <div className='col'>
     <a className={classes.teammatesSectionCardBody} href='www.yahoo.com'>
         <div className={classes.teammatesSectionCard}>

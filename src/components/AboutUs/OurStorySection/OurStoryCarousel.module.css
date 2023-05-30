@@ -30,8 +30,19 @@
     opacity: 1;
 }
 
-/* 
-.ourStorySectionBody ul {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-} */
+@media (max-width: 767px) {
+    .ourStorySectionBody {
+        border-radius: 36px;
+        width: 50% !important;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .ourStoryDate {
+        font: normal normal bold 24px Paralucent;
+    }
+    
+    .ourStoryMonth {
+        font: normal normal 300 16px Paralucent;
+    }
+}

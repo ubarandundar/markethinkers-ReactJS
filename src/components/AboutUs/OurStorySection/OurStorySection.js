@@ -10,7 +10,7 @@ function OurStorySection() {
     <div className={`container ${classes.ourStorySectionWrapper}`}>
         <img className={classes.ourStorySectionBackImg} src={OurStorySectionBackImg} alt='OurStorySectionBackImg' />
         <div className='row position-relative'>
-            <div className='col-sm-5'>
+            <div className='col-sm-12 col-md-12 col-lg-5'>
                 <div className='d-flex flex-column'>
                     <header className={classes.ourStorySectionLeftSideHeader}>
                         our story
@@ -23,13 +23,13 @@ function OurStorySection() {
                     </span>
                 </div>
             </div>
-            <div className='col-sm-7 position-relative'>
+            <div className='col-sm-12 col-md-12 col-sm-7 position-relative'>
                 <div className={classes.ourStoryCarouselBody}>
                     <OurStoryCarousel />
                 </div>
                 <div className={classes.ourStorySectionRightSideBody}>
                     <div className='row'>
-                        <div className='col-sm-5'>
+                        <div className='col-sm-5 d-flex align-items-center justify-content-center'>
                             <img className='img-fluid' src={MarketingBlogImage} alt='Blog_Image' />
                         </div>
                         <div className='col-sm-7 d-flex flex-column'>

@@ -64,3 +64,54 @@
     color: white;
 }
 
+@media (max-width: 767px) {
+    .positionYouCanWorkCard {
+        border-radius: 0 0 25px 25px;
+        padding: 0;
+    }
+    
+    .positionYouCanWorkCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 8px;
+    }
+    
+    .positionYouCanWorkCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .positionYouCanWorkCardSub {
+        padding: 30px 36px;
+    }
+    
+    .positionYouCanWorkCardSub:hover {
+        border-radius: 0;
+    }
+    
+    .positionYouCanWorkCardForwardArrowLarge {
+        margin-right: 0;
+        width: 16px;
+        height: auto;
+    }
+
+    .positionYouCanWorkCard svg {
+        width: 16px;
+        height: auto;
+    }   
+    
+    .positionYouCanWorkCardSub:hover .positionYouCanWorkCardForwardArrowLarge {
+        margin-top: -10px;
+        margin-right: 0px;
+    }
+    
+    .positionYouCanWorkCardHr {
+        margin: -2px 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .positionYouCanWorkCardSub:hover .positionYouCanWorkCardHr {
+        color: white;
+    }
+    
+}

@@ -114,3 +114,123 @@
 .teammatesSectionCardBody:hover .teammatesSectionForwardArrow path[fill] {
     fill: #D3148B;
 }
+
+@media (max-width: 767px) {
+    .teammatesCardWrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .teammatesSectionCard {
+        position: relative;
+        background: #FFFFFF;
+        border-radius: 50px;
+        opacity: 1;
+        padding-top: 190px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    
+    .teammatesSectionCardName {
+        text-align: center;
+        font: normal normal 30px/43px Paralucent;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+    
+    .teammatesSectionCardTitle {
+        text-align: center;
+        font: normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+        margin-bottom: 50px;
+    }
+    
+    .teammatesSectionCardInfo {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        /* padding-bottom: 30px; */
+        padding: 0 40px 30px 40px;
+    }
+    
+    .teammatesSectionCardInfoLinkedinBody {
+        display: flex;
+    }
+    
+    .teammatesSectionCardProfilPicture {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        filter: grayscale(100%);
+        position: absolute;
+        z-index: 1;
+        /* top: -10%;
+        left: 16%; */
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .teammatesSectionCardLinkedin {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #1F0242;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: transparent;
+    }
+    
+    .teammatesSectionCardLinkedin img {
+        width: 16px;
+        height: 14px;
+        display: block;
+        margin: auto;
+        margin-top: 7px;
+    }
+    
+    .teammatesSectionCardShortName {
+        text-align: center;
+        font: normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .teammatesSectionForwardArrowWrapper {
+        margin-left: auto;
+        margin-top: -7px;
+    }
+    
+    .teammatesSectionForwardArrow {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .teammatesSectionCardBody:hover .teammatesSectionForwardArrow {
+        margin-top: -10px;
+        margin-right: -10px;
+    }
+    
+    .teammatesSectionCardBody:hover .teammatesSectionCardProfilPicture {
+        filter: grayscale(0%);
+        top: 11%;
+    }
+    
+    .teammatesSectionCardBody:hover .teammatesSectionCardName {
+        color: #D3148B;
+    }
+    
+    .teammatesSectionCardBody:hover .teammatesSectionForwardArrow path[fill] {
+        fill: #D3148B;
+    }
+}

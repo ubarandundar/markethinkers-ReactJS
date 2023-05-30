@@ -78,8 +78,6 @@
 }
 
 .joinAndApplySectionBackMiddleImg {
-    /* width: 1500px;
-    height: 750px; */
     position: absolute;
     z-index: 0;
     margin-left: 1%;
@@ -92,6 +90,13 @@
     z-index: 0;
     margin-left: -40%;
     margin-top: 30%;
+}
+
+.joinSectionCardWrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
 }
 
 .joinSectionWhiteCard {
@@ -136,6 +141,10 @@
     position: relative;
     z-index: 2;
     margin-top: -325px;
+}
+
+.joinSectionOrangeCardForMobile {
+    display: none;
 }
 
 .joinSectionOrangeCardHeader {
@@ -215,4 +224,150 @@
     font: normal normal 300 20px/35px Paralucent;
     letter-spacing: 1px;
     color: #565656;
+}
+
+@media (max-width: 767px) {
+    .joinAndApplySectionLink {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .joinAndApplySectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .joinAndApplySectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .joinAndApplySectionHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .joinAndApplySectionParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+
+    .joinAndApplySectionParag br {
+        display: none;
+    }
+    
+    .joinAndApplySectionJoinButton {
+        width: 318px !important;
+        height: 36px;
+        font: normal normal 14px Montserrat;
+        margin: 0 auto 30px auto;
+    }
+
+    .joinAndApplySectionBackMiddleImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 1%;
+        margin-top: -1%;
+        filter: blur(50px);
+    }
+    
+    .joinAndApplySectionBackLeftImg {
+        display: none;
+    }
+
+    .joinSectionCardWrapper {
+        flex-direction: column;
+        justify-content: baseline;
+    }
+    
+    .joinSectionWhiteCard {
+        border-radius: 25px;
+        padding: 30px 30px 60px 30px;
+        max-width: 95%;
+    }
+    
+    .joinSectionWhiteCardOther {
+        border-radius: 25px;
+        padding: 60px 30px 30px 30px;
+        max-width: 95%;
+    }
+    
+    .joinSectionCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
+    
+    .joinSectionCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 19px;
+    }
+    
+    .joinSectionOrangeCard {
+        display: none;
+    }
+
+    .joinSectionOrangeCardForMobile {
+        display: block;
+        background: #FF8049;
+        border-radius: 25px;
+        opacity: 1;
+        padding: 30px;
+        max-width: 95%;
+        position: relative;
+        z-index: 2;
+        margin-top: -10%;
+        margin-bottom: -10%;
+        margin-left: auto;
+    }
+
+    .joinSectionOrangeCardHeaderForMobile {
+        text-align: left;
+        font: normal normal 24px Paralucent;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
+    
+    .joinSectionOrangeCardParagForMobile {
+        text-align: left;
+        font: normal normal 300 16px Paralucent;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        line-height: 19px;
+    }
+
+    .applySectionWrapper {
+        margin-top: 90px !important;
+    }
+    
+    .applySectionHeader {
+        font: normal normal 900 40px Paralucent;
+        line-height: 40px;
+    }
+
+    .applySectionHeader br {
+        display: none;
+    }
+    
+    .applySectionButton {
+        width: 318x;
+        height: 36px;
+        font: normal normal 14px Montserrat;  
+        margin-bottom: 44px;  
+    }
+    
+    .applySectionParagFirst {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+    
+    .applySectionParagSecond {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
 }

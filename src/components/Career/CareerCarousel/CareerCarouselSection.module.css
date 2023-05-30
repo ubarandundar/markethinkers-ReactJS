@@ -11,3 +11,14 @@
     opacity: 1;
     margin-top: 200px;
 }
+
+@media (max-width: 767px) {
+    .careerCarouselSectionWrapper {
+        margin-top: 70px;
+    }
+    
+    .careerCarouselSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 0;
+    }
+}

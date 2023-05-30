@@ -82,3 +82,58 @@
     margin-top: -27%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .benefitsAndPerksCardBody {
+        border-radius: 50px;
+        padding: 36px 15px;
+    }
+    
+    .benefitsAndPerksCardToggle {
+        border-radius: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .benefitsAndPerkCardRec {
+        flex: 0 0 72px;
+        max-width: 72px;
+        border-radius: 20px;
+        height: 72px;
+        margin-right: 8px;
+    }
+    
+    .benefitsAndPerkCardRec img {
+        display: block;
+        margin: 15px auto;
+        width: 48px;
+        height: auto;
+    }
+    
+    .benefitsAndPerksCardHeader {
+        font: normal normal 20px Paralucent;
+        white-space: wrap;
+    }
+    
+    .benefitsAndPerksCardParag {
+        font: normal normal normal 16px Montserrat;
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+    
+    .benefitsAndPerkCardButton {
+        margin-right: 8px;
+    }
+    
+    .benefitsAndPerkCardButtonX {
+        margin-right: 8px;
+    }
+    
+    .benefitsAndPerksCardBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -42%;
+        margin-top: -27%;
+        filter: blur(50px);
+    }
+}

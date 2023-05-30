@@ -26,9 +26,9 @@ function MissionVisionSection() {
             </header>
             <p className={classes.missionVisionSectionParag}>
                 As Markethinkers, we know very well that marketing is both a science and an art.
-                <br />
+                <br /><span> </span>
                 In whatever we do, we offer the best for your brand with our professional team
-                <br />
+                <br /><span> </span>
                 by combining our creativity and technical knowledge.
             </p>
         </div>

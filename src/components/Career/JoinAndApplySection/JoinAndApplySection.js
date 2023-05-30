@@ -28,20 +28,28 @@ function JoinAndApplySection() {
             </header>
             <span className={classes.joinAndApplySectionParag}>
                  With a product designed to fuel creativity and make meetings fun, working at
-                 <br />
+                 <br /><span> </span> 
                  Markethinkers is as good as you think — maybe even better.
             </span>
             <button className={classes.joinAndApplySectionJoinButton} type='button'>
                 Join Us
             </button>
         </div>
-        <div className='d-flex position-relative justify-content-between'>
+        <div className={classes.joinSectionCardWrapper}>
             <div className={classes.joinSectionWhiteCard}>
                 <header className={classes.joinSectionCardHeader}>
                     Search Experience Optimization (SEO) Team
                 </header>
                 <span className={classes.joinSectionCardParag}>
                     Whether you're new to SEO or an experienced and senior SEO expert, the Markethinkers team has a place for you.
+                </span>
+            </div>
+            <div className={classes.joinSectionOrangeCardForMobile}>
+                <header className={classes.joinSectionOrangeCardHeaderForMobile}>
+                    Content Team That Makes a Difference
+                </header>
+                <span className={classes.joinSectionOrangeCardParagForMobile}>
+                    Do you want to create value for brands by using the power of words? Then you can join our team as an SEO-compatible content writer, content editor or content manager.
                 </span>
             </div>
             <div className={classes.joinSectionWhiteCardOther}>
@@ -64,17 +72,17 @@ function JoinAndApplySection() {
             </div>
         </div>
         <div className={`row ${classes.applySectionWrapper}`}>
-            <div className={`col-sm-6 ${classes.applySectionBodyLeft}`}>
+            <div className={`col-sm-12 col-md-12 col-sm-6 ${classes.applySectionBodyLeft}`}>
                 <header className={classes.applySectionHeader}>
                     Imagination is
-                    <br />
+                    <br /><span> </span>
                     mandatory.
                 </header>
                 <button className={classes.applySectionButton} type='button'>
                     Apply Now
                 </button>
             </div>
-            <div className={`col-sm-6 ${classes.applySectionBodyRight}`}>
+            <div className={`col-sm-12 col-md-12 col-sm-6 ${classes.applySectionBodyRight}`}>
                 <span className={classes.applySectionParagFirst}>
                     We practice what we preach, and it's why our remote team has been thriving for more than a decade. Using Markethinkers, we collaborate seamlessly from all over the world, which lets us hire the best people, no matter where they are. ‍ 
                 </span>

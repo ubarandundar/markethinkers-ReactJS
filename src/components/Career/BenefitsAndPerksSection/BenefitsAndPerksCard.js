@@ -95,7 +95,7 @@ function BenefitsAndPerksCard() {
                     </div>}
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-12 col-lg-6'>
+                <div className='col-sm-12 col-md-12 col-lg-6 pb-3'>
                     <div className={isVisible ? classes.benefitsAndPerksCardToggle : ''}>
                     <div onClick={() => setIsVisible(!isVisible)} className={classes.benefitsAndPerksCardBodySub}>
                         <div className='d-flex align-items-center'>
