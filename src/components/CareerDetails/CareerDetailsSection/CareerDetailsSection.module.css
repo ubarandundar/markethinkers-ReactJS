@@ -119,3 +119,67 @@
 .careerDetailsSectionCardWrapper {
     margin-bottom: -100px;
 }
+
+@media (max-width: 767px) {
+    .careerDetailsSectionLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .careerDetailsSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .careerDetailsSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .careerDetailsSectionHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .careerDetailsSectionParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 126px;
+        line-height: 22px;
+    }
+    
+    .careerDetailsSectionBackMiddleImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 2%;
+        margin-top: 0%;
+        filter: blur(50px);
+    }
+    
+    .careerDetailsSectionLeftCard {
+        border-radius: 25px;
+        max-width: 95%;
+        padding: 30px 30px 60px 30px;
+    }
+    
+    .careerDetailsSectionRightCard {
+        border-radius: 25px;
+        max-width: 95%;
+        padding: 30px;
+        margin-top: -10%;
+    }
+    
+    .careerDetailsSectionLeftCardHeader, .careerDetailsSectionRightCardHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .careerDetailsSectionLeftCard li, .careerDetailsSectionRightCard li {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 16px;
+        line-height: 22px;
+    }
+    
+    .careerDetailsSectionCardWrapper {
+        margin-bottom: -30px;
+    }
+}

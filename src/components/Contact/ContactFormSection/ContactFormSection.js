@@ -90,6 +90,7 @@ function ContactFormSection (props) {
                 <div className={'container'}>
                 <div className={'row d-flex align-items-center'}>
                     <div className={'col-4'}>
+                        <img className={`img-fluid ${classes.contactFormSectionImageForMobile}`} src={EnvelopeImg} alt='Envelope_Image' />
                     </div>
                     <div className={'col-8'}>
                     {ContactFormData[currentIndex] && <div className={classes.contactFormSectionParag}>
@@ -100,20 +101,20 @@ function ContactFormSection (props) {
                     </div>
                  </div>
                     <div className={'row'}>
-                    <div className={'col-4'}>
+                    <div className={'d-sm-none d-md-block col-md-4 col-lg-4'}>
                         <img className={`img-fluid ${classes.contactFormSectionImage}`} src={EnvelopeImg} alt='Envelope_Image' />
                     </div>
-                    <div className={'col-8'}>
+                    <div className={'col-sm-12 col-md-8 col-lg-8'}>
                         <div className={'row'}>
-                            <div className={'col-sm-12 d-flex mb-4 mt-4'}>
-                                <div className={'col-sm-6'}>
+                            <div className={`col-sm-12 ${classes.contactFormSectionInputNameAndEmail}`}>
+                                <div className={'col-sm-12 col-md-6 col-lg-6'}>
                                     <input onChange={nameInputChangeHandler} value={enteredName} className={classes.contactFormSectionInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                                 </div>
-                                <div className={'col-sm-6'}>
+                                <div className={'col-sm-12 col-md-6 col-lg-6'}>
                                     <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.contactFormSectionInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
-                            <div className={'col-sm-12 d-flex mb-4'}>
+                            <div className={`col-sm-12 ${classes.contactFormSectionInputCompanyAndPhone}`}>
                                 <div className={'col-sm-6'}>
                                     <input onChange={companyNameInputChangeHandler} value={enteredCompanyName} className={classes.contactFormSectionInputCompanyName} type='text' placeholder='Company Name' minLength="1" maxLength="50" />
                                 </div>
@@ -121,7 +122,7 @@ function ContactFormSection (props) {
                                     <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.contactFormSectionInputPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>  
                             </div>
-                            <div className={'col-sm-12 mb-4 position-relative'}> 
+                            <div className={`col-sm-12 ${classes.contactFormSectionTextAreaWrapper}`}> 
                                 <textarea onChange={messageInputChangeHandler} value={enteredMessage}className={classes.contactFormSectionTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
                                 <button onClick={formSendingHandler} className={classes.sendButton} type='submit'>send</button>  
                             </div>
@@ -132,13 +133,13 @@ function ContactFormSection (props) {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </label>
                                 </div>
-                                <div className={'d-flex align-items-center'}>
+                                <div className={classes.contactFormSectionCheckboxWrapper}>
                                     <input className={classes.contactFormSectionCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.contactFormSectionCheckboxLabel} htmlFor="scales">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod.
-                                    </label>
+                                    </label> 
                             </div>
-                    </div>   
+                        </div>   
                         </div>
                     </div>
                     </div>

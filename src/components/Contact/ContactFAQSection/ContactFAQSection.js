@@ -13,7 +13,7 @@ function ContactFAQSection() {
             </header>
             <p className={classes.contactFAQSectionParag}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            <br />
+            <br /><span> </span>
             labore et dolore magna aliqua. Varius morbi enim nunc faucibus.
             </p>
         </div>

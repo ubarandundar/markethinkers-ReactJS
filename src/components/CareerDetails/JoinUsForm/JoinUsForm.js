@@ -57,29 +57,29 @@ function JoinUsForm() {
             join us
         </header>
         <form className={classes.joinUsFormBody} onSubmit={formContinueHandler}>
-                <div className={'container'}>
-                    <div className={'row'}>
-                    <div className={'col-4'}>
+                <div className='container'>
+                    <div className='row'>
+                    <div className='col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center'>
                         <img className={`img-fluid ${classes.joinUsFormImage}`} src={EnvelopeImg} alt='Envelope_Image' />
                     </div>
-                    <div className={'col-8'}>
-                        <div className={'row'}>
-                            <div className={'col-sm-12 d-flex mb-4 mt-4'}>
+                    <div className='col-sm-12 col-md-12 col-lg-8'>
+                        <div className='row'>
+                            <div className={`col-sm-12 ${classes.joinUsFormInputNameWrapper}`}>
                                 <input onChange={nameInputChangeHandler} value={enteredName} className={classes.joinUsFormInputName} type='text' placeholder='Full Name' minLength="1" maxLength="50" />
                             </div>
-                            <div className={'col-sm-12 d-flex mb-4'}>
-                                <div className={'col-sm-6'}>
+                            <div className={`col-sm-12 ${classes.joinUsFormPhoneAndEmailInputWrapper}`}>
+                                <div className='col-sm-12 col-md-6 col-lg-6'>
                                     <input onChange={phoneInputChangeHandler} value={enteredPhone} className={classes.joinUsFormInputPhone} type='text' placeholder='Your Phone' minLength="1" maxLength="50" />
                                 </div>
-                                <div className={'col-sm-6'}>
+                                <div className='col-sm-12 col-md-6 col-lg-6'>
                                     <input onChange={emailInputChangeHandler} value={enteredEmail} className={classes.joinUsFormInputEmail} type='email' placeholder='Your E-mail' minLength="1" maxLength="50" />
                                 </div>
                             </div>
-                            <div className={'col-sm-12 d-flex mb-4'}>
-                                <div className={'col-sm-6'}>
+                            <div className={`col-sm-12 ${classes.joinUsFormUrlAndCvInputWrapper}`}>
+                                <div className='col-sm-12 col-md-6 col-lg-6'>
                                     <input onChange={portfolioURLInputChangeHandler} value={enteredportfolioURL} className={classes.joinUsFormInputPortfolioURL} type='text' placeholder='Portfolio URL' minLength="1" maxLength="50" />
                                 </div>
-                                <div className={'col-sm-6 position-relative'}>  
+                                <div className='col-sm-12 col-md-6 col-lg-6 position-relative'>  
                                     <div className={classes.joinUsFormInputCVOther}>
                                         {fileNameChange}
                                     </div>
@@ -87,24 +87,25 @@ function JoinUsForm() {
                                     <label for="upload" className={classes.joinUsFormInputCV}>choose</label>
                                 </div>  
                             </div>
-                            <div className={'col-sm-12 mb-3 position-relative'}> 
+                            <div className={`col-sm-12 ${classes.joinUsFormTextAreaWrapper}`}> 
                                 <textarea onChange={messageInputChangeHandler} value={enteredMessage}className={classes.joinUsFormTextArea} placeholder='Your Message' minLength="1" maxLength="260" />
                                 <button onClick={formSendingHandler} className={classes.joinUsFormSendButton} type='submit'>send</button>  
                             </div>
-                            <div className={'col-sm-12'}>
-                                <div className={'d-flex align-items-center'}>
+                            <div className='col-sm-12'>
+                                <div className='d-flex align-items-center'>
                                     <input className={classes.joinUsFormCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.joinUsFormCheckboxLabel} htmlFor="scales">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </label>
                                 </div>
-                                <div className={'d-flex align-items-center'}>
+                                <div className={classes.joinUsFormCheckboxWrapper}>
                                     <input className={classes.joinUsFormCheckbox} type="checkbox" id="grow" name="scales" />
                                     <label className={classes.joinUsFormCheckboxLabel} htmlFor="scales">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua sed do eiusmod.
                                     </label>
                             </div>
-                    </div>   
+                            <button onClick={formSendingHandler} className={classes.joinUsFormSendButtonForMobile} type='submit'>send</button>  
+                        </div>   
                         </div>
                     </div>
                     </div>

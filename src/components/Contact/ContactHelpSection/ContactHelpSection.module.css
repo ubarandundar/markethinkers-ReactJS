@@ -97,3 +97,51 @@
     color: #929393;
     opacity: 1;
 }
+
+@media (max-width: 767px) {
+    .contactHelpSectionLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .contactHelpSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .contactHelpSectionHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 40px;
+    }
+    
+    .contactHelpSectionSubHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 8px;
+        line-height: 30px;
+    }
+    
+    .contactHelpSectionParag {
+        font: normal normal 300 16px Paralucent;
+    }
+    
+    .contactHelpSectionImg {
+        margin-bottom: 0;
+    }
+    
+    .contactHelpSectionBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: -2%;
+        margin-top: 8%;
+    }
+    
+    .contactHelpSectionBottomSideHeader {
+        font: normal bold 24px Paralucent;
+        margin-bottom: 8px;
+    }
+    
+    .contactHelpSectionBottomSideParag {
+        font: normal 300 16px Paralucent;
+        margin-bottom: 37px;
+    }
+}

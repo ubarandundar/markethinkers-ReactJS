@@ -38,3 +38,37 @@
     color: #565656;
     opacity: 1;
 }
+
+@media (max-width: 767px) {
+    .contactFormSectionWrapper {
+        margin-bottom: 80px;
+    }
+    
+    .contactFAQSectionTextArea {
+        margin-top: 840px;
+        margin-bottom: 30px;
+    }
+    
+    .FAQSectionBackUpImg {
+        display: none;
+    }
+    
+    .FAQSectionBackDownImg {
+        display: none;
+    }
+    
+    .contactFAQSectionHeader {
+        font: normal bold 40px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .contactFAQSectionParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .contactFAQSectionParag br {
+        display: none;
+    }
+}
