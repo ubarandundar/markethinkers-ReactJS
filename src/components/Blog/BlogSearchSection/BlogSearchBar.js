@@ -3,10 +3,10 @@ import classes from './BlogSearchBar.module.css';
 function BlogSearchBar() {
   return (
         <div className={classes.blogSearchSectionInputWrapper}>
-                <div className='col-sm-6 d-flex justify-content-center'>
+                <div className='col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center'>
                     <input className={classes.blogSearchSectionSearchInput} type="search" id="site-search" name="q" placeholder='You can search here...' />
                 </div>
-                <div className={`col-sm-6 d-flex justify-content-center`}>
+                <div className='col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center'>
                     <select className={classes.blogSearchSectionSelectOption} name="choice">
                         <option defaultValue="default">All Categories</option>
                         <option value="second">Category 1</option>

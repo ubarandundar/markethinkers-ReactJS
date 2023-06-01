@@ -10,3 +10,14 @@
     color: #444444;
     opacity: 1;
 }
+
+@media (max-width: 767px) {
+    .blogsSectionBody {
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+    
+    .blogsSectionHeader {
+        font: normal normal bold 40px Paralucent;
+    }
+}

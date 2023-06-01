@@ -6,7 +6,7 @@ import ForwardArrow from '../../../assets/Group 34.svg';
 
 function BlogCard({changeBackgroundColor}) {
   return (
-    <div className='col-6'>
+    <div className='col-sm-12 col-md-6 col-lg-6'>
         <a href='www.google.com' className={`container ${classes.blogCardWrapper}`}>
         <div className='position-relative'>
             <header className={classes.blogCardTopSideHeader}>

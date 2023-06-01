@@ -16,8 +16,8 @@ function TermsOfService() {
           </a>
         </div>
         <div className='row'>
-        <div className='col-2'></div>
-        <div className={`col-8 ${classes.termsOfServiceBody}`}>
+        <div className='d-sm-none d-md-block col-md-2 col-lg-2'></div>
+        <div className={`col-sm-12 col-md-8 col-lg-8 ${classes.termsOfServiceBody}`}>
         <header className={classes.termsOfServiceHeader}>
             Terms of Service
         </header>
@@ -52,23 +52,23 @@ function TermsOfService() {
         <span className={classes.termsOfServiceParag}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </span>
-        <span className={classes.termsOfServiceParag}>
+        <span className={classes.termsOfServiceParagLast}>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </span>
-        <header className={classes.termsOfServiceExpHeader}>
+        <header className={classes.termsOfServiceExpHeaderOther}>
             lorem ipsum dolor
         </header>
-        <span className={classes.termsOfServiceParag}>
+        <span className={classes.termsOfServiceParagOther}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         </span>
-        <span className={classes.termsOfServiceParag}>
+        <span className={classes.termsOfServiceParagOther}>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
         </span>
-        <span className={classes.termsOfServiceParag}>
+        <span className={classes.termsOfServiceParagOther}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
         </span>
         </div>
-        <div className='col-2'></div>
+        <div className='d-sm-none d-md-block col-md-2 col-lg-2'></div>
         </div>
     </div>
   )

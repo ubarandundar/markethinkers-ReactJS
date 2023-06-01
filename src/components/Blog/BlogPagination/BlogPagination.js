@@ -22,15 +22,15 @@ function BlogPagination ({changesForBlogWriter}) {
         <img style={changesForBlogWriter ? {marginTop: '-31%'} : {}} className={classes.blogPanigationLeftFirstImg} src={BlogPanigationLeftFirstImg} alt='BlogPanigationLeftFirstImg' />
         <img style={changesForBlogWriter ? {marginTop: '15%'} : {}} className={classes.blogPanigationRightImg} src={BlogPanigationRightImg} alt='BlogPanigationRightImg' />
         <img style={changesForBlogWriter ? {marginTop: '60%'} : {}} className={classes.blogPanigationLeftSecondImg} src={BlogPanigationLeftSecondImg} alt='BlogPanigationLeftSecondImg' />
-        <div className='row ps-5 pe-5'>
+        <div className={`row ps-5 pe-5 ${classes.BlogPaginationGroup}`}>
             <BlogCard />
             <BlogCard changeBackgroundColor={true} />
         </div>
-        <div className='row ps-5 pe-5'>
+        <div className={`row ps-5 pe-5 ${classes.BlogPaginationGroup}`}>
             <BlogCard changeBackgroundColor={true} />
             <BlogCard />
         </div>
-        <div className='row ps-5 pe-5'>
+        <div className={`row ps-5 pe-5 ${classes.BlogPaginationGroup}`}>
             <BlogCard />
             <BlogCard changeBackgroundColor={true} />
         </div>

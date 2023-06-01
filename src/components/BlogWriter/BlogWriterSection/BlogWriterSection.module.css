@@ -128,3 +128,79 @@
     color: #444444;
     opacity: 1;
 }
+
+@media (max-width: 767px) {
+    .blogWriterSectionLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 117px;
+    }
+    
+    .blogWriterSectionLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .blogWriterSectionCardBody {
+        border-radius: 25px;
+        padding: 108px 30px 40px 30px; 
+        margin-bottom: 30px;
+    }
+    
+    .blogWriterSectionCardBodyProfilPicture {
+        width: 154px;
+        height: 154px;
+        top: -100px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .blogWriterSectionCardNameSurname {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .blogWriterSectionCardTitle {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 30px;
+    }
+    
+    .blogWriterSectionCardInfo {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 8px;
+        margin-top: 30px;
+    }
+    
+    .blogWriterSectionCardExplanation {
+        font: normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+    .blogWriterSectionCardLinkedin {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .blogWriterSectionCardLinkedin img {
+        width: 12px;
+        height: 10.5px;
+        margin-top: 5px;
+    }
+    
+    .blogWriterSectionCardShortName {
+        font: normal normal 14px Montserrat;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    
+    .blogWriterSectionHeader {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 19px;
+        margin-top: 30px;
+    }
+    
+    .blogWriterSectionExplanation {
+        font: normal normal 16px Montserrat;
+        line-height: 19px;
+    }
+    
+}

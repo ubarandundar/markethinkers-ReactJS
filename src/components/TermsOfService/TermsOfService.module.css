@@ -68,7 +68,7 @@
     margin-left: 5px;
 }
 
-.termsOfServiceExpHeader {
+.termsOfServiceExpHeader, .termsOfServiceExpHeaderOther {
     text-align: left;
     font: normal normal bold 60px/60px Paralucent;
     letter-spacing: 0px;
@@ -78,7 +78,7 @@
     margin-bottom: 30px;
 }
 
-.termsOfServiceParag {
+.termsOfServiceParag, .termsOfServiceParagOther, .termsOfServiceParagLast {
     text-align: left;
     font: normal normal 20px/35px Paralucent;
     letter-spacing: 1px;
@@ -93,5 +93,64 @@
     margin-left: 2%;
     margin-top: 0%;
     filter: blur(50px);
+}
+
+@media (max-width: 767px) {
+    .termsOfServiceLink {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .termsOfServiceLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .termsOfServiceHeader {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .termsOfServiceHeaderSub {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 30px;
+    }
+    
+    .termsOfServiceDateOfUpdate {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .termsOfServiceDate {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .termsOfServiceExpHeader {
+            font: normal normal bold 40px Paralucent;
+            margin-bottom: 16px;
+    }
+
+    .termsOfServiceExpHeaderOther, .termsOfServiceParagOther {
+        display: none;
+    }
+
+    .termsOfServiceParag {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+
+    .termsOfServiceParagLast {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 90px;
+        line-height: 22px;
+    }
+    
+    .termsOfServiceBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 2%;
+        margin-top: 0%;
+        filter: blur(50px);
+    }
+    
 }
 

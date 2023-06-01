@@ -19,11 +19,12 @@ function BlogWriterSection() {
                     Bilge Bilir
                 </a>
         </div>
-        <div className={`row ${classes.blogWriterSectionCardBody}`}>
-            <div className='col-4 position-relative'>
+        <div className='container'>
+            <div className={`row ${classes.blogWriterSectionCardBody}`}>
+            <div className='col-sm-12 col-md-4 col-lg-4 position-relative'>
                 <img className={classes.blogWriterSectionCardBodyProfilPicture} src={ProfilPicture} alt='Profil_Picture' />
             </div>
-            <div className='col-4'>
+            <div className='col-sm-12 col-md-4 col-lg-4'>
                 <header className={classes.blogWriterSectionCardNameSurname}>
                     Bilge Bilir
                 </header>
@@ -63,7 +64,7 @@ function BlogWriterSection() {
                     </div>
                 </div>
             </div>
-            <div className='col-4'>
+            <div className='col-sm-12 col-md-4 col-lg-4'>
                 <header className={classes.blogWriterSectionCardInfo}>
                     Info:
                 </header>
@@ -71,9 +72,11 @@ function BlogWriterSection() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus. Felis bibendum ut tristique. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
                 </span>
             </div>
+            </div>
         </div>
-        <div className='row'>
-            <div className='col-6'>
+        <div className='container'>
+            <div className='row'>
+            <div className='col-sm-12 col-md-6 col-lg-6'>
                 <header className={classes.blogWriterSectionHeader}>
                     lorem
                 </header>
@@ -81,13 +84,14 @@ function BlogWriterSection() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus. Felis bibendum ut tristique.
                 </span>
             </div>
-            <div className='col-6'>
+            <div className='col-sm-12 col-md-6 col-lg-6'>
                 <header className={classes.blogWriterSectionHeader}>
                     lorem
                 </header>
                 <span className={classes.blogWriterSectionExplanation}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius morbi enim nunc faucibus. Felis bibendum ut tristique.
                 </span>
+            </div>
             </div>
         </div>
     </div>

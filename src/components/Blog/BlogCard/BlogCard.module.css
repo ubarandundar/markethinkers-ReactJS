@@ -108,4 +108,59 @@
     background-color: none;
 }
 
+@media (max-width: 767px) {
+    .blogCardTopSide {
+        border-radius: 25px 25px 0px 0px;
+        height: 212px;
+    }
+
+    .blogCardTopSideHeader {
+        font: normal normal 16px Paralucent;
+        top: 35%;
+        left: 0;
+    }
+    
+    .blogCardBottomSide {
+        padding: 20px;
+    }
+    
+    .blogCardBottomSideHeader {
+        font: normal normal 24px Paralucent;
+    }
+    
+    .blogCardBottomSideHeaderSub {
+        display: none;
+    }
+    
+    .blogProfileImg {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .blogCardBottomSideNameSurname {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 0;
+        margin-left: 8px;
+    }
+    
+    .blogCardBottomSidePorfileTtile {
+        font: normal normal normal 14px Montserrat;
+        margin-left: 8px;
+    }
+    
+    .blogCardBottomSideDate {
+        font: normal normal 300 16pxParalucent;
+    }
+    
+    .blogCardBottomSideForwardArrow {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .blogCardWrapper:hover .blogCardBottomSideForwardArrow {
+        margin-top: -10px;
+        margin-right: -10px;
+    }
+}
+
 
