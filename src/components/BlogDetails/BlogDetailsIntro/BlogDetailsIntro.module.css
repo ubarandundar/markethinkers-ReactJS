@@ -95,10 +95,82 @@
     height: 96px;
 }
 
+.blogDetailsIntroProfileDateForMobile {
+    display: none;
+}
+
 .blogDetailsIntroBackImg {
     position: absolute;
     z-index: 0;
     margin-left: 69%;
     margin-top: -22%;
     filter: blur(50px);
+}
+
+@media (max-width: 767px) {
+    .blogDetailsIntroLink {
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 78px;
+        margin-left: 0;
+    }
+    
+    .blogDetailsIntroLink a {
+        font: normal normal 300 14px Paralucent;
+    }
+    
+    .BlogDetailsIntroHeader {
+        display: none;
+    }
+    
+    .blogDetailsIntroImage {
+        margin-bottom: 30px;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .blogDetailsIntroProfileArea {
+        position: absolute;
+        z-index: 2;
+        top: 0%;
+        right: -15%;
+    }
+    
+    .blogDetailsIntroProfileBody {
+        padding: 8px 53px 8px 8px;
+    }
+    
+    .blogDetailsIntroProfileDate {
+        display: none;
+    }
+
+    .blogDetailsIntroProfileDateForMobile {
+        display: block;
+        text-align: left;
+        font: normal normal normal 14px Montserrat;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+        margin-left: 24px;
+        margin-bottom: 16px;
+    }
+    
+    .blogCardBottomSideNameSurname {
+        font: normal normal 20px Paralucent;
+        margin-left: 8px;
+    }
+    
+    .blogCardBottomSidePorfileTtile {
+        font: normal normal 300 14px Paralucent;
+        margin-left: 8px;
+    }
+    
+    .blogProfileImg {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .blogDetailsIntroBackImg {
+       display: none;
+    }
 }

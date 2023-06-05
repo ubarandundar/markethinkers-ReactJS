@@ -6,3 +6,10 @@
     opacity: 1;
     margin-top: 120px;
 }
+
+@media (max-width: 767px) {
+    .blogDetailsCarouselSectionHeader {
+        font: normal normal bold 40px Paralucent;
+        margin-top: 60px;
+    }
+}

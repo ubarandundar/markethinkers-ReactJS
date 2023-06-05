@@ -459,3 +459,296 @@
     margin-top: 318%;
     filter: blur(50px);
 }
+
+ @media (max-width: 767px) {
+    .blogDetailsContentMainHeader {
+        font: normal normal 24px Paralucent;
+        margin-bottom: 30px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+    }
+    
+    .blogDetailsContentParag {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsWhiteArea {
+        margin-bottom: 30px;
+    }
+    
+    .successStoriesTableOfContentsWhiteArea li {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 16px;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsOtherArea li, .successStoriesTableOfContentsBodyOneOther li  {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 16px;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsPicturedArea {
+        width: 100%;
+        height: 113px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .successStoriesTableOfContentsHeaderOther {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesTableOfContentsHeaderCore {
+        font: normal normal 20px Paralucent;
+    }
+    
+    .successStoriesTableOfContentsCoreBody {
+        padding: 25px 50px;
+        margin-bottom: 28px;
+    }
+    
+    .successStoriesTableOfContentsNumber {
+        font: normal normal bold 32px Paralucent;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .successStoriesTableOfContentsExplanation {
+        font: normal normal 16px Paralucent;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .successStoriesTableOfContentsNumberOther {
+        font: normal normal bold 32px Paralucent;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .successStoriesTableOfContentsHeaderOneOther {
+        font: normal normal 24px Paralucent;
+        margin-top: 30px;
+        margin-bottom: 16px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+    }
+    
+    .successStoriesTableOfContentsParagOther {
+        font: normal normal 300 16pxParalucent;
+        margin-bottom: 16px;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsParagOtherSub {
+        font: normal normal 300 16px Paralucent;
+        margin-bottom: 16px;
+        line-height: 22px;
+    }
+    
+    .successStoriesContentsBodyWhiteCard {
+        margin-top: 14px;
+    }
+    
+    .successStoriesContentsBodyWhiteCard header {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesContentsBodyWhiteCard div {
+        font: normal normal 300 16px Paralucent;
+    }
+
+    .successStoriesContentsBodyColouredCardWrapper {
+        margin-bottom: -30px;
+    }
+    
+    .successStoriesContentsBodyColouredCard {
+        width: 100%;
+        height: 222px;
+        margin-bottom: 30px;
+    }
+    
+    .successStoriesTableOfContentsStatement {
+        padding: 30px 16px;
+        margin-top: 47px;
+        margin-bottom: 47px;
+    }
+    
+    .successStoriesTableOfContentsStatementParag {
+        font: italic normal 20px Montserrat;
+        margin-bottom: 16px;
+        line-height: 24px;
+    }
+
+    .successStoriesTableOfContentsHeaderCoreOther {
+        font: normal normal 14px Paralucent;  
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .topQuoteImage {
+        z-index: 2;
+        top: -10%;
+        width: 48px;
+    }   
+    
+    .bottomQuoteImage {
+        bottom: -10%;
+        right: 7%;
+        width: 48px;
+    }   
+    
+    .successStoriesTableOfContentsStatementOther {
+        padding: 30px;
+        margin-bottom: 85px;
+        background-size: 142px 142px;
+    }
+    
+    .successStoriesTableOfContentsStatementOther header {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 8px;
+    }
+    
+    .successStoriesTableOfContentsStatementOther div {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsSmallFirstCard {
+        max-width: 100%;
+        padding: 30px;
+        margin-right: 0;
+    }
+    
+    .successStoriesTableOfContentsSmallSecondCard {
+        max-width: 100%;
+        padding: 30px;
+        margin-right: 0;
+        margin-top: 44px;
+    }
+    
+    .successStoriesTableOfContentsSmallThirdCard {
+        max-width: 100%;
+        padding: 30px;
+        margin-right: 0;
+        margin-top: 44px;
+    }
+    
+    .successStoriesTableOfContentsSmallFourthCard {
+        max-width: 100%;
+        padding: 30px;
+        margin-right: 0;
+        margin-top: 44px;
+    }
+    
+    .successStoriesTableOfContentsSmallCardHeader {
+        font: normal normal 20px Paralucent;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesTableOfContentsSmallCardParag {
+        font: normal normal 300 16px Paralucent;
+        line-height: 22px;
+    }
+    
+    .successStoriesTableOfContentsCardNumber {
+        font: normal normal 900 56px Paralucent;
+        top: -25%;
+    }
+    
+    .successStoriesTableOfContentsTableHeader {
+        font: normal normal 20px Paralucent;
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+    
+    .successStoriesTableOfContentsTableBody {
+        background: #FFFFFF;
+        border-radius: 0;
+        padding: 40px 36px;
+    }
+    
+    .successStoriesTableOfContentsTableWrapper {
+        overflow-y: scroll;
+    }
+
+    .successStoriesTableOfContentsTableBody th {
+        padding: 26px 54px 22px 16px;
+        font: normal normal 16px Paralucent;
+        white-space: nowrap;
+    }
+    
+    .successStoriesTableOfContentsTableBody td {
+        padding: 20px 16px;
+        font: normal normal 300 16px Paralucent;
+        white-space: nowrap;
+    }
+    
+    .successStoriesTableOfContentsTableDescription {
+        font: normal normal 300 14px Paralucent;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+
+    .successStoriesTableOfContentsShareHereWrapper {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    .successStoriesTableOfContentsShareHere {
+        text-align: left;
+        font: normal normal normal 16px/19px Montserrat;
+        letter-spacing: 0px;
+        color: #444444;
+        opacity: 1;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-right: 30px;
+    }    
+    
+    .successStoriesContentRightFirstImg {
+        display: none;
+    }
+    
+    .successStoriesContentLeftFirstImg {
+        display: none;
+    }
+    
+    .successStoriesContentRightSecondImg {
+        display: none;
+    }
+    
+    .successStoriesContentLeftSecondImg {
+        display: none;
+    }
+    
+    .successStoriesContentRightThirdImg {
+        display: none;
+    }
+    
+    .successStoriesContentLeftThirdImg {
+        display: none;
+    }
+    
+    .successStoriesContentRightFourthImg {
+        display: none;
+    }
+    
+    .successStoriesContentLeftFourthImg {
+        display: none;
+    }
+    
+    .successStoriesContentRightFifthImg {
+        display: none;
+    }
+ }

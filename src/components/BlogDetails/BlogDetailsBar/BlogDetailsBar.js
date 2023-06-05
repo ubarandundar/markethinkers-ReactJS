@@ -8,7 +8,7 @@ function BlogDetailsBar() {
     <div className='container position-relative'>
         <img className={`img-fluid ${classes.blogDetailsBarBackImg}`} src={BlogDetailsBarBackImg} alt='BlogDetailsBarBackImg' />
         <div className={classes.blogDetailsBarBody}>
-            <div className={`col-3 ${classes.blogDetailsBarProfileBody}`}>
+            <div className={`col-sm-12 col-md-3 col-lg-3 ${classes.blogDetailsBarProfileBody}`}>
                 <img className={classes.blogDetailsBarImg} src={FikriSabitImg} alt='MultiBrandCarouselData_profilePicture' />
                 <div className='d-flex flex-column'>
                     <header className={classes.blogDetailsBarNameSurname}>
@@ -19,11 +19,11 @@ function BlogDetailsBar() {
                     </header>
                 </div>
             </div>
-            <div className={`col-7 ${classes.blogDetailsBarDetails}`}>
+            <div className={`col-sm-12 col-md-7 col-lg-7 ${classes.blogDetailsBarDetails}`}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt. Felis imperdiet proin fermentum leo vel orci porta.
             </div>
-            <button className='col-2' type='button'>
+            <button className='col-sm-12 col-md-2 col-lg-2' type='button'>
                 other articles
             </button>
         </div>

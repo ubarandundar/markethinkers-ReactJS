@@ -10,3 +10,18 @@
     flex-direction: column;
     margin-left: auto;
 }
+
+.BlogDetailsContentWrapper {
+    padding-left: 50px;
+}
+
+@media (max-width: 767px) {
+    .BlogDetailsContentWrapper {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .successStoriesOtherSectionsSocialWrapper {
+        display: none;
+    }
+}

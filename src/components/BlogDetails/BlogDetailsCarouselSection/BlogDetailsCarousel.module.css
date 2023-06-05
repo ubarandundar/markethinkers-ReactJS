@@ -2,3 +2,8 @@
     margin-bottom: 120px;
 }
 
+@media (max-width: 767px) {
+    .blogDetailsCarouselBody {
+        margin-bottom: 90px;
+    }
+}

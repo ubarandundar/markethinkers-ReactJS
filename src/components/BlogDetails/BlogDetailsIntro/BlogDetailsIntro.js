@@ -21,6 +21,9 @@ function BlogDetailsIntro() {
             <header className={classes.BlogDetailsIntroHeader}>
                 2023 Guide for Digital Marketers: Recommendations From Top Experts
             </header>
+            <div className={classes.blogDetailsIntroProfileDateForMobile}>
+                    13 Oct 2022
+            </div>
             <img className={classes.blogDetailsIntroImage} src={BlogDetailsIntroImage} alt='BlogDetailsIntroImage' />
             <div className={classes.blogDetailsIntroProfileArea}>
                 <div className={classes.blogDetailsIntroProfileDate}>

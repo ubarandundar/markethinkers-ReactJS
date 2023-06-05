@@ -8,15 +8,15 @@ function BlogDetailsSection () {
   return (
     <div className='container-fluid'>
         <div className='row'>
-            <div className='col-4'>
+            <div className='d-sm-none d-md-block col-md-4 col-lg-4'>
                 <div style={{position: 'sticky', top: '18%', marginTop: '-125px', zIndex: '3'}}>
                     <SuccessStoriesTableOfContents changesForBlogDetail={true} />
                 </div>
             </div>
-            <div className='col-6' style={{paddingLeft: '50px'}}>
+            <div className={`col-sm-12 col-md-6 col-md-6 ${classes.BlogDetailsContentWrapper}`}>
                 <BlogDetailsContent />
             </div>
-            <div style={{zIndex: '3'}} className='col-2'>
+            <div style={{zIndex: '3'}} className='d-sm-none d-md-block col-md-2 col-lg-2'>
                 <div className={classes.successStoriesOtherSectionsSocialWrapper}>
                     <SocialMediaItems changesForSuccessStories={true} changeFacebookBackground={true} changesforBlogDetails={true} />
                 </div>

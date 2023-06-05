@@ -69,3 +69,33 @@
     margin-top: -38%;
     filter: blur(50px);
 }
+
+@media (max-width: 767px) {
+    .blogDetailsBarBody {
+        border-radius: 50px;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blogDetailsBarDetails {
+       margin-top: 16px;
+       margin-bottom: 30px;
+    }    
+    
+    .blogDetailsBarBody button {
+        border-radius: 24px;
+        font: normal normal bold 16px Paralucent;
+        width: 100%;
+        height: 48px;
+        padding: 0;
+    }
+    
+    .blogDetailsBarBackImg {
+        position: absolute;
+        z-index: 0;
+        margin-left: 58%;
+        margin-top: -38%;
+        filter: blur(50px);
+    }
+}

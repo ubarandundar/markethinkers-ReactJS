@@ -95,13 +95,13 @@
         transform: translate(-50%, -50%);
     }
 
-    .errorPageLottie svg g image[width] {
+    /* .errorPageLottie svg g image[width] {
         width: 215px;
     }
 
     .errorPageLottie svg g image[height] {
         height: 131px;
-    }
+    } */
     
     .errorPageHeader {
         font: normal normal 24px Paralucent;
