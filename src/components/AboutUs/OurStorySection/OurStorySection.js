@@ -23,7 +23,7 @@ function OurStorySection() {
                     </span>
                 </div>
             </div>
-            <div className='col-sm-12 col-md-12 col-sm-7 position-relative'>
+            <div className='col-sm-12 col-md-7 col-lg-7 position-relative'>
                 <div className={classes.ourStoryCarouselBody}>
                     <OurStoryCarousel />
                 </div>

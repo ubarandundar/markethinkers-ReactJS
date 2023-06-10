@@ -330,7 +330,7 @@ function BlogDetailsContent() {
                     <div className={classes.blogDetailsContentShareHere}>
                         Share here:
                     </div>
-                    <SocialMediaItems changeFacebookBackground={true} />
+                    <SocialMediaItems changesforMobile={true} changeFacebookBackground={true} />
                 </div>
             </div>
     </div>

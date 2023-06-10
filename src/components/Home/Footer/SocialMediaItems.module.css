@@ -66,6 +66,10 @@
     background: #1F0242;
 }
 
+.footerSocialMediaExForSuccessStories:hover svg path[fill] {
+    fill: #d3148b;
+}
+
 .footerSocialMediaFaceIconForBlogDetails path[fill] {
     fill: #d3148b;
 }

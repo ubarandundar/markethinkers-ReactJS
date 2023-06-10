@@ -19,7 +19,7 @@ function GoogleMapSection () {
                     <div className={classes.GoogleMapSectionAddress}>Sepapaja 6, Tallinn 15551, Estonia</div>
                 </div>
                 <div className={classes.GoogleMapSectionSocialMediaArea}>
-                    <SocialMediaItems changeBorderColor={true} />
+                    <SocialMediaItems changeBorderColor={true} changesforMobile={true} changeFacebookBackground={true} />
                 </div>
             </div>
         </div>

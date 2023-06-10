@@ -72,7 +72,7 @@ function JoinAndApplySection() {
             </div>
         </div>
         <div className={`row ${classes.applySectionWrapper}`}>
-            <div className={`col-sm-12 col-md-12 col-sm-6 ${classes.applySectionBodyLeft}`}>
+            <div className={`col-sm-12 col-md-6 col-lg-6 ${classes.applySectionBodyLeft}`}>
                 <header className={classes.applySectionHeader}>
                     Imagination is
                     <br /><span> </span>
@@ -82,7 +82,7 @@ function JoinAndApplySection() {
                     Apply Now
                 </button>
             </div>
-            <div className={`col-sm-12 col-md-12 col-sm-6 ${classes.applySectionBodyRight}`}>
+            <div className={`col-sm-12 col-md-6 col-lg-6 ${classes.applySectionBodyRight}`}>
                 <span className={classes.applySectionParagFirst}>
                     We practice what we preach, and it's why our remote team has been thriving for more than a decade. Using Markethinkers, we collaborate seamlessly from all over the world, which lets us hire the best people, no matter where they are. ‍ 
                 </span>
