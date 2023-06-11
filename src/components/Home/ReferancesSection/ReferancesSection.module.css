@@ -71,11 +71,11 @@
 }
 
 .referancesBodySub {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     padding-bottom: 94px;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
 }
 
 .referancesBodyHr {

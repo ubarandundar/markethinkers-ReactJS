@@ -34,7 +34,7 @@
   /* On mouse-over, add a grey background color */
   #custom-radio-button:hover input ~ .checkmark {
     border: 2px solid #D3148B;
-    opacity: 0.3;
+    /* opacity: 0.3; */
   }
   
   /* When the radio button is checked, add a blue background */

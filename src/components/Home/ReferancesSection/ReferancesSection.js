@@ -49,7 +49,7 @@ function ReferancesSection (props) {
               </ScrollContainer>
 
     const awardsDesktop = 
-            <div className='d-flex flex-row justify-content-between'>
+            <div className='d-flex flex-row justify-content-between align-items-center'>
                 <div className={classes.referances}>
                     <img className='img-fluid' src={GCAImage} alt='GCA_Image' />
                 </div>

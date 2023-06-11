@@ -1,4 +1,5 @@
 import classes from './SuccessStoriesContent.module.css';
+import './SuccessStoriesContent.css';
 
 import TopQuoteImage from '../../../../assets/quote.svg';
 import BottomQuoteImage from '../../../../assets/quote (1).svg';
@@ -337,7 +338,7 @@ function SuccessStoriesContent() {
                     <div className={classes.successStoriesTableOfContentsShareHere}>
                         Share here:
                     </div>
-                    <SocialMediaItems changeFacebookBackground={true} />
+                    <SocialMediaItems changeFacebookBackground={true} changesforMobile={true} />
                 </div>
             </div>
     </div>

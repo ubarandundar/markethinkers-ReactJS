@@ -7,23 +7,23 @@ function SuccessStoryCards() {
     <div className={`container ps-5 pe-5 ${classes.successStoryCardWrapper}`}>
         <div className="row">
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
             <SuccessStoryCard />
-            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true} changeDistance={true} changeDistanceLogo={true} />
+            <SuccessStoryCard changeLogo={true} changeRate={true} changeBackgroundColor={true}  changeDistanceLogo={true} />
         </div>
     </div>  
   )

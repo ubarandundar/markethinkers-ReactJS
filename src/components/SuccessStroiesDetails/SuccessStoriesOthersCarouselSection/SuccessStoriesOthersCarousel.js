@@ -23,7 +23,7 @@ function SuccessStoriesOthersCarousel (props) {
             slidesToSlide: 1 
           },
         tablet: {
-          breakpoint: { max: 1300, min: 767 },
+          breakpoint: { max: 1300, min: 768 },
           items: 1,
           slidesToSlide: 2 
         },
