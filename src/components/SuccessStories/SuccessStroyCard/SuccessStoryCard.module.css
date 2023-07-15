@@ -56,7 +56,6 @@
     transform: scale(1.1);
 }
 
-
 .successStoryCardWrapper:hover .successStoryCardAvansasLogo {
     transform: scale(1.1);
 }
@@ -121,12 +120,6 @@
         height: auto;
         margin: 0 auto 0 auto;
     }
-    
-    .successStoryCardWrapper:hover .successStoryCardGenimilabLogo {
-        max-width: 254px;
-        height: auto;
-        margin: 0 auto 0 auto;
-    }
 
     .successStoryCardRateWrapper {
         align-items: center;
@@ -144,10 +137,6 @@
         font: normal normal 16px Paralucent;
         margin-left: 15px;
         margin-top: 0;
-    }
-
-    .successStoryCardWrapper:hover .successStoryCardGenimilabLogo {
-        transform: scale(1.05) !important;
     }
     
 }

@@ -21,7 +21,7 @@
     position: absolute;
     z-index: 2;
     top: 36%;
-    left: 50%;
+    left: 50.5%;
     transform: translate(-50%, -50%);
 }
 
@@ -75,6 +75,12 @@
     filter: blur(50px);
 }
 
+.lottieStyle {
+    width: 638px;
+    height: 387px;
+    background: transparent;
+}
+
 @media (max-width: 767px) {
     .errorPageOops {
         font: normal normal 60px Paralucent;
@@ -90,18 +96,9 @@
     .errorPageLottie {
         position: absolute;
         z-index: 2;
-        top: 36%;
-        left: 50%;
+        top: 26%;
         transform: translate(-50%, -50%);
     }
-
-    /* .errorPageLottie svg g image[width] {
-        width: 215px;
-    }
-
-    .errorPageLottie svg g image[height] {
-        height: 131px;
-    } */
     
     .errorPageHeader {
         font: normal normal 24px Paralucent;
@@ -127,5 +124,10 @@
         margin-left: 3%;
         margin-top: 25%;
         filter: blur(50px);
+    }
+
+    .lottieStyle {
+        width: 215px;
+        height: 131px;
     }
 }

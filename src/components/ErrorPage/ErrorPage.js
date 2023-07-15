@@ -16,7 +16,7 @@ function ErrorPage() {
         404
       </div>
       <div className={classes.errorPageLottie}>
-        <Lottie animationData={ErrorJSON} speed="1" style={{width: '638px', height: '387px', background: "transparent"}} loop play />
+        <Lottie animationData={ErrorJSON} speed="1" className={classes.lottieStyle} loop play />
       </div>
       <div className={classes.errorPageHeader}>
         I think we got too high,how about going back?

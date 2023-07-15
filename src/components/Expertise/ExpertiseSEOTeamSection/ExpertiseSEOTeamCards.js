@@ -26,12 +26,18 @@ const responsive = {
     },
   tablet: {
     breakpoint: { max: 1300, min: 768 },
-    items: 1,
+    items: 2,
     slidesToSlide: 1,
     partialVisibilityGutter: 100
   },
-  mobile: {
-    breakpoint: { max: 767, min: 0 },
+  mobileL: {
+    breakpoint: { max: 380, min: 767 },
+    items: 2,
+    slidesToSlide: 1,
+    partialVisibilityGutter: 100
+  },
+  mobileS: {
+    breakpoint: { max: 380, min: 0 },
     items: 1,
     slidesToSlide: 1,
     partialVisibilityGutter: 100

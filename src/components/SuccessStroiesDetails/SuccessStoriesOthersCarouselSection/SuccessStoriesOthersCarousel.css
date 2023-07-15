@@ -29,14 +29,15 @@
 
   @media (max-width: 767px) {
   #successStoriesOthersCarouselBodyId .react-multi-carousel-item--active {
-      display: none !important;
+    opacity: 0 !important;
   }
     
-  /* #successStoriesOthersCarouselBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active {
-      display: none !important;
-    } */
+  #successStoriesOthersCarouselBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+    }
     
   #successStoriesOthersCarouselBodyId .react-multi-carousel-item--active +  .react-multi-carousel-item--active  + .react-multi-carousel-item--active{
-      display: none !important;
+    opacity: 0 !important;
     }
   }

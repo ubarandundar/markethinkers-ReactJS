@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ReactSVG } from "react-svg";
 import ReactPaginate from 'react-paginate';
 import BlogCard from '../BlogCard/BlogCard';
 import classes from './BlogPagination.module.css';
@@ -74,7 +73,7 @@ function BlogPagination ({changesForBlogWriter}) {
         pageRangeDisplayed={3}
         marginPagesDisplayed={2}
         pageCount={5}
-        previousLabel={<span className='prev-arrow'><img src='../../../assets/Union 6.png' className='x' /></span>}
+        previousLabel={<span className='prev-arrow'><img src='../../../assets/Union 6.png' alt='pagination-arrow' className='x' /></span>}
         pageClassName="pagination-numbers-circle"
         pageLinkClassName="pagination-numbers"
         previousClassName="pagination-prev-arrow-circle"

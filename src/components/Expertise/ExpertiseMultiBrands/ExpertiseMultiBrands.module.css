@@ -24,17 +24,19 @@
     .expertiseMultiBrandBody {
         margin-top: 90px;
         margin-bottom: 80px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }
     
     .expertiseMultiBrandImageCard {
-        width: 236px;
+        width: 150px;
         height: 90px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .expertiseMultiBrandImage {
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
 }
 

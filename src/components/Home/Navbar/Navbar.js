@@ -1,21 +1,3 @@
-// import LanguageBar from "./LanguageBar";
-// import MainBar from "./MainBar";
-
-// import classes from './Navbar.module.css';
-
-// function Navbar (props) {
-//     return (
-//         <div className="container-fluid">
-//             <div className={classes.navbar}>
-//                 <MainBar />
-//                 <LanguageBar />
-//             </div>
-//         </div>
-//     );
-// }
-
-// export default Navbar;
-
 import React, { useState, useEffect } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { ReactSVG } from 'react-svg';
@@ -107,7 +89,7 @@ const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
         <Menu 
         width={390}
         left={true}
-        isOpen={isBurgerMenuOpen}
+        isOpen={false}
         onStateChange={handleBurgerMenuClick}
         customBurgerIcon={ <ReactSVG src={hamburgerMenu} alt='menu-hamburger' /> }
         customCrossIcon={ <ReactSVG src={hamburgerMenuX} alt='menu-hamburger-x' /> }
