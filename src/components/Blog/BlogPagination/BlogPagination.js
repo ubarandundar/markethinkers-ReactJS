@@ -69,11 +69,12 @@ function BlogPagination ({changesForBlogWriter}) {
       {renderPage(currentPage)}
       <ReactPaginate
         nextLabel=">"
+        previousLabel="<"
         onPageChange={handlePageClick}
         pageRangeDisplayed={3}
         marginPagesDisplayed={2}
         pageCount={5}
-        previousLabel={<span className='prev-arrow'><img src='../../../assets/Union 6.png' alt='pagination-arrow' className='x' /></span>}
+        // previousLabel={<span className='prev-arrow'><img src='../../../assets/Union 6.png' alt='pagination-arrow' className='x' /></span>}
         pageClassName="pagination-numbers-circle"
         pageLinkClassName="pagination-numbers"
         previousClassName="pagination-prev-arrow-circle"
